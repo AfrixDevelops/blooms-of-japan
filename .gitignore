@@ -1,0 +1,10 @@
+.vercel
+node_modules
+
+# Built output: regenerated from source/ by build-dist.js
+public/
+
+# Old hand-made backups (git history replaces them)
+*.bak.*
+# ...except this one, which build-spots.js reads
+!source/bloomcal/data.feat16.bak.js

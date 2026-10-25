@@ -1,0 +1,1217 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Blooms of Japan — The flower year in Japan</title>
+<script>/* preload today's two hero flowers; must match hero.js */
+(function(){var m=new Date().getMonth()+1,h=location.search.match(/[?&]season=(spring|summer|autumn|winter)\b/),
+k=h?h[1]:(m>=3&&m<=5)?'spring':(m>=6&&m<=8)?'summer':(m>=9&&m<=11)?'autumn':'winter',
+p={spring:['sakura','ume'],summer:['ajisai','asagao'],autumn:['momiji','kiku'],winter:['tsubaki','suisen']}[k],
+z=['(max-width:880px) 60vw, 56vw','(max-width:880px) 60vw, 50vw'];
+p.forEach(function(f,i){var l=document.createElement('link');l.rel='preload';l.as='image';l.href='/art/'+f+'.webp';
+l.setAttribute('imagesrcset','/art/'+f+'-sm.webp 800w, /art/'+f+'.webp 1200w');l.setAttribute('imagesizes',z[i]);
+l.setAttribute('fetchpriority','high');document.head.appendChild(l);});})();
+</script>
+<link rel="stylesheet" href="fonts.css">
+<link rel="stylesheet" href="styles.css">
+<script>/* Google Analytics (GA4), behind consent.
+   Nothing is loaded and no request reaches Google until the reader accepts: under ePrivacy consent has
+   to come first, so this cannot be the plain <script src> tag Google hands out. Keeping it injected also
+   keeps it out of the pre-render, which loads all 459 pages in headless Chrome against 127.0.0.1 and
+   would otherwise report a few hundred fake visits on every build.
+   Pageviews after the first are sent by route(): this is a pushState site, so the tag's own automatic
+   page_view only ever fires on the first load. */
+(function(){
+  var h = location.hostname;
+  window.__gaAllowed = !(!h || h === 'localhost' || h === '127.0.0.1' || h === '[::1]' || h.slice(-6) === '.local');
+  window.__loadGA = function(){
+    if (!window.__gaAllowed || window.gtag) return;
+    window.dataLayer = window.dataLayer || [];
+    window.gtag = function(){ dataLayer.push(arguments); };
+    gtag('js', new Date());
+    gtag('config', 'G-D0XME1X63Q');
+    var s = document.createElement('script');
+    s.async = true; s.src = 'https://www.googletagmanager.com/gtag/js?id=G-D0XME1X63Q';
+    document.head.appendChild(s);
+  };
+  try { if (localStorage.getItem('boj-analytics') === 'granted') window.__loadGA(); } catch (e) {}
+})();
+</script>
+
+<header class="bar">
+  <a class="brand" href="/" aria-label="Blooms of Japan, home">
+  <svg width="28" height="28" viewBox="-16 -16 32 32" aria-hidden="true"><g fill="none" stroke="#B08A4F" stroke-width="1.2">
+    <circle r="15"/><g id="pl"><path d="M0 -1.6C-3.6 -3.2 -4.8 -7.6 -2.6 -10.4L0 -8.8 2.6 -10.4C4.8 -7.6 3.6 -3.2 0 -1.6Z"/></g>
+    <use href="#pl" transform="rotate(72)"/><use href="#pl" transform="rotate(144)"/><use href="#pl" transform="rotate(216)"/><use href="#pl" transform="rotate(288)"/></g>
+    <circle r="1.6" fill="#B08A4F"/></svg>
+  <span class="bn">Blooms of Japan</span><span class="bk">花暦</span></a>
+  <button class="menubtn" id="menubtn" type="button" aria-expanded="false" aria-controls="mainnav">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>Menu</button>
+  <nav id="mainnav"><a href="/calendar" data-nav="calendar">Calendar</a><a href="/spots" data-nav="spots">Browse spots</a><a href="/flowers" data-nav="flowers">By flower</a></nav>
+</header>
+
+<div id="view-home">
+<section class="hero">
+  <div class="heroart" id="heroart"></div>
+  <div class="heroin">
+    <span class="seasontag" id="seasontag"></span>
+    <h1 class="hero-title">The flower year in Japan, <em>one scroll at a time</em></h1>
+    <div class="orn" aria-hidden="true"><svg viewBox="0 0 320 22" fill="none" stroke="currentColor">
+      <path d="M0 11H122M198 11H320" stroke-width=".9"/><path d="M122 11l5-4 5 4-5 4z" fill="currentColor" stroke="none"/><path d="M188 11l5-4 5 4-5 4z" fill="currentColor" stroke="none"/>
+      <g transform="translate(160 11)" stroke-width=".9"><circle r="2" fill="currentColor"/>
+        <path id="op" d="M0-2.4C-3-4-3.6-7.6-1.6-9.6L0-8.4 1.6-9.6C3.6-7.6 3-4 0-2.4Z"/><use href="#op" transform="rotate(72)"/><use href="#op" transform="rotate(144)"/><use href="#op" transform="rotate(216)"/><use href="#op" transform="rotate(288)"/></g>
+      <path d="M150 11h-12M170 11h12" stroke-width=".9"/></svg></div>
+    <p>Cherry blossom is three weeks of it. Flip through the other forty-nine — and watch what's in bloom move up and down the country.</p>
+    <nav class="seasonpick" id="seasonpick" aria-label="Preview another season"></nav>
+    <button class="scrollhint" id="scrollhint" type="button">See the year</button>
+  </div>
+</section>
+<div class="wave" aria-hidden="true"><svg preserveAspectRatio="none"><defs><pattern id="sgh" width="48" height="34" patternUnits="userSpaceOnUse">
+  <g fill="none" stroke="currentColor" stroke-width=".8"><path d="M0 34a24 24 0 0 1 48 0M6 34a18 18 0 0 1 36 0M12 34a12 12 0 0 1 24 0M18 34a6 6 0 0 1 12 0"/>
+  <path d="M-24 34a24 24 0 0 1 48 0M24 34a24 24 0 0 1 48 0" transform="translate(0 -17)" opacity=".55"/></g></pattern></defs>
+  <rect width="100%" height="100%" fill="url(#sgh)"/></svg></div>
+
+<div class="track" id="track">
+  <div class="stage">
+    <div class="stageart" id="stageart" aria-hidden="true"></div>
+    <div class="mapcol">
+      <svg id="map" viewBox="0 0 300 328" role="img" aria-label="Map of Japan showing where flowers are blooming">
+        <path id="halo" class="halo"></path>
+        <path id="land" class="land"></path>
+        <g id="pins"></g>
+      </svg>
+    </div>
+
+    <div class="readcol">
+      <div class="mhead"><span class="kbox" id="mkanji">一月</span>
+        <div><div class="msub" id="mseason"></div><h2 id="mname">January</h2></div></div>
+      <p class="cnt" id="mcount"></p>
+      <div class="feats" id="feats"></div>
+    </div>
+
+    <aside class="aside">
+      <div class="panel">
+        <h5>Where to find them</h5>
+        <div class="regions" id="regions"></div>
+      </div>
+      <div class="panel">
+        <h5 id="fltitle">What you can see</h5>
+        <div class="flowers" id="flowers"></div>
+        <p class="flnote" id="flnote"></p>
+      </div>
+    </aside>
+  </div>
+</div>
+
+<div class="scrub" id="scrub"></div>
+
+<section class="tool" id="tool">
+  <div class="sidebloom" id="toolbloom" data-par="0.12" aria-hidden="true"></div>
+  <div class="toolin">
+    <div class="eyebrow rv">Find a spot <span class="jpk">探す</span></div>
+    <h3 class="rv" style="--rd:.08s">Know what you're after?</h3>
+    <p class="rv" style="--rd:.16s">The calendar is the way in. Underneath it sits the ordinary thing — search, filter by month or flower, and open any of the <span id="nspots">148</span> spots.</p>
+    <form class="search rv" id="searchform" role="search" style="--rd:.22s" action="#" onsubmit="return false">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+      <input id="q" type="search" placeholder="Search a flower, place or month — try “sakura kyoto”" autocomplete="off" autocapitalize="off" spellcheck="false" enterkeyhint="search" aria-label="Search spots" aria-controls="grid">
+      <kbd id="qkey" aria-hidden="true">/</kbd>
+      <button type="button" id="qclear" aria-label="Clear search" hidden><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
+    </form>
+    <div class="flchips" id="flchips" role="navigation" aria-label="Browse by flower"></div>
+    <div class="gridhead" id="gridhead"></div>
+    <div class="grid" id="grid"></div>
+  </div>
+</section>
+
+
+</div>
+
+<div id="view-spot" hidden></div>
+<div id="view-seasons" hidden></div>
+<!-- /home --><!-- everything above is the homepage view; the footer below shows on every page -->
+
+<footer class="foot">
+  <div class="footin">
+    <div class="fbrand">
+      <div class="fmark">
+        <svg width="26" height="26" viewBox="-16 -16 32 32" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-width="1.2">
+          <circle r="15"/><g id="fp"><path d="M0 -1.6C-3.6 -3.2 -4.8 -7.6 -2.6 -10.4L0 -8.8 2.6 -10.4C4.8 -7.6 3.6 -3.2 0 -1.6Z"/></g>
+          <use href="#fp" transform="rotate(72)"/><use href="#fp" transform="rotate(144)"/><use href="#fp" transform="rotate(216)"/><use href="#fp" transform="rotate(288)"/></g>
+          <circle r="1.6" fill="currentColor"/></svg>
+        <span><b>Blooms of Japan</b><i>花暦</i></span>
+      </div>
+      <p class="ftag">The flower year in Japan, one scroll at a time.</p>
+      <div class="fsocial">
+        <a href="https://www.instagram.com/bloomsofjapan/" target="_blank" rel="me noopener" aria-label="Blooms of Japan on Instagram">
+          <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true">
+            <rect x="3" y="3" width="18" height="18" rx="5.2"/><circle cx="12" cy="12" r="4.1"/>
+            <circle cx="17.3" cy="6.7" r="1.15" fill="currentColor" stroke="none"/></svg>
+          <span>Instagram</span>
+        </a>
+      </div>
+      <!-- Seasonal sign-up, hidden for now: there is no mailing list behind it yet. To bring it back,
+           restore the form below and set MAILING_LIST in the footer script to a provider endpoint.
+      <form class="fmail" id="fmail" novalidate>
+        <label for="fmail-in">Email me when the cherries start</label>
+        <div class="frow">
+          <input id="fmail-in" type="email" name="email" placeholder="you@example.com" autocomplete="email">
+          <button type="submit">Notify me</button>
+        </div>
+        <p class="fnote" id="fmail-note">One message at the start of each season. No spam.</p>
+      </form>
+      -->
+    </div>
+    <nav class="fcols" aria-label="Footer">
+      <div class="fcol"><h4>Explore</h4>
+        <a href="/calendar">The flower calendar</a>
+        <a href="/spots">Browse all spots</a>
+        <a href="/flowers">By flower</a>
+        <a href="/seasons">Four seasons</a>
+      </div>
+      <div class="fcol"><h4>Seasons</h4>
+        <a href="/?season=spring">Spring <span>春</span></a>
+        <a href="/?season=summer">Summer <span>夏</span></a>
+        <a href="/?season=autumn">Autumn <span>秋</span></a>
+        <a href="/?season=winter">Winter <span>冬</span></a>
+      </div>
+      <div class="fcol"><h4>Popular</h4>
+        <div id="fflowers"></div>
+      </div>
+    </nav>
+  </div>
+  <div class="footbar">
+    <p>© <span id="fyear">2026</span> Blooms of Japan</p>
+    <p>Photos are credited on each spot page · Weather by <a href="https://open-meteo.com/" target="_blank" rel="noopener">Open-Meteo</a></p>
+    <p>Bloom dates shift with each year's weather — check locally before you travel.</p>
+    <p class="flinks"><a href="/about">About</a> · <a href="/contact">Contact</a> · <a href="/privacy">Privacy</a> · <a href="/terms">Terms</a> · <button type="button" id="consent-reopen">Analytics choice</button></p>
+  </div>
+</footer>
+
+<!-- Analytics consent. Starts hidden and is only revealed by script, so the pre-rendered pages do not
+     ship it open; both choices are one button each, same size, as the rules require. -->
+<div class="consent" id="consent" role="region" aria-label="Analytics consent" hidden>
+  <div class="consentin">
+    <p><b>May we count your visit?</b><!--
+   --><span class="cfull"> Google Analytics would store an identifier in your browser so I can see which
+      flowers people actually look for. No advertising, and nothing is sold or shared further. The site
+      works exactly the same either way.</span><!--
+   --><span class="cshort"> Google Analytics only — no ads, nothing sold.</span>
+      <a href="/privacy">What it collects</a>.</p>
+    <div class="consentbtns">
+      <button type="button" id="consent-no">No thanks</button>
+      <button type="button" id="consent-yes">Allow</button>
+    </div>
+  </div>
+</div>
+
+<button class="totop" id="totop" type="button" aria-label="Back to top">
+  <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19V6M5 13l7-7 7 7"/></svg>
+</button>
+
+<script src="hero.js"></script>
+<script src="data.js"></script>
+<script>
+const MON = ['','January','February','March','April','May','June','July','August','September','October','November','December'];
+const SH  = ['','Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+document.getElementById('nspots').textContent = D.feat.length;   // so the copy follows the data
+// the flower as a reader would say it ("Kochia", "Cherry blossom"), for titles, crumbs and alt text
+const flowerName = f => { const g = D.flowerGroups.find(x => x.k === (f.fl || [])[0]); return g ? g.label : f.flower.replace(/\s*\(.*?\)/, ''); };
+const escA = s => String(s == null ? '' : s).replace(/&/g, '&amp;').replace(/"/g, '&quot;').replace(/</g, '&lt;');
+/* ---------- card helpers ---------- */
+// Bloom status from the spot's typical peak window ("Late March - Early April"), relative to today.
+const MI = { jan:0, feb:1, mar:2, apr:3, may:4, jun:5, jul:6, aug:7, sep:8, oct:9, nov:10, dec:11 };
+const TODAY = (d => new Date(d.getFullYear(), d.getMonth(), d.getDate()))(new Date());
+function peakWindow(f, Y){
+  const parts = String(f.peak || '').split(/\s*[-–]\s*/);
+  const at = (s, isEnd) => {
+    const w = s.toLowerCase().match(/(early|mid|late)?\s*([a-z]{3})/);
+    if (!w || !(w[2] in MI)) return null;
+    const mo = MI[w[2]], q = w[1];
+    return isEnd ? new Date(Y, mo, q === 'early' ? 10 : q === 'mid' ? 20 : new Date(Y, mo + 1, 0).getDate())
+                 : new Date(Y, mo, q === 'mid' ? 11 : q === 'late' ? 21 : 1);
+  };
+  let a = at(parts[0], false), b = at(parts[parts.length - 1], true);
+  if (!a || !b) { a = new Date(Y, f.m - 1, 1); b = new Date(Y, f.m, 0); }   // fall back to the spot's month
+  if (b < a) b = new Date(Y + 1, b.getMonth(), b.getDate());               // windows that cross New Year
+  return [a, b];
+}
+function bloomStatus(f){
+  const DAY = 864e5, Y = TODAY.getFullYear();
+  if (/year[- ]?round|all seasons/i.test(f.peak)) return { k:'now', t:'Blooms year-round', d:60 };   // listed after spots that are actually peaking
+  const wins = [Y - 1, Y, Y + 1].map(y => peakWindow(f, y));
+  if (wins.some(([a, b]) => TODAY >= a && TODAY <= b)) return { k:'now', t:'Usually blooming now', d:-1 };
+  const next = wins.map(([a]) => a).filter(a => a > TODAY).sort((x, y) => x - y)[0];
+  const ended = wins.map(([, b]) => b).filter(b => b < TODAY).sort((x, y) => y - x)[0];
+  const d = Math.round((next - TODAY) / DAY);
+  if (ended && (TODAY - ended) / DAY <= 14) return { k:'past', t:'Just ended', d:400 + d };
+  if (d <= 7) return { k:'soon', t:'Starts this week', d };
+  if (d <= 45) return { k:'soon', t:`Starts in ~${Math.round(d / 7)} wks`, d };
+  const mo = Math.round(d / 30.4);
+  return { k:'later', t: mo <= 1 ? 'In about a month' : `In ${mo} months`, d };
+}
+const shortStation = s => String(s || '').replace(/\.\s*$/, '').replace(/\bStation\b/g, 'Stn');
+// Every date on the site is a typical window worked out from past years, never a sighting from this
+// season, so the word "usually" travels with it. Early/Mid/Late lose their capital after "Usually"
+// because they are not proper nouns; month names keep theirs. Year-round needs no qualifier.
+// Where a spot is: its prefecture, then the wider region. When the region is named after the prefecture
+// ("Tokyo Area", "Kyoto & Kansai", "Hokkaido") the prefecture alone says it, so the region is dropped.
+const placeOf = f => !f.pref ? f.region
+  : f.region.toLowerCase().startsWith(f.pref.toLowerCase()) ? f.pref : `${f.pref}, ${f.region}`;
+const usually = p => { const s = String(p || '').trim();
+  if (!s || /year[- ]?round|all seasons/i.test(s)) return s;
+  return 'Usually ' + s.replace(/\b(Early|Mid|Late)\b/g, m => m.toLowerCase()); };
+const ICON_CAL = '<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><rect x="4" y="5" width="16" height="14" rx="3"/><path d="M4 10h16M9 3v4M15 3v4"/></svg>';
+const ICON_TRAIN = '<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="3" width="14" height="13" rx="3"/><path d="M5 10h14M9 20l-2 2M15 20l2 2M8.5 13h.01M15.5 13h.01"/></svg>';
+const ICON_PIN = '<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5a7 7 0 0 1 14 0C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>';
+const statusPill = f => { const s = bloomStatus(f);
+  return `<span class="st st-${s.k}" title="Based on this spot's typical bloom window">${s.t}</span>`; };
+let fxReady = false;   // set once the reveal observer below exists
+const tagPills = f => (f.tags || []).map(k => `<span class="tg">${D.tagLabels[k]}</span>`).join('');
+const seasonOf = m => (m>=3&&m<=5)?'spring':(m>=6&&m<=8)?'summer':(m>=9&&m<=11)?'autumn':'winter';
+const COL = { spring:'#C9637A', summer:'#5F78B8', autumn:'#C0502E', winter:'#9B2D42' };
+const KAN = ['','一月','二月','三月','四月','五月','六月','七月','八月','九月','十月','十一月','十二月'];
+const SEAS = HeroArt.SEASONS;
+
+/* big watercolour flowers behind the year, one pair per season */
+const stageart = document.getElementById('stageart');
+stageart.innerHTML = Object.entries(SEAS).map(([k, v]) => `
+  <div class="sa" data-k="${k}">
+    <div class="a"><div class="mv"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-f="${v.pair[0]}" sizes="(max-width:880px) 60vw, 48vw" alt="" decoding="async"></div></div>
+    <div class="b"><div class="mv"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-f="${v.pair[1]}" sizes="30vw" alt="" decoding="async"></div></div>
+  </div>`).join('');
+const saNodes = [...stageart.children];
+const small = () => window.matchMedia && matchMedia('(max-width:880px)').matches;
+const loadedSeasons = new Set();
+function loadSeason(k){
+  if (loadedSeasons.has(k)) return;
+  const sa = saNodes.find(n => n.dataset.k === k);
+  if (!sa) return;
+  loadedSeasons.add(k);
+  sa.querySelectorAll('img[data-f]').forEach(i => {
+    if (small() && i.closest('.b')) return;          // hidden on phones, so never fetched there
+    i.srcset = HeroArt.srcset(i.dataset.f); i.src = '/art/' + i.dataset.f + '.webp';
+  });
+}
+
+/* the flower beside the search section follows the hero's season */
+function paintSide(key){
+  const k = SEAS[key] ? key : HeroArt.auto;
+  document.getElementById('toolbloom').innerHTML = `<img src="/art/${SEAS[k].pair[0]}.webp" srcset="${HeroArt.srcset(SEAS[k].pair[0])}" sizes="(max-width:880px) 50vw, 40vw" alt="" loading="lazy">`;
+}
+paintSide(HeroArt.auto);
+
+
+document.getElementById('land').setAttribute('d', D.path);
+document.getElementById('halo').setAttribute('d', D.path);
+
+/* pins */
+const pinsEl = document.getElementById('pins');
+pinsEl.innerHTML = D.pins.map(([m,x,y],i) =>
+  `<circle class="pin" data-m="${m}" cx="${x}" cy="${y}" r="2" fill="#CDBF9F" opacity=".45"/>`).join('');
+const pinNodes = [...pinsEl.children];
+
+/* scrubber */
+const scrub = document.getElementById('scrub');
+const ARROW = d => `<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="${d}"/></svg>`;
+scrub.setAttribute('role', 'navigation'); scrub.setAttribute('aria-label', 'Choose a month');
+scrub.innerHTML = `<button class="nav" type="button" data-step="-1" aria-label="Previous month">${ARROW('M15 6l-6 6 6 6')}</button>
+  <div class="months">${SH.slice(1).map((s,i)=>`<button type="button" data-m="${i+1}" aria-label="${MON[i+1]}">${s}</button>`).join('')}</div>
+  <button class="nav" type="button" data-step="1" aria-label="Next month">${ARROW('M9 6l6 6-6 6')}</button>`;
+const monthBtns = [...scrub.querySelectorAll('[data-m]')];
+// the month bar switches months in place; scrolling just moves past the section
+scrub.addEventListener('click', e => {
+  const b = e.target.closest('button'); if(!b) return;
+  if (b.dataset.step) step(+b.dataset.step); else show(+b.dataset.m);
+});
+const inTrack = () => { const r = document.getElementById('track').getBoundingClientRect(), vh = window.innerHeight;
+  return r.top < vh * .5 && r.bottom > vh * .5; };
+const step = d => show((current + d + 11) % 12 + 1);
+// arrow keys while the year is on screen
+document.addEventListener('keydown', e => {
+  if (!inTrack() || e.altKey || e.ctrlKey || e.metaKey || /input|textarea|select/i.test((e.target.tagName || ''))) return;
+  if (e.key === 'ArrowRight') { e.preventDefault(); step(1); }
+  if (e.key === 'ArrowLeft')  { e.preventDefault(); step(-1); }
+});
+// sideways swipe on phones
+let tx = null, ty = null;
+document.getElementById('track').addEventListener('touchstart', e => { tx = e.touches[0].clientX; ty = e.touches[0].clientY; }, { passive:true });
+document.getElementById('track').addEventListener('touchend', e => {
+  if (tx === null) return;
+  const dx = e.changedTouches[0].clientX - tx, dy = e.changedTouches[0].clientY - ty; tx = null;
+  if (Math.abs(dx) > 50 && Math.abs(dx) > Math.abs(dy) * 1.5) step(dx < 0 ? 1 : -1);
+}, { passive:true });
+
+document.getElementById('scrollhint').addEventListener('click', () => {
+  window.scrollTo({ top: document.getElementById('track').getBoundingClientRect().top + (window.scrollY || 0) - 54, behavior:'smooth' });
+});
+
+let current = 0, shownOnce = false, featToken = 0;
+function show(m){
+  if(m === current) return;
+  current = m;
+  const s = seasonOf(m);
+
+  const mn = document.getElementById('mname');
+  mn.textContent = MON[m];
+  document.getElementById('mkanji').textContent = KAN[m];
+  document.getElementById('mseason').innerHTML =
+    `${s} · <span class="jpk">${SEAS[s].kanji}</span> &nbsp;${SEAS[s].pair.map(k => HeroArt.FLOWERS[k].name).join(' &amp; ')}`;
+  document.getElementById('mseason').style.color = COL[s];
+  // a plain crossfade on everything that changes with the month
+  const first = !shownOnce; shownOnce = true;
+  if (!first) ['mhead', 'mcount', 'regions', 'flowers', 'flnote'].forEach(id => {
+    const el = id === 'mhead' ? document.querySelector('.mhead') : document.getElementById(id);
+    if (el && el.animate) el.animate([{ opacity:0 }, { opacity:1 }], { duration:380, easing:'ease-out' });
+  });
+  if (!first) loadSeason(s);   // the opening month's art still waits for the page to settle
+  saNodes.forEach(n => n.classList.toggle('on', n.dataset.k === s));
+  document.getElementById('mcount').textContent =
+    `${D.counts[m]} spot${D.counts[m]===1?'':'s'} at their peak`;
+
+  // what's actually flowering, drawn rather than listed
+  const fl = D.flowers[m] || [];
+  document.getElementById('flowers').innerHTML = fl.map(([name, n], i) => `
+    <div class="fl" style="animation-delay:${i*45}ms">
+      <svg width="34" height="34" viewBox="0 0 40 40" aria-hidden="true">${D.icons[D.iconOf[name]] || ''}</svg>
+      <div class="ft">
+        <div class="fn" title="${name}">${name}</div>
+        <div class="fc">${n} spot${n === 1 ? '' : 's'}</div>
+      </div>
+    </div>`).join('');
+  document.getElementById('flnote').textContent = D.counts[m] > fl.reduce((a, [, n]) => a + n, 0)
+    ? 'Plus a few mixed gardens with several flowers at once.' : '';
+
+  pinNodes.forEach(n => {
+    const on = +n.dataset.m === m;
+    n.setAttribute('r', on ? 4.4 : 1.8);
+    n.setAttribute('fill', on ? COL[s] : '#CDBF9F');
+    n.setAttribute('opacity', on ? 1 : .35);
+  });
+
+
+  // up to four spots for the month (hand-picked ones first), then a way to the rest
+  const all = D.feat.filter(x => x.m === m);
+  // old cards fade out, the new month's thumbnails load meanwhile, then the cards fade in one after another
+  const feats = document.getElementById('feats');
+  const token = ++featToken, calm = !!(window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches);
+  const ready = Promise.race([
+    Promise.all(all.slice(0, 4).map(f => new Promise(r => { if (typeof Image === 'undefined') return r(); const i = new Image(); i.onload = i.onerror = r; i.src = f.th; }))),
+    new Promise(r => setTimeout(r, 350)) ]);
+  const out = (!first && !calm && feats.animate && feats.children.length)
+    ? feats.animate([{ opacity:1 }, { opacity:0 }], { duration:160, easing:'ease-in', fill:'forwards' }).finished : Promise.resolve();
+  Promise.all([out, ready]).then(() => {
+    if (token !== featToken) return;      // a newer month was picked meanwhile
+    feats.getAnimations && feats.getAnimations().forEach(a => a.cancel());
+    feats.innerHTML = all.slice(0, 4).map(f => `
+      <a class="feat" href="/spots/${f.slug}">
+        <img src="${f.th}" alt="${escA(flowerName(f))} at ${escA(f.name)}" decoding="async">
+        <div class="fb">
+          <div class="pills">${statusPill(f)}${tagPills(f)}</div>
+          <h4>${f.name}</h4>
+          <div class="jp">${f.jp ? f.jp + ' · ' : ''}${placeOf(f)}</div>
+          <div class="pk">${ICON_CAL}<span>${usually(f.peak)}</span></div>
+          ${f.station ? `<div class="pk acc">${ICON_TRAIN}<span>${shortStation(f.station)}</span></div>` : ''}
+        </div>
+        <svg class="go" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M9 6l6 6-6 6"/></svg>
+      </a>`).join('') + (all.length > 2 ? `
+      <a class="seeall" href="/when/${MON[m].toLowerCase()}">See all ${all.length} for ${MON[m]} <span aria-hidden="true">→</span></a>` : '');
+    if (first || calm) return;
+    [...feats.children].forEach((c, i) => c.animate && c.animate(
+      [{ opacity:0, transform:'translateY(6px)' }, { opacity:1, transform:'none' }],
+      { duration:420, delay:i * 70, easing:'cubic-bezier(.2,.8,.2,1)', fill:'backwards' }));
+  });
+
+  // where, as a share of the month
+  const regs = D.regions[m] || [];
+  const top = regs.length ? regs[0][1] : 1;
+  document.getElementById('regions').innerHTML = regs.slice(0, 6).map(([name, n]) => `
+    <div class="reg">
+      <span class="rn">${name}</span><span class="rv">${n}</span>
+      <span class="regbar"><i style="transform:scaleX(${(n / top).toFixed(3)});background:${COL[s]}"></i></span>
+    </div>`).join('');
+
+
+  monthBtns.forEach(b => {
+    const on = +b.dataset.m === m;
+    b.classList.toggle('on', on);
+    b.style.background = on ? COL[s] : '';
+    if (on) b.setAttribute('aria-current', 'true'); else b.removeAttribute('aria-current');
+  });
+  // on phones the month list scrolls sideways; keep the chosen one in view
+  const on = monthBtns[m - 1], row = on && on.parentNode;
+  if (row && row.scrollWidth > row.clientWidth) row.scrollTo({ left: on.offsetLeft - (row.clientWidth - on.offsetWidth) / 2, behavior: first ? 'auto' : 'smooth' });
+}
+
+/* the year section is one screen tall; the month bar shows while it's in view */
+const track = document.getElementById('track');
+function onScroll(){
+  const r = track.getBoundingClientRect(), vh = window.innerHeight;
+  if ((window.scrollY || 0) > 0 && r.top < vh * 1.5 && r.bottom > -vh) loadSeason(seasonOf(current));
+  const showBar = r.top < vh * .5 && r.bottom > vh * .55;
+  if (showBar && !scrub.classList.contains('show') && !greeted) { greeted = true; scrub.classList.add('hello'); }
+  scrub.classList.toggle('show', showBar);
+}
+let greeted = false;
+
+// When a scroll comes to rest with the year section nearly in place, ease it the rest of the way so the
+// month bar is on screen. It only ever pulls *towards* the section in the direction you were already going,
+// so carrying on past it (either way) is never fought. CSS scroll-snap trapped slow wheel scrolling.
+let lastY = window.scrollY || 0, dir = 0, snapT = null, snapping = false;
+window.addEventListener('scroll', () => {
+  const y = window.scrollY || 0;
+  if (y !== lastY) dir = Math.sign(y - lastY);
+  lastY = y;
+  if (snapping) return;
+  clearTimeout(snapT);
+  snapT = setTimeout(() => {
+    const home = document.getElementById('view-home');
+    if (home && home.hidden) return;
+    const off = track.getBoundingClientRect().top - 54, vh = window.innerHeight;
+    if (Math.abs(off) < 3 || Math.abs(off) > vh * .35) return;
+    if ((dir > 0 && off > 0) || (dir < 0 && off < 0) || Math.abs(off) <= 48) {   // arriving, or just overshot
+      snapping = true;
+      const calm = !!(window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches);
+      window.scrollTo({ top: (window.scrollY || 0) + off, behavior: calm ? 'auto' : 'smooth' });
+      setTimeout(() => { snapping = false; lastY = window.scrollY || 0; }, 650);
+    }
+  }, 140);
+}, { passive:true });
+window.addEventListener('scroll', onScroll, { passive:true });
+window.addEventListener('resize', onScroll);
+
+/* the plain tool underneath */
+// no month: what's in season now and coming up next; a month: every spot for it
+function cardHTML(f){
+  return `<a class="card" href="/spots/${f.slug}">
+    <div class="cimg"><img src="${f.th}" alt="${escA(flowerName(f))} at ${escA(f.name)}" loading="lazy" decoding="async">${statusPill(f)}</div>
+    <div class="cb">${f.tags && f.tags.length ? `<div class="pills">${tagPills(f)}</div>` : ''}<h4>${f.name}</h4>
+      <div class="acc">${ICON_PIN}<span>${placeOf(f)}</span></div>
+      ${f.station ? `<div class="acc">${ICON_TRAIN}<span>${shortStation(f.station)}</span></div>` : ''}
+      <div class="mt"><span>${f.flower.replace(/\s*\(.*?\)/,'')}</span><span>${MON[f.m]}</span></div>
+    </div>
+  </a>`;
+}
+// m: a month's full list · fl: a flower group's list ('' = flower picker open, nothing chosen) · neither: in season now
+const bySoonest = list => list.map(f => [f, bloomStatus(f).d]).sort((a, b) => a[1] - b[1]).map(([f]) => f);
+function renderGrid(m, fl){
+  const g = fl ? D.flowerGroups.find(x => x.k === fl) : null;
+  const list = m ? D.feat.filter(x => x.m === m)
+             : g ? bySoonest(D.feat.filter(x => x.fl.includes(g.k)))
+             : bySoonest(D.feat).slice(0, 8);
+  const back = `<button type="button" id="gridclear">Show what's in season now</button>`;
+  document.getElementById('gridhead').innerHTML =
+      m ? `<h1>${MON[m]} in Japan <span>· ${list.length} spots</span></h1>${back}`
+    : g ? `<h1>${g.label} in Japan <span>· ${list.length} spot${list.length === 1 ? '' : 's'}, soonest first</span></h1>${back}`
+    : fl === '' ? `<h4>Browse by flower</h4><p>Pick one above — meanwhile, here's what's in season now.</p>`
+    : `<h4>Usually blooming now <span>&amp; coming up</span></h4><p>Worked out from each spot's typical bloom window, not from reports this season.</p>`;
+  // flower chips: the chosen one links back to the plain list
+  document.getElementById('flchips').innerHTML = D.flowerGroups.map(x => `
+    <a class="fchip${g && g.k === x.k ? ' on' : ''}" href="/${g && g.k === x.k ? 'spots' : 'flowers/' + x.k}"${g && g.k === x.k ? ' aria-current="true"' : ''}>
+      <svg width="24" height="24" viewBox="0 0 40 40" aria-hidden="true">${D.icons[x.icon] || ''}</svg>${x.label}<i>${x.n}</i></a>`).join('');
+  const grid = document.getElementById('grid');
+  grid.innerHTML = list.map(cardHTML).join('');
+  if (fxReady) {
+    [...grid.children].forEach((c, i) => { c.classList.add('rv'); c.style.setProperty && c.style.setProperty('--rd', (i % 4) * .08 + 's'); });
+    reveal(grid);
+  }
+  const clear = document.getElementById('gridclear');
+  if (clear && clear.addEventListener) clear.addEventListener('click', () => { history.replaceState(null, '', '/spots'); renderGrid(0); });
+}
+renderGrid(0);
+
+/* ---------- search ----------
+   Filters the grid as you type. Every word has to match something about a spot: its name (English or
+   Japanese), the flower, the place, the month or season, or a tag. Tourists' words are mapped onto ours
+   (sakura → cherry blossom, kansai → Kyoto & Kansai, golden week → late April/early May), and a word
+   that matches nothing is retried as a near-spelling, so "nemofila" still finds nemophila. */
+const fold = s => String(s || '').toLowerCase().normalize('NFKD').replace(/[̀-ͯ]/g, '').replace(/[’'`]/g, '');
+// whole phrases first, so "red spider lily" or "golden week" is read as one thing
+const ALIAS = [
+  [/\bhanami\b|\bsakura\b|\bcherry\b|桜|さくら/g, ' cherry-blossom '], [/\bume\b|\bplum\b|梅/g, ' plum-blossom '],
+  [/\bmomiji\b|\bkoyo\b|\bmaple\b|\bfoliage\b|\bfall leaves\b|\bautumn leaves\b|紅葉/g, ' autumn-leaves '],
+  [/\bginkgos?\b|\bgingko\b|\bicho\b|\bichou\b|イチョウ|いちょう|銀杏/g, ' ginkgo '],
+  [/\bajisai\b|\bhydrangeas?\b|紫陽花|あじさい/g, ' hydrangea '], [/藤|\bwisterias?\b/g, ' wisteria '],
+  [/\bhimawari\b|\bsunflowers?\b|ひまわり/g, ' sunflowers '], [/\bnanohana\b|\brapeseed\b|\bcanola\b|菜の花/g, ' rapeseed '],
+  [/\bshibazakura\b|\bmoss phlox\b|\bpink moss\b|芝桜/g, ' shibazakura '], [/\btsutsuji\b|\bazaleas?\b|つつじ/g, ' azalea '],
+  [/\btsubaki\b|\bcamellias?\b|椿/g, ' camellia '], [/\bkiku\b|\bchrysanthemums?\b|菊/g, ' chrysanthemum '],
+  [/\bhanashobu\b|\bshobu\b|\bayame\b|\birises\b|\biris\b|菖蒲|花菖蒲/g, ' iris '], [/\bhiganbana\b|\bspider lil(y|ies)\b|彼岸花/g, ' red-spider-lily '],
+  [/\bbara\b|\broses?\b|バラ|薔薇/g, ' roses '], [/\byuri\b|\blil(y|ies)\b|ユリ|百合/g, ' lilies '], [/\bbotan\b|\bpeon(y|ies)\b|牡丹/g, ' peony '],
+  [/\bsuisen\b|\bnarcissus\b|\bdaffodils?\b|水仙/g, ' narcissus '], [/\bhasu\b|\blotus\b|蓮/g, ' lotus '],
+  [/\bkochia\b|\bhoukigi\b|\bsummer cypress\b|\bburning bush\b|コキア/g, ' kochia '], [/ネモフィラ|\bbaby blue eyes\b/g, ' nemophila '],
+  [/ラベンダー/g, ' lavender '], [/チューリップ|\btulips?\b/g, ' tulips '], [/コスモス|\bcosmos\b/g, ' cosmos '], [/ベゴニア|\bbegonias?\b/g, ' begonia '],
+  [/\bgolden week\b|\bgw\b/g, ' @gw '], [/\bthis month\b|\bnow\b|\bin season\b/g, ' @now '],
+  [/\bfree( entry| admission)?\b/g, ' #free '], [/\bnight\b|\billumination\b|\blight[- ]?up\b|\blit\b/g, ' #illum '], [/\bfestivals?\b|\bmatsuri\b/g, ' #festival '],
+  [/\btohoku\b|\bnorth(ern)? japan\b/g, ' northern-japan '], [/\bchubu\b|\bcentral\b/g, ' mt-fuji-central '], [/\bchugoku\b|\bshikoku\b|\bwestern japan\b/g, ' western-japan '],
+  [/\bkansai\b/g, ' kyoto-kansai '], [/\bkyushu\b|\bokinawa\b/g, ' kyushu-okinawa '],
+  [/\bnear\b|\baround\b|\bin\b|\bthe\b|\bof\b|\band\b|\bat\b|\bto\b|\bsee\b|\bwhere\b|\bwhen\b|\bbest\b|\bspots?\b|\bflowers?\b|\bjapan\b|\bblooms?\b|\bpark\b/g, ' '],
+];
+const MONTHS = ['jan','feb','mar','apr','may','jun','jul','aug','sep','oct','nov','dec'];
+const SEASON = { spring:[3,4,5], summer:[6,7,8], autumn:[9,10,11], fall:[9,10,11], winter:[12,1,2] };
+const slugText = s => fold(s).replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+
+// what each spot can be found by, worked out once
+const SIDX = D.feat.map(f => {
+  const [a, b] = peakWindow(f, 2026), months = new Set([f.m]);
+  for (let d = new Date(a); d <= b; d.setMonth(d.getMonth() + 1, 1)) months.add(d.getMonth() + 1);
+  months.add(b.getMonth() + 1);
+  const groups = D.flowerGroups.filter(g => f.fl.includes(g.k));
+  return { f, months,
+    name: fold(f.name), jp: f.jp || '', flower: fold(f.flower) + ' ' + groups.map(g => g.k + ' ' + fold(g.label)).join(' '),
+    place: fold(f.region) + ' ' + slugText(f.region) + ' ' + fold(f.address), desc: fold(f.desc), tags: new Set(f.tags || []) };
+});
+const VOCAB = [...new Set(SIDX.flatMap(s => (s.name + ' ' + s.flower + ' ' + s.place).split(/[^a-z0-9-]+/)).filter(w => w.length >= 4))];
+function near(a, b){                      // edit distance, stopping early once it is clearly too far
+  if (Math.abs(a.length - b.length) > 2) return 9;
+  let prev = Array.from({ length: b.length + 1 }, (_, i) => i);
+  for (let i = 1; i <= a.length; i++) {
+    const cur = [i];
+    for (let j = 1; j <= b.length; j++) cur[j] = Math.min(prev[j] + 1, cur[j - 1] + 1, prev[j - 1] + (a[i - 1] === b[j - 1] ? 0 : 1));
+    prev = cur;
+  }
+  return prev[b.length];
+}
+// one word of the query, scored against one spot (0 = no match)
+function wordScore(s, w){
+  if (w === '@now') return s.months.has(realMonthNow) ? 6 : 0;
+  if (w === '@gw') return s.months.has(4) || s.months.has(5) ? 5 : 0;
+  if (w[0] === '#') return s.tags.has(w.slice(1)) ? 6 : 0;
+  const mi = MONTHS.findIndex(m => w.startsWith(m) && (w.length === 3 || fold(MON[MONTHS.indexOf(m) + 1]).startsWith(w)));
+  if (mi >= 0) return s.months.has(mi + 1) ? 5 : 0;
+  if (SEASON[w]) return SEASON[w].some(m => s.months.has(m)) ? 4 : 0;
+  if (/[぀-ヿ㐀-鿿]/.test(w)) return s.jp.includes(w) ? 12 : 0;
+  if (s.name.startsWith(w)) return 14;
+  if (new RegExp('\\b' + w.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).test(s.name)) return 12;
+  if (s.flower.includes(w)) return 9;
+  if (s.place.includes(w)) return 7;
+  if (s.name.includes(w)) return 6;
+  if (w.length >= 4 && s.desc.includes(w)) return 2;
+  return 0;
+}
+const realMonthNow = new Date().getMonth() + 1;
+function runSearch(raw){
+  let q = ' ' + fold(raw) + ' ';
+  ALIAS.forEach(([re, to]) => { q = q.replace(re, to); });
+  const words = q.split(/\s+/).filter(Boolean);
+  if (!words.length) return { list: D.feat.slice(), fixed: [] };
+  const fixed = [];
+  // a word nothing matches gets one chance as a near-spelling of a word we know
+  const usable = words.map(w => {
+    if (w[0] === '@' || w[0] === '#' || SIDX.some(s => wordScore(s, w))) return w;
+    const best = VOCAB.map(v => [v, near(w, v)]).sort((a, b) => a[1] - b[1])[0];
+    if (best && best[1] <= (w.length >= 7 ? 2 : 1)) { fixed.push([w, best[0]]); return best[0]; }
+    return w;
+  });
+  const hits = [];
+  SIDX.forEach(s => {
+    let total = 0;
+    for (const w of usable) { const sc = wordScore(s, w); if (!sc) return; total += sc; }
+    hits.push([s.f, total]);
+  });
+  hits.sort((a, b) => b[1] - a[1] || bloomStatus(a[0]).d - bloomStatus(b[0]).d);
+  return { list: hits.map(h => h[0]), fixed };
+}
+
+const qEl = document.getElementById('q'), qClear = document.getElementById('qclear');
+const TRY = ['Cherry blossom', 'Kyoto', 'April', 'Kochia', 'Free', 'Hokkaido'];
+let qTimer = null, lastList = [];
+function renderSearch(raw){
+  const { list, fixed } = runSearch(raw);
+  lastList = list;
+  const shown = esc(raw.trim());
+  document.getElementById('flchips').innerHTML = D.flowerGroups.map(x => `
+    <a class="fchip" href="/flowers/${x.k}"><svg width="24" height="24" viewBox="0 0 40 40" aria-hidden="true">${D.icons[x.icon] || ''}</svg>${x.label}<i>${x.n}</i></a>`).join('');
+  // nothing for the whole phrase: offer each word on its own (with its count), else some starting points
+  const parts = raw.trim().split(/\s+/).filter(Boolean);
+  const sugs = (parts.length > 1 ? parts.map(p => [p, runSearch(p).list.length]).filter(([, n]) => n) : [])
+    .map(([p, n]) => [p, `${p} <small>${n}</small>`]);
+  const offer = sugs.length ? sugs : TRY.map(t => [t, t]);
+  const note = fixed.length ? `<p class="qnote">Showing results for ${fixed.map(([a, b]) => `<b>${esc(b)}</b> (you typed “${esc(a)}”)`).join(', ')}.</p>` : '';
+  document.getElementById('gridhead').innerHTML = list.length
+    ? `<h4>“${shown}” <span>· ${list.length} spot${list.length === 1 ? '' : 's'}</span></h4><button type="button" id="gridclear">Clear search</button>${note}`
+    : `<div class="qnone"><h4>Nothing for “${shown}” <span>yet</span></h4>
+        <p>${sugs.length ? 'No spot matches all of those together. Try one at a time:' : 'Try a flower, a place or a month:'}</p>
+        <div class="qsug">${offer.map(([q, label]) => `<button type="button" data-q="${esc(q)}">${label}</button>`).join('')}</div></div>`;
+  const grid = document.getElementById('grid');
+  grid.innerHTML = list.map(cardHTML).join('');
+  if (fxReady) { [...grid.children].forEach((c, i) => { c.classList.add('rv'); c.style.setProperty && c.style.setProperty('--rd', (i % 4) * .06 + 's'); }); reveal(grid); }
+  const clear = document.getElementById('gridclear');
+  if (clear && clear.addEventListener) clear.addEventListener('click', () => clearSearch(true));
+  document.querySelectorAll('.qsug [data-q]').forEach(b => b.addEventListener('click', () => { qEl.value = b.dataset.q; onQuery(); qEl.focus(); }));
+}
+function clearSearch(focus){
+  qEl.value = ''; qClear.hidden = true;
+  history.replaceState(history.state, '', '/spots'); renderGrid(0);
+  if (focus) qEl.focus();
+}
+function onQuery(){
+  const raw = qEl.value || '';
+  qClear.hidden = !raw;
+  clearTimeout(qTimer);
+  qTimer = setTimeout(() => {
+    if (!raw.trim()) { history.replaceState(history.state, '', '/spots'); renderGrid(0); return; }
+    history.replaceState(history.state, '', '/spots?q=' + encodeURIComponent(raw.trim()));
+    document.title = '“' + raw.trim() + '” — Search | Blooms of Japan';
+    renderSearch(raw);
+  }, 110);
+}
+if (qEl && qEl.addEventListener) {
+  qEl.addEventListener('input', onQuery);
+  qEl.addEventListener('keydown', e => {
+    if (e.key === 'Escape') { if (qEl.value) clearSearch(false); else qEl.blur(); }
+    if (e.key === 'Enter') {                              // Enter opens the best match
+      clearTimeout(qTimer);
+      const raw = qEl.value || '';
+      if (raw.trim()) { renderSearch(raw); if (lastList[0]) { qEl.blur(); go('/spots/' + lastList[0].slug); } }
+    }
+  });
+  qClear.addEventListener('click', () => clearSearch(true));
+  // "/" jumps to the search box from anywhere on the homepage
+  document.addEventListener('keydown', e => {
+    if (e.key !== '/' || e.ctrlKey || e.metaKey || e.altKey) return;
+    if (/input|textarea|select/i.test((e.target.tagName || '')) || e.target.isContentEditable) return;
+    const home = document.getElementById('view-home');
+    if (home && home.hidden) return;
+    e.preventDefault();
+    window.scrollTo({ top: document.getElementById('tool').getBoundingClientRect().top + (window.scrollY || 0) - 40, behavior: 'smooth' });
+    qEl.focus({ preventScroll: true });
+  });
+}
+
+
+
+/* ---------- scroll effects ---------- */
+// fade-up reveal, only switched on where IntersectionObserver exists
+const io = 'IntersectionObserver' in window ? new IntersectionObserver(es => es.forEach(e => {
+  if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); }
+}), { rootMargin:'0px 0px -8% 0px' }) : null;
+if (io) document.documentElement.classList.add('rv-on');
+function reveal(root){
+  if (!io || !root) return;
+  [...root.querySelectorAll('.rv:not(.in)')].forEach((el, i) => io.observe(el));
+}
+document.querySelectorAll('#grid .card').forEach((c, i) => { c.classList.add('rv'); c.style.setProperty('--rd', (i % 4) * .08 + 's'); });
+reveal(document);
+fxReady = true;
+
+// parallax for the hero flowers and side blooms, hero text drifting away, branches swaying with the scroll
+let ticking = false, parEls = [];
+function effects(){
+  ticking = false;
+  const vh = window.innerHeight, sy = window.scrollY || 0;
+  if (!parEls.length || !parEls[0].isConnected) parEls = [...document.querySelectorAll('[data-par]')];  // hero re-renders swap them
+  parEls.forEach(el => {
+    const r = el.getBoundingClientRect();
+    if (r.bottom < -200 || r.top > vh + 200) return;
+    el.style.transform = `translate3d(0,${((r.top + r.height / 2 - vh / 2) * +el.dataset.par).toFixed(1)}px,0)`;
+  });
+  const hin = document.querySelector('.heroin');
+  if (hin && sy < vh * 1.2) {
+    hin.style.transform = `translate3d(0,${(sy * .28).toFixed(1)}px,0)`;
+    hin.style.opacity = Math.max(0, 1 - sy / (vh * .75)).toFixed(3);
+  }
+  // the big flowers behind the year still sway a little as the page moves
+  stageart.style.setProperty('--w', Math.sin(sy / 260).toFixed(3));
+}
+function onFx(){ if (!ticking) { ticking = true; requestAnimationFrame(effects); } }
+// stop the petals and sway once the hero has scrolled away
+if (io) {
+  const heroEl = document.querySelector('.hero');
+  new IntersectionObserver(([e]) => heroEl.classList.toggle('off', !e.isIntersecting)).observe(heroEl);
+  // warm the first month's flowers once the page has settled
+  window.addEventListener('load', () => setTimeout(() => loadSeason(seasonOf(current)), 2500));
+}
+if (window.requestAnimationFrame && !matchMedia('(prefers-reduced-motion: reduce)').matches) {
+  window.addEventListener('scroll', onFx, { passive:true });
+  window.addEventListener('resize', onFx);
+  onFx();
+}
+
+/* ---------- navigation ---------- */
+// phone menu
+const bar = document.querySelector ? document.querySelector('.bar') : null;
+const menubtn = document.getElementById('menubtn');
+function closeMenu(){ if (bar) bar.classList.remove('open'); menubtn.setAttribute('aria-expanded', 'false'); }
+menubtn.addEventListener('click', () => {
+  const open = !bar.classList.contains('open');
+  bar.classList.toggle('open', open); menubtn.setAttribute('aria-expanded', String(open));
+});
+
+/* ---------- footer ---------- */
+// The six best-covered flowers, so the links follow the data rather than a hand-kept list.
+(() => {
+  const host = document.getElementById('fflowers');
+  if (host) host.innerHTML = D.flowerGroups.slice(0, 6)
+    .map(g => `<a href="/flowers/${g.k}">${g.label} <span>${g.n}</span></a>`).join('');
+  const y = document.getElementById('fyear');
+  if (y) y.textContent = new Date().getFullYear();
+
+  // Seasonal mailing list. The form itself is commented out of the footer for now, so this block does
+  // nothing; it stays wired up so that restoring the markup and setting MAILING_LIST to a provider's
+  // endpoint (Buttondown, Mailchimp, Formspree…) is all that is needed to turn the sign-up back on.
+  const MAILING_LIST = '';
+  const form = document.getElementById('fmail'), note = document.getElementById('fmail-note');
+  if (!form) return;
+  if (MAILING_LIST) { form.action = MAILING_LIST; form.method = 'post'; }
+  form.addEventListener('submit', e => {
+    if (MAILING_LIST) return;                       // let the real endpoint handle it
+    e.preventDefault();
+    const input = document.getElementById('fmail-in');
+    const ok = input.value && /^[^@\s]+@[^@\s.]+\.[^@\s]+$/.test(input.value);
+    note.textContent = !ok ? 'Please enter an email address.'
+      : 'Thanks — the list is not open yet, so nothing has been stored. Please check back.';
+    note.className = 'fnote' + (ok ? ' on' : '');
+  });
+})();
+
+// clicking the link for the page you're already on still takes you there (no hashchange fires)
+document.addEventListener('click', e => {
+  const a = e.target.closest && e.target.closest('a[href^="/"]');
+  if (!a) return;
+  closeMenu();
+  if (e.defaultPrevented || e.button || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey || a.target || /\.[a-z0-9]+$/i.test(a.pathname)) return;
+  e.preventDefault(); go(a.getAttribute('href'));
+});
+
+// remember the scroll position on each history entry, so Back returns to where you were
+let saveTimer;
+window.addEventListener('scroll', () => {
+  clearTimeout(saveTimer);
+  saveTimer = setTimeout(() => history.replaceState({ y: Math.round(window.scrollY) }, '', location.href), 250);
+}, { passive:true });
+
+// underline the menu item for the section in view
+function markNav(){
+  if (!document.querySelectorAll) return;
+  const mid = window.innerHeight / 2, inView = id => { const el = document.getElementById(id);
+    if (!el || !el.getBoundingClientRect) return false; const r = el.getBoundingClientRect(); return r.top < mid && r.bottom > mid; };
+  const home = !document.getElementById('view-home') || !document.getElementById('view-home').hidden;
+  const cur = location.pathname.startsWith('/seasons') ? 'seasons'
+            : !home ? '' : inView('track') ? 'calendar'
+            : inView('tool') ? (location.pathname.startsWith('/flowers') ? 'flowers' : 'spots') : '';
+  document.querySelectorAll('#mainnav a').forEach(a => {
+    if (a.dataset.nav === cur) a.setAttribute('aria-current', 'true'); else a.removeAttribute('aria-current'); });
+}
+window.addEventListener('scroll', markNav, { passive:true });
+
+/* ---------- analytics consent ----------
+   The banner is shown only when no choice has been stored, and Google Analytics is loaded only on
+   "Allow". "No thanks" is remembered too, so the banner does not come back on every page. The footer
+   link reopens it, because a consent that cannot be withdrawn is not consent. */
+(() => {
+  const box = document.getElementById('consent'), reopen = document.getElementById('consent-reopen');
+  const read = () => { try { return localStorage.getItem('boj-analytics'); } catch { return null; } };
+  const decide = v => {
+    try { localStorage.setItem('boj-analytics', v); } catch {}
+    box.hidden = true;
+    if (v === 'granted' && window.__loadGA) window.__loadGA();
+  };
+  if (box && window.__gaAllowed) {
+    if (!read()) box.hidden = false;
+    document.getElementById('consent-yes').addEventListener('click', () => decide('granted'));
+    document.getElementById('consent-no').addEventListener('click', () => decide('denied'));
+  }
+  // the footer control stays available whatever was chosen, including after a refusal
+  if (reopen && box) reopen.addEventListener('click', () => {
+    if (!window.__gaAllowed) return;
+    box.hidden = false; box.scrollIntoView({ block:'nearest' });
+  });
+})();
+
+/* ---------- back to top ----------
+   Appears once you are a screen or so down, on any page. The button is outside all three views, so it
+   works on spot pages too; route() calls markTop() because a jump to a new page fires no scroll event. */
+const topBtn = document.getElementById('totop');
+function markTop(){
+  if (!topBtn) return;
+  const home = document.getElementById('view-home');
+  // On the homepage it waits until the months have gone up behind the sticky bar, so it never shares the
+  // screen with the month scrubber. Measuring against the bar rather than 0 also covers the addresses that
+  // open straight into the grid (/spots, /when/..., /flowers/...), which land with the last sliver of the
+  // months still behind the header. The spot and seasons views have no months: there it is a screen down.
+  const bar = document.querySelector && document.querySelector('.bar');
+  const past = home && !home.hidden && track
+    ? track.getBoundingClientRect().bottom <= (bar ? bar.offsetHeight : 56)
+    : (window.scrollY || 0) > window.innerHeight * 0.9;
+  topBtn.classList.toggle('on', past);
+}
+if (topBtn) {
+  window.addEventListener('scroll', markTop, { passive:true });
+  topBtn.addEventListener('click', () => {
+    // honour "reduce motion": that setting is why someone would not want a long glide up the page
+    const still = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    window.scrollTo({ top:0, behavior: still ? 'auto' : 'smooth' });
+  });
+  markTop();
+}
+
+show(new Date().getMonth() + 1);   // open on this month
+onScroll();
+
+/* ---------- views ---------- */
+const MONTHS_LONG = { spring:'March – May', summer:'June – August', autumn:'September – November', winter:'December – February' };
+const SEASON_PROPS = {
+  spring: 'Cherry and plum — <b>春の訪れ</b>, the arrival of spring. Petals drift across the page.',
+  summer: 'Hydrangea for the rainy season and morning glory for the hot mornings after it. Loose florets fall.',
+  autumn: 'Maple and chrysanthemum — <b>紅葉</b> season, when the colour moves south again. Leaves fall.',
+  winter: 'Camellia and narcissus, the <b>雪中花</b> that flowers in snow. Snow falls.',
+};
+const esc = s => String(s == null ? '' : s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/"/g,'&quot;');
+const nowSeason = (() => { const n = new Date().getMonth() + 1;
+  return (n>=3&&n<=5)?'spring':(n>=6&&n<=8)?'summer':(n>=9&&n<=11)?'autumn':'winter'; })();
+
+function statusLine(mm){
+  const d = (mm - (new Date().getMonth() + 1) + 12) % 12;
+  if(d === 0) return 'Blooming now — this is the week.';
+  if(d === 1) return 'Coming soon, about a month out.';
+  if(d === 11) return 'Just finished for this year.';
+  return `About ${d} months away. Typical window, shifts with the season.`;
+}
+
+// Google Maps search for the spot: the Japanese name plus the address finds the place itself,
+// not just the town (the weather coordinates are rounded to about 1 km, too rough for directions)
+const mapsUrl = f => 'https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent(((f.jp || '') + ' ' + f.address).trim());
+
+// Partner links and the Pro box in the spot sidebar: hidden for now, set to true to bring them back
+const SHOW_PROMOS = false;
+
+function spotView(slug){
+  const f = D.feat.find(x => x.slug === slug);
+  if(!f) return '<div style="max-width:640px;margin:80px auto;text-align:center"><h2>Spot not found</h2></div>';
+  const near = D.feat.filter(x => x.slug !== f.slug && x.region === f.region).slice(0,3);
+  // CC BY / BY-SA photos have to name their author, so every credit we hold gets printed
+  const credits = [f.cred].concat((f.gal||[]).map(g => g.a ? g.a + ' (' + g.l + ')' : g.l))
+    .filter((c,i,a) => c && a.indexOf(c) === i);
+  return `
+  <nav class="crumbs"><a href="/">Home</a> › <a href="/when/${MON[f.m].toLowerCase()}">${MON[f.m]}</a> › <a href="/flowers/${f.fl[0]}">${esc(flowerName(f))}</a> › ${esc(f.name)}</nav>
+  <div class="detail"><div class="dwrap">
+    <div class="dmain">
+      <div class="eyebrow">${esc(f.flower.replace(/\s*\(.*?\)/,''))} · ${MON[f.m]}</div>
+      <h1 style="margin-top:12px">${esc(f.name)}</h1>
+      <div class="pills dpills">${statusPill(f)}${tagPills(f)}</div>
+      <div class="dsub">${esc(f.jp)} · ${esc(f.flower.replace(/\s*\(.*?\)/,''))} · ${esc(f.region)}</div>
+      <div class="dhero"><img src="${f.img}" alt="${esc(flowerName(f))} at ${esc(f.name)}, ${esc(f.address)}"></div>
+      ${f.gal && f.gal.length ? `<div class="dthumbs">${f.gal.map((g,i)=>`<img src="${g.i}" alt="${esc(f.name)}, photo ${i + 2}" loading="lazy">`).join('')}</div>` : ''}
+      ${credits.length ? `<p class="dcred">${(f.gal && f.gal.length) ? 'Photos' : 'Photo'} ${credits.map(esc).join(' · ')}${credits.some(c => c[0] === '©') ? '' : ' — via Wikimedia Commons'}</p>` : ''}
+      <div class="dblock"><h3>About this spot</h3><p>${esc(f.desc)}</p></div>
+      <div class="dblock"><h3>Getting there</h3><div class="dfacts">
+        ${f.station ? `<div class="dfact"><div class="k">Nearest station</div><div class="v">${esc(f.station)}</div></div>` : ''}
+        <div class="dfact"><div class="k">Address</div><div class="v">${esc(f.address)}</div></div>
+        <div class="dfact"><div class="k">Show this at the station</div><div class="v">${esc(f.jp || f.name)}</div></div>
+      </div>
+      <a class="mapbtn" href="${mapsUrl(f)}" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-6.5-6.2-6.5-11.2a6.5 6.5 0 0 1 13 0C18.5 14.8 12 21 12 21z"/><circle cx="12" cy="9.8" r="2.4"/></svg>
+        Open in Google Maps</a></div>
+    </div>
+    <aside class="dside">
+      <div class="dbox"><h4>Typical peak</h4><div class="pk">${esc(usually(f.peak))}</div><p>${bloomStatus(f).t} — the usual window from past years, not a report from this season. It moves with the weather, so check locally before you travel.</p></div>
+      ${f.ll ? `<div class="dbox wx" id="wx"><h4>Weather here</h4><div class="wxb" aria-live="polite"></div></div>` : ''}
+      ${SHOW_PROMOS ? `<div class="dbox partner"><small>Partner</small>
+        <a>Japan Rail Pass — covers getting here ›</a>
+        <a>Small-group tours near ${esc(f.region)} ›</a></div>
+      <div class="dbox"><h4>Blooms of Japan Pro</h4>
+        <p>Ad-free, offline access and alerts for every spot you save. ¥700 for a 30-day trip pass.</p></div>` : ''}
+    </aside>
+  </div></div>
+  ${near.length ? `<section class="nearby"><h3>Nearby in ${esc(f.region)}</h3>
+    <div class="grid">${near.map(nb=>`<a class="card rv" href="/spots/${nb.slug}">
+      <img src="${nb.th}" alt="${esc(flowerName(nb))} at ${esc(nb.name)}" loading="lazy" decoding="async">
+      <div class="cb"><h4>${esc(nb.name)}</h4>
+        <div class="mt"><span>${esc(nb.flower.replace(/\s*\(.*?\)/,''))}</span><span>${MON[nb.m]}</span></div>
+      </div></a>`).join('')}</div></section>` : ''}`;
+}
+
+/* Weather box on spot pages: today and the next few days from Open-Meteo (free, no key), fetched in the
+   browser when the page opens. Never baked into the saved pages; nothing is shown if it can't load. */
+const WX_ICON = {
+  sun: '<circle cx="12" cy="12" r="4"/><path d="M12 2.5v2M12 19.5v2M2.5 12h2M19.5 12h2M5.3 5.3l1.4 1.4M17.3 17.3l1.4 1.4M5.3 18.7l1.4-1.4M17.3 6.7l1.4-1.4"/>',
+  part: '<path d="M8 3.5v1.3M3.5 8h1.3M4.8 4.8l.9.9M11.2 4.8l-.9.9"/><path d="M5.6 10.2A3.2 3.2 0 1 1 11 7"/><path d="M8 20h9.5a3.5 3.5 0 0 0 .4-7 5 5 0 0 0-9.6 1.2A2.9 2.9 0 0 0 8 20z"/>',
+  cloud: '<path d="M7 19h10.5a4 4 0 0 0 .5-8 5.5 5.5 0 0 0-10.6 1.3A3.4 3.4 0 0 0 7 19z"/>',
+  fog: '<path d="M7 14h10.5a4 4 0 0 0 .5-8 5.5 5.5 0 0 0-10.6 1.3A3.4 3.4 0 0 0 7 14z"/><path d="M5 17.5h14M7 20.5h10"/>',
+  rain: '<path d="M7 15h10.5a4 4 0 0 0 .5-8 5.5 5.5 0 0 0-10.6 1.3A3.4 3.4 0 0 0 7 15z"/><path d="M8.5 18l-1 2.5M12.5 18l-1 2.5M16.5 18l-1 2.5"/>',
+  snow: '<path d="M7 15h10.5a4 4 0 0 0 .5-8 5.5 5.5 0 0 0-10.6 1.3A3.4 3.4 0 0 0 7 15z"/><path d="M8.5 18.5h.01M12 20h.01M15.5 18.5h.01M10 21.5h.01M14 21.5h.01" stroke-width="2.4"/>',
+  storm: '<path d="M7 15h10.5a4 4 0 0 0 .5-8 5.5 5.5 0 0 0-10.6 1.3A3.4 3.4 0 0 0 7 15z"/><path d="M12.5 15.5l-2 3.5h3l-2 3.5"/>',
+};
+// WMO weather codes, grouped
+const wxKind = c => c === 0 ? ['sun','Clear'] : c <= 2 ? ['part','Partly cloudy'] : c === 3 ? ['cloud','Cloudy']
+  : c <= 48 ? ['fog','Fog'] : c <= 67 || (c >= 80 && c <= 82) ? ['rain','Rain'] : c <= 77 || c === 85 || c === 86 ? ['snow','Snow'] : ['storm','Thunderstorms'];
+const wxSvg = (k, sz) => `<svg viewBox="0 0 24 24" width="${sz}" height="${sz}" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${WX_ICON[k]}</svg>`;
+const wxCache = {};
+async function loadWeather(f){
+  const box = document.getElementById('wx'); if (!box || !f.ll) return;
+  const body = box.querySelector('.wxb');
+  body.innerHTML = '<p class="wxl">Loading forecast…</p>';
+  const key = f.ll.join(',');
+  try {
+    if (!wxCache[key] || Date.now() - wxCache[key].t > 30 * 60e3) {
+      const u = 'https://api.open-meteo.com/v1/forecast?' + new URLSearchParams({ latitude: f.ll[0], longitude: f.ll[1],
+        current: 'temperature_2m,weather_code', daily: 'weather_code,temperature_2m_max,temperature_2m_min,precipitation_probability_max',
+        timezone: 'Asia/Tokyo', forecast_days: '5' });
+      const r = await fetch(u); if (!r.ok) throw 0;
+      wxCache[key] = { t: Date.now(), d: await r.json() };
+    }
+    if (document.getElementById('wx') !== box) return;          // the reader has moved on to another page
+    const d = wxCache[key].d, c = d.current, dy = d.daily;
+    const [ck, cl] = wxKind(c.weather_code);
+    const day = s => new Date(s + 'T12:00:00+09:00').toLocaleDateString('en-GB', { weekday: 'short', timeZone: 'Asia/Tokyo' });
+    body.innerHTML = `<div class="wxnow">${wxSvg(ck, 34)}<div><b>${Math.round(c.temperature_2m)}°</b><span>${cl} now</span></div></div>
+      <div class="wxdays">${dy.time.map((t, i) => { const [k, l] = wxKind(dy.weather_code[i]); const p = dy.precipitation_probability_max[i];
+        return `<div class="wxd" title="${l}${p != null ? ', ' + p + '% chance of rain' : ''}"><small>${i ? day(t) : 'Today'}</small>${wxSvg(k, 22)}<span>${Math.round(dy.temperature_2m_max[i])}°<i>${Math.round(dy.temperature_2m_min[i])}°</i></span></div>`; }).join('')}</div>
+      <p class="wxsrc">Japan time · <a href="https://open-meteo.com/" target="_blank" rel="noopener">Open-Meteo</a></p>`;
+  } catch { box.hidden = true; }
+}
+
+/* ---------- standalone information pages ----------
+   Privacy, terms, about and contact. They are plain strings with no interpolation, and they render into
+   the same secondary container the seasons page uses. Keep the privacy page honest: it has to describe
+   what the site actually does, so amend it whenever a new third party or any storage is introduced. */
+var CONTACT_EMAIL = 'hello@bloomsofjapan.com';   // must be a mailbox that works before applying to AdSense
+
+var INFO = {
+  privacy: { title: 'Privacy', jp: '個人情報', h1: 'Privacy policy', body:
+    '<p>This site is run as a personal project and collects as little as it can. There is no account to ' +
+    'create and nothing is sold or handed to a data broker. It does use <strong>Google Analytics</strong> ' +
+    'to count visits, and that is described in full below.</p>' +
+    '<h3>Google Analytics</h3>' +
+    '<p><strong>Only if you agree.</strong> The first time you arrive the site asks whether it may count ' +
+    'your visit. Nothing is loaded and no request reaches Google unless you say yes, and your answer is ' +
+    'remembered in your browser so you are not asked again. You can change it whenever you like with the ' +
+    '&ldquo;Analytics choice&rdquo; link at the bottom of any page.</p>' +
+    '<p>If you do agree, the site uses Google Analytics 4 to see how many people visit and which pages ' +
+    'they read. To do that it stores a randomly generated identifier in your browser and sends Google ' +
+    'your IP address, the page you are on, roughly where you are, and basic details about your device ' +
+    'and browser.</p>' +
+    '<p>It is used to answer questions like &ldquo;is anyone finding the ginkgo pages?&rdquo; &mdash; not to ' +
+    'identify you. No name, email or address is collected by this site, so nothing here is tied to you ' +
+    'personally. Google anonymises IP addresses in Analytics 4 and the data is not used for advertising ' +
+    'by this site.</p>' +
+    '<p>If you would rather not be counted, Google publishes an ' +
+    '<a href="https://tools.google.com/dlpage/gaoptout" target="_blank" rel="noopener">opt-out browser ' +
+    'add-on</a>, and any tracker blocker or your browser&rsquo;s &ldquo;do not track&rdquo; list will stop ' +
+    'it too. Nothing on the site stops working if you block it.</p>' +
+    '<h3>Third parties that can see your visit</h3>' +
+    '<p>Two services necessarily receive a request from your browser, which means each can see your IP ' +
+    'address, roughly where you are and which page you asked for:</p>' +
+    '<ul>' +
+    '<li><strong>Vercel</strong> hosts the site and keeps standard server logs.</li>' +
+    '<li><strong>Google Analytics</strong>, on every page, but only once you have agreed to it.</li>' +
+    '<li><strong>Open-Meteo</strong> supplies the live forecast shown on a spot page. Your browser asks it ' +
+    'directly for the weather at that spot. It is only contacted when you open a spot page, and it is sent ' +
+    "the spot's coordinates, never yours.</li>" +
+    '</ul>' +
+    '<p>Typefaces are served from this site rather than from Google Fonts, so the fonts themselves send ' +
+    'no request to Google.</p>' +
+    '<h3>Mailing list</h3>' +
+    '<p>There is no mailing list and no sign-up form on the site, so there is no address of yours here to ' +
+    'store. If a seasonal list is ever opened, this page will name the provider that receives addresses ' +
+    'before any form appears.</p>' +
+    '<h3>Advertising</h3>' +
+    '<p>The site currently carries no advertising. If advertising is introduced, Google and its partners may ' +
+    'set cookies or read device identifiers to serve and measure ads, and this page will be updated to say ' +
+    'so before any ad is shown. You can review and change your choices at ' +
+    '<a href="https://myadcenter.google.com/" target="_blank" rel="noopener">Google My Ad Center</a> and read ' +
+    'how Google uses data at ' +
+    '<a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener">' +
+    'policies.google.com/technologies/partner-sites</a>.</p>' +
+    '<h3>Your rights and how to ask</h3>' +
+    '<p>Because nothing is stored, there is no profile to download or erase. For any question about this ' +
+    'policy, write to <a href="mailto:' + CONTACT_EMAIL + '">' + CONTACT_EMAIL + '</a>.</p>' },
+
+  terms: { title: 'Terms', jp: '利用規約', h1: 'Terms of use', body:
+    '<h3>What this site is</h3>' +
+    '<p>Blooms of Japan is a free guide to where and when flowers bloom in Japan. You are welcome to use it ' +
+    'for planning a trip.</p>' +
+    '<h3>Bloom dates are estimates</h3>' +
+    '<p>Every peak time on this site is a typical window, not a forecast. Flowering shifts by a week or more ' +
+    'with each year&rsquo;s weather, and a single warm spell can move it. Opening hours and admission prices ' +
+    'change too. <strong>Check the official site for a place before travelling to it.</strong> The site is ' +
+    'offered as it is, without any warranty, and cannot be held responsible for a wasted journey.</p>' +
+    '<h3>Photographs</h3>' +
+    '<p>Photographs come from Wikimedia Commons and are used under their individual licences, which are ' +
+    'Creative Commons or public domain. The photographer and licence are named beneath the photographs on ' +
+    'every spot page. Those credits belong to the photographers, not to this site, and each photograph ' +
+    'remains theirs under its own licence.</p>' +
+    '<h3>The site&rsquo;s own text</h3>' +
+    '<p>The written descriptions, the calendar and the maps are the work of this site. Quote a sentence with ' +
+    'a link if it is useful to you; please do not republish the whole collection.</p>' +
+    '<h3>Getting something corrected</h3>' +
+    '<p>If a price, a bloom window or a photo credit here is wrong, or a photograph is yours and you would ' +
+    'like it removed, write to <a href="mailto:' + CONTACT_EMAIL + '">' + CONTACT_EMAIL + '</a> and it will ' +
+    'be put right.</p>' },
+
+  about: { title: 'About', jp: '花暦について', h1: 'About Blooms of Japan', body:
+    '<p>Almost everything written about flowers in Japan is about cherry blossom, and cherry blossom is ' +
+    'about three weeks of the year. This site is an attempt to cover the other forty-nine.</p>' +
+    '<h3>What is here</h3>' +
+    '<p>A calendar of the flowering year, and a page for every spot with its typical peak window, the nearest ' +
+    'station, and what the place is actually like. Each flower has its own page, and each month has its own ' +
+    'page, so you can start from a date or from a flower.</p>' +
+    '<h3>Where the information comes from</h3>' +
+    '<p>Bloom windows, prices and access details are compiled from prefectural and city tourism sources, ' +
+    'park and temple websites, and Japanese autumn-colour and blossom trackers. They are checked against ' +
+    'those sources and corrected when they turn out to be out of date &mdash; admission prices in particular ' +
+    'change more often than most travel pages admit.</p>' +
+    '<p>Photographs are free-licensed images from Wikimedia Commons, credited to their photographers on each ' +
+    'spot page.</p>' +
+    '<h3>What it is not</h3>' +
+    '<p>It is not a live bloom forecast. The dates describe a normal year; a real one is always a little ' +
+    'early or a little late. Please check locally before you travel.</p>' +
+    '<p>Spotted a mistake? <a href="/contact">Tell me about it</a>.</p>' },
+
+  contact: { title: 'Contact', jp: 'お問い合わせ', h1: 'Contact', body:
+    '<p>Write to <a href="mailto:' + CONTACT_EMAIL + '">' + CONTACT_EMAIL + '</a>. It is read by one person, ' +
+    'so a reply may take a few days.</p>' +
+    '<h3>Especially worth writing about</h3>' +
+    '<ul>' +
+    '<li><strong>Something is wrong.</strong> A changed admission price, a station that has been renamed, a ' +
+    'bloom window that no longer matches reality, a garden that has closed.</li>' +
+    '<li><strong>A photograph is yours.</strong> If a photo is credited wrongly, or you would like it taken ' +
+    'down, say so and it will be removed promptly.</li>' +
+    '<li><strong>A spot is missing.</strong> Particularly outside the big cities, and most of all if you have ' +
+    'a photograph of it you are willing to license.</li>' +
+    '</ul>' },
+};
+
+function infoView(key){
+  var p = INFO[key];
+  if (!p) return '<div style="max-width:640px;margin:80px auto;text-align:center"><h2>Page not found</h2></div>';
+  return '<div class="pagehead">' +
+    '<nav class="crumbs" style="padding-left:0"><a href="/">Home</a> &rsaquo; ' + esc(p.title) + '</nav>' +
+    '<div class="eyebrow">' + esc(p.title) + ' <span class="jpk">' + p.jp + '</span></div>' +
+    '<h1>' + esc(p.h1) + '</h1></div>' +
+    '<div class="prose">' + p.body + '</div>';
+}
+
+function seasonsView(){
+  return `<div class="pagehead">
+      <nav class="crumbs" style="padding-left:0"><a href="/">Home</a> › All four seasons</nav>
+      <div class="eyebrow">Four seasons <span class="jpk">四季</span></div>
+      <h1>Two flowers for every season</h1>
+      <p>The homepage paints whichever pair matches today's date — the same washi paper, gold rings and kanji every time, with the flowers and falling petals swapped. Tap one to see it on the homepage.</p>
+    </div>
+    <div class="seasonlist">${['spring','summer','autumn','winter'].map(k=>{
+      const a = HeroArt.ART[k];
+      return `<section class="card-s rv">
+        <div class="cap"><i style="background:${a.dot}"></i>
+          <h2>${a.label.replace(' in Japan','')}</h2>
+          <span class="mo">${MONTHS_LONG[k]}</span>
+          ${k === nowSeason ? '<span class="now">Showing today</span>' : ''}</div>
+        <div class="art"><a href="/?season=${k}" aria-label="Show ${a.label} on the homepage" style="position:absolute;inset:0;z-index:3"></a>${HeroArt.build(k, 'card')}</div>
+        <p class="props">${SEASON_PROPS[k]}</p>
+      </section>`;}).join('')}</div>`;
+}
+
+/* Page titles. The build reads these back out of each pre-rendered page for its <title>,
+   so the tab title and what Google shows are always the same words. */
+const SITE_TITLE = 'Blooms of Japan — The flower year in Japan';
+const T = s => s + ' | Blooms of Japan';
+function spotTitle(f){
+  const fl = flowerName(f), first = fl.toLowerCase().split(' ')[0];
+  return T(f.name.toLowerCase().includes(first) ? `${f.name} — Best Time & How to Get There` : `${f.name} ${fl} — Best Time & How to Get There`);
+}
+
+/* Routes. Every view has a real address; spot and seasons pages are their own views, everything
+   else is the homepage scrolled to a section with the grid set up to match:
+     /calendar          the year, opened at this month
+     /spots             search section, in season now     (/spots?q=… a search)
+     /flowers[/key]     search section, flower picker (and one flower's spots)
+     /when/<month>      search section, every spot for that month
+     /?season=spring    homepage with another season's hero                      */
+function homeRoute(h){
+  const tool = () => document.getElementById('tool').offsetTop - 40;
+  const params = new URLSearchParams(location.search);
+  const wm = h.match(/^\/when\/([a-z]+)$/), mi = wm ? MON.findIndex(x => x.toLowerCase() === wm[1]) : -1;
+  const fm = h.match(/^\/flowers(?:\/([a-z-]+))?$/);
+  const season = /^(spring|summer|autumn|winter)$/.test(params.get('season') || '') ? params.get('season') : null;
+  const q = h === '/spots' ? (params.get('q') || '').trim() : '';
+  if (q) {                                    // a shared or bookmarked search
+    qEl.value = q; qClear.hidden = false; renderSearch(q);
+    return { title: T('“' + q + '” — Search'), y: tool };
+  }
+  if (qEl) { qEl.value = ''; qClear.hidden = true; }   // any other view starts with an empty box
+  if (h === '/calendar') {
+    renderGrid(0);
+    const t = document.getElementById('track'), m = new Date().getMonth() + 1;
+    show(m);
+    return { title: T('Japan Flower Calendar — What Blooms Each Month'), y: () => t.getBoundingClientRect().top + (window.scrollY || 0) - 54 };
+  }
+  if (h === '/spots') { renderGrid(0); return { title: T(`Where to See Flowers in Japan — All ${D.feat.length} Spots`), y: tool }; }
+  if (fm) {
+    const g = D.flowerGroups.find(x => x.k === fm[1]);
+    renderGrid(0, g ? g.k : '');
+    return { title: T(g ? g.label + ' in Japan — Where & When to See Them' : 'Flowers of Japan — Browse by Flower'), y: tool, notFound: fm[1] && !g };
+  }
+  if (mi > 0) { renderGrid(mi); return { title: T(`What's Blooming in Japan in ${MON[mi]}`), y: tool }; }
+  renderGrid(0);
+  return { title: null, y: () => 0, season, notFound: h !== '/' && !wm };
+}
+
+/* in-page navigation: internal links push a new address instead of reloading */
+function go(href){
+  const here = location.pathname + location.search;
+  if (href === here) history.replaceState(null, '', href); else history.pushState(null, '', href);
+  route();
+}
+
+let routed = false;   // the first route (page load) always jumps
+function route(){
+  // links shared before the move to real addresses (#/spots/x, #/search/x, #/spring) still work
+  if (location.hash.startsWith('#/')) {
+    const old = location.hash.slice(1);
+    const to = old.startsWith('/search/') ? '/spots?q=' + old.slice(8)
+             : /^\/(spring|summer|autumn|winter)$/.test(old) ? '/?season=' + old.slice(1) : old;
+    history.replaceState(null, '', to);
+  }
+  const h = location.pathname.replace(/\/+$/, '') || '/';
+  const home = document.getElementById('view-home');
+  const spot = document.getElementById('view-spot');
+  const seas = document.getElementById('view-seasons');
+  const wasHome = !home.hidden;
+  const show = el => { [home,spot,seas].forEach(x => x.hidden = x !== el); };
+  // Back/Forward land where the reader left off; a fresh link goes to its section
+  const saved = history.state && typeof history.state.y === 'number' ? history.state.y : null;
+  let y = 0, smooth = false, yFn = null;
+
+  if(h.startsWith('/spots/')){
+    spot.innerHTML = spotView(h.slice(7)); show(spot);
+    const f = D.feat.find(x => x.slug === h.slice(7));
+    document.title = f ? spotTitle(f) : T('Spot not found');
+    if (f) loadWeather(f);
+  } else if(h === '/seasons'){
+    seas.innerHTML = seasonsView(); show(seas);
+    document.title = T("Japan's Flowers by Season");
+  } else if(INFO[h.slice(1)]){
+    seas.innerHTML = infoView(h.slice(1)); show(seas);
+    document.title = T(INFO[h.slice(1)].h1);
+  } else {
+    const r = homeRoute(h);
+    const key = r.season || HeroArt.auto;
+    HeroArt.render(key); paintSide(key);
+    show(home);
+    document.title = r.title || SITE_TITLE;
+    y = r.y(); yFn = r.y;
+    smooth = routed && wasHome && saved === null;      // moving within the homepage glides; arriving from another view jumps
+    onScroll();
+  }
+  closeMenu && closeMenu();
+  window.scrollTo({ top: saved !== null ? saved : y, behavior: smooth ? 'smooth' : 'auto' });
+  markTop();   // a jump to a new address fires no scroll event, so the button would keep its old state
+  // on first load the web fonts arrive one by one and re-wrap the hero, shifting everything below it,
+  // so keep the section lined up while the hero settles, until the visitor scrolls themselves
+  if (!routed && saved === null && yFn && y > 0 && window.ResizeObserver) {
+    const heroEl = document.querySelector('.hero');
+    let done = false;
+    const stop = () => { done = true; ro.disconnect(); ['wheel','touchstart','keydown','mousedown'].forEach(t => window.removeEventListener(t, stop)); };
+    const ro = new ResizeObserver(() => { if (!done) window.scrollTo({ top: yFn(), behavior: 'auto' }); });
+    ro.observe(heroEl);
+    ['wheel','touchstart','keydown','mousedown'].forEach(t => window.addEventListener(t, stop, { passive: true }));
+    setTimeout(stop, 4000);
+  }
+  reveal(spot.hidden ? seas : spot);
+  markNav();
+  // Analytics: the tag's own page_view covers the first load, so only report the moves after it.
+  // document.title is already set above, so the hit carries the right page name.
+  if (routed && window.gtag) gtag('event', 'page_view',
+    { page_location: location.href, page_title: document.title });
+  routed = true;
+}
+window.addEventListener('popstate', route);
+window.addEventListener('hashchange', route);
+route();
+</script>

@@ -1,0 +1,530 @@
+[
+ {
+  "id": 71,
+  "slug": "ueno-toshogu-peony-garden",
+  "name": "Ueno Toshogu Peony Garden",
+  "jp": "上野東照宮ぼたん苑",
+  "flower": "Winter Peony",
+  "month": 1,
+  "region": "Tokyo Area",
+  "desc": "A specialized peony garden within Ueno Park, featuring 40 varieties of winter peonies protected by traditional straw mats (yukitsuri).",
+  "address": "9-88 Uenokoen, Taito City, Tokyo",
+  "station": "5 min walk from Ueno Station",
+  "peak": "January - February",
+  "img": "img/uenotoshogupeonygarden.jpg",
+  "mx": 191.2,
+  "my": 222.4,
+  "gal": [
+   {
+    "i": "gal/71-1.jpg",
+    "a": "Guilhem Vellut from Annecy, France",
+    "l": "CC BY 2.0"
+   },
+   {
+    "i": "gal/71-2.jpg",
+    "a": "Guilhem Vellut from Annecy, France",
+    "l": "CC BY 2.0"
+   },
+   {
+    "i": "gal/71-3.jpg",
+    "a": "Guilhem Vellut from Annecy, France",
+    "l": "CC BY 2.0"
+   }
+  ]
+ },
+ {
+  "id": 15,
+  "slug": "kairakuen-garden",
+  "name": "Kairakuen Garden",
+  "jp": "偕楽園",
+  "flower": "Plum Blossom (Ume)",
+  "month": 2,
+  "region": "Tokyo Area",
+  "desc": "Considered one of the three great gardens of Japan, famous for over 3,000 plum trees of 100 different varieties.",
+  "address": "1 Chome-3-3 Tokiwa, Mito, Ibaraki",
+  "station": "5 min walk from Kairakuen Station (seasonal)",
+  "peak": "Mid Feb - Mid March",
+  "img": "img/kairakuengarden.jpg",
+  "mx": 202.6,
+  "my": 208.8,
+  "gal": [
+   {
+    "i": "gal/15-1.jpg",
+    "a": "Hanakata Midori",
+    "l": "CC BY-SA 3.0"
+   },
+   {
+    "i": "gal/15-2.jpg",
+    "a": "CyberOyaji",
+    "l": "CC BY-SA 3.0"
+   },
+   {
+    "i": "gal/15-3.jpg",
+    "a": "CyberOyaji",
+    "l": "CC BY-SA 3.0"
+   }
+  ]
+ },
+ {
+  "id": 7,
+  "slug": "kenrokuen",
+  "name": "Kenrokuen (Ishikawa)",
+  "jp": "兼六園",
+  "flower": "Plum/Cherry",
+  "month": 3,
+  "region": "Mt. Fuji & Central",
+  "desc": "One of the Three Great Gardens of Japan, beautiful in all seasons.",
+  "address": "1 Kenrokumachi, Kanazawa, Ishikawa",
+  "station": "Bus from Kanazawa Station.",
+  "peak": "March - April",
+  "img": "img/kenrokuen.jpg",
+  "mx": 139.4,
+  "my": 204.9,
+  "gal": [
+   {
+    "i": "gal/7-1.jpg",
+    "a": "Balon Greyjoy",
+    "l": "CC0"
+   },
+   {
+    "i": "gal/7-2.jpg",
+    "a": "Balon Greyjoy",
+    "l": "CC0"
+   },
+   {
+    "i": "gal/7-3.jpg",
+    "a": "Balon Greyjoy",
+    "l": "CC0"
+   }
+  ]
+ },
+ {
+  "id": 20,
+  "slug": "shinjuku-gyoen",
+  "name": "Shinjuku Gyoen (Tokyo)",
+  "jp": "新宿御苑",
+  "flower": "Cherry Blossom",
+  "month": 3,
+  "region": "Tokyo Area",
+  "desc": "A major park in Tokyo with spacious lawns and cherry blossoms.",
+  "address": "11 Naitomachi, Shinjuku City, Tokyo",
+  "station": "5 min walk from Shinjuku-gyoemmae Station.",
+  "peak": "Late March - Early April",
+  "img": "img/shinjukugyoen.jpg",
+  "mx": 190.2,
+  "my": 223,
+  "gal": [
+   {
+    "i": "gal/20-1.jpg",
+    "a": "Abasaa",
+    "l": "Public domain"
+   },
+   {
+    "i": "gal/20-2.jpg",
+    "a": "Basile Morin",
+    "l": "CC BY-SA 4.0"
+   },
+   {
+    "i": "gal/20-3.jpg",
+    "a": "Basile Morin",
+    "l": "CC BY-SA 4.0"
+   }
+  ]
+ },
+ {
+  "id": 9,
+  "slug": "funaoka-castle-ruin-park",
+  "name": "Funaoka Castle Ruin Park (Miyagi)",
+  "jp": "船岡城址公園",
+  "flower": "Cherry Blossom",
+  "month": 4,
+  "region": "Northern Japan",
+  "desc": "Known for the view of the cherry blossoms against the backdrop of Mount Zao.",
+  "address": "Funaoka, Shibata, Shibata District, Miyagi",
+  "station": "15 min walk from Funaoka Station.",
+  "peak": "Mid April",
+  "img": "img/funaokacastleruinpark.jpg",
+  "mx": 207.7,
+  "my": 173.6,
+  "gal": [
+   {
+    "i": "gal/9-1.jpg",
+    "a": "Kumamushi",
+    "l": "CC BY 3.0"
+   },
+   {
+    "i": "gal/9-2.jpg",
+    "a": "BMFJAPAN",
+    "l": "CC BY-SA 4.0"
+   },
+   {
+    "i": "gal/9-3.jpg",
+    "a": "ブルーノ・プラス",
+    "l": "CC BY-SA 4.0"
+   }
+  ]
+ },
+ {
+  "id": 10,
+  "slug": "tonami-tulip-park",
+  "name": "Tonami Tulip Park (Toyama)",
+  "jp": "となみチューリップ公園",
+  "flower": "Tulip",
+  "month": 4,
+  "region": "Mt. Fuji & Central",
+  "desc": "Famous for its massive Tulip Fair showcasing millions of tulips.",
+  "address": "1-32 Hanazonomachi, Tonami, Toyama",
+  "station": "15 min walk from Tonami Station.",
+  "peak": "Late April - Early May",
+  "img": "img/tonamitulippark.jpg",
+  "mx": 144.3,
+  "my": 203.4,
+  "gal": [
+   {
+    "i": "gal/10-1.jpg",
+    "a": "掬茶",
+    "l": "CC BY-SA 4.0"
+   },
+   {
+    "i": "gal/10-2.jpg",
+    "a": "掬茶",
+    "l": "CC BY-SA 4.0"
+   },
+   {
+    "i": "gal/10-3.jpg",
+    "a": "掬茶",
+    "l": "CC BY-SA 4.0"
+   }
+  ]
+ },
+ {
+  "id": 3,
+  "slug": "yuushien-garden",
+  "name": "Yuushien Garden",
+  "jp": "由志園",
+  "flower": "Peony (Botan)",
+  "month": 5,
+  "region": "Western Japan",
+  "desc": "A stunning garden on Daikonshima Island famous for peonies (Botan). The pond filled with 30,000 floating peonies is a masterpiece.",
+  "address": "1260-2 Yushicho, Matsue, Shimane",
+  "station": "Bus from Matsue Station",
+  "peak": "Late April - Early May",
+  "img": "img/yuushiengarden.jpg",
+  "mx": 81.8,
+  "my": 226.7,
+  "gal": [
+   {
+    "i": "gal/3-1.jpg",
+    "a": "663highland",
+    "l": "CC BY 2.5"
+   },
+   {
+    "i": "gal/3-2.jpg",
+    "a": "663highland",
+    "l": "CC BY 2.5"
+   },
+   {
+    "i": "gal/3-3.jpg",
+    "a": "663highland",
+    "l": "CC BY 2.5"
+   }
+  ]
+ },
+ {
+  "id": 5,
+  "slug": "chausuyama-highlands",
+  "name": "Chausuyama Highlands",
+  "jp": "茶臼山高原",
+  "flower": "Pink Moss (Shibazakura)",
+  "month": 5,
+  "region": "Mt. Fuji & Central",
+  "desc": "A ski resort that turns into a pink carpet of 400,000 Shibazakura (Moss Phlox) plants in spring, the highest in Aichi Prefecture.",
+  "address": "70-185 Goshodaira, Toyone, Kitashitara, Aichi",
+  "station": "Bus from Chausuyama Kogen",
+  "peak": "Mid May - Early June",
+  "img": "img/chausuyamahighlands.jpg",
+  "mx": 156.1,
+  "my": 232.3,
+  "gal": [
+   {
+    "i": "gal/5-1.jpg",
+    "a": "Alpsdake",
+    "l": "CC BY-SA 3.0"
+   },
+   {
+    "i": "gal/5-2.jpg",
+    "a": "Mikkabie",
+    "l": "CC BY-SA 4.0"
+   },
+   {
+    "i": "gal/5-3.jpg",
+    "a": "Alpsdake",
+    "l": "CC BY-SA 4.0"
+   }
+  ]
+ },
+ {
+  "id": 6,
+  "slug": "higashizawa-rose-park",
+  "name": "Higashizawa Rose Park (Yamagata)",
+  "jp": "東沢バラ公園",
+  "flower": "Rose",
+  "month": 6,
+  "region": "Northern Japan",
+  "desc": "One of the largest rose gardens in Japan, hosting a Rose Festival in June.",
+  "address": "1-25 Tateoka Higashi, Murayama, Yamagata",
+  "station": "20 min walk from Tateoka Station.",
+  "peak": "June",
+  "img": "img/higashizawarosepark.jpg",
+  "mx": 201.5,
+  "my": 164.6,
+  "gal": [
+   {
+    "i": "gal/6-1.jpg",
+    "a": "Suz-b",
+    "l": "CC BY-SA 4.0"
+   },
+   {
+    "i": "gal/6-2.jpg",
+    "a": "掬茶",
+    "l": "CC BY-SA 4.0"
+   },
+   {
+    "i": "gal/6-3.jpg",
+    "a": "掬茶",
+    "l": "CC BY-SA 4.0"
+   }
+  ]
+ },
+ {
+  "id": 1,
+  "slug": "oishi-park",
+  "name": "Oishi Park",
+  "jp": "大石公園",
+  "flower": "Lavender",
+  "month": 7,
+  "region": "Mt. Fuji & Central",
+  "desc": "Lavender fields with the iconic Mount Fuji in the background. A breathtaking summer view.",
+  "address": "Fujikawaguchiko, Yamanashi",
+  "station": "Bus from Kawaguchiko Station",
+  "peak": "Late June - Mid July",
+  "img": "img/oishipark.jpg",
+  "mx": 174.2,
+  "my": 226.4,
+  "gal": [
+   {
+    "i": "gal/1-1.jpg",
+    "a": "岩浪陸",
+    "l": "CC BY 3.0"
+   },
+   {
+    "i": "gal/1-2.jpg",
+    "a": "Alpsdake",
+    "l": "CC BY-SA 4.0"
+   },
+   {
+    "i": "gal/1-3.jpg",
+    "a": "Olaf2",
+    "l": "CC BY-SA 4.0"
+   }
+  ]
+ },
+ {
+  "id": 4,
+  "slug": "shinobazu-pond",
+  "name": "Shinobazu Pond (Ueno)",
+  "jp": "不忍池",
+  "flower": "Lotus (Hasu)",
+  "month": 7,
+  "region": "Tokyo Area",
+  "desc": "Shinobazu Pond is almost completely covered by lush green lotus leaves and large pink flowers in summer, creating a spiritual atmosphere.",
+  "address": "Uenokoen, Taito City, Tokyo",
+  "station": "5 min walk from Ueno Station",
+  "peak": "Mid July - Mid August",
+  "img": "img/shinobazupond.jpg",
+  "mx": 191.2,
+  "my": 222.4,
+  "gal": [
+   {
+    "i": "gal/4-1.jpg",
+    "a": "Tarourashima",
+    "l": "Public domain"
+   },
+   {
+    "i": "gal/4-2.jpg",
+    "a": "663highland",
+    "l": "CC BY 2.5"
+   },
+   {
+    "i": "gal/4-3.jpg",
+    "a": "くろふね",
+    "l": "CC BY 3.0"
+   }
+  ]
+ },
+ {
+  "id": 13,
+  "slug": "okayama-korakuen",
+  "name": "Okayama Korakuen",
+  "jp": "岡山後楽園",
+  "flower": "Lotus & Greenery",
+  "month": 8,
+  "region": "Western Japan",
+  "desc": "Another of Japan's Three Great Gardens. In summer, the garden hosts 'Fantasy Garden' illuminations and blooming lotuses.",
+  "address": "1-5 Korakuen, Kita Ward, Okayama",
+  "station": "Bus from Okayama Station",
+  "peak": "August",
+  "img": "img/okayamakorakuen.jpg",
+  "mx": 93.9,
+  "my": 243.7,
+  "gal": [
+   {
+    "i": "gal/13-1.jpg",
+    "a": "663highland",
+    "l": "CC BY 2.5"
+   },
+   {
+    "i": "gal/13-2.jpg",
+    "a": "takeokahp",
+    "l": "CC BY 3.0"
+   },
+   {
+    "i": "gal/13-3.jpg",
+    "a": "takeokahp",
+    "l": "CC BY 3.0"
+   }
+  ]
+ },
+ {
+  "id": 2,
+  "slug": "yakachi-river",
+  "name": "Yakachi River",
+  "jp": "矢勝川",
+  "flower": "Red Spider Lily (Higanbana)",
+  "month": 9,
+  "region": "Mt. Fuji & Central",
+  "desc": "The Yakachi River is lined with 3 million red spider lilies stretching for 1.5km, creating a fairy-tale-like red ribbon along the riverbank.",
+  "address": "Yanabe, Handa, Aichi",
+  "station": "15 min walk from Handaguchi Station",
+  "peak": "Late September",
+  "img": "img/yakachiriver.jpg",
+  "mx": 143.6,
+  "my": 238.8,
+  "gal": [
+   {
+    "i": "gal/2-1.jpg",
+    "a": "Bariston",
+    "l": "CC BY-SA 4.0"
+   },
+   {
+    "i": "gal/2-2.jpg",
+    "a": "Bariston",
+    "l": "CC BY-SA 4.0"
+   },
+   {
+    "i": "gal/2-3.jpg",
+    "a": "Bariston",
+    "l": "CC BY-SA 4.0"
+   }
+  ]
+ },
+ {
+  "id": 31,
+  "slug": "showa-kinen-park",
+  "name": "Showa Kinen Park",
+  "jp": "国営昭和記念公園",
+  "flower": "Cosmos",
+  "month": 10,
+  "region": "Tokyo Area",
+  "desc": "A massive park known for its vast fields of cosmos flowers in autumn, painting the hills in shades of pink, white, and purple.",
+  "address": "3173 Midoricho, Tachikawa, Tokyo",
+  "station": "2 min walk from Nishi-Tachikawa Station",
+  "peak": "Mid Oct - Late Oct",
+  "img": "img/showakinenpark.jpg",
+  "mx": 184.8,
+  "my": 222.5,
+  "gal": [
+   {
+    "i": "gal/31-1.jpg",
+    "a": "Kakidai",
+    "l": "CC BY-SA 4.0"
+   },
+   {
+    "i": "gal/31-2.jpg",
+    "a": "KΛNΛTΛ",
+    "l": "CC BY-SA 3.0"
+   },
+   {
+    "i": "gal/31-3.jpg",
+    "a": "Guilhem Vellut from Annecy, France",
+    "l": "CC BY 2.0"
+   }
+  ]
+ },
+ {
+  "id": 14,
+  "slug": "engakuji-temple",
+  "name": "Engakuji Temple",
+  "jp": "円覚寺",
+  "flower": "Autumn Foliage (Momiji)",
+  "month": 11,
+  "region": "Tokyo Area",
+  "desc": "A serene Zen temple famous for its vibrant autumn foliage and late-blooming flowers in the fall.",
+  "address": "2 Chome-1-1 Yamanouchi, Kamakura, Kanagawa",
+  "station": "15 min walk from Kita-Kamakura Station",
+  "peak": "Late Nov - Early Dec",
+  "img": "img/engakujitemple.jpg",
+  "mx": 187.4,
+  "my": 230.1,
+  "gal": [
+   {
+    "i": "gal/14-1.jpg",
+    "a": "STA3816",
+    "l": "CC BY-SA 4.0"
+   },
+   {
+    "i": "gal/14-2.jpg",
+    "a": "Dandy1022",
+    "l": "CC BY-SA 4.0"
+   },
+   {
+    "i": "gal/14-3.jpg",
+    "a": "Tsuyoshi chiba",
+    "l": "CC BY-SA 4.0"
+   }
+  ]
+ },
+ {
+  "id": 45,
+  "slug": "nabana-no-sato",
+  "name": "Nabana no Sato",
+  "jp": "なばなの里",
+  "flower": "Begonia",
+  "month": 12,
+  "region": "Kyoto & Kansai",
+  "desc": "Famous for its winter illumination and a massive indoor Begonia Garden that blooms year-round, perfect for winter visits.",
+  "address": "270 Komae, Nagashima-cho, Kuwana, Mie",
+  "station": "Bus from Nagashima Station",
+  "peak": "December",
+  "img": "img/nabananosato2.jpg",
+  "mx": 140,
+  "my": 235.2,
+  "gal": [
+   {
+    "i": "gal/45-1.jpg",
+    "a": "おにく",
+    "l": "CC BY-SA 3.0"
+   },
+   {
+    "i": "gal/45-2.jpg",
+    "a": "Omiya",
+    "l": "CC BY-SA 3.0"
+   },
+   {
+    "i": "gal/45-3.jpg",
+    "a": "carloshonda",
+    "l": "CC BY 3.0"
+   }
+  ]
+ }
+]

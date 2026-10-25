@@ -1,0 +1,316 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "outputDirectory": "public",
+  "cleanUrls": true,
+  "headers": [
+    {
+      "source": "/fonts/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    },
+    {
+      "source": "/(art|img|th|new|gal)/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=604800, stale-while-revalidate=86400"
+        }
+      ]
+    },
+    {
+      "source": "/(styles.css|data.js|hero.js|fonts.css)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=3600, stale-while-revalidate=86400"
+        }
+      ]
+    },
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "strict-origin-when-cross-origin"
+        }
+      ]
+    }
+  ],
+  "trailingSlash": false,
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.bloomsofjapan.com"
+        }
+      ],
+      "destination": "https://bloomsofjapan.com/$1",
+      "permanent": true
+    },
+    {
+      "source": "/spots/sumoto-narcissus-castle-park",
+      "destination": "/flowers/narcissus",
+      "permanent": true
+    },
+    {
+      "source": "/spots/minamiawaji-narcissus-lookout",
+      "destination": "/spots/nada-kuroiwa-narcissus-field",
+      "permanent": true
+    },
+    {
+      "source": "/spots/bairin-ji",
+      "destination": "/spots/bairin-ji-temple-garden",
+      "permanent": true
+    },
+    {
+      "source": "/spots/fukuoka-plum-blossom-riverside",
+      "destination": "/flowers/plum-blossom",
+      "permanent": true
+    },
+    {
+      "source": "/spots/kobe-plum-blossom-park",
+      "destination": "/spots/okamoto-plum-grove-park",
+      "permanent": true
+    },
+    {
+      "source": "/spots/gifu-plum-blossom-park",
+      "destination": "/spots/gifu-bairin-park",
+      "permanent": true
+    },
+    {
+      "source": "/spots/anpachi-plum-blossom-park",
+      "destination": "/spots/anpachi-hyakubaien",
+      "permanent": true
+    },
+    {
+      "source": "/spots/rape-field-ruins",
+      "destination": "/flowers/rapeseed",
+      "permanent": true
+    },
+    {
+      "source": "/spots/yoshimi-rapeseed-fields",
+      "destination": "/spots/sakurazutsumi-park",
+      "permanent": true
+    },
+    {
+      "source": "/spots/sagamihara-rapeseed-fields",
+      "destination": "/flowers/rapeseed",
+      "permanent": true
+    },
+    {
+      "source": "/spots/tonami-tulip-park-april",
+      "destination": "/spots/tonami-tulip-park",
+      "permanent": true
+    },
+    {
+      "source": "/spots/azalea-garden",
+      "destination": "/spots/shiofune-kannon-ji-temple",
+      "permanent": true
+    },
+    {
+      "source": "/spots/fuji-shibazakura-festival",
+      "destination": "/spots/fuji-motosuko-resort",
+      "permanent": true
+    },
+    {
+      "source": "/spots/igagawa-sakurazutsumi-ave",
+      "destination": "/spots/igagawa-cherry-embankment",
+      "permanent": true
+    },
+    {
+      "source": "/spots/sakura-trail",
+      "destination": "/flowers/cherry-blossom",
+      "permanent": true
+    },
+    {
+      "source": "/spots/kawachi-wisteria-garden-may",
+      "destination": "/spots/kawachi-wisteria-garden",
+      "permanent": true
+    },
+    {
+      "source": "/spots/tottori-flower-park",
+      "destination": "/spots/tottori-hanakairo",
+      "permanent": true
+    },
+    {
+      "source": "/spots/bara-en",
+      "destination": "/spots/shikishima-park-rose-garden",
+      "permanent": true
+    },
+    {
+      "source": "/spots/kagoshima-flower-park",
+      "destination": "/spots/flower-park-kagoshima",
+      "permanent": true
+    },
+    {
+      "source": "/spots/flower-park-ibaraki",
+      "destination": "/spots/ibaraki-flower-park",
+      "permanent": true
+    },
+    {
+      "source": "/spots/suig-itako-iris-garden",
+      "destination": "/spots/suigo-itako-ayame-garden",
+      "permanent": true
+    },
+    {
+      "source": "/spots/shikokuchuo-hydrangea-park",
+      "destination": "/spots/shingu-hydrangea-village",
+      "permanent": true
+    },
+    {
+      "source": "/spots/kobe-hydrangea-park",
+      "destination": "/flowers/hydrangea",
+      "permanent": true
+    },
+    {
+      "source": "/spots/iris-garden-of-kabashima-family",
+      "destination": "/spots/kabashima-iris-garden",
+      "permanent": true
+    },
+    {
+      "source": "/spots/hydrangea-garden",
+      "destination": "/spots/mimuroto-ji-temple",
+      "permanent": true
+    },
+    {
+      "source": "/spots/utatsuyama",
+      "destination": "/spots/utatsuyama-iris-garden",
+      "permanent": true
+    },
+    {
+      "source": "/spots/ajisaizaka",
+      "destination": "/spots/ohirasan-ajisai-zaka",
+      "permanent": true
+    },
+    {
+      "source": "/spots/shiga-kogen-hasuike-ski-area",
+      "destination": "/flowers/lotus",
+      "permanent": true
+    },
+    {
+      "source": "/spots/lavender-garden",
+      "destination": "/spots/kobe-nunobiki-herb-gardens",
+      "permanent": true
+    },
+    {
+      "source": "/spots/niino-lavender-garden",
+      "destination": "/flowers/lavender",
+      "permanent": true
+    },
+    {
+      "source": "/spots/hasuike-park",
+      "destination": "/flowers/lotus",
+      "permanent": true
+    },
+    {
+      "source": "/spots/iris-garden",
+      "destination": "/spots/motsu-ji-temple-iris-garden",
+      "permanent": true
+    },
+    {
+      "source": "/spots/flower-iris-garden",
+      "destination": "/flowers/iris",
+      "permanent": true
+    },
+    {
+      "source": "/spots/hasuike",
+      "destination": "/flowers/lotus",
+      "permanent": true
+    },
+    {
+      "source": "/spots/kusatsu-sunflower-fields",
+      "destination": "/flowers/sunflowers",
+      "permanent": true
+    },
+    {
+      "source": "/spots/tsunan-sunflower-park",
+      "destination": "/spots/tsunan-sunflower-square",
+      "permanent": true
+    },
+    {
+      "source": "/spots/nasukarasuyama-sunflower-fields",
+      "destination": "/spots/sarukubo-rice-field-park-sunflowers",
+      "permanent": true
+    },
+    {
+      "source": "/spots/nakafurano-lavender-park",
+      "destination": "/spots/hokuseiyama-lavender-park",
+      "permanent": true
+    },
+    {
+      "source": "/spots/himawari-no-sato",
+      "destination": "/spots/hokuryu-sunflower-village",
+      "permanent": true
+    },
+    {
+      "source": "/spots/cosmos-field",
+      "destination": "/flowers/cosmos",
+      "permanent": true
+    },
+    {
+      "source": "/spots/saga-cosmos-garden",
+      "destination": "/spots/kinryu-park-cosmos-garden",
+      "permanent": true
+    },
+    {
+      "source": "/spots/osaki-cosmos-park",
+      "destination": "/spots/matsuyama-gohonmaru-park-cosmos",
+      "permanent": true
+    },
+    {
+      "source": "/spots/fukuoka-autumn-foliage-lookout",
+      "destination": "/flowers/autumn-leaves",
+      "permanent": true
+    },
+    {
+      "source": "/spots/iwade-autumn-foliage-park",
+      "destination": "/spots/negoro-ji-temple-momijidani",
+      "permanent": true
+    },
+    {
+      "source": "/spots/komoro-autumn-foliage-lookout",
+      "destination": "/spots/komoro-castle-ruins-kaikoen",
+      "permanent": true
+    },
+    {
+      "source": "/spots/matsuyama-camellia-garden",
+      "destination": "/spots/matsuyama-sogo-park-camellia-garden",
+      "permanent": true
+    },
+    {
+      "source": "/spots/miyazaki-camellia-fields",
+      "destination": "/spots/tsubakiyama-forest-park",
+      "permanent": true
+    },
+    {
+      "source": "/spots/hamamatsu-camellia-fields",
+      "destination": "/flowers/camellia",
+      "permanent": true
+    },
+    {
+      "source": "/spots/hinoyama-park",
+      "destination": "/flowers/tulips",
+      "permanent": true
+    },
+    {
+      "source": "/spots/yuushien",
+      "destination": "/spots/yuushien-garden",
+      "permanent": true
+    },
+    {
+      "source": "/spots/nabana-no-sato-march",
+      "destination": "/spots/nabana-no-sato",
+      "permanent": true
+    }
+  ]
+}

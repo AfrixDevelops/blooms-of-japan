@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Blooms of Japan — all four seasons</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Zen+Kaku+Gothic+New:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<style>
+  img{ max-width:100%; }
+  [hidden]{ display:none !important; }
+  .pagehead{ max-width:1180px; margin:0 auto; padding:38px 26px 10px; }
+  .pagehead h1{ font-size:clamp(28px,3.6vw,40px); font-weight:800; }
+  .pagehead p{ margin:12px 0 0; max-width:62ch; color:var(--muted); font-size:15.5px; line-height:1.7; }
+  .pagehead a{ color:var(--coral-deep); }
+  .seasons{ max-width:1180px; margin:0 auto; padding:22px 26px 70px;
+    display:flex; flex-direction:column; gap:26px; }
+  .card-s{ border:1px solid var(--line); border-radius:22px; overflow:hidden;
+    background:var(--card); box-shadow:var(--shadow-sm); }
+  .cap{ display:flex; align-items:center; gap:12px; padding:14px 20px; border-bottom:1px solid var(--line); }
+  .cap i{ width:11px; height:11px; border-radius:50%; flex:none; }
+  .cap h2{ font-size:18px; font-weight:800; }
+  .cap .mo{ font-size:12.5px; color:var(--faint); font-weight:600; }
+  .cap .now{ margin-left:auto; font-size:11px; font-weight:800; letter-spacing:.07em;
+    text-transform:uppercase; padding:5px 11px; border-radius:999px;
+    background:var(--sage-soft); color:var(--sage); }
+  .art{ aspect-ratio:1440/520; }
+  .art svg{ width:100%; height:100%; display:block; }
+  .props{ padding:12px 20px 15px; font-size:12.5px; color:var(--muted); line-height:1.6; }
+  .props b{ color:var(--plum); font-weight:700; }
+</style>
+</head>
+<body>
+
+<header class="bar">
+  <a href="index.html" style="display:flex;align-items:center;gap:9px;text-decoration:none;color:inherit">
+    <svg width="26" height="26" viewBox="0 0 32 32" aria-hidden="true"><g transform="translate(16,16)">
+      <g fill="#F0796B"><ellipse cx="0" cy="-8" rx="5" ry="7.5"/><ellipse cx="0" cy="-8" rx="5" ry="7.5" transform="rotate(72)"/><ellipse cx="0" cy="-8" rx="5" ry="7.5" transform="rotate(144)"/><ellipse cx="0" cy="-8" rx="5" ry="7.5" transform="rotate(216)"/><ellipse cx="0" cy="-8" rx="5" ry="7.5" transform="rotate(288)"/></g>
+      <circle r="3.6" fill="#E9B44C"/></g></svg>
+    <span class="bn">Blooms of Japan</span>
+  </a>
+  <nav><a href="index.html">The year</a></nav>
+</header>
+
+<div class="pagehead">
+  <h1>All four hero scenes</h1>
+  <p>The homepage shows whichever of these matches today's date. Same composition every time — Fuji, the pagoda, the torii, a pine and a stone lantern — with the palette, the trees and the seasonal props swapped. You can also force one on the real page: <a href="index.html?season=spring">?season=spring</a>.</p>
+</div>
+
+<div class="seasons" id="seasons"></div>
+
+<script src="hero.js"></script>
+<script>
+  const MONTHS = { spring:'March – May', summer:'June – August', autumn:'September – November', winter:'December – February' };
+  const PROPS = {
+    spring: 'Blossom canopies, a light dusting on Fuji, petals drifting.',
+    summer: 'Deep green trees, <b>koinobori</b> carp streamers, Fuji nearly bare, pollen in the air.',
+    autumn: 'Rust canopies, <b>susuki</b> pampas grass, dry golden hills, falling leaves.',
+    winter: 'Bare branches still holding blossom, <b>snow on the pagoda roofs and torii</b>, deep snow cap, falling snow.',
+  };
+  const m = new Date().getMonth() + 1;
+  const current = (m >= 3 && m <= 5) ? 'spring' : (m >= 6 && m <= 8) ? 'summer'
+                : (m >= 9 && m <= 11) ? 'autumn' : 'winter';
+
+  document.getElementById('seasons').innerHTML =
+    ['spring','summer','autumn','winter'].map(k => {
+      const a = HeroArt.ART[k];
+      return `<section class="card-s">
+        <div class="cap">
+          <i style="background:${a.dot}"></i>
+          <h2>${a.label.replace(' in Japan','')}</h2>
+          <span class="mo">${MONTHS[k]}</span>
+          ${k === current ? '<span class="now">Showing today</span>' : ''}
+        </div>
+        <div class="art">${HeroArt.build(k)}</div>
+        <p class="props">${PROPS[k]}</p>
+      </section>`;
+    }).join('');
+</script>
+</body>
+</html>

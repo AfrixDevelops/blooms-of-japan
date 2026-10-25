@@ -1,0 +1,665 @@
+:root{
+    /* washi, sumi-navy and gold leaf */
+    --washi:#F6F0E3; --washi-2:#EFE6D3; --paper:#FBF7EE;
+    --navy:#1E2A47; --navy-2:#3A4766; --gold:#B08A4F; --gold-2:#CDAE74;
+    --gold-line:rgba(176,138,79,.38); --gold-soft:rgba(176,138,79,.14);
+    --acc:#A8442A;
+    /* older names the views still use */
+    --cream:var(--washi); --cream-2:var(--washi-2); --card:var(--paper);
+    --line:var(--gold-line); --line-2:rgba(176,138,79,.6);
+    --plum:var(--navy); --muted:#5E6170; --faint:#958C7E;
+    --coral:#B4506A; --coral-deep:#9A3F57;
+    --serif:"Cormorant Garamond","Shippori Mincho",Georgia,serif;
+    --jp:"Shippori Mincho","Hiragino Mincho ProN",serif;
+    --shadow-sm:0 6px 18px -12px rgba(60,45,25,.35); --shadow:0 22px 46px -26px rgba(60,45,25,.45);
+    color-scheme: light;
+  }
+  *{ box-sizing:border-box; }
+  /* A column at least as tall as the window, so a short page (contact, about) still puts the footer at
+     the bottom of the screen instead of leaving a band of washi below it. The visible view does the
+     stretching; the footer keeps its own 70px margin. */
+  body{ margin:0; color:var(--navy); background-color:var(--washi);
+    background-image:url(art/washi.svg); background-size:480px 480px;
+    font-family:"Zen Kaku Gothic New","Hiragino Sans",sans-serif; -webkit-font-smoothing:antialiased;
+    display:flex; flex-direction:column; min-height:100vh; }
+  #view-home:not([hidden]), #view-spot:not([hidden]), #view-seasons:not([hidden]){ flex:1 0 auto; }
+  h1,h2,h3,h4,.hero-title{ font-family:var(--serif); font-weight:600; margin:0; text-wrap:balance; }
+  button{ font-family:inherit; cursor:pointer; }
+  a{ color:inherit; }
+  :focus-visible{ outline:1.5px solid var(--gold); outline-offset:3px; }
+
+  /* kanji in a thin gold square, as on the botanical prints */
+  .kbox{ display:inline-flex; align-items:center; justify-content:center; flex:none;
+    font-family:var(--jp); font-weight:500; color:var(--navy); line-height:1;
+    border:1px solid var(--gold); padding:9px 7px; writing-mode:vertical-rl; letter-spacing:.12em;
+    box-shadow:inset 0 0 0 3px var(--washi), inset 0 0 0 4px var(--gold-line); background:var(--washi); }
+  .eyebrow{ display:flex; align-items:center; gap:12px; font-family:var(--serif); font-weight:600;
+    font-size:13px; letter-spacing:.32em; text-transform:uppercase; color:var(--gold); }
+  .eyebrow::after{ content:""; flex:0 1 64px; height:1px; background:var(--gold-line); }
+  .eyebrow .jpk{ font-family:var(--jp); letter-spacing:.2em; text-transform:none; }
+
+  /* ---------- top bar ---------- */
+  .bar{ position:sticky; top:0; z-index:20; display:flex; align-items:center; gap:12px;
+    padding:12px 28px; background:rgba(246,240,227,.86); backdrop-filter:blur(10px);
+    border-bottom:1px solid var(--gold-line); }
+  /* the mark and wordmark are one link back to the homepage */
+  /* the padding/-margin pair widens the tap target to ~45px without making the sticky bar taller */
+  .bar .brand{ display:flex; align-items:center; gap:12px; color:inherit; text-decoration:none;
+    padding:8px 0; margin:-8px 0; }
+  .bar .brand:hover .bn{ color:var(--gold); }
+  .bar .bn{ font-family:var(--serif); font-size:24px; font-weight:600; letter-spacing:.02em; transition:color .18s; }
+  .bar .bk{ font-family:var(--jp); font-size:12px; color:var(--gold); letter-spacing:.2em; margin-left:2px; }
+  .bar nav{ display:flex; gap:22px; margin-left:auto; font-family:var(--serif); font-size:15px; font-weight:600;
+    letter-spacing:.06em; color:var(--navy-2); }
+  .bar nav a{ text-decoration:none; }
+  .bar nav a:hover{ color:var(--gold); }
+
+  /* ---------- seasonal hero ---------- */
+  .hero{ position:relative; overflow:hidden; display:flex; align-items:center; justify-content:center;
+    min-height:max(640px, calc(100vh - 54px)); }
+  .heroart{ position:absolute; inset:0; }
+  .bscene{ position:absolute; inset:0; }
+  .bloom{ position:absolute; will-change:transform; }
+  .bloom.l{ left:-8vw; top:-7%; width:min(56vw, 900px); }
+  .bloom.r{ right:-8vw; bottom:-12%; width:min(50vw, 820px); }
+  .bloom img{ display:block; width:100%; height:auto; user-select:none;
+    animation:unfurl 2.2s cubic-bezier(.2,.75,.2,1) both; }
+  .bloom.r img{ animation-delay:.35s; }
+  .flip{ transform-origin:center; }
+  .bloom.r .flip{ transform:scaleX(-1); }
+  .sway{ transform-origin:0 55%; animation:sway 10s ease-in-out infinite; }
+  .bloom.r .sway{ transform-origin:100% 60%; animation-duration:12s; animation-delay:-4s; }
+  @keyframes sway{ 0%,100%{ transform:rotate(0) } 50%{ transform:rotate(1.8deg) } }
+  @keyframes unfurl{ from{ clip-path:inset(0 100% 0 0); opacity:.2; transform:scale(.95) }
+                     to{ clip-path:inset(0 0 0 0); opacity:1; transform:none } }
+  .ring{ position:absolute; width:58%; aspect-ratio:1; left:20%; top:10%; overflow:visible; }
+  .bloom.r .ring{ left:auto; right:22%; top:16%; width:54%; }
+  .ring circle{ fill:none; stroke:var(--gold); stroke-width:1.1; vector-effect:non-scaling-stroke;
+    stroke-dasharray:1; stroke-dashoffset:1; animation:draw 2.8s .25s cubic-bezier(.5,0,.2,1) forwards; }
+  .ring circle.in{ stroke:var(--gold-line); animation-delay:.6s; }
+  @keyframes draw{ to{ stroke-dashoffset:0 } }
+
+  .tagk{ position:absolute; z-index:2; display:flex; align-items:center; gap:14px;
+    animation:rise 1.2s 1.3s cubic-bezier(.2,.8,.2,1) both; }
+  .tagk.l{ left:clamp(20px,5vw,90px); bottom:11%; }
+  .tagk.r{ right:clamp(20px,5vw,90px); top:14%; flex-direction:row-reverse; text-align:right; }
+  .tagk .kbox{ font-size:27px; padding:11px 8px; }
+  .tagk b{ display:block; font-family:var(--serif); font-weight:600; font-size:13px; letter-spacing:.34em;
+    text-transform:uppercase; color:var(--gold); }
+  .tagk i{ display:block; font-family:var(--serif); font-size:21px; color:var(--navy); margin:2px 0 4px; }
+  .tagk .jl{ display:block; font-family:var(--jp); font-size:11.5px; letter-spacing:.14em; color:var(--navy-2); }
+  @keyframes rise{ from{ opacity:0; transform:translateY(16px) } to{ opacity:1; transform:none } }
+
+  .petals{ position:absolute; inset:0; pointer-events:none; overflow:hidden; z-index:1; }
+  .pt{ position:absolute; top:-40px; left:var(--x); width:var(--s);
+    animation:fall var(--d) linear var(--dl) infinite; will-change:transform; }
+  .pt svg{ display:block; width:100%; height:auto; animation:flutter calc(var(--d) / 4) ease-in-out infinite alternate; }
+  @keyframes fall{ 0%{ transform:translate3d(0,0,0) rotate(0); opacity:0 }
+                   8%{ opacity:.95 } 92%{ opacity:.9 }
+                   100%{ transform:translate3d(var(--dx),110vh,0) rotate(var(--r)); opacity:0 } }
+  /* nothing to animate once the hero is off-screen */
+  .hero.off .petals{ display:none; }
+  .hero.off .sway, .hero.off .ring circle{ animation-play-state:paused; }
+  @keyframes flutter{ from{ transform:rotate3d(1,.4,0,0deg) } to{ transform:rotate3d(1,.4,0,72deg) } }
+
+  .heroin{ position:relative; z-index:3; max-width:740px; padding:80px 24px 64px; text-align:center; will-change:transform,opacity; }
+  .heroin::before{ content:""; position:absolute; inset:-4% -16%; z-index:-1;
+    background:radial-gradient(closest-side, rgba(246,240,227,.94), rgba(246,240,227,.78) 58%, rgba(246,240,227,0)); }
+  /* a darker gold than --gold: at 13.5px with this much letter-spacing the lighter one falls below the
+     4.5:1 contrast minimum against the washi, and the hero art behind it makes that worse */
+  .seasontag{ display:inline-flex; align-items:center; gap:12px; font-family:var(--serif); font-weight:600;
+    font-size:13.5px; letter-spacing:.3em; text-transform:uppercase; color:#8A6639; margin-bottom:22px;
+    animation:rise 1s .2s both; }
+  .seasontag i{ width:6px; height:6px; transform:rotate(45deg); background:var(--gold); }
+  .heroin h1, .heroin .hero-title{ font-size:clamp(46px,6.6vw,96px); line-height:.98; letter-spacing:-.012em; color:var(--navy);
+    animation:rise 1.2s .35s cubic-bezier(.2,.8,.2,1) both; }
+  .heroin h1 em, .heroin .hero-title em{ display:block; font-style:italic; font-weight:500; color:var(--acc); margin-top:.06em; }
+  .orn{ display:flex; justify-content:center; margin:24px auto 18px; color:var(--gold); animation:rise 1s .7s both; }
+  .orn svg{ width:min(320px,70vw); height:auto; overflow:visible; }
+  .heroin p{ margin:0 auto; max-width:44ch; font-family:var(--serif); font-size:21px; font-weight:500;
+    line-height:1.5; color:var(--navy-2); animation:rise 1s .85s both; }
+  .seasonpick{ display:flex; justify-content:center; gap:16px; margin-top:30px; animation:rise 1s 1s both; }
+  .seasonpick a{ display:flex; flex-direction:column; align-items:center; gap:6px; text-decoration:none; }
+  .seasonpick .kbox{ writing-mode:horizontal-tb; width:36px; height:36px; padding:0; font-size:17px;
+    transition:background .3s ease, color .3s ease; }
+  .seasonpick small{ font-family:var(--serif); font-weight:600; font-size:11px; letter-spacing:.24em;
+    text-transform:uppercase; color:var(--faint); }
+  .seasonpick a:hover .kbox{ background:var(--paper); }
+  .seasonpick a.on .kbox{ background:var(--navy); color:var(--washi); border-color:var(--navy);
+    box-shadow:inset 0 0 0 3px var(--navy), inset 0 0 0 4px rgba(246,240,227,.4); }
+  .seasonpick a.on small{ color:var(--navy); }
+  .scrollhint{ background:none; border:0; padding:0 0 0 .34em; cursor:pointer; margin:30px auto 0; width:fit-content; text-align:center; font-family:var(--serif); font-size:12px; letter-spacing:.34em; text-transform:uppercase;
+    color:var(--gold); font-weight:600; display:flex; flex-direction:column; align-items:center; gap:10px; }
+  .scrollhint::after{ content:""; width:1px; height:42px; background:linear-gradient(var(--gold), transparent);
+    transform-origin:top; animation:drop 2.2s ease-in-out infinite; }
+  @keyframes drop{ 0%{ transform:scaleY(0); opacity:1 } 70%{ transform:scaleY(1); opacity:1 } 100%{ transform:scaleY(1); opacity:0 } }
+
+  /* seigaiha wave band between sections */
+  .wave{ height:34px; color:var(--gold); opacity:.55; }
+  .wave svg{ width:100%; height:100%; display:block; }
+
+  /* ---------- the scrollytelling year ---------- */
+  .track{ position:relative; overflow-x:clip; }
+  .stage{ position:sticky; top:54px; height:calc(100vh - 54px); min-height:600px;
+    display:grid; grid-template-columns:minmax(0,1fr) minmax(0,1.15fr) minmax(0,.72fr);
+    gap:clamp(24px,3.4vw,56px); align-items:center;
+    max-width:1680px; margin:0 auto; padding:10px clamp(24px,4vw,56px) 72px; }
+  .stage > :not(.stageart){ position:relative; z-index:1; }
+
+  /* big season flowers behind the year; the active season fades in */
+  .stageart{ position:absolute; inset:0; pointer-events:none; z-index:0; }
+  .sa{ position:absolute; inset:0; opacity:0; transform:scale(.94) rotate(-2deg);
+    transition:opacity 1.1s ease, transform 1.6s cubic-bezier(.2,.8,.2,1); will-change:opacity,transform; }
+  .sa.on{ opacity:.7; transform:none; }
+  .sa .a, .sa .b{ position:absolute; }
+  .sa .a{ left:-12%; bottom:-16%; width:min(48vw,800px); }
+  .sa .b{ right:-3%; top:-8%; width:min(30vw,500px); }
+  .sa .mv{ transform:translate3d(0, calc(var(--w,0) * 14px), 0) rotate(calc(var(--w,0) * 1.6deg));
+    transform-origin:0 60%; transition:transform .25s linear; will-change:transform; }
+  .sa .b .mv{ transform-origin:50% 40%; transform:translate3d(0, calc(var(--w,0) * -10px), 0) rotate(calc(var(--w,0) * -1.4deg)) scaleX(-1); }
+  .sa img{ display:block; width:100%; height:auto; }
+
+  .mapcol{ position:relative; }
+  .mapcol svg{ width:100%; height:auto; max-height:76vh; display:block;
+    filter:drop-shadow(0 18px 30px rgba(70,52,28,.12)); }
+  .land{ fill:var(--paper); stroke:#D2BC8E; stroke-width:.7; stroke-linejoin:round; }
+  .halo{ fill:none; stroke:var(--washi); stroke-width:3.4; stroke-linejoin:round; opacity:.9; }
+  .pin{ transition:r .5s ease, opacity .5s ease, fill .5s ease; }
+
+  .mhead{ display:flex; align-items:flex-start; gap:18px; }
+  .mhead .kbox{ font-size:22px; padding:12px 8px; margin-top:8px; }
+  .msub{ font-family:var(--serif); font-weight:600; font-size:13px; letter-spacing:.3em; text-transform:uppercase;
+    color:var(--acc); transition:color .6s ease; }
+  .msub .jpk{ font-family:var(--jp); letter-spacing:.1em; }
+  .readcol h2{ font-size:clamp(54px,7.4vw,108px); line-height:.9; letter-spacing:-.015em; margin-top:4px; }
+  .readcol .cnt{ font-family:var(--serif); font-style:italic; font-size:19px; color:var(--navy-2); margin:10px 0 20px; }
+
+  .feats{ display:flex; flex-direction:column; gap:10px; }
+  .feat{ display:flex; gap:16px; align-items:center; background:rgba(251,247,238,.92); border:1px solid var(--gold-line);
+    border-radius:4px; padding:11px; box-shadow:var(--shadow-sm);
+    transition:opacity .35s ease, transform .35s ease, border-color .25s ease; }
+  .feat:hover{ border-color:var(--gold); }
+
+  /* ---------- third column ---------- */
+  .aside{ display:flex; flex-direction:column; gap:18px; }
+  .panel{ background:rgba(251,247,238,.84); backdrop-filter:blur(3px); border:1px solid var(--gold-line);
+    padding:16px 18px 18px; position:relative; }
+  .panel::before{ content:""; position:absolute; inset:4px; border:1px solid var(--gold-soft); pointer-events:none; }
+  .panel h5{ font-family:var(--serif); font-size:13px; letter-spacing:.28em; text-transform:uppercase;
+    color:var(--gold); font-weight:600; margin:0 0 14px; display:flex; align-items:center; gap:10px; }
+  .panel h5::before{ content:""; width:5px; height:5px; background:var(--gold); transform:rotate(45deg); flex:none; }
+  .regions{ display:flex; flex-direction:column; gap:9px; }
+  .reg{ display:grid; grid-template-columns:1fr auto; gap:7px; align-items:center; font-size:12.5px; }
+  .reg .rn{ color:var(--navy-2); font-weight:500; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+  .reg .rv{ font-family:var(--serif); font-weight:600; font-size:15px; color:var(--navy); font-variant-numeric:tabular-nums; }
+  .regbar{ grid-column:1 / -1; height:3px; background:var(--gold-soft); overflow:hidden; }
+  /* scaleX rather than width: composited, so changing month doesn't trigger layout */
+  .regbar i{ display:block; height:100%; width:100%;
+    transform-origin:left center; transition:transform .6s cubic-bezier(.3,.8,.3,1); }
+
+  .flowers{ display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:8px; }
+  .fl{ display:flex; align-items:center; gap:8px; background:var(--paper); border:1px solid var(--gold-soft);
+    padding:7px 8px; min-width:0; animation:pop .4s cubic-bezier(.2,.8,.3,1) backwards; }
+  @keyframes pop{ from{ opacity:0; transform:translateY(6px) } to{ opacity:1; transform:none } }
+  .fl svg{ flex:none; }
+  .fl .ft{ min-width:0; }
+  .fl .fn{ font-size:12px; font-weight:500; line-height:1.22; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+  .fl .fc{ font-family:var(--serif); font-style:italic; font-size:13px; color:var(--faint); }
+  .flnote{ font-size:11.5px; color:var(--faint); line-height:1.55; margin:11px 0 0; }
+  .feat img{ width:112px; height:84px; object-fit:cover; border-radius:2px; flex:none; display:block; }
+  .feat h4{ font-size:21px; line-height:1.12; }
+  .feat .jp{ font-family:var(--jp); font-size:12px; color:var(--faint); margin-top:3px; letter-spacing:.04em; }
+  .feat .pk{ font-size:12.5px; color:var(--navy-2); margin-top:7px; display:flex; align-items:center; gap:6px; }
+  .feat .pk svg{ color:var(--gold); }
+  .feat .go{ margin-left:auto; color:var(--gold); flex:none; transition:transform .25s ease; }
+  .feat:hover .go{ transform:translateX(3px); }
+
+  /* ---------- month scrubber ---------- */
+  .scrub{ opacity:0; pointer-events:none; transition:opacity .45s ease, transform .55s cubic-bezier(.2,.8,.2,1);
+    position:fixed; left:50%; transform:translate(-50%,24px); bottom:20px; z-index:25;
+    display:flex; align-items:center; gap:4px; background:rgba(251,247,238,.97); backdrop-filter:blur(12px);
+    border:1px solid var(--gold); border-radius:999px; padding:5px;
+    box-shadow:0 0 0 3px rgba(246,240,227,.9), 0 0 0 4px var(--gold-line), 0 18px 36px -16px rgba(40,30,20,.5); }
+  .scrub.show{ opacity:1; pointer-events:auto; transform:translate(-50%,0); }
+  .scrub .months{ display:flex; gap:2px; }
+  .scrub .months button{ border:0; background:transparent; border-radius:999px; padding:7px 12px;
+    font-family:var(--serif); font-size:15px; font-weight:600; color:var(--navy-2); letter-spacing:.05em;
+    cursor:pointer; transition:background .35s ease, color .35s ease, transform .2s ease; }
+  .scrub .months button.on{ color:#fff; }
+  .scrub .months button:hover:not(.on){ color:var(--navy); background:var(--gold-soft); }
+  .scrub .nav{ flex:none; width:34px; height:34px; border-radius:50%; border:1px solid var(--gold-line);
+    background:var(--washi); color:var(--navy); display:flex; align-items:center; justify-content:center;
+    cursor:pointer; transition:background .25s ease, border-color .25s ease; }
+  .scrub .nav:hover{ background:var(--navy); color:var(--washi); border-color:var(--navy); }
+  /* the first time it appears, the current month nudges once so the eye finds it */
+  .scrub.hello .months button.on{ animation:nudge 1.1s .35s cubic-bezier(.3,.7,.3,1) 2; }
+  @keyframes nudge{ 0%,100%{ transform:none; box-shadow:0 0 0 0 rgba(176,138,79,0) } 45%{ transform:scale(1.1); box-shadow:0 0 0 7px rgba(176,138,79,.22) } }
+
+  /* ---------- after the year: the tool ---------- */
+  .tool{ position:relative; overflow:clip; padding:70px 28px 80px; }
+  .sidebloom{ position:absolute; right:-9vw; top:-30px; width:min(40vw,640px); pointer-events:none; z-index:0; }
+  .sidebloom img{ display:block; width:100%; height:auto; transform:scaleX(-1); }
+  .toolin{ position:relative; z-index:1; max-width:1140px; margin:0 auto; }
+  .toolin h3{ font-size:clamp(38px,4.6vw,58px); line-height:1; margin-top:12px; }
+  .toolin > p{ color:var(--navy-2); font-family:var(--serif); font-size:20px; line-height:1.5; margin:14px 0 26px; max-width:48ch; }
+  .search{ display:flex; align-items:center; gap:10px; background:var(--paper); border:1px solid var(--gold-line);
+    padding:0 8px 0 16px; max-width:520px; color:var(--faint); font-size:14.5px; margin-bottom:30px;
+    position:sticky; top:66px; z-index:6; transition:border-color .25s ease, box-shadow .25s ease; }
+  .search:focus-within{ border-color:var(--gold); box-shadow:0 0 0 3px var(--gold-soft), var(--shadow-sm); }
+  .search svg{ color:var(--gold); flex:none; }
+  .search input{ flex:1; min-width:0; border:0; outline:0; background:transparent; padding:14px 0;
+    font:inherit; font-size:15px; color:var(--navy); -webkit-appearance:none; appearance:none; }
+  .search input::placeholder{ color:var(--faint); }
+  .search input::-webkit-search-cancel-button{ display:none; }
+  .search kbd{ flex:none; font-family:inherit; font-size:11.5px; color:var(--faint); border:1px solid var(--gold-line);
+    border-radius:4px; padding:1px 7px; margin-right:6px; }
+  .search:focus-within kbd{ display:none; }
+  .search button{ flex:none; border:0; background:none; color:var(--navy-2); width:34px; height:34px; border-radius:50%;
+    display:flex; align-items:center; justify-content:center; cursor:pointer; }
+  .search button:hover{ background:var(--gold-soft); color:var(--navy); }
+  .search button[hidden]{ display:none; }
+  .gridhead .qsug{ display:flex; flex-wrap:wrap; gap:6px; margin-top:10px; }
+  .gridhead .qsug button{ font-family:inherit; font-size:13px; font-weight:500; padding:5px 12px; border:1px solid var(--gold-line);
+    border-radius:999px; background:var(--paper); color:var(--navy-2); }
+  .gridhead .qsug button:hover{ border-color:var(--gold); color:var(--navy); }
+  .gridhead .qnote{ flex-basis:100%; margin:0; font-size:13px; color:var(--navy-2); }
+  .gridhead .qnone{ flex-basis:100%; }
+  .grid{ display:grid; grid-template-columns:repeat(auto-fill,minmax(230px,1fr)); gap:18px; }
+  .card{ background:var(--paper); border:1px solid var(--gold-line); border-radius:4px; overflow:hidden;
+    box-shadow:var(--shadow-sm); transition:transform .3s cubic-bezier(.2,.8,.2,1), box-shadow .3s ease, border-color .3s ease; }
+  .card:hover{ transform:translateY(-4px); box-shadow:var(--shadow); border-color:var(--gold); }
+  .card img{ width:100%; aspect-ratio:3/2; object-fit:cover; display:block; transition:transform .8s cubic-bezier(.2,.8,.2,1); }
+  .card:hover img{ transform:scale(1.04); }
+  .card .cb{ padding:13px 15px 15px; position:relative; background:var(--paper); }
+  .card h4{ font-size:20px; line-height:1.15; }
+  .card .mt{ display:flex; justify-content:space-between; align-items:center; margin-top:8px;
+    font-size:12px; color:var(--navy-2); }
+  .card .mt span:last-child{ font-family:var(--serif); font-weight:600; letter-spacing:.2em; text-transform:uppercase; color:var(--gold); font-size:11.5px; }
+
+  /* ---------- prose: the standalone pages (privacy, terms, about, contact) ---------- */
+  /* same outer container as .pagehead so the body lines up under the heading, with the reading
+     measure held to ~720px by capping the children rather than the wrapper */
+  .prose{ max-width:1180px; margin:0 auto; padding:4px 28px 90px; color:var(--navy); }
+  .prose > *{ max-width:720px; }
+  .prose h3{ font-family:var(--serif); font-size:25px; font-weight:600; color:var(--navy);
+    margin:38px 0 10px; padding-top:18px; border-top:1px solid var(--gold-line); }
+  .prose h3:first-child{ margin-top:14px; }
+  .prose p{ margin:0 0 15px; font-size:16.5px; line-height:1.8; }
+  .prose ul{ margin:0 0 15px; padding-left:20px; }
+  .prose li{ font-size:16.5px; line-height:1.8; margin-bottom:9px; }
+  .prose strong{ font-weight:600; }
+  .prose a{ color:var(--acc); text-underline-offset:3px; }
+  .prose a:hover{ color:var(--gold); }
+  @media (max-width:880px){ .prose{ padding:4px 16px 70px; } .prose h3{ font-size:22px; } }
+
+  /* ---------- analytics consent banner ---------- */
+  /* while the banner is up it owns the bottom of the screen; the back-to-top button waits its turn */
+  .consent:not([hidden]) ~ .totop{ display:none; }
+  /* a full-width strip along the bottom rather than a panel floating over the page: the same words
+     cover a fraction of the height, and on a phone it sits where a browser toolbar would */
+  .consent{ position:fixed; left:0; right:0; bottom:0; z-index:40;
+    background:var(--navy); color:#E6DFD0; border-top:1px solid rgba(205,174,116,.38);
+    box-shadow:0 -4px 24px rgba(30,42,71,.22); }
+  .consentin{ max-width:1180px; margin:0 auto; padding:14px 28px;
+    display:flex; flex-direction:column; gap:12px; }
+  .consent p{ margin:0; font-size:13.5px; line-height:1.65; }
+  .consent b{ color:#F6F0E3; font-weight:600; }
+  .consent a{ color:var(--gold-2); text-underline-offset:3px; }
+  .consentbtns{ display:flex; gap:10px; }
+  /* both choices the same size and weight: making refusal harder than acceptance is itself a breach */
+  .consentbtns button{ flex:1; padding:11px 16px; font-family:var(--serif); font-size:15px; font-weight:600;
+    letter-spacing:.03em; border:1px solid var(--gold-2); background:transparent; color:#F6F0E3;
+    transition:background .18s, color .18s; }
+  .consentbtns button:hover{ background:var(--gold-2); color:var(--navy); }
+  #consent-yes{ background:var(--gold); border-color:var(--gold); color:var(--navy); }
+  #consent-yes:hover{ background:var(--gold-2); border-color:var(--gold-2); }
+  .flinks button{ background:none; border:0; padding:0; font:inherit; color:inherit;
+    text-decoration:underline; text-underline-offset:2px; cursor:pointer; }
+  .flinks button:hover{ color:var(--gold-2); }
+  @media (min-width:620px){ .consentin{ flex-direction:row; align-items:center; gap:26px; padding:12px 28px; }
+    .consent p{ flex:1; } .consentbtns{ flex:none; } .consentbtns button{ flex:none; min-width:116px; padding:10px 16px; } }
+  /* On a phone the full wording ran to five lines and took about a quarter of the screen, so the detail
+     is dropped for a one-line version and the privacy link carries the rest. */
+  .cshort{ display:none; }
+  @media (max-width:619px){
+    .cfull{ display:none; }
+    .cshort{ display:inline; }
+    .consentin{ padding:11px 16px; gap:9px; }
+    .consent p{ font-size:12.5px; line-height:1.5; }
+    .consentbtns button{ padding:9px 14px; font-size:14px; }
+  }
+
+  /* ---------- back to top: fixed, fades in once you are a screen down ---------- */
+  .totop{ position:fixed; right:22px; bottom:22px; z-index:30; width:46px; height:46px; border-radius:50%;
+    display:grid; place-items:center; cursor:pointer; color:var(--navy);
+    background:var(--paper); border:1px solid var(--gold-line); box-shadow:0 2px 14px rgba(30,42,71,.16);
+    opacity:0; visibility:hidden; transform:translateY(10px);
+    transition:opacity .25s, transform .25s, visibility .25s, background .18s, color .18s, border-color .18s; }
+  .totop.on{ opacity:1; visibility:visible; transform:none; }
+  .totop:hover{ background:var(--navy); color:#F6F0E3; border-color:var(--navy); }
+  .totop:focus-visible{ outline:2px solid var(--gold); outline-offset:3px; }
+  @media (max-width:560px){ .totop{ right:16px; bottom:16px; width:42px; height:42px; } }
+  /* Narrow phones: at the full size the wordmark wraps onto two lines beside the Menu button and the
+     whole bar grows to match, so step it down rather than let it break. */
+  @media (max-width:400px){
+    .bar .bn{ font-size:20px; white-space:nowrap; }
+    .bar .brand{ gap:9px; }
+    .bar .bk{ letter-spacing:.14em; }
+    /* A smaller thumbnail and tighter gaps buy back most of the width the peak line needs; letting it
+       wrap covers the rest. On the narrowest phones a date like "Mid September - Late October" still
+       does not fit on one line, and a second line is better than losing the end of it to an ellipsis. */
+    .feat{ gap:12px; }
+    .feat img{ width:70px; height:56px; }
+    /* the wrap itself has to come after the ellipsis rule further down the file — see below */
+  }
+  @media (prefers-reduced-motion: reduce){ .totop{ transition:opacity .25s, visibility .25s; transform:none; } }
+
+  /* ---------- footer: on every page, below all three views ---------- */
+  .foot{ margin-top:70px; background:var(--navy); color:#E6DFD0; }
+  .footin{ max-width:1140px; margin:0 auto; padding:58px 28px 40px;
+    display:grid; grid-template-columns:minmax(280px,1.15fr) 2fr; gap:46px; }
+  .fbrand .fmark{ display:flex; align-items:center; gap:11px; color:var(--gold-2); }
+  .fbrand .fmark b{ display:block; font-family:var(--serif); font-size:23px; font-weight:600;
+    letter-spacing:.01em; color:#F6F0E3; }
+  .fbrand .fmark i{ font-family:var(--jp); font-style:normal; font-size:12px; letter-spacing:.24em; color:var(--gold-2); }
+  .ftag{ margin:14px 0 0; font-family:var(--serif); font-style:italic; font-size:17px;
+    line-height:1.6; color:#CFC6B4; max-width:30ch; }
+
+  .fsocial{ display:flex; gap:14px; margin-top:20px; }
+  .fsocial a{ display:inline-flex; align-items:center; gap:9px; padding:8px 14px 8px 11px;
+    border:1px solid rgba(205,174,116,.32); color:#E6DFD0; text-decoration:none;
+    font-size:13.5px; letter-spacing:.02em; transition:color .18s, border-color .18s, background .18s; }
+  .fsocial a:hover{ color:var(--navy); background:var(--gold-2); border-color:var(--gold-2); }
+
+  .fmail{ margin-top:26px; max-width:380px; }
+  .fmail label{ display:block; font-family:var(--serif); font-size:12px; font-weight:600;
+    letter-spacing:.22em; text-transform:uppercase; color:var(--gold-2); margin-bottom:10px; }
+  .fmail .frow{ display:flex; gap:8px; }
+  .fmail input{ flex:1; min-width:0; border:1px solid rgba(205,174,116,.45); background:rgba(246,240,227,.06);
+    color:#F6F0E3; padding:11px 13px; font-family:inherit; font-size:13.5px; }
+  .fmail input::placeholder{ color:rgba(230,223,208,.45); }
+  .fmail input:focus{ outline:none; border-color:var(--gold-2); background:rgba(246,240,227,.1); }
+  .fmail button{ flex:none; border:0; padding:11px 18px; background:var(--gold); color:var(--navy);
+    font-family:var(--serif); font-weight:600; font-size:14.5px; letter-spacing:.04em; cursor:pointer; transition:background .2s; }
+  .fmail button:hover{ background:var(--gold-2); }
+  .fnote{ margin:9px 0 0; font-size:11.5px; line-height:1.6; color:rgba(230,223,208,.6); }
+  .fnote.on{ color:var(--gold-2); }
+
+  .fcols{ display:grid; grid-template-columns:repeat(3,1fr); gap:30px; }
+  .fcol h4{ font-family:var(--serif); font-size:12px; font-weight:600; letter-spacing:.24em;
+    text-transform:uppercase; color:var(--gold-2); margin-bottom:15px;
+    padding-bottom:11px; border-bottom:1px solid rgba(205,174,116,.26); }
+  .fcol a{ display:flex; justify-content:space-between; gap:10px; align-items:baseline;
+    padding:6px 0; font-size:14px; color:#E6DFD0; text-decoration:none; transition:color .18s; }
+  .fcol a:hover{ color:var(--gold-2); }
+  .fcol a span{ font-family:var(--jp); font-size:11.5px; color:rgba(205,174,116,.7); font-variant-numeric:tabular-nums; }
+
+  .footbar{ border-top:1px solid rgba(205,174,116,.2); }
+  .footbar{ max-width:1140px; margin:0 auto; padding:18px 28px 34px;
+    display:flex; flex-wrap:wrap; gap:6px 26px; font-size:11.5px; color:rgba(230,223,208,.55); }
+  .footbar p{ margin:0; }
+  .footbar a{ color:inherit; }
+  .footbar a:hover{ color:var(--gold-2); }
+  @media (max-width:880px){
+    /* 16px is the side gutter everywhere else on mobile; the footer has to use it too */
+    .footin{ grid-template-columns:1fr; gap:36px; padding:44px 16px 30px; }
+    .fcols{ grid-template-columns:repeat(2,1fr); gap:26px 20px; }
+    /* the credits wrap to full width here, so leave room for the back-to-top button to sit clear of them */
+    .footbar{ padding:16px 16px 76px; }
+  }
+  @media (max-width:420px){ .fcols{ grid-template-columns:1fr; } }
+
+  /* reveal on scroll — only switched on when the observer exists */
+  .rv-on .rv{ opacity:0; transform:translateY(30px); filter:blur(3px);
+    transition:opacity .9s ease, transform 1s cubic-bezier(.2,.8,.2,1), filter .9s ease; transition-delay:var(--rd,0s); }
+  .rv-on .rv.in{ opacity:1; transform:none; filter:none; }
+
+  /* ---------- spot detail ---------- */
+  .detail{ position:static; }
+  .dwrap{ max-width:1180px; margin:0 auto; padding:26px 28px 70px;
+    display:grid; grid-template-columns:minmax(0,1.6fr) minmax(0,.85fr); gap:40px; align-items:start; }
+  .dmain h1, .dmain h2{ font-size:clamp(38px,4.6vw,62px); line-height:1.02; }
+  .dsub{ font-family:var(--jp); color:var(--navy-2); font-size:14px; margin-top:8px; letter-spacing:.06em; }
+  .dhero{ overflow:hidden; margin:24px 0 14px; aspect-ratio:16/9; box-shadow:var(--shadow);
+    outline:1px solid var(--gold-line); outline-offset:6px; }
+  .dhero img{ width:100%; height:100%; object-fit:cover; display:block; animation:kenburns 14s ease-out both; }
+  @keyframes kenburns{ from{ transform:scale(1.08) } to{ transform:scale(1) } }
+  .dthumbs{ display:grid; grid-template-columns:repeat(3,1fr); gap:10px; }
+  .dthumbs img{ width:100%; aspect-ratio:4/3; object-fit:cover; display:block; border:1px solid var(--gold-line); }
+  .dcred{ margin:10px 0 0; font-size:11.5px; letter-spacing:.06em; color:var(--faint); }
+  .dblock{ margin-top:34px; }
+  .dblock h3{ font-size:28px; margin-bottom:10px; display:flex; align-items:center; gap:14px; }
+  .dblock h3::after{ content:""; flex:1; height:1px; background:var(--gold-line); }
+  .dblock p{ margin:0; color:var(--navy-2); font-size:15.5px; line-height:1.85; }
+  .dfacts{ background:var(--paper); border:1px solid var(--gold-line); padding:4px 20px; margin-top:14px; }
+  .dfact{ padding:14px 0; }
+  .dfact + .dfact{ border-top:1px solid var(--gold-soft); }
+  .dfact .k{ font-family:var(--serif); font-size:12px; letter-spacing:.26em; text-transform:uppercase; color:var(--gold); font-weight:600; }
+  .dfact .v{ font-size:15px; font-weight:500; margin-top:3px; }
+  .dside{ position:sticky; top:78px; display:flex; flex-direction:column; gap:14px; }
+  .dbox{ background:var(--paper); border:1px solid var(--gold-line); padding:20px; position:relative; }
+  .dbox::before{ content:""; position:absolute; inset:4px; border:1px solid var(--gold-soft); pointer-events:none; }
+  .dbox h4{ font-family:var(--serif); font-size:13px; letter-spacing:.26em; text-transform:uppercase; color:var(--gold); }
+  .dbox .pk{ font-family:var(--serif); font-size:30px; font-weight:600; margin:8px 0 4px; line-height:1.1; }
+  .dbox p{ margin:0; font-size:13px; color:var(--muted); line-height:1.65; }
+  .mapbtn{ display:inline-flex; align-items:center; gap:9px; margin-top:14px; padding:11px 18px; background:var(--navy); color:var(--washi);
+    font-family:var(--serif); font-weight:600; font-size:15px; letter-spacing:.06em; text-decoration:none; transition:background .2s; }
+  .mapbtn:hover{ background:var(--acc); }
+  /* weather box */
+  .wx .wxb{ min-height:118px; }
+  .wx .wxl{ margin-top:12px; font-style:italic; }
+  .wxnow{ display:flex; align-items:center; gap:12px; margin:10px 0 14px; color:var(--navy); }
+  .wxnow b{ display:block; font-family:var(--serif); font-size:30px; font-weight:600; line-height:1; font-variant-numeric:lining-nums; }
+  .wxnow span{ font-size:12.5px; color:var(--muted); }
+  .wxdays{ display:grid; grid-template-columns:repeat(5,1fr); gap:4px; border-top:1px solid var(--gold-soft); padding-top:12px; }
+  .wxd{ display:flex; flex-direction:column; align-items:center; gap:5px; color:var(--navy-2); }
+  .wxd small{ font-family:var(--serif); font-size:11px; letter-spacing:.12em; text-transform:uppercase; color:var(--gold); font-weight:600; }
+  .wxd span{ font-size:12.5px; font-variant-numeric:tabular-nums; color:var(--navy); }
+  .wxd span i{ font-style:normal; color:var(--faint); margin-left:3px; }
+  .wx .wxsrc{ margin-top:12px; font-size:11px; color:var(--faint); }
+  .wx .wxsrc a{ color:inherit; }
+  .dbox.partner{ background:var(--gold-soft); border:1px dashed var(--gold); }
+  .dbox.partner::before{ display:none; }
+  .dbox.partner small{ font-family:var(--serif); font-size:11.5px; text-transform:uppercase; letter-spacing:.26em; color:var(--gold); font-weight:600; }
+  .dbox.partner a{ display:block; margin-top:9px; font-size:13.5px; font-weight:500; color:var(--navy); text-decoration:none; }
+  .dbox.partner a:hover{ color:var(--acc); }
+
+  /* cards are real links */
+  a.card, a.feat{ text-decoration:none; color:inherit; display:flex; }
+  a.card{ flex-direction:column; }
+
+  /* ---------- seasons view ---------- */
+  .pagehead{ max-width:1180px; margin:0 auto; padding:30px 28px 6px; }
+  .pagehead h1{ font-size:clamp(40px,4.8vw,62px); margin-top:12px; }
+  .pagehead p{ margin:12px 0 0; max-width:58ch; color:var(--navy-2); font-family:var(--serif); font-size:20px; line-height:1.5; }
+  .seasonlist{ max-width:1180px; margin:0 auto; padding:24px 28px 80px; display:flex; flex-direction:column; gap:30px; }
+  .card-s{ border:1px solid var(--gold-line); background:var(--paper); box-shadow:var(--shadow-sm); }
+  .cap{ display:flex; align-items:center; gap:14px; padding:14px 22px; border-bottom:1px solid var(--gold-line); }
+  .cap i{ width:7px; height:7px; transform:rotate(45deg); flex:none; }
+  .cap h2{ font-size:26px; }
+  .cap .mo{ font-family:var(--serif); font-style:italic; font-size:16px; color:var(--faint); }
+  .cap .now{ margin-left:auto; font-family:var(--serif); font-size:12px; font-weight:600; letter-spacing:.24em;
+    text-transform:uppercase; padding:5px 12px; background:var(--navy); color:var(--washi); }
+  .art{ position:relative; overflow:hidden; aspect-ratio:1440/520; background:var(--washi) url(art/washi.svg); }
+  .art .bloom.l{ width:42%; left:-5%; top:-26%; }
+  .art .bloom.r{ width:40%; right:-5%; bottom:-34%; top:auto; }
+  .art .tagk{ display:none; }
+  .pair{ position:absolute; inset:0; z-index:2; display:flex; align-items:center; justify-content:center; gap:clamp(18px,4vw,56px); }
+  .pair > div{ display:flex; flex-direction:column; align-items:center; text-align:center; max-width:200px;
+    background:rgba(246,240,227,.8); padding:14px 12px; animation:rise 1s .5s both; }
+  .pair .kbox{ font-size:24px; }
+  .pair b{ font-family:var(--serif); font-size:13px; font-weight:600; letter-spacing:.3em; text-transform:uppercase; color:var(--gold); margin-top:10px; }
+  .pair i{ font-family:var(--serif); font-size:16px; color:var(--navy); line-height:1.3; margin-top:4px; }
+  .props{ padding:13px 22px 16px; font-size:13px; color:var(--muted); line-height:1.65; margin:0; }
+  .props b{ color:var(--navy); font-weight:500; font-family:var(--jp); }
+  .crumbs{ max-width:1180px; margin:0 auto; padding:22px 28px 0; font-family:var(--serif); font-size:15px; color:var(--faint); letter-spacing:.04em; }
+  .crumbs a{ text-decoration:none; color:var(--gold); }
+  .crumbs a:hover{ color:var(--navy); }
+  .nearby{ max-width:1180px; margin:0 auto; padding:10px 28px 80px; }
+  .nearby h3{ font-size:30px; margin-bottom:16px; }
+  .nearby .grid{ display:grid; grid-template-columns:repeat(auto-fill,minmax(230px,1fr)); gap:18px; }
+
+  /* ---------- responsive ---------- */
+  @media (max-width:1180px){
+    .stage{ grid-template-columns:minmax(0,.85fr) minmax(0,1.15fr); }
+    .aside{ display:none; }              /* the stats column is the first thing to go */
+    .tagk{ display:none; }
+  }
+  @media (max-width:880px){
+    .bar{ padding:11px 16px; }
+    .bar nav{ display:none; }
+    .bloom.l{ width:92vw; left:-26vw; top:-4%; opacity:.6; }
+    .bloom.r{ width:86vw; right:-28vw; bottom:-6%; opacity:.6; }
+    .heroin{ padding:56px 16px 48px; }
+    /* On a narrow hero the default closest-side circle has a radius of about half the width, so it dies
+       out well before the eyebrow and headline at the top and the leaves cut straight through them.
+       An ellipse sized to the taller side, holding full strength further out, covers the whole block. */
+    .heroin::before{ inset:-2% -12%;
+      background:radial-gradient(ellipse farthest-side, rgba(246,240,227,.96), rgba(246,240,227,.9) 62%, rgba(246,240,227,0)); }
+    .pt:nth-child(n+11){ display:none; }      /* fewer petals on phones */
+    .heroin p{ font-size:19px; }
+    /* height:auto because the stage is sized to a full screen on desktop; without the map below there is
+       not enough in it to fill one on a phone, and the month would sit above 300-odd px of nothing. */
+    /* 30px top: on desktop the stage is centred in a full-height sticky panel and has room above it,
+       but here it starts at the top, and 4px left the month sitting flush against the wave border. */
+    /* minmax(0,1fr), not 1fr: a grid track's implicit min-width is its content, so a long station name
+       pushed the column — and the spot cards with it — past the 16px right gutter. */
+    .stage{ grid-template-columns:minmax(0,1fr); gap:14px; padding:30px 16px 40px; align-content:start;
+      height:auto; min-height:0; }
+    .readcol, #feats, .feat{ min-width:0; }
+    /* the map goes next: shrunk to phone width its pins are unreadable, and the month still reads
+       without it — the spots are listed underneath. Decorative only, so nothing is lost with it. */
+    .mapcol{ display:none; }
+    .sa .a{ width:90vw; left:-30vw; bottom:-10%; opacity:.45; }
+    .sa .b{ display:none; }
+    .mhead .kbox{ display:none; }
+    .readcol h2{ font-size:52px; }
+    .feat img{ width:84px; height:66px; }
+    .feat h4{ font-size:18px; }
+    .feats{ gap:8px; }
+    .scrub{ max-width:calc(100vw - 20px); bottom:12px; padding:5px; gap:4px; }
+    .scrub .months{ overflow-x:auto; scrollbar-width:none; scroll-snap-type:x proximity;
+      -webkit-mask-image:linear-gradient(90deg,transparent,#000 22px,#000 calc(100% - 22px),transparent);
+              mask-image:linear-gradient(90deg,transparent,#000 22px,#000 calc(100% - 22px),transparent); }
+    .scrub .months::-webkit-scrollbar{ display:none; }
+    .scrub .months button{ padding:7px 10px; font-size:14.5px; flex:none; scroll-snap-align:center; }
+    .scrub .nav{ width:32px; height:32px; }
+    .tool{ padding:56px 16px 64px; }
+    .sidebloom{ width:70vw; right:-24vw; opacity:.35; }
+    .notes{ padding:16px 16px 80px; }
+    .dwrap{ grid-template-columns:1fr; gap:20px; padding:20px 16px 60px; }
+    .dside{ position:static; }
+    .crumbs, .nearby, .pagehead, .seasonlist{ padding-left:16px; padding-right:16px; }
+    .art{ aspect-ratio:4/3; }
+    .pair > div{ max-width:140px; }
+  }
+
+  @media (prefers-reduced-motion:reduce){
+    *{ transition-duration:.01ms !important; scroll-behavior:auto !important; }
+    .scrub.hello .months button.on{ animation:none; }
+    .pt{ display:none; }
+    .sway, .bloom img, .ring circle, .tagk, .heroin *, .orn, .pair > div, .dhero img, .scrollhint::after{ animation:none !important; }
+    .ring circle{ stroke-dashoffset:0; }
+    .rv-on .rv{ opacity:1; transform:none; filter:none; }
+  }
+
+/* ---------- card details: status, tags, getting there ---------- */
+.pills{ display:flex; flex-wrap:wrap; gap:5px; margin-bottom:5px; }
+.st, .tg{ display:inline-flex; align-items:center; gap:5px; font-size:10.5px; font-weight:500; letter-spacing:.04em;
+  line-height:1; padding:4px 8px; border-radius:999px; white-space:nowrap; }
+.st::before{ content:""; width:6px; height:6px; border-radius:50%; background:currentColor; flex:none; }
+.st-now{ background:#2F6B45; color:#F4F8F1; }
+.st-now::before{ background:#9FE0A9; box-shadow:0 0 0 0 rgba(159,224,169,.7); animation:pulse 2s ease-out infinite; }
+@keyframes pulse{ 70%{ box-shadow:0 0 0 6px rgba(159,224,169,0) } 100%{ box-shadow:0 0 0 0 rgba(159,224,169,0) } }
+.st-soon{ background:#FBEBD3; color:#8A5A12; }
+.st-past{ background:var(--washi-2); color:#7A7166; }
+.st-later{ background:transparent; color:var(--navy-2); box-shadow:inset 0 0 0 1px var(--gold-line); }
+.tg{ background:var(--navy); color:var(--washi); }
+
+.feat{ align-items:stretch; }
+.feat img{ align-self:center; }
+.feat .fb{ min-width:0; flex:1; display:flex; flex-direction:column; justify-content:center; }
+.feat .go{ align-self:center; }
+.feat .pk{ margin-top:5px; min-width:0; }
+.feat .pk span, .card .acc span{ overflow:hidden; text-overflow:ellipsis; white-space:nowrap; min-width:0; }
+.feat .pk.acc{ margin-top:3px; color:var(--muted); }
+/* Narrowest phones: the peak date will not fit one line even with a smaller thumbnail, and a wrapped
+   second line beats losing the end of "…Late October" to an ellipsis. Has to sit after the rule above,
+   which has the same specificity, so a media query alone would not win. The station line keeps its
+   ellipsis — it is long, already abbreviated, and the spot page carries it in full. */
+@media (max-width:400px){
+  .feat .pk{ align-items:flex-start; }
+  .feat .pk svg{ margin-top:3px; }
+  .feat .pk:not(.acc) span{ white-space:normal; overflow:visible; }
+}
+.seeall{ display:inline-flex; align-items:center; gap:8px; align-self:flex-start; margin-top:4px; padding:8px 2px;
+  font-family:var(--serif); font-weight:600; font-size:16px; letter-spacing:.04em; color:var(--navy); text-decoration:none;
+  border-bottom:1px solid var(--gold); }
+.seeall span{ color:var(--gold); transition:transform .25s ease; }
+.seeall:hover span{ transform:translateX(4px); }
+
+.cimg{ position:relative; overflow:hidden; }
+.cimg .st{ position:absolute; left:10px; top:10px; box-shadow:0 4px 12px -4px rgba(30,42,71,.35); }
+.cimg .st-later, .cimg .st-past{ background:rgba(251,247,238,.94); }
+.card .pills{ margin-bottom:6px; }
+.card .acc{ display:flex; align-items:center; gap:6px; margin-top:6px; font-size:12px; color:var(--muted); min-width:0; }
+.card .acc svg, .feat .pk svg{ color:var(--gold); flex:none; }
+
+.gridhead{ display:flex; align-items:baseline; justify-content:space-between; flex-wrap:wrap; gap:8px 18px; margin:-6px 0 16px; }
+.gridhead h4, .gridhead h2, .gridhead h1{ font-size:26px; }
+.gridhead h4 span, .gridhead h2 span, .gridhead h1 span{ font-style:italic; font-weight:500; color:var(--navy-2); }
+.gridhead p{ margin:0; font-size:12.5px; color:var(--faint); }
+.gridhead button{ border:0; background:none; padding:4px 0; font-family:var(--serif); font-weight:600; font-size:15px;
+  color:var(--navy); border-bottom:1px solid var(--gold); }
+.dpills{ margin-top:12px; }
+.dpills .st, .dpills .tg{ font-size:12px; padding:6px 11px; }
+
+/* up to four cards on tall screens, three on a typical laptop, two where the stage is short */
+.feats .feat:nth-of-type(n+4){ display:none; }
+@media (min-height:1000px){ .feats .feat:nth-of-type(4){ display:flex; } }
+@media (max-height:760px){ .feats .feat:nth-of-type(n+3){ display:none; } }
+@media (max-width:880px){
+  .feats .feat:nth-of-type(n+3){ display:none; }
+  .feat .pk.acc{ display:none; }
+  .seeall{ font-size:15px; padding:4px 2px; }
+}
+@media (prefers-reduced-motion:reduce){ .st-now::before{ animation:none; } }
+
+/* ---------- menu ---------- */
+.bar nav a{ position:relative; padding:4px 0; }
+.bar nav a::after{ content:""; position:absolute; left:0; right:0; bottom:-2px; height:1px; background:var(--gold);
+  transform:scaleX(0); transform-origin:left; transition:transform .35s cubic-bezier(.2,.8,.2,1); }
+.bar nav a:hover::after, .bar nav a[aria-current]::after{ transform:scaleX(1); }
+.bar nav a[aria-current]{ color:var(--navy); }
+.menubtn{ display:none; margin-left:auto; align-items:center; gap:7px; border:1px solid var(--gold-line); background:var(--paper);
+  padding:7px 12px; font-family:var(--serif); font-weight:600; font-size:15px; letter-spacing:.06em; color:var(--navy); }
+.menubtn svg{ color:var(--gold); }
+
+/* ---------- flower chips ---------- */
+.flchips{ display:flex; flex-wrap:wrap; gap:8px; margin:-6px 0 30px; }
+.fchip{ display:inline-flex; align-items:center; gap:7px; padding:5px 12px 5px 6px; text-decoration:none;
+  background:var(--paper); border:1px solid var(--gold-line); border-radius:999px; font-size:13px; color:var(--navy);
+  transition:border-color .25s ease, background .25s ease, color .25s ease; }
+.fchip i{ font-style:normal; font-family:var(--serif); font-size:13px; color:var(--faint); }
+.fchip:hover{ border-color:var(--gold); }
+.fchip.on{ background:var(--navy); color:var(--washi); border-color:var(--navy); }
+.fchip.on i{ color:var(--gold-2); }
+.fchip.on svg{ background:var(--washi); border-radius:50%; }
+
+@media (max-width:880px){
+  .menubtn{ display:inline-flex; }
+  .bar{ position:sticky; }
+  .bar.open nav{ display:flex; position:absolute; top:100%; left:0; right:0; flex-direction:column; gap:0;
+    background:rgba(246,240,227,.98); border-bottom:1px solid var(--gold-line); box-shadow:var(--shadow); padding:6px 16px 10px; }
+  .bar.open nav a{ padding:13px 2px; font-size:18px; border-bottom:1px solid var(--gold-soft); }
+  .bar.open nav a:last-child{ border-bottom:0; }
+  .bar.open nav a::after{ display:none; }
+  .bar.open nav a[aria-current]{ color:var(--acc); }
+  /* chips scroll sideways on phones instead of filling the screen */
+  .flchips{ flex-wrap:nowrap; overflow-x:auto; margin:-6px -16px 24px; padding:2px 16px; scrollbar-width:none; }
+  .flchips::-webkit-scrollbar{ display:none; }
+  .fchip{ flex:none; }
+}
+  .gridhead .qsug small{ font-size:11px; color:var(--faint); margin-left:3px; }
+  .search{ box-shadow:0 10px 24px -18px rgba(60,45,25,.55); }
+  @media (hover:none){ .search kbd{ display:none; } }
