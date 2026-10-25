@@ -39,6 +39,7 @@ const FLOWERS = [
   ['cosmos', 'Cosmos', /cosmos/i, 'Cosmos'],
   ['autumn-leaves', 'Autumn leaves', /foliage|momiji/i, 'Autumn Foliage'],
   ['ginkgo', 'Ginkgo', /ginkgo|icho/i, 'Ginkgo'],
+  ['kinmokusei', 'Kinmokusei', /kinmokusei|osmanthus|fragrant olive/i, 'Kinmokusei'],
   ['shibazakura', 'Shibazakura', /shibazakura|moss phlox|pink moss/i, 'Shibazakura'],
   ['lotus', 'Lotus', /lotus|hasu/i, 'Lotus'],
   ['red-spider-lily', 'Red spider lily', /spider lily|higanbana/i, 'Red Spider Lily'],
@@ -115,6 +116,15 @@ data.icons.ginkgo = '<path d="M20 36 L20 27" stroke="#A8862E" stroke-width="2.2"
   + '<path d="M20 28 C11 28 2 22 2 11 C8 5 16 5 19.2 11.5 L20 8.5 L20.8 11.5 C24 5 32 5 38 11 C38 22 29 28 20 28 Z" fill="#E2B33C"/>'
   + '<path d="M20 27 L10 11M20 27 L15.5 9M20 27 L24.5 9M20 27 L30 11" stroke="#C9972A" stroke-width="1" stroke-linecap="round"/>';
 data.iconOf.Ginkgo = 'ginkgo';
+
+// kinmokusei: a cluster of tiny four-petalled orange flowers between two dark leaves
+data.icons.kinmokusei = '<path d="M20 38 C10 36 4 29 4 20 C12 22 18 28 20 38 Z" fill="#4E7A3A"/>'
+  + '<path d="M20 38 C30 36 36 29 36 20 C28 22 22 28 20 38 Z" fill="#5C8A44"/>'
+  + [[13, 15], [21, 10], [28, 16], [17, 22], [24, 24]].map(([x, y]) =>
+    `<g fill="#F08A24"><circle cx="${x - 2.3}" cy="${y}" r="2.3"/><circle cx="${x + 2.3}" cy="${y}" r="2.3"/>`
+    + `<circle cx="${x}" cy="${y - 2.3}" r="2.3"/><circle cx="${x}" cy="${y + 2.3}" r="2.3"/></g><circle cx="${x}" cy="${y}" r="1.1" fill="#C25A12"/>`).join('');
+data.iconOf.Kinmokusei = 'kinmokusei';
+data.iconOf['Fragrant Olive'] = 'kinmokusei';   // the month sidebar looks icons up by the flower's English name
 
 const ungrouped = spots.filter(s => !s.fl.length);
 if (ungrouped.length) throw new Error('no flower group for: ' + ungrouped.map(s => s.flower).join(', '));
