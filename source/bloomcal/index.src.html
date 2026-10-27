@@ -31,7 +31,12 @@ l.setAttribute('fetchpriority','high');document.head.appendChild(l);});})();
     s.async = true; s.src = 'https://www.googletagmanager.com/gtag/js?id=G-D0XME1X63Q';
     document.head.appendChild(s);
   };
-  try { if (localStorage.getItem('boj-analytics') === 'granted') window.__loadGA(); } catch (e) {}
+  var granted = false;
+  try { granted = localStorage.getItem('boj-consent') === 'granted'; } catch (e) {}
+  // AdSense reads this flag before it requests anything: until the reader allows cookies, only
+  // non-personalised ads are asked for. (In the EEA and UK a certified consent tool decides instead.)
+  if (!granted) (window.adsbygoogle = window.adsbygoogle || []).requestNonPersonalizedAds = 1;
+  if (granted) window.__loadGA();
 })();
 </script>
 
@@ -180,22 +185,22 @@ l.setAttribute('fetchpriority','high');document.head.appendChild(l);});})();
     <p>© <span id="fyear">2026</span> Blooms of Japan</p>
     <p>Photos are credited on each spot page · Weather by <a href="https://open-meteo.com/" target="_blank" rel="noopener">Open-Meteo</a></p>
     <p>Bloom dates shift with each year's weather — check locally before you travel.</p>
-    <p class="flinks"><a href="/about">About</a> · <a href="/contact">Contact</a> · <a href="/privacy">Privacy</a> · <a href="/terms">Terms</a> · <button type="button" id="consent-reopen">Analytics choice</button></p>
+    <p class="flinks"><a href="/about">About</a> · <a href="/contact">Contact</a> · <a href="/privacy">Privacy</a> · <a href="/terms">Terms</a> · <button type="button" id="consent-reopen">Cookie choice</button></p>
   </div>
 </footer>
 
-<!-- Analytics consent. Starts hidden and is only revealed by script, so the pre-rendered pages do not
-     ship it open; both choices are one button each, same size, as the rules require. -->
-<div class="consent" id="consent" role="region" aria-label="Analytics consent" hidden>
+<!-- Cookie consent, covering Analytics and ad personalisation. Starts hidden and is only revealed by
+     script, so the pre-rendered pages do not ship it open; both choices are one button each, same size,
+     as the rules require. -->
+<div class="consent" id="consent" role="region" aria-label="Cookie consent" hidden>
   <div class="consentin">
-    <p><b>May we count your visit?</b><!--
-   --><span class="cfull"> Google Analytics would store an identifier in your browser so I can see which
-      flowers people actually look for. No advertising, and nothing is sold or shared further. The site
-      works exactly the same either way.</span><!--
-   --><span class="cshort"> Google Analytics only — no ads, nothing sold.</span>
-      <a href="/privacy">What it collects</a>.</p>
+    <p><b>Cookies?</b><!--
+   --><span class="cfull"> For visit stats and personalised ads. Say no and the site works the same, and
+      any ads just aren't tailored to you.</span><!--
+   --><span class="cshort"> For stats &amp; ads.</span>
+      <a href="/privacy">Details</a></p>
     <div class="consentbtns">
-      <button type="button" id="consent-no">No thanks</button>
+      <button type="button" id="consent-no">No</button>
       <button type="button" id="consent-yes">Allow</button>
     </div>
   </div>
@@ -834,16 +839,18 @@ function markNav(){
 }
 window.addEventListener('scroll', markNav, { passive:true });
 
-/* ---------- analytics consent ----------
-   The banner is shown only when no choice has been stored, and Google Analytics is loaded only on
-   "Allow". "No thanks" is remembered too, so the banner does not come back on every page. The footer
-   link reopens it, because a consent that cannot be withdrawn is not consent. */
+/* ---------- cookie consent ----------
+   The banner is shown only when no choice has been stored. "Allow" loads Google Analytics and lets
+   AdSense personalise ads; "No" is remembered too, so the banner does not come back on every page. The
+   key changed from boj-analytics when ads were added, because an earlier "Allow" only agreed to
+   Analytics. The footer link reopens it, because a consent that cannot be withdrawn is not consent. */
 (() => {
   const box = document.getElementById('consent'), reopen = document.getElementById('consent-reopen');
-  const read = () => { try { return localStorage.getItem('boj-analytics'); } catch { return null; } };
+  const read = () => { try { return localStorage.getItem('boj-consent'); } catch { return null; } };
   const decide = v => {
-    try { localStorage.setItem('boj-analytics', v); } catch {}
+    try { localStorage.setItem('boj-consent', v); } catch {}
     box.hidden = true;
+    (window.adsbygoogle = window.adsbygoogle || []).requestNonPersonalizedAds = v === 'granted' ? 0 : 1;
     if (v === 'granted' && window.__loadGA) window.__loadGA();
   };
   if (box && window.__gaAllowed) {

@@ -292,22 +292,21 @@
   .prose a:hover{ color:var(--gold); }
   @media (max-width:880px){ .prose{ padding:4px 16px 70px; } .prose h3{ font-size:22px; } }
 
-  /* ---------- analytics consent banner ---------- */
+  /* ---------- cookie consent ---------- */
   /* while the banner is up it owns the bottom of the screen; the back-to-top button waits its turn */
   .consent:not([hidden]) ~ .totop{ display:none; }
-  /* a full-width strip along the bottom rather than a panel floating over the page: the same words
-     cover a fraction of the height, and on a phone it sits where a browser toolbar would */
-  .consent{ position:fixed; left:0; right:0; bottom:0; z-index:40;
-    background:var(--navy); color:#E6DFD0; border-top:1px solid rgba(205,174,116,.38);
-    box-shadow:0 -4px 24px rgba(30,42,71,.22); }
-  .consentin{ max-width:1180px; margin:0 auto; padding:14px 28px;
-    display:flex; flex-direction:column; gap:12px; }
-  .consent p{ margin:0; font-size:13.5px; line-height:1.65; }
+  /* kept small so it covers as little of the page as possible: a card in the bottom-left corner on
+     desktop, a single short row along the bottom on a phone */
+  .consent{ position:fixed; left:16px; bottom:16px; z-index:40; width:330px; max-width:calc(100vw - 32px);
+    background:var(--navy); color:#E6DFD0; border:1px solid rgba(205,174,116,.38);
+    box-shadow:0 6px 24px rgba(30,42,71,.24); }
+  .consentin{ padding:12px 14px; display:flex; flex-direction:column; gap:10px; }
+  .consent p{ margin:0; font-size:12.5px; line-height:1.55; }
   .consent b{ color:#F6F0E3; font-weight:600; }
   .consent a{ color:var(--gold-2); text-underline-offset:3px; }
-  .consentbtns{ display:flex; gap:10px; }
+  .consentbtns{ display:flex; gap:8px; }
   /* both choices the same size and weight: making refusal harder than acceptance is itself a breach */
-  .consentbtns button{ flex:1; padding:11px 16px; font-family:var(--serif); font-size:15px; font-weight:600;
+  .consentbtns button{ flex:1; padding:7px 12px; font-family:var(--serif); font-size:14px; font-weight:600;
     letter-spacing:.03em; border:1px solid var(--gold-2); background:transparent; color:#F6F0E3;
     transition:background .18s, color .18s; }
   .consentbtns button:hover{ background:var(--gold-2); color:var(--navy); }
@@ -316,17 +315,18 @@
   .flinks button{ background:none; border:0; padding:0; font:inherit; color:inherit;
     text-decoration:underline; text-underline-offset:2px; cursor:pointer; }
   .flinks button:hover{ color:var(--gold-2); }
-  @media (min-width:620px){ .consentin{ flex-direction:row; align-items:center; gap:26px; padding:12px 28px; }
-    .consent p{ flex:1; } .consentbtns{ flex:none; } .consentbtns button{ flex:none; min-width:116px; padding:10px 16px; } }
-  /* On a phone the full wording ran to five lines and took about a quarter of the screen, so the detail
-     is dropped for a one-line version and the privacy link carries the rest. */
+  /* On a phone the detail is dropped for a three-word version and the privacy link carries the rest,
+     so text and both buttons share one row. */
   .cshort{ display:none; }
   @media (max-width:619px){
     .cfull{ display:none; }
     .cshort{ display:inline; }
-    .consentin{ padding:11px 16px; gap:9px; }
-    .consent p{ font-size:12.5px; line-height:1.5; }
-    .consentbtns button{ padding:9px 14px; font-size:14px; }
+    .consent{ left:0; right:0; bottom:0; width:auto; max-width:none; border-width:1px 0 0;
+      box-shadow:0 -4px 18px rgba(30,42,71,.2); }
+    .consentin{ flex-direction:row; align-items:center; gap:10px; padding:8px 12px; }
+    .consent p{ flex:1; font-size:12px; line-height:1.4; }
+    .consentbtns{ flex:none; gap:6px; }
+    .consentbtns button{ flex:none; padding:6px 12px; font-size:13px; }
   }
 
   /* ---------- back to top: fixed, fades in once you are a screen down ---------- */

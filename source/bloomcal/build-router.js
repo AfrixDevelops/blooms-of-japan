@@ -166,10 +166,11 @@ var INFO = {
     'create and nothing is sold or handed to a data broker. It does use <strong>Google Analytics</strong> ' +
     'to count visits, and that is described in full below.</p>' +
     '<h3>Google Analytics</h3>' +
-    '<p><strong>Only if you agree.</strong> The first time you arrive the site asks whether it may count ' +
-    'your visit. Nothing is loaded and no request reaches Google unless you say yes, and your answer is ' +
-    'remembered in your browser so you are not asked again. You can change it whenever you like with the ' +
-    '&ldquo;Analytics choice&rdquo; link at the bottom of any page.</p>' +
+    '<p><strong>Only if you agree.</strong> The first time you arrive the site asks whether it may use ' +
+    'cookies for visit statistics and personalised ads. Analytics is not loaded and no Analytics request ' +
+    'reaches Google unless you say yes, and your answer is remembered in your browser so you are not asked ' +
+    'again. You can change it whenever you like with the &ldquo;Cookie choice&rdquo; link at the bottom of ' +
+    'any page.</p>' +
     '<p>If you do agree, the site uses Google Analytics 4 to see how many people visit and which pages ' +
     'they read. To do that it stores a randomly generated identifier in your browser and sends Google ' +
     'your IP address, the page you are on, roughly where you are, and basic details about your device ' +
