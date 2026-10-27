@@ -233,6 +233,9 @@ ${foot}
       `<meta property="og:url" content="${attr(url)}">`,
       `<meta property="og:image" content="${attr(img)}">`,
       pg.ld.length ? `<script type="application/ld+json">${JSON.stringify({ '@context': 'https://schema.org', '@graph': pg.ld }).replace(/</g, '\\u003c')}</script>` : '',
+      // AdSense: added after the snapshot, so it never runs in the headless browser and can't
+      // leave ad markup baked into the saved pages
+      '<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6449041648416680" crossorigin="anonymous"></script>',
     ].filter(Boolean).join('\n');
     return html
       .replace(/<title>[^<]*<\/title>/, `<title>${attr(pg.title).replace(/&quot;/g, '"')}</title>`)
