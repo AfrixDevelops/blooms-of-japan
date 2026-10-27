@@ -365,7 +365,7 @@
   .ftag{ margin:14px 0 0; font-family:var(--serif); font-style:italic; font-size:17px;
     line-height:1.6; color:#CFC6B4; max-width:30ch; }
 
-  .fsocial{ display:flex; gap:14px; margin-top:20px; }
+  .fsocial{ display:flex; flex-wrap:wrap; gap:14px; margin-top:20px; }
   .fsocial a{ display:inline-flex; align-items:center; gap:9px; padding:8px 14px 8px 11px;
     border:1px solid rgba(205,174,116,.32); color:#E6DFD0; text-decoration:none;
     font-size:13.5px; letter-spacing:.02em; transition:color .18s, border-color .18s, background .18s; }
