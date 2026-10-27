@@ -52,14 +52,16 @@ const mapsUrl = f => 'https://www.google.com/maps/search/?api=1&query=' + encode
 const SHOW_PROMOS = false;
 
 // Affiliate partner box in the spot sidebar, keyed by prefecture. Shown only where there is a
-// genuinely relevant product, so most spots carry nothing. The copy says plainly where the place
-// is — Yaima Village is on Ishigaki, a separate flight from the main-island spots we list.
+// genuinely relevant product, so most spots carry nothing. skip matches addresses the product
+// doesn't serve: the Okinawa pass covers main-island attractions, so the outer islands
+// (Miyako, Ishigaki, and Taketomi town, which includes Iriomote) get no box.
 const PARTNERS = {
   Okinawa: { label: 'Have Fun in Okinawa Pass',
     href: 'https://affiliate.klook.com/redirect?aid=140862&aff_adid=1527910&k_site=https%3A%2F%2Fwww.klook.com%2Fen-US%2Factivity%2F97490-have-fun-in-okinawa',
-    copy: 'Any three Okinawa attractions on one pass, good for a week.' },
+    copy: 'Any three Okinawa attractions on one pass, good for a week.',
+    skip: /Yaeyama|Ishigaki|Miyakojima/ },
 };
-const partnerBox = f => { const p = PARTNERS[f.pref]; if(!p) return '';
+const partnerBox = f => { const p = PARTNERS[f.pref]; if(!p || (p.skip && p.skip.test(f.address))) return '';
   return '<div class="dbox partner"><h4>Partner</h4>'
     + '<p class="pcopy">' + esc(p.copy) + '</p>'
     + '<a href="' + p.href + '" target="_blank" rel="sponsored noopener">' + esc(p.label) + ' ›</a>'

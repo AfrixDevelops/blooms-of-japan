@@ -40,6 +40,8 @@ const FLOWERS = [
   ['autumn-leaves', 'Autumn leaves', /foliage|momiji/i, 'Autumn Foliage'],
   ['ginkgo', 'Ginkgo', /ginkgo|icho/i, 'Ginkgo'],
   ['kinmokusei', 'Kinmokusei', /kinmokusei|osmanthus|fragrant olive/i, 'Kinmokusei'],
+  ['deigo', 'Deigo', /deigo|coral tree/i, 'Deigo'],
+  ['sagaribana', 'Sagaribana', /sagaribana|powder.?puff/i, 'Sagaribana'],
   ['shibazakura', 'Shibazakura', /shibazakura|moss phlox|pink moss/i, 'Shibazakura'],
   ['lotus', 'Lotus', /lotus|hasu/i, 'Lotus'],
   ['red-spider-lily', 'Red spider lily', /spider lily|higanbana/i, 'Red Spider Lily'],
@@ -125,6 +127,23 @@ data.icons.kinmokusei = '<path d="M20 38 C10 36 4 29 4 20 C12 22 18 28 20 38 Z" 
     + `<circle cx="${x}" cy="${y - 2.3}" r="2.3"/><circle cx="${x}" cy="${y + 2.3}" r="2.3"/></g><circle cx="${x}" cy="${y}" r="1.1" fill="#C25A12"/>`).join('');
 data.iconOf.Kinmokusei = 'kinmokusei';
 data.iconOf['Fragrant Olive'] = 'kinmokusei';   // the month sidebar looks icons up by the flower's English name
+
+// deigo, Okinawa's prefectural flower: curved scarlet petals fanning up from a branch, one leaf below
+data.icons.deigo = '<path d="M20 38 L20 24" stroke="#6B4A2E" stroke-width="2" stroke-linecap="round"/>'
+  + '<path d="M20 35 C13 35 9 31 8 27 C13 27 18 30 20 35 Z" fill="#4E7A3A"/>'
+  + ['M20 24 C15 19 11 13 11 6 C15 10 18 16 20 24 Z', 'M20 24 C17 17 16 10 18 3 C20 9 21 16 20 24 Z',
+     'M20 24 C23 17 24 10 22 3 C20 9 19 16 20 24 Z', 'M20 24 C25 19 29 13 29 6 C25 10 22 16 20 24 Z',
+     'M20 24 C14 22 8 19 5 14 C10 15 15 19 20 24 Z', 'M20 24 C26 22 32 19 35 14 C30 15 25 19 20 24 Z']
+    .map((d, i) => `<path d="${d}" fill="${i % 2 ? '#E8523F' : '#D9342B'}"/>`).join('');
+data.iconOf.Deigo = 'deigo';
+
+// sagaribana: a hanging strand of night flowers, each a pink powder-puff of stamens
+data.icons.sagaribana = '<path d="M20 2 C21 12 19 22 20 38" stroke="#5C7A3A" stroke-width="1.6" fill="none" stroke-linecap="round"/>'
+  + [[20, 11], [19.5, 21.5], [20, 32]].map(([x, y]) => [...Array(12)].map((_, k) => {
+    const a = k * Math.PI / 6, c = Math.cos(a), s = Math.sin(a);
+    return `<path d="M${(x + 1.5 * c).toFixed(1)} ${(y + 1.5 * s).toFixed(1)} L${(x + 6 * c).toFixed(1)} ${(y + 6 * s).toFixed(1)}" stroke="#E58FB0" stroke-width="1.1" stroke-linecap="round"/>`;
+  }).join('') + `<circle cx="${x}" cy="${y}" r="1.5" fill="#FBE3EC"/>`).join('');
+data.iconOf.Sagaribana = 'sagaribana';
 
 const ungrouped = spots.filter(s => !s.fl.length);
 if (ungrouped.length) throw new Error('no flower group for: ' + ungrouped.map(s => s.flower).join(', '));

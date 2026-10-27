@@ -871,6 +871,22 @@ const mapsUrl = f => 'https://www.google.com/maps/search/?api=1&query=' + encode
 // Partner links and the Pro box in the spot sidebar: hidden for now, set to true to bring them back
 const SHOW_PROMOS = false;
 
+// Affiliate partner box in the spot sidebar, keyed by prefecture. Shown only where there is a
+// genuinely relevant product, so most spots carry nothing. skip matches addresses the product
+// doesn't serve: the Okinawa pass covers main-island attractions, so the outer islands
+// (Miyako, Ishigaki, and Taketomi town, which includes Iriomote) get no box.
+const PARTNERS = {
+  Okinawa: { label: 'Have Fun in Okinawa Pass',
+    href: 'https://affiliate.klook.com/redirect?aid=140862&aff_adid=1527910&k_site=https%3A%2F%2Fwww.klook.com%2Fen-US%2Factivity%2F97490-have-fun-in-okinawa',
+    copy: 'Any three Okinawa attractions on one pass, good for a week.',
+    skip: /Yaeyama|Ishigaki|Miyakojima/ },
+};
+const partnerBox = f => { const p = PARTNERS[f.pref]; if(!p || (p.skip && p.skip.test(f.address))) return '';
+  return '<div class="dbox partner"><h4>Partner</h4>'
+    + '<p class="pcopy">' + esc(p.copy) + '</p>'
+    + '<a href="' + p.href + '" target="_blank" rel="sponsored noopener">' + esc(p.label) + ' ›</a>'
+    + '<p class="pdisc">We earn a commission if you book through this link, at no extra cost to you.</p></div>'; };
+
 function spotView(slug){
   const f = D.feat.find(x => x.slug === slug);
   if(!f) return '<div style="max-width:640px;margin:80px auto;text-align:center"><h2>Spot not found</h2></div>';
@@ -902,6 +918,7 @@ function spotView(slug){
     <aside class="dside">
       <div class="dbox"><h4>Typical peak</h4><div class="pk">${esc(usually(f.peak))}</div><p>${bloomStatus(f).t} — the usual window from past years, not a report from this season. It moves with the weather, so check locally before you travel.</p></div>
       ${f.ll ? `<div class="dbox wx" id="wx"><h4>Weather here</h4><div class="wxb" aria-live="polite"></div></div>` : ''}
+      ${partnerBox(f)}
       ${SHOW_PROMOS ? `<div class="dbox partner"><small>Partner</small>
         <a>Japan Rail Pass — covers getting here ›</a>
         <a>Small-group tours near ${esc(f.region)} ›</a></div>
@@ -1001,8 +1018,16 @@ var INFO = {
     '<p>There is no mailing list and no sign-up form on the site, so there is no address of yours here to ' +
     'store. If a seasonal list is ever opened, this page will name the provider that receives addresses ' +
     'before any form appears.</p>' +
+    '<h3>Affiliate links</h3>' +
+    '<p>Some spot pages carry a clearly marked "Partner" box linking to a booking site, currently Klook. ' +
+    'If you book through one of those links we may earn a commission, and you pay no more than you ' +
+    'otherwise would. The link carries a tag identifying this site, so the booking site can see the visit ' +
+    'came from here and may set its own cookies once you arrive; what it then collects is covered by that ' +
+    'site\'s privacy policy, not this one. Nothing about you is sent to them by us, and no partner box ' +
+    'appears on a spot unless the place it points to is genuinely relevant.</p>' +
     '<h3>Advertising</h3>' +
-    '<p>The site currently carries no advertising. If advertising is introduced, Google and its partners may ' +
+    '<p>The site currently carries no advertising beyond the affiliate links described above. If display ' +
+    'advertising is introduced, Google and its partners may ' +
     'set cookies or read device identifiers to serve and measure ads, and this page will be updated to say ' +
     'so before any ad is shown. You can review and change your choices at ' +
     '<a href="https://myadcenter.google.com/" target="_blank" rel="noopener">Google My Ad Center</a> and read ' +
