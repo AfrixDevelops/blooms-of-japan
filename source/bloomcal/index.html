@@ -49,7 +49,7 @@ l.setAttribute('fetchpriority','high');document.head.appendChild(l);});})();
   <span class="bn">Blooms of Japan</span><span class="bk">花暦</span></a>
   <button class="menubtn" id="menubtn" type="button" aria-expanded="false" aria-controls="mainnav">
     <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>Menu</button>
-  <nav id="mainnav"><a href="/calendar" data-nav="calendar">Calendar</a><a href="/spots" data-nav="spots">Browse spots</a><a href="/flowers" data-nav="flowers">By flower</a></nav>
+  <nav id="mainnav"><a href="/calendar" data-nav="calendar">Calendar</a><a href="/spots" data-nav="spots">Browse spots</a><a href="/flowers" data-nav="flowers">By flower</a><a href="/guides" data-nav="guides">Guides</a></nav>
 </header>
 
 <div id="view-home">
@@ -175,6 +175,7 @@ l.setAttribute('fetchpriority','high');document.head.appendChild(l);});})();
         <a href="/spots">Browse all spots</a>
         <a href="/flowers">By flower</a>
         <a href="/seasons">Four seasons</a>
+        <a href="/guides">Guides</a>
         <a href="https://itravelnet.com/" target="_blank" rel="noopener" id="itravelnet">ITravelNet.com<span>travel directory</span></a>
       </div>
       <div class="fcol"><h4>Seasons</h4>
@@ -797,6 +798,7 @@ function markNav(){
     if (!el || !el.getBoundingClientRect) return false; const r = el.getBoundingClientRect(); return r.top < mid && r.bottom > mid; };
   const home = !document.getElementById('view-home') || !document.getElementById('view-home').hidden;
   const cur = location.pathname.startsWith('/seasons') ? 'seasons'
+            : location.pathname.startsWith('/guides') ? 'guides'
             : !home ? '' : inView('track') ? 'calendar'
             : inView('tool') ? (location.pathname.startsWith('/flowers') ? 'flowers' : 'spots') : '';
   document.querySelectorAll('#mainnav a').forEach(a => {
@@ -933,6 +935,7 @@ function spotView(slug){
     </div>
     <aside class="dside">
       <div class="dbox"><h4>Typical peak</h4><div class="pk">${esc(usually(f.peak))}</div><p>${bloomStatus(f).t} — the usual window from past years, not a report from this season. It moves with the weather, so check locally before you travel.</p></div>
+      ${guideBox(f)}
       ${f.ll ? `<div class="dbox wx" id="wx"><h4>Weather here</h4><div class="wxb" aria-live="polite"></div></div>` : ''}
       ${partnerBox(f)}
       ${SHOW_PROMOS ? `<div class="dbox partner"><small>Partner</small>
@@ -1120,6 +1123,43 @@ function infoView(key){
     '<div class="prose">' + p.body + '</div>';
 }
 
+/* ---------- guides ----------
+   /guides lists them, /guides/<slug> is one guide: the question as the heading, the answer straight after.
+   The text comes from guides.js, with spot links and counts already filled in by the build. */
+const GUIDES = [{"slug":"cherry-blossom-season","h1":"When is cherry blossom season in Japan?","title":"When Is Cherry Blossom Season in Japan? Usual Dates by City","short":"Usual opening and full-bloom dates for 15 cities, how long the blossoms last, and when to book.","desc":"Cherry blossom season in Japan runs from late March in Tokyo, Kyoto and Fukuoka to early May in Hokkaido. Usual dates by city, how long it lasts and how to time a trip.","published":"2026-10-28","updated":"2026-10-28","fl":["cherry-blossom"],"img":"chidorigafuchi","sources":"Japan Meteorological Agency, normal flowering and full-bloom dates for somei-yoshino cherries, 1991–2020.","body":"\u003cp class=\"answer\">\u003cstrong>For most of Japan it's late March to mid April.\u003c/strong> Tokyo's cherries usually open around 24 March and reach full bloom a week later. Kyoto and Osaka run a few days behind. The north is about a month later, and Hokkaido doesn't get going until May.\u003c/p>\n\n\u003ch2>When do cherry blossoms bloom in each city?\u003c/h2>\n\u003cp>These are the Japan Meteorological Agency's normal dates, averaged over 1991 to 2020. They're for somei-yoshino, the pale pink cherry that almost every forecast tracks.\u003c/p>\n\u003cdiv class=\"gtable\">\u003ctable>\n\u003cthead>\u003ctr>\u003cth>City\u003c/th>\u003cth>First flowers\u003c/th>\u003cth>Full bloom\u003c/th>\u003c/tr>\u003c/thead>\n\u003ctbody>\n\u003ctr>\u003ctd>Fukuoka\u003c/td>\u003ctd>22 March\u003c/td>\u003ctd>31 March\u003c/td>\u003c/tr>\n\u003ctr>\u003ctd>Tokyo\u003c/td>\u003ctd>24 March\u003c/td>\u003ctd>31 March\u003c/td>\u003c/tr>\n\u003ctr>\u003ctd>Nagoya\u003c/td>\u003ctd>24 March\u003c/td>\u003ctd>2 April\u003c/td>\u003c/tr>\n\u003ctr>\u003ctd>Hiroshima\u003c/td>\u003ctd>25 March\u003c/td>\u003ctd>3 April\u003c/td>\u003c/tr>\n\u003ctr>\u003ctd>Kyoto\u003c/td>\u003ctd>26 March\u003c/td>\u003ctd>4 April\u003c/td>\u003c/tr>\n\u003ctr>\u003ctd>Osaka\u003c/td>\u003ctd>27 March\u003c/td>\u003ctd>4 April\u003c/td>\u003c/tr>\n\u003ctr>\u003ctd>Kagoshima\u003c/td>\u003ctd>26 March\u003c/td>\u003ctd>5 April\u003c/td>\u003c/tr>\n\u003ctr>\u003ctd>Kanazawa\u003c/td>\u003ctd>3 April\u003c/td>\u003ctd>8 April\u003c/td>\u003c/tr>\n\u003ctr>\u003ctd>Sendai\u003c/td>\u003ctd>8 April\u003c/td>\u003ctd>13 April\u003c/td>\u003c/tr>\n\u003ctr>\u003ctd>Nagano\u003c/td>\u003ctd>11 April\u003c/td>\u003ctd>16 April\u003c/td>\u003c/tr>\n\u003ctr>\u003ctd>Morioka\u003c/td>\u003ctd>18 April\u003c/td>\u003ctd>24 April\u003c/td>\u003c/tr>\n\u003ctr>\u003ctd>Aomori\u003c/td>\u003ctd>22 April\u003c/td>\u003ctd>26 April\u003c/td>\u003c/tr>\n\u003ctr>\u003ctd>Hakodate\u003c/td>\u003ctd>28 April\u003c/td>\u003ctd>2 May\u003c/td>\u003c/tr>\n\u003ctr>\u003ctd>Sapporo\u003c/td>\u003ctd>1 May\u003c/td>\u003ctd>6 May\u003c/td>\u003c/tr>\n\u003ctr>\u003ctd>Naha (Okinawa)\u003c/td>\u003ctd>16 January\u003c/td>\u003ctd>4 February\u003c/td>\u003c/tr>\n\u003c/tbody>\u003c/table>\u003c/div>\n\u003cp>Two things in that table catch people out. Kagoshima is further south than Fukuoka but opens later, because its winters are often too mild to wake the buds properly. And Okinawa isn't on the same calendar at all: it has a different, deep pink cherry that flowers in January.\u003c/p>\n\n\u003ch2>How long does cherry blossom season last?\u003c/h2>\n\u003cp>In any one place, not long. Full bloom comes about a week after the first flowers in Tokyo, nine days in Kyoto, and only four or five days in the north, where spring arrives in a rush. The petals start dropping about a week after full bloom, sooner if it rains or blows hard.\u003c/p>\n\u003cp>So you get roughly two weeks when the trees look good, and about five days when they look their best. Across the whole country, though, the season runs from January in Okinawa to mid May in Hokkaido. Miss it in one city and you can often catch it further north.\u003c/p>\n\n\u003ch2>When's the best time to go?\u003c/h2>\n\u003cp>If you've only got one shot, we'd aim for the first week of April and spend it in Kyoto or Osaka. Tokyo usually peaks around 31 March and Kyoto around 4 April, so a trip from about 28 March to 7 April gives you a fair chance at one of them, even in an early or late year.\u003c/p>\n\u003cp>Don't plan around a single date months ahead. The dates swing a lot: Tokyo's cherries opened on 14 March in 2020, 2021 and 2023, ten days before normal. Book a flexible week, keep the cities you visit in an order you can swap, and check the forecasts once they start appearing in the new year.\u003c/p>\n\n\u003ch2>Can you see cherry blossoms outside March and April?\u003c/h2>\n\u003cp>Yes, which is handy if your dates are fixed. At the early end, Okinawa's cherries peak from late January, at places like \u003ca href=\"/spots/nago-central-park\">Nago Central Park\u003c/a> and \u003ca href=\"/spots/nakijin-castle-ruins-cherry-blossoms\">Nakijin Castle Ruins Cherry Blossoms\u003c/a>. The Kawazu cherries along the \u003ca href=\"/spots/kawazu-river\">Kawazu River\u003c/a> in Izu flower from mid February into early March.\u003c/p>\n\u003cp>At the late end, the north is at its best from mid April into May. \u003ca href=\"/spots/hirosaki-park\">Hirosaki Park\u003c/a> is the one we'd pick if you can only go late: when the petals fall they cover the castle moat in pink. In Hokkaido, \u003ca href=\"/spots/matsumae-park\">Matsumae Park\u003c/a> and \u003ca href=\"/spots/goryokaku-park\">Goryokaku Park\u003c/a> flower from late April into May.\u003c/p>\n\n\u003ch2>Where should you go?\u003c/h2>\n\u003cp>In Tokyo, \u003ca href=\"/spots/chidorigafuchi\">Chidorigafuchi\u003c/a> is worth the crowds: you can rent a rowing boat under the trees along the old castle moat. \u003ca href=\"/spots/meguro-river\">Meguro River\u003c/a> is lovely but packed at weekends, so go on a weekday morning. In Kyoto, the \u003ca href=\"/spots/philosopher-s-path\">Philosopher's Path\u003c/a> and \u003ca href=\"/spots/daigo-ji-temple\">Daigo-ji Temple\u003c/a> are the classics. \u003ca href=\"/spots/mount-yoshino\">Mount Yoshino\u003c/a> near Nara has thousands of trees planted up the mountainside, so the bloom climbs the slope over a few weeks in April.\u003c/p>\n\u003cp>We track 97 cherry blossom spots across Japan, each with its usual peak and how to get there. \u003ca href=\"/flowers/cherry-blossom\">See them all\u003c/a>.\u003c/p>"}];
+const longDate = s => { const [y, m, d] = s.split('-').map(Number); return d + ' ' + MON[m] + ' ' + y; };
+
+function guidesIndex(){
+  return '<div class="pagehead">' +
+    '<nav class="crumbs" style="padding-left:0"><a href="/">Home</a> &rsaquo; Guides</nav>' +
+    '<div class="eyebrow">Guides <span class="jpk">案内</span></div>' +
+    "<h1>Guides to Japan's flower seasons</h1>" +
+    '<p>Straight answers to the questions people ask before a trip, from the Blooms of Japan team.</p></div>' +
+    '<div class="glist">' + GUIDES.map(g => '<a class="gitem rv" href="/guides/' + g.slug + '">' +
+      '<h2>' + esc(g.h1) + '</h2><p>' + esc(g.short) + '</p>' +
+      '<span>Updated ' + longDate(g.updated) + '</span></a>').join('') + '</div>';
+}
+
+function guideView(g){
+  if (!g) return '<div style="max-width:640px;margin:80px auto;text-align:center"><h2>Guide not found</h2><p><a href="/guides">All guides</a></p></div>';
+  const f = g.img && D.feat.find(x => x.slug === g.img);
+  return '<div class="pagehead">' +
+    '<nav class="crumbs" style="padding-left:0"><a href="/">Home</a> &rsaquo; <a href="/guides">Guides</a> &rsaquo; ' + esc(g.h1) + '</nav>' +
+    '<div class="eyebrow">Guide <span class="jpk">案内</span></div>' +
+    '<h1>' + esc(g.h1) + '</h1>' +
+    '<p class="gmeta">By the Blooms of Japan team &middot; Updated <time datetime="' + g.updated + '">' + longDate(g.updated) + '</time></p></div>' +
+    '<div class="prose guide">' +
+    (f ? '<figure class="ghero"><img src="' + f.img + '" alt="' + esc(flowerName(f)) + ' at ' + esc(f.name) + '">' +
+      '<figcaption><a href="/spots/' + f.slug + '">' + esc(f.name) + '</a> &middot; Photo ' + esc(f.cred) + '</figcaption></figure>' : '') +
+    g.body +
+    (g.sources ? '<p class="gsrc">Sources: ' + esc(g.sources) + ' Spot details are checked against local tourism sites.</p>' : '') +
+    '</div>';
+}
+
+// spot pages link to the guide that covers their flower
+const guideBox = f => { const g = GUIDES.find(x => (x.fl || []).some(k => f.fl.includes(k)));
+  return g ? '<div class="dbox guide"><h4>Guide</h4><a href="/guides/' + g.slug + '">' + esc(g.h1) + ' ›</a></div>' : ''; };
+
 function seasonsView(){
   return `<div class="pagehead">
       <nav class="crumbs" style="padding-left:0"><a href="/">Home</a> › All four seasons</nav>
@@ -1218,6 +1258,10 @@ function route(){
   } else if(h === '/seasons'){
     seas.innerHTML = seasonsView(); show(seas);
     document.title = T("Japan's Flowers by Season");
+  } else if(h === '/guides' || h.startsWith('/guides/')){
+    const g = GUIDES.find(x => '/guides/' + x.slug === h);
+    seas.innerHTML = h === '/guides' ? guidesIndex() : guideView(g); show(seas);
+    document.title = h === '/guides' ? T("Guides to Japan's Flower Seasons") : T(g ? g.title : 'Guide not found');
   } else if(INFO[h.slice(1)]){
     seas.innerHTML = infoView(h.slice(1)); show(seas);
     document.title = T(INFO[h.slice(1)].h1);

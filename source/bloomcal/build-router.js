@@ -4,6 +4,21 @@
 const fs = require('fs');
 let t = fs.readFileSync('index.html', 'utf8');   // output of build-index.js
 
+/* the guides (guides.js), with their spot links and counts filled in from the spot data. A link to a
+   spot that no longer exists fails the build rather than shipping a dead link. */
+const SPOTS = (() => { const prev = global.window; global.window = {};
+  eval(fs.readFileSync('data.js', 'utf8')); const D = global.window.D; global.window = prev; return D; })();
+const GUIDES = require('./guides.js').map(g => {
+  const spot = s => { const f = SPOTS.feat.find(x => x.slug === s); if (!f) throw new Error(`guide ${g.slug}: no spot "${s}"`); return f; };
+  const body = g.body.trim()
+    .replace(/\{\{n:([a-z-]+)\}\}/g, (_, k) => { const fg = SPOTS.flowerGroups.find(x => x.k === k);
+      if (!fg) throw new Error(`guide ${g.slug}: no flower group "${k}"`); return fg.n; })
+    .replace(/\[\[([a-z0-9-]+)(?:\|([^\]]+))?\]\]/g, (_, s, text) => `<a href="/spots/${s}">${text || spot(s).name}</a>`);
+  if (g.img) spot(g.img);
+  return Object.assign({}, g, { body });
+});
+const GUIDES_JSON = JSON.stringify(GUIDES).replace(/</g, '\\u003c');
+
 /* 1. wrap the hero down to the <!-- /home --> marker as the home view. The footer sits after the
       marker, outside all three views, so it stays on screen on every page. */
 const start = t.indexOf('<section class="hero">');
@@ -97,6 +112,7 @@ function spotView(slug){
     </div>
     <aside class="dside">
       <div class="dbox"><h4>Typical peak</h4><div class="pk">\${esc(usually(f.peak))}</div><p>\${bloomStatus(f).t} — the usual window from past years, not a report from this season. It moves with the weather, so check locally before you travel.</p></div>
+      \${guideBox(f)}
       \${f.ll ? \`<div class="dbox wx" id="wx"><h4>Weather here</h4><div class="wxb" aria-live="polite"></div></div>\` : ''}
       \${partnerBox(f)}
       \${SHOW_PROMOS ? \`<div class="dbox partner"><small>Partner</small>
@@ -284,6 +300,43 @@ function infoView(key){
     '<div class="prose">' + p.body + '</div>';
 }
 
+/* ---------- guides ----------
+   /guides lists them, /guides/<slug> is one guide: the question as the heading, the answer straight after.
+   The text comes from guides.js, with spot links and counts already filled in by the build. */
+const GUIDES = ${GUIDES_JSON};
+const longDate = s => { const [y, m, d] = s.split('-').map(Number); return d + ' ' + MON[m] + ' ' + y; };
+
+function guidesIndex(){
+  return '<div class="pagehead">' +
+    '<nav class="crumbs" style="padding-left:0"><a href="/">Home</a> &rsaquo; Guides</nav>' +
+    '<div class="eyebrow">Guides <span class="jpk">案内</span></div>' +
+    "<h1>Guides to Japan's flower seasons</h1>" +
+    '<p>Straight answers to the questions people ask before a trip, from the Blooms of Japan team.</p></div>' +
+    '<div class="glist">' + GUIDES.map(g => '<a class="gitem rv" href="/guides/' + g.slug + '">' +
+      '<h2>' + esc(g.h1) + '</h2><p>' + esc(g.short) + '</p>' +
+      '<span>Updated ' + longDate(g.updated) + '</span></a>').join('') + '</div>';
+}
+
+function guideView(g){
+  if (!g) return '<div style="max-width:640px;margin:80px auto;text-align:center"><h2>Guide not found</h2><p><a href="/guides">All guides</a></p></div>';
+  const f = g.img && D.feat.find(x => x.slug === g.img);
+  return '<div class="pagehead">' +
+    '<nav class="crumbs" style="padding-left:0"><a href="/">Home</a> &rsaquo; <a href="/guides">Guides</a> &rsaquo; ' + esc(g.h1) + '</nav>' +
+    '<div class="eyebrow">Guide <span class="jpk">案内</span></div>' +
+    '<h1>' + esc(g.h1) + '</h1>' +
+    '<p class="gmeta">By the Blooms of Japan team &middot; Updated <time datetime="' + g.updated + '">' + longDate(g.updated) + '</time></p></div>' +
+    '<div class="prose guide">' +
+    (f ? '<figure class="ghero"><img src="' + f.img + '" alt="' + esc(flowerName(f)) + ' at ' + esc(f.name) + '">' +
+      '<figcaption><a href="/spots/' + f.slug + '">' + esc(f.name) + '</a> &middot; Photo ' + esc(f.cred) + '</figcaption></figure>' : '') +
+    g.body +
+    (g.sources ? '<p class="gsrc">Sources: ' + esc(g.sources) + ' Spot details are checked against local tourism sites.</p>' : '') +
+    '</div>';
+}
+
+// spot pages link to the guide that covers their flower
+const guideBox = f => { const g = GUIDES.find(x => (x.fl || []).some(k => f.fl.includes(k)));
+  return g ? '<div class="dbox guide"><h4>Guide</h4><a href="/guides/' + g.slug + '">' + esc(g.h1) + ' ›</a></div>' : ''; };
+
 function seasonsView(){
   return \`<div class="pagehead">
       <nav class="crumbs" style="padding-left:0"><a href="/">Home</a> › All four seasons</nav>
@@ -382,6 +435,10 @@ function route(){
   } else if(h === '/seasons'){
     seas.innerHTML = seasonsView(); show(seas);
     document.title = T("Japan's Flowers by Season");
+  } else if(h === '/guides' || h.startsWith('/guides/')){
+    const g = GUIDES.find(x => '/guides/' + x.slug === h);
+    seas.innerHTML = h === '/guides' ? guidesIndex() : guideView(g); show(seas);
+    document.title = h === '/guides' ? T("Guides to Japan's Flower Seasons") : T(g ? g.title : 'Guide not found');
   } else if(INFO[h.slice(1)]){
     seas.innerHTML = infoView(h.slice(1)); show(seas);
     document.title = T(INFO[h.slice(1)].h1);

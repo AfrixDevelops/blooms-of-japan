@@ -55,6 +55,25 @@ module.exports = async function prerender(OUT, { SITE, D, HOME_DESC }) {
       ld: [crumbs([['Home', '/'], [title, `/${slug}`]])] });
   });
 
+  // the guides: Article data names the team as author and gives both dates, which is what search and
+  // AI answers look at when deciding whether a page is current
+  const GUIDES = require('../guides.js');
+  pages.push({ url: '/guides', file: 'guides.html', img: null,
+    desc: "Straight answers about Japan's flower seasons: when cherry blossom season is, how long it lasts, and where and when to see each flower.",
+    ld: [{ '@type': 'CollectionPage', name: "Guides to Japan's flower seasons", url: `${SITE}/guides` },
+      { '@type': 'ItemList', itemListElement: GUIDES.map((g, i) => ({ '@type': 'ListItem', position: i + 1, url: `${SITE}/guides/${g.slug}`, name: g.h1 })) },
+      crumbs([['Home', '/'], ['Guides', '/guides']])] });
+  GUIDES.forEach(g => {
+    const lead = g.img && D.feat.find(f => f.slug === g.img);
+    pages.push({ url: `/guides/${g.slug}`, file: `guides/${g.slug}.html`, img: lead && lead.img, desc: g.desc,
+      ld: [{ '@type': 'Article', headline: g.h1, description: g.desc, url: `${SITE}/guides/${g.slug}`,
+             mainEntityOfPage: `${SITE}/guides/${g.slug}`, datePublished: g.published, dateModified: g.updated,
+             ...(lead ? { image: [abs(lead.img)] } : {}),
+             author: { '@type': 'Organization', name: 'Blooms of Japan team', url: `${SITE}/about` },
+             publisher: { '@type': 'Organization', name: 'Blooms of Japan', url: `${SITE}/` } },
+           crumbs([['Home', '/'], ['Guides', '/guides'], [g.h1, `/guides/${g.slug}`]])] });
+  });
+
   D.flowerGroups.forEach(g => {
     const spots = D.feat.filter(f => f.fl.includes(g.k));
     const months = [...new Set(spots.map(f => f.m))].sort((a, b) => a - b).map(MonCap);
@@ -208,7 +227,7 @@ ${fonts}
   <a class="nf-go" href="/">Back to home</a>
   <p class="nf-or">Or look around</p>
   <nav class="nf-links" aria-label="Pages">
-    <a href="/calendar">The flower calendar</a><a href="/spots">Browse all spots</a><a href="/flowers">By flower</a><a href="/seasons">Four seasons</a>
+    <a href="/calendar">The flower calendar</a><a href="/spots">Browse all spots</a><a href="/flowers">By flower</a><a href="/seasons">Four seasons</a><a href="/guides">Guides</a>
   </nav>
 </main>
 ${foot}
