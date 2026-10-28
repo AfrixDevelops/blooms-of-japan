@@ -297,7 +297,7 @@
   .prose.guide h2{ font-family:var(--serif); font-size:27px; font-weight:600; line-height:1.2; color:var(--navy);
     margin:40px 0 10px; padding-top:18px; border-top:1px solid var(--gold-line); }
   .prose.guide p.answer{ font-size:18.5px; line-height:1.7; padding:16px 20px; background:var(--gold-soft);
-    border-left:3px solid var(--gold); margin:6px 0 10px; }
+    border:1px solid var(--gold-line); border-radius:4px; margin:6px 0 10px; }
   .ghero{ margin:14px 0 22px; }
   .ghero img{ width:100%; aspect-ratio:16/9; object-fit:cover; display:block; border-radius:4px; }
   .ghero figcaption{ margin-top:7px; font-size:12.5px; color:var(--navy-2); }
