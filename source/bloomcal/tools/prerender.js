@@ -65,7 +65,7 @@ module.exports = async function prerender(OUT, { SITE, D, HOME_DESC }) {
   });
 
   for (let m = 1; m <= 12; m++) {
-    const spots = D.feat.filter(f => f.m === m), fl = (D.flowers[m] || []).slice(0, 4).map(([n]) => n.toLowerCase());
+    const spots = D.feat.filter(f => f.m === m || (f.also || []).includes(m)), fl = (D.flowers[m] || []).slice(0, 4).map(([n]) => n.toLowerCase());
     pages.push({ url: `/when/${MONTHS[m - 1]}`, file: `when/${MONTHS[m - 1]}.html`, img: spots[0] && spots[0].img,
       desc: clip(`What's in bloom in Japan in ${MonCap(m)}: ${spots.length} spots${fl.length ? ' — ' + fl.join(', ') : ''}. Peak times, photos and how to get to each one.`),
       ld: [{ '@type': 'CollectionPage', name: `Flowers in Japan in ${MonCap(m)}`, url: `${SITE}/when/${MONTHS[m - 1]}` }, itemList(`Spots in bloom in ${MonCap(m)}`, spots),

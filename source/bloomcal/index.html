@@ -259,6 +259,8 @@ function bloomStatus(f){
   return { k:'later', t: mo <= 1 ? 'In about a month' : `In ${mo} months`, d };
 }
 const shortStation = s => String(s || '').replace(/\.\s*$/, '').replace(/\bStation\b/g, 'Stn');
+// a spot belongs to its own month, plus any month listed in also (April cherries that open in late March)
+const inMonth = (f, m) => f.m === m || (f.also || []).includes(m);
 // Every date on the site is a typical window worked out from past years, never a sighting from this
 // season, so the word "usually" travels with it. Early/Mid/Late lose their capital after "Usually"
 // because they are not proper nouns; month names keep theirs. Year-round needs no qualifier.
@@ -399,7 +401,7 @@ function show(m){
 
 
   // up to four spots for the month (hand-picked ones first), then a way to the rest
-  const all = D.feat.filter(x => x.m === m);
+  const all = D.feat.filter(x => inMonth(x, m));
   // old cards fade out, the new month's thumbnails load meanwhile, then the cards fade in one after another
   const feats = document.getElementById('feats');
   const token = ++featToken, calm = !!(window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches);
@@ -496,7 +498,7 @@ function cardHTML(f){
     <div class="cb">${f.tags && f.tags.length ? `<div class="pills">${tagPills(f)}</div>` : ''}<h4>${f.name}</h4>
       <div class="acc">${ICON_PIN}<span>${placeOf(f)}</span></div>
       ${f.station ? `<div class="acc">${ICON_TRAIN}<span>${shortStation(f.station)}</span></div>` : ''}
-      <div class="mt"><span>${f.flower.replace(/\s*\(.*?\)/,'')}</span><span>${MON[f.m]}</span></div>
+      <div class="mt"><span>${f.flower.replace(/\s*\(.*?\)/,'')}</span><span>${f.also ? SH[f.also[0]] + ' – ' + SH[f.m] : MON[f.m]}</span></div>
     </div>
   </a>`;
 }
@@ -504,7 +506,7 @@ function cardHTML(f){
 const bySoonest = list => list.map(f => [f, bloomStatus(f).d]).sort((a, b) => a[1] - b[1]).map(([f]) => f);
 function renderGrid(m, fl){
   const g = fl ? D.flowerGroups.find(x => x.k === fl) : null;
-  const list = m ? D.feat.filter(x => x.m === m)
+  const list = m ? D.feat.filter(x => inMonth(x, m))
              : g ? bySoonest(D.feat.filter(x => x.fl.includes(g.k)))
              : bySoonest(D.feat).slice(0, 8);
   const back = `<button type="button" id="gridclear">Show what's in season now</button>`;

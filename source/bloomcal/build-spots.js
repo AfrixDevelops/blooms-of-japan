@@ -43,6 +43,7 @@ const FLOWERS = [
   ['deigo', 'Deigo', /deigo|coral tree/i, 'Deigo'],
   ['sagaribana', 'Sagaribana', /sagaribana|powder.?puff/i, 'Sagaribana'],
   ['wintersweet', 'Wintersweet', /wintersweet|robai/i, 'Wintersweet'],
+  ['adonis', 'Adonis', /adonis|fukujuso/i, 'Adonis'],
   ['shibazakura', 'Shibazakura', /shibazakura|moss phlox|pink moss/i, 'Shibazakura'],
   ['lotus', 'Lotus', /lotus|hasu/i, 'Lotus'],
   ['red-spider-lily', 'Red spider lily', /spider lily|higanbana/i, 'Red Spider Lily'],
@@ -56,8 +57,8 @@ const FLOWERS = [
   ['kochia', 'Kochia', /kochia/i, 'Kochia'],
   ['begonia', 'Begonia', /begonia/i, 'Begonia'],
   ['lilies', 'Lilies', /^(?!.*spider).*\blil(y|ies)\b/i, 'Lily'],
-  // aloe has a single spot, so it sits here rather than getting a one-spot flower page of its own
-  ['mixed-gardens', 'Mixed gardens', /various|seasonal flowers|spring flowers|tropical|aloe/i, 'Various'],
+  // aloe and katakuri have a single spot each, so they sit here rather than getting one-spot flower pages
+  ['mixed-gardens', 'Mixed gardens', /various|seasonal flowers|spring flowers|tropical|aloe|katakuri/i, 'Various'],
 ];
 
 // The prefecture a spot is in, read from its address: nearly all end with it ("…, Hirosaki, Aomori").
@@ -103,6 +104,14 @@ const spots = ALL.map((x, i) => {
   }
   if (!o.gal && x.gal) o.gal = x.gal;   // galleries can also live on the spot itself
   o.pref = prefectureOf(o.address);
+  // A cherry spot filed under April whose usual window opens in March (somei-yoshino in Kyoto, Osaka,
+  // Shikoku...) is also listed on the March page. It keeps its own month, page and label; this only adds
+  // it to the March listings, counts and map. The raw row carries it too, for the per-month tallies below.
+  // Not in the north: there somei-yoshino opens in April (Sendai's Tsutsujigaoka Park opened 3 April 2026,
+  // whatever the listing sites say), so a March visitor would find nothing.
+  if (o.m === 4 && o.fl.includes('cherry-blossom') && /^(early|mid|late)?\s*march\b/i.test(o.peak)
+    && !['Northern Japan', 'Hokkaido'].includes(o.region)) o.also = [3];
+  x.also = o.also;
   return o;
 });
 // every spot has to land in a prefecture, or the card would show a blank
@@ -154,9 +163,16 @@ data.icons.wintersweet = '<path d="M8 36 C14 28 20 20 33 5M20 21 L11 14M26 13 L3
     + `<circle cx="${x}" cy="${y - 2.4}" r="2.6"/><circle cx="${x}" cy="${y + 2.4}" r="2.6"/></g><circle cx="${x}" cy="${y}" r="1.3" fill="#8A4A2A"/>`).join('');
 data.iconOf.Wintersweet = 'wintersweet';
 
+// Adonis (fukujuso): a golden, many-petalled cup low among feathery leaves
+data.icons.adonis = '<path d="M20 38 L20 27M20 33 C15 31 11 33 8 30M20 33 C25 31 29 33 32 30M20 30 C16 28 13 29 11 26M20 30 C24 28 27 29 29 26"'
+  + ' stroke="#5C8A44" stroke-width="1.6" fill="none" stroke-linecap="round"/>'
+  + [...Array(12)].map((_, k) => `<ellipse cx="20" cy="9" rx="2.6" ry="7" fill="${k % 2 ? '#F2C230' : '#E8B020'}" transform="rotate(${k * 30} 20 16)"/>`).join('')
+  + '<circle cx="20" cy="16" r="3.4" fill="#C98A16"/>';
+data.iconOf.Adonis = 'adonis';
+
 // the month sidebar looks icons up by the flower's English name, so newer names borrow existing icons
-Object.assign(data.iconOf, { 'Winter Cherry': 'sakura', 'Kawazu Cherry Blossom & Rapeseed': 'sakura',
-  Sasanqua: 'camellia', 'Tropical Orchids': 'mixed', Aloe: 'mixed' });
+Object.assign(data.iconOf, { 'Winter Cherry': 'sakura', 'Kawazu Cherry Blossom & Rapeseed': 'sakura', 'Okame Cherry Blossom': 'sakura',
+  Sasanqua: 'camellia', 'Tropical Orchids': 'mixed', Aloe: 'mixed', Katakuri: 'mixed' });
 
 const ungrouped = spots.filter(s => !s.fl.length);
 if (ungrouped.length) throw new Error('no flower group for: ' + ungrouped.map(s => s.flower).join(', '));
@@ -168,10 +184,11 @@ data.feat = spots;
 
 // Map pins, per-month counts, flower chips and region bars are all derived from the
 // same source list, so they stay in step whenever spots are added (was extract-cal2.js).
-data.pins = ALL.filter(d => d.mx !== null && d.mx !== undefined).map(d => [d.month, d.mx, d.my]);
+data.pins = ALL.filter(d => d.mx !== null && d.mx !== undefined)
+  .flatMap(d => [d.month].concat(d.also || []).map(m => [m, d.mx, d.my]));
 data.flowers = {}; data.counts = {}; data.regions = {};
 for (let m = 1; m <= 12; m++) {
-  const inMonth = ALL.filter(d => d.month === m);
+  const inMonth = ALL.filter(d => d.month === m || (d.also || []).includes(m));
   data.counts[m] = inMonth.length;
   const fc = {}, rc = {};
   inMonth.forEach(d => {
