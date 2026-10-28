@@ -398,6 +398,12 @@ function route(){
   closeMenu && closeMenu();
   window.scrollTo({ top: saved !== null ? saved : y, behavior: smooth ? 'smooth' : 'auto' });
   markTop();   // a jump to a new address fires no scroll event, so the button would keep its old state
+  // a plain #anchor on the first load (e.g. /about#itravelnet for the directory's link-back check) is
+  // honoured after the scroll above, which would otherwise undo the browser's own jump to it
+  if (!routed && location.hash.length > 1 && !location.hash.startsWith('#/')) {
+    const target = document.getElementById(decodeURIComponent(location.hash.slice(1)));
+    if (target) target.scrollIntoView({ block: 'center' });
+  }
   // on first load the web fonts arrive one by one and re-wrap the hero, shifting everything below it,
   // so keep the section lined up while the hero settles, until the visitor scrolls themselves
   if (!routed && saved === null && yFn && y > 0 && window.ResizeObserver) {
