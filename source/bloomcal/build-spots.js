@@ -42,12 +42,13 @@ const FLOWERS = [
   ['kinmokusei', 'Kinmokusei', /kinmokusei|osmanthus|fragrant olive/i, 'Kinmokusei'],
   ['deigo', 'Deigo', /deigo|coral tree/i, 'Deigo'],
   ['sagaribana', 'Sagaribana', /sagaribana|powder.?puff/i, 'Sagaribana'],
+  ['wintersweet', 'Wintersweet', /wintersweet|robai/i, 'Wintersweet'],
   ['shibazakura', 'Shibazakura', /shibazakura|moss phlox|pink moss/i, 'Shibazakura'],
   ['lotus', 'Lotus', /lotus|hasu/i, 'Lotus'],
   ['red-spider-lily', 'Red spider lily', /spider lily|higanbana/i, 'Red Spider Lily'],
   ['narcissus', 'Narcissus', /narcissus/i, 'Narcissus'],
   ['rapeseed', 'Rapeseed', /rapeseed|nanohana|rape blossom/i, 'Rapeseed'],
-  ['camellia', 'Camellia', /camellia|tsubaki/i, 'Camellia'],
+  ['camellia', 'Camellia', /camellia|tsubaki|sasanqua|sazanka/i, 'Camellia'],   // sasanqua is a camellia too
   ['peony', 'Peony', /peony|botan/i, 'Peony'],
   ['azalea', 'Azalea', /azalea|tsutsuji/i, 'Azalea'],
   ['chrysanthemum', 'Chrysanthemum', /chrysanthemum/i, 'Chrysanthemum'],
@@ -55,7 +56,8 @@ const FLOWERS = [
   ['kochia', 'Kochia', /kochia/i, 'Kochia'],
   ['begonia', 'Begonia', /begonia/i, 'Begonia'],
   ['lilies', 'Lilies', /^(?!.*spider).*\blil(y|ies)\b/i, 'Lily'],
-  ['mixed-gardens', 'Mixed gardens', /various|seasonal flowers|spring flowers|tropical/i, 'Various'],
+  // aloe has a single spot, so it sits here rather than getting a one-spot flower page of its own
+  ['mixed-gardens', 'Mixed gardens', /various|seasonal flowers|spring flowers|tropical|aloe/i, 'Various'],
 ];
 
 // The prefecture a spot is in, read from its address: nearly all end with it ("…, Hirosaki, Aomori").
@@ -144,6 +146,17 @@ data.icons.sagaribana = '<path d="M20 2 C21 12 19 22 20 38" stroke="#5C7A3A" str
     return `<path d="M${(x + 1.5 * c).toFixed(1)} ${(y + 1.5 * s).toFixed(1)} L${(x + 6 * c).toFixed(1)} ${(y + 6 * s).toFixed(1)}" stroke="#E58FB0" stroke-width="1.1" stroke-linecap="round"/>`;
   }).join('') + `<circle cx="${x}" cy="${y}" r="1.5" fill="#FBE3EC"/>`).join('');
 data.iconOf.Sagaribana = 'sagaribana';
+
+// wintersweet: waxy pale-yellow cups on a bare winter twig, each with a dark heart
+data.icons.wintersweet = '<path d="M8 36 C14 28 20 20 33 5M20 21 L11 14M26 13 L32 18" stroke="#7A5A3A" stroke-width="1.8" fill="none" stroke-linecap="round"/>'
+  + [[12, 31], [18, 24], [11, 14], [25, 15], [32, 18], [31, 7]].map(([x, y]) =>
+    `<g fill="#F2D466"><circle cx="${x - 2.4}" cy="${y}" r="2.6"/><circle cx="${x + 2.4}" cy="${y}" r="2.6"/>`
+    + `<circle cx="${x}" cy="${y - 2.4}" r="2.6"/><circle cx="${x}" cy="${y + 2.4}" r="2.6"/></g><circle cx="${x}" cy="${y}" r="1.3" fill="#8A4A2A"/>`).join('');
+data.iconOf.Wintersweet = 'wintersweet';
+
+// the month sidebar looks icons up by the flower's English name, so newer names borrow existing icons
+Object.assign(data.iconOf, { 'Winter Cherry': 'sakura', 'Kawazu Cherry Blossom & Rapeseed': 'sakura',
+  Sasanqua: 'camellia', 'Tropical Orchids': 'mixed', Aloe: 'mixed' });
 
 const ungrouped = spots.filter(s => !s.fl.length);
 if (ungrouped.length) throw new Error('no flower group for: ' + ungrouped.map(s => s.flower).join(', '));
