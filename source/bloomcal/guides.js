@@ -216,4 +216,148 @@ module.exports = [
 <p>For every spot on one page, see the <a href="/calendar">flower calendar</a>.</p>
 `,
   },
+
+  {
+    slug: 'quiet-cherry-blossom-spots',
+    h1: 'Where can you see cherry blossoms in Japan without the crowds?',
+    title: 'Quiet Cherry Blossom Spots in Japan, Near Tokyo and Beyond',
+    short: 'Riverbanks, old lone trees and early cherries where you won\'t be fighting for a view.',
+    desc: 'Quieter cherry blossom spots in Japan: long riverbanks near Tokyo, ancient lone trees in Yamanashi and Tohoku, early cherries in February and March, and Kyoto gardens with weeks of bloom.',
+    published: '2026-10-29', updated: '2026-10-29',
+    fl: [], img: 'wanizuka-cherry-tree',
+    sources: 'Tree counts, ages and access from each spot\'s official or city site.',
+    body: `
+<p class="answer"><strong>Get out of the city centres, or go at the edges of the season.</strong> Ueno, Meguro River and Kyoto's Maruyama Park are packed every year. You'll share the view with far fewer people at long riverbanks where the crowd spreads out, at old lone trees in the countryside, and at cherries that flower weeks before or after the main rush.</p>
+
+<h2>Where are the quieter cherry blossom spots near Tokyo?</h2>
+<p>Our pick is the [[motoara-river-cherry-blossom-avenue|Moto-Arakawa in Konosu]], Saitama. About 500 trees line both banks for some 2.5 km, so even on a busy day there's room to walk. It's a 10 minute walk from Fukiage Station on the JR Takasaki Line, and during the festival you can ride a roofed boat under the trees.</p>
+<p>Also in Saitama, [[sakurazutsumi-park]] in Yoshimi has about 500 cherries over a carpet of yellow rapeseed, both at their best in late March and early April. Parking fills early at weekends, so go on a weekday.</p>
+<p>If you're stuck in central Tokyo, [[zojo-ji-temple]] is a decent compromise. It has about 200 trees around the main hall with Tokyo Tower behind, and it's far calmer first thing in the morning than by lunchtime.</p>
+
+<h2>Which cherries flower before the crowds arrive?</h2>
+<p>The early kinds. Kawazu cherries are a deeper pink and flower from mid February to early March, a month before the somei-yoshino that everyone else is waiting for. Near Tokyo you'll find them at [[matsuda-nishihirabatake-park]], where about 360 trees grow on a slope above rapeseed with Mount Fuji behind on clear mornings, and along the coast road at [[miura-kaigan-kawazu-cherries]].</p>
+<p>A little later, about 160 Okame cherries line the road up to Mount Oyama at [[oyama-shindo-okame-cherries]] in Isehara. They usually open in early March, they're free, and it's about 20 minutes by bus from Isehara Station on the Odakyu Line.</p>
+
+<h2>Are the famous old cherry trees worth the trip?</h2>
+<p>Some are busier than you'd think. [[miharu-takizakura]] in Fukushima, a weeping cherry over 1,000 years old, gets very crowded on peak weekends. The less famous trees are the better bet if you want quiet.</p>
+<p>[[wanizuka-cherry-tree]] is the one we'd go out of our way for. It's a single edo-higan about 330 years old on a small mound among the fields in Nirasaki, with the snowy Yatsugatake range behind. Take a city bus from Nirasaki Station to Takeda-Hachiman-iriguchi, then walk five minutes. Next door in Hokuto, [[yamataka-jindai-zakura]] at Jisso-ji temple may be the oldest cherry in Japan, at an estimated 1,800 to 2,000 years. It's about 20 minutes by taxi from Hinoharu Station.</p>
+<p>In Tohoku, [[kubo-zakura]] in Nagai is about 1,200 years old with branches spreading some 25 m. And in the middle of Morioka, [[ishiwarizakura]] grows out of a split in a granite boulder outside the district court. You can see it from the pavement any time, for free.</p>
+
+<h2>Where else do the crowds thin out?</h2>
+<p>Anywhere long. At the [[nicchu-line-weeping-cherries]] in Kitakata, about 1,000 weeping cherries line a 3 km cycling path along an old railway line, and the further you walk from the station, the quieter it gets. In Miyagi, the [[shiroishi-river-hitome-senbonzakura|Shiroishi River]] has about 1,200 trees along 8 km between Ogawara and Funaoka, with the Zao mountains behind.</p>
+<p>The north also helps on timing. Tohoku flowers in mid to late April, after the Tokyo and Kyoto seasons are over, so if your trip runs late you're not competing with the crowds who came for the south.</p>
+
+<h2>What about Kyoto?</h2>
+<p>Kyoto's hard to do quietly in early April. The trick is to pick places where the bloom is spread over weeks, so nobody's squeezing into one perfect weekend. The [[kyoto-botanical-gardens]] grow about 500 cherry trees of some 180 kinds, flowering from mid March to late April, and it's right by Kitayama Station. [[hirano-shrine]] has about 400 trees of some 60 kinds, many raised at the shrine itself.</p>
+<p>Or leave the city: [[mii-dera-temple]] in Otsu has about 1,000 trees above Lake Biwa and is 10 minutes on foot from Miidera Station. Late in the season, the short Omuro cherries at [[ninna-ji-temple]] are among the last in Kyoto to flower.</p>
+
+<h2>How do you avoid the crowds anywhere?</h2>
+<p>Go on a weekday, go early, and skip the weekend closest to full bloom. That's when every famous spot is at its busiest. At most spots, 8 am and 11 am feel like different places. For the usual dates in each city, see <a href="/guides/cherry-blossom-season">when cherry blossom season is</a>.</p>
+<p>We track {{n:cherry-blossom}} cherry blossom spots across Japan. <a href="/flowers/cherry-blossom">See them all</a>.</p>
+`,
+  },
+
+  {
+    slug: 'wisteria-spots',
+    h1: 'Where can you see wisteria in Japan besides Ashikaga Flower Park?',
+    title: 'Where to See Wisteria in Japan Beyond Ashikaga Flower Park',
+    short: 'Ancient vines, long tunnels and trellises from Tokyo to Kyushu, with peak dates and how to get there.',
+    desc: 'The best wisteria spots in Japan besides Ashikaga Flower Park: Kameido Tenjin and Ushijima near Tokyo, Tennogawa Park in Aichi, Byakugo-ji in Hyogo and Kawachi in Kitakyushu, with bloom dates, access and fees.',
+    published: '2026-10-29', updated: '2026-10-29',
+    fl: ['wisteria'], img: 'ushijima-wisteria',
+    sources: 'Fees, bloom windows and access from each spot\'s official site.',
+    body: `
+<p class="answer"><strong>Near Tokyo, go to Kameido Tenjin Shrine in mid April or Ushijima in late April.</strong> Further afield, Tennogawa Park in Aichi, Byakugo-ji and Shirai Omachi in Hyogo, and Kawachi in Kitakyushu are all worth a trip. Most wisteria in Japan peaks between late April and early May.</p>
+
+<h2>Where can you see wisteria near Tokyo?</h2>
+<p>[[kameido-tenjin-shrine]] is the closest and the earliest, at its best in mid to late April. About 100 vines hang over the shrine pond on 15 trellises, with red arched bridges and Tokyo Skytree behind. Hiroshige painted it. It's a 15 minute walk from Kameido Station, and the trellises are lit up in the evening during the festival.</p>
+<p>[[ushijima-wisteria]] in Kasukabe is the one we'd pick if you only see one. It's a single vine thought to be over 1,000 years old, and it's the only wisteria in Japan that's a Special Natural Monument. It's open only in season, from mid April to early May, and costs about 1,200 yen. Walk 10 minutes from Fuji-no-Ushijima Station on the Tobu Urban Park Line.</p>
+<p>Two smaller ones are worth knowing about if you're nearby. There's a wisteria over 450 years old beside the shrine at [[tamashiki-park]] in Kazo, Saitama. And at [[koppata-wisteria|Chosen-ji temple]] in Kanra, Gunma, a 650-year-old vine flowers in several colours.</p>
+
+<h2>Where is the best wisteria in central Japan?</h2>
+<p>Aichi has more wisteria spots than anywhere else we list. [[tennogawa-park]] in Tsushima has a 275 m trellis of 12 kinds reflected in the park pond, 15 minutes on foot from Tsushima Station on the Meitetsu line, and it's lit up at night during the festival. In Okazaki, [[okazaki-park]] has old vines with tresses about 1.2 m long beside the castle where Tokugawa Ieyasu was born. [[mandara-ji-park]] in Konan has about 60 vines around an old temple.</p>
+<p>In Shizuoka, [[yuya-no-naga-fuji]] at Gyoko-ji temple is said to have been planted about 850 years ago, and it's free. It's also one of the earlier ones, in mid to late April.</p>
+
+<h2>What about Kyoto, Osaka and the west?</h2>
+<p>[[byakugo-ji-temple]] in Tamba, Hyogo is known for its "nine-foot" wisteria hanging along a 120 m trellis. Entry is about 300 yen, a bit more during the festival, and it's 8 minutes by taxi from Ichijima Station. For sheer length, [[shirai-omachi-wisteria-park]] in Asago has a 500 m trellis of nine kinds in the hills of northern Hyogo. It's open in season only, costs about 1,000 yen and is a 22 minute walk from Kami-Yakuno Station.</p>
+<p>In Nara, wisteria is the crest of [[kasuga-taisha-shrine]]. The [[manyo-botanical-garden]] next door has about 200 wisteria of some 20 kinds (700 yen). Further west, [[wake-wisteria-park]] in Okayama has about 100 kinds on a 500 m trellis, but you'll want a car. [[omishima-wisteria-park]] is on an island on the Shimanami Kaido cycling route, with a festival around 3 May.</p>
+
+<h2>Where is the best wisteria in Kyushu?</h2>
+<p>[[kawachi-wisteria-garden]] in Kitakyushu has the two famous wisteria tunnels, 80 m and 110 m long, and about 22 kinds. You can't just turn up in peak season: entry is by timed ticket, bought in advance online or at convenience stores, and the price goes up with the bloom. If you'd rather not plan that far ahead, [[kuroki-great-wisteria]] in Yame is a 600-year-old vine on a 3,000 square metre trellis, with clusters up to 1.2 m long, and it's free.</p>
+<p>[[nakayama-ofuji]] in Yanagawa flowers earlier, in mid to late April, and is lit up in the evening during its festival.</p>
+
+<h2>When does wisteria bloom?</h2>
+<div class="gtable"><table>
+<thead><tr><th>Spot</th><th>Prefecture</th><th>Usual peak</th></tr></thead>
+<tbody>
+<tr><td>Kameido Tenjin Shrine</td><td>Tokyo</td><td>Mid to late April</td></tr>
+<tr><td>Yuya no Naga Fuji</td><td>Shizuoka</td><td>Mid to late April</td></tr>
+<tr><td>Nakayama Ofuji</td><td>Fukuoka</td><td>Mid to late April</td></tr>
+<tr><td>Ushijima Wisteria</td><td>Saitama</td><td>Late April to early May</td></tr>
+<tr><td>Tennogawa Park</td><td>Aichi</td><td>Late April to early May</td></tr>
+<tr><td>Kasuga Taisha</td><td>Nara</td><td>Late April to early May</td></tr>
+<tr><td>Byakugo-ji Temple</td><td>Hyogo</td><td>Late April to mid May</td></tr>
+<tr><td>Shirai Omachi</td><td>Hyogo</td><td>Late April to mid May</td></tr>
+<tr><td>Kawachi Wisteria Garden</td><td>Fukuoka</td><td>Late April to mid May</td></tr>
+</tbody></table></div>
+<p>Wisteria comes a few weeks after the cherry blossom, and most places peak right in Golden Week, from 29 April to 5 May. That's the busiest week of the year to travel in Japan. If you can, go in the last few days of April on a weekday.</p>
+<p>The dates move with the spring. A warm April can bring everything forward a week, so check the spot's own bloom report before you set off.</p>
+
+<h2>Is Ashikaga Flower Park still worth it?</h2>
+<p>Yes, if you can live with the crowds. Its Great Wisteria is over 160 years old and covers about 1,000 square metres, and there are more than 350 wisteria in all, so the season runs from mid April to mid May. Entry runs from 900 to 2,300 yen depending on the bloom. But if you'd rather see an ancient vine without the queues, Ushijima is closer to Tokyo, and its vine is older by more than 800 years.</p>
+<p>We track {{n:wisteria}} wisteria spots. <a href="/flowers/wisteria">See them all</a>.</p>
+`,
+  },
+
+  {
+    slug: 'hydrangea-spots',
+    h1: 'Where can you see hydrangeas in Japan in June?',
+    title: 'Where to See Hydrangeas in Japan: Temples, Gardens and the Rainy Season',
+    short: 'The best hydrangea temples near Tokyo and Kyoto, and where they flower later, with access and timing.',
+    desc: "The best places to see hydrangeas in Japan in June: Meigetsu-in and Hasedera in Kamakura, Takahata Fudo in Tokyo, Mimuroto-ji in Uji, Shimoda Park in Izu, and later gardens in Tohoku and Shikoku.",
+    published: '2026-10-29', updated: '2026-10-29',
+    fl: ['hydrangea'], img: 'mimuroto-ji-temple',
+    sources: 'Japan Meteorological Agency, normal start and end dates of the rainy season, 1991–2020.',
+    body: `
+<p class="answer"><strong>Near Tokyo, Kamakura's temples are the classic, at their best through June.</strong> Meigetsu-in is famous for one particular shade of blue, and Hasedera has hydrangeas on a hillside above the sea. Near Kyoto, go to Mimuroto-ji in Uji. Hydrangeas flower in the rainy season, from early June to early July in most of Japan.</p>
+
+<h2>Where are the best hydrangeas near Tokyo?</h2>
+<p>[[meigetsu-in-temple]] in Kita-Kamakura is called the "hydrangea temple". It has some 2,000 to 2,500 hime-ajisai in a blue so distinctive it's called Meigetsu-in blue. Entry is 500 yen and it's a 10 minute walk from Kita-Kamakura Station. Get there early on June weekends.</p>
+<p>[[hasedera-temple]] in Kamakura has about 2,500 hydrangeas of more than 40 kinds along a hillside path with views over Sagami Bay. In season the path needs a timed ticket, about 500 yen on top of temple entry, which you can book online. Expect around 200 steps.</p>
+<p>Kamakura is busy in June. If you'd rather skip it, [[takahata-fudo]] in Hino is our pick. It has about 7,800 hydrangeas of some 250 kinds around a five-storey pagoda, it's free, and it's 5 minutes from Takahata-fudo Station on the Keio Line. Inside the city, [[hakusan-shrine]] in Bunkyo has about 3,000 hydrangeas and peaks a little earlier, in early to mid June.</p>
+<p>For a lot of flowers in one place, [[hondo-ji-temple]] in Matsudo, Chiba, fills its grounds with about 50,000 hydrangeas (500 yen). It's 15 minutes on foot from Kita-Kogane Station on the JR Joban Line.</p>
+
+<h2>Where else around Tokyo?</h2>
+<p>The [[hakone-tozan-railway]] switchbacks up the mountain from Hakone-Yumoto to Gora with hydrangeas along the track. Because it climbs, the flowers last from mid June to mid July, and in the second half of June there's a reserved "night hydrangea" train with the trackside flowers lit up.</p>
+<p>Down in Izu, [[shimoda-park]] has about 150,000 hydrangea plants of more than 100 kinds on a hill above Shimoda harbour, around 3 million flowers. It's the biggest display we list, and peaks in mid to late June.</p>
+
+<h2>Where can you see hydrangeas near Kyoto and Nara?</h2>
+<p>[[mimuroto-ji-temple]] in Uji has about 20,000 hydrangeas of 50 kinds in a garden that only opens from early June to early July. It's a 15 minute walk from Mimuroto Station on the Keihan Uji Line, and it's lit up on some June weekends.</p>
+<p>In Kyoto itself, [[fujinomori-shrine]] has about 3,500 hydrangeas in two gardens (500 yen) and holds a hydrangea festival on 15 June. In Nara, [[yata-dera-temple]] has between 10,000 and 20,000 hydrangeas of some 60 kinds on the hillside around the temple, about 700 yen in season.</p>
+
+<h2>When do hydrangeas bloom in Japan?</h2>
+<p>They follow the rainy season north. Okinawa goes first: [[yohena-hydrangea-garden]] in Motobu is at its best from late May. Kamakura, Tokyo and Kyoto peak in June. Hilltop gardens and the north run into July, at [[shingu-hydrangea-village]] in Ehime (about 20,000 plants, free), [[ohirasan-ajisai-zaka]] in Tochigi, and [[michinoku-hydrangea-garden]] in Iwate, which flowers from late June to late July.</p>
+<div class="gtable"><table>
+<thead><tr><th>Spot</th><th>Prefecture</th><th>Usual peak</th></tr></thead>
+<tbody>
+<tr><td>Yohena Hydrangea Garden</td><td>Okinawa</td><td>Late May to June</td></tr>
+<tr><td>Hasedera Temple</td><td>Kanagawa</td><td>Late May to late June</td></tr>
+<tr><td>Meigetsu-in Temple</td><td>Kanagawa</td><td>Early to late June</td></tr>
+<tr><td>Takahata Fudo</td><td>Tokyo</td><td>Early to late June</td></tr>
+<tr><td>Mimuroto-ji Temple</td><td>Kyoto</td><td>June to early July</td></tr>
+<tr><td>Shimoda Park</td><td>Shizuoka</td><td>Mid to late June</td></tr>
+<tr><td>Hakone Tozan Railway</td><td>Kanagawa</td><td>Mid June to mid July</td></tr>
+<tr><td>Michinoku Hydrangea Garden</td><td>Iwate</td><td>Late June to late July</td></tr>
+</tbody></table></div>
+
+<h2>Is the rainy season a good time to visit Japan?</h2>
+<p>For hydrangeas, it's the only time. In Tokyo and Kansai the rainy season normally starts around 6 or 7 June and ends around 19 July, and in Okinawa it runs from about 10 May to 21 June. It doesn't rain all day every day. You'll get grey, humid days with showers, and the odd dry spell.</p>
+<p>We'd say rain actually suits hydrangeas. The colours look deeper on a wet, overcast day than in hard sun. Bring an umbrella and good shoes, because many of these gardens are on steps or slopes.</p>
+<p>Irises flower in June too, so you can pair the two. Hondo-ji has about 5,000 irises in early June, just before its hydrangeas. If you'd rather avoid the rain altogether, Hokkaido mostly misses it. See <a href="/guides/flowers-by-season">what flowers in each season</a>.</p>
+
+<h2>Why are some hydrangeas blue and others pink?</h2>
+<p>It's the soil. In acidic soil the plant can take up aluminium, and the flowers turn blue. In neutral or alkaline soil they go pink. Japan's soils are mostly acidic, which is why blue is so common.</p>
+<p>We track {{n:hydrangea}} hydrangea spots. <a href="/flowers/hydrangea">See them all</a>.</p>
+`,
+  },
 ];
