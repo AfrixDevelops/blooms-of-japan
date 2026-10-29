@@ -37,6 +37,7 @@ const html = `<!doctype html>
 <meta name="description" content="${DESC}">
 <link rel="canonical" href="${SITE}/">
 <meta name="theme-color" content="#F6F0E3">
+<meta name="msvalidate.01" content="E4DB9D6840072792C05DB04A7C6D1023">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Blooms of Japan">
