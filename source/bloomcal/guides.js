@@ -475,4 +475,114 @@ module.exports = [
 <p>For other cherry spots that peak late, see <a href="/guides/cherry-blossom-season">when cherry blossom season is</a>, or the spot page for the [[nicchu-line-weeping-cherries|Nicchu Line weeping cherries]].</p>
 `,
   },
+
+  {
+    slug: 'japan-in-november',
+    h1: 'Is November a good time to visit Japan?',
+    title: "Is November a Good Time to Visit Japan? Leaves, Weather and What's On",
+    short: "What's in season in early, mid and late November, what the weather's like, and where to go.",
+    desc: "November is one of the best months to visit Japan: autumn leaves in Tokyo and Kyoto, gold ginkgo avenues, chrysanthemum shows and even winter cherries, with mild, mostly dry weather. What's on week by week.",
+    published: '2026-10-29', updated: '2026-10-29',
+    fl: [], img: 'korankei',
+    sources: 'Japan Meteorological Agency, maple colouring normals and Tokyo climate normals, 1991–2020.',
+    body: `
+<p class="answer"><strong>Yes, it's one of the best months of the year.</strong> The autumn leaves reach Tokyo and Kyoto in the second half of November, the ginkgo avenues turn gold, and the weather is mild and mostly dry. The catch is that late November in Kyoto is as busy as cherry blossom season.</p>
+
+<h2>What's the weather like in November?</h2>
+<p>Comfortable. In Tokyo, daytime highs average about 17°C over the month, cooler by the end, and nights drop below 10°C. It's much drier than September and October, with plenty of clear blue days.</p>
+<p>Pack layers: a light jacket for the day and something warmer for the evenings, especially if you're going to the mountains or a night light-up. Hokkaido is a different story. The leaves there are mostly finished by November and winter's on its way.</p>
+
+<h2>What's in season in November?</h2>
+<p>It depends which week you go.</p>
+<p><strong>Early November</strong> is mountain time. The colour is still up high, at places like [[irohazaka-and-lake-chuzenji]] in Nikko and [[oirase-gorge]] in Aomori, while the cities are still green. It's also chrysanthemum season. [[shinjuku-gyoen-november|Shinjuku Gyoen]] puts on its chrysanthemum show from 1 to 15 November, and the [[meiji-jingu-chrysanthemum-show]] runs through the month for free.</p>
+<p><strong>Mid November</strong> is when the colour comes down to the valleys near the big cities. [[korankei]] near Nagoya, [[mount-takao]] outside Tokyo and [[hananuki-gorge]] in Ibaraki are all at their best. Ginkgo starts turning in western Tokyo, at [[showa-kinen-park-ginkgo-avenue]] and along the [[hachioji-koshu-kaido-ginkgo-avenue|Koshu Kaido in Hachioji]].</p>
+<p><strong>Late November</strong> is the big one. Central Tokyo's ginkgo avenues, like [[meiji-jingu-gaien-ginkgo-avenue]], go gold, and Kyoto's temples reach their peak at [[eikando-temple]], [[tofuku-ji-temple]] and [[nanzen-ji-temple]]. Tokyo's gardens, such as [[rikugien-garden]], carry on into early December.</p>
+<p>There's one surprise too: some cherries flower in November. See <a href="/guides/cherry-blossoms-in-november">where to see cherry blossoms in November</a>.</p>
+
+<h2>Is it crowded?</h2>
+<p>Early and mid November are fairly relaxed. The last two weeks are a different matter. Kyoto in late November is one of the busiest times of the year, and the famous temples are packed from mid morning. There's also a public holiday on 23 November, so if it makes a long weekend, expect that to be especially busy.</p>
+<p>If you're set on Kyoto, go to the big names at opening time, and book your hotel early. If you'd rather avoid the rush, come in the first half of the month and head for the mountains, or go to Tokyo, where the crowds spread across far more parks.</p>
+
+<h2>When in November should you go?</h2>
+<p>If you want peak leaves in both Tokyo and Kyoto, we'd aim for 20 November to early December. If you'd rather beat the crowds and don't mind travelling out of the cities, the first two weeks are excellent and noticeably calmer.</p>
+<p>For the usual dates city by city, see <a href="/guides/autumn-leaves-season">when the autumn leaves turn</a>, and for everything in flower this month, see <a href="/when/november">November on the calendar</a>.</p>
+`,
+  },
+
+  {
+    slug: 'autumn-leaves-tokyo',
+    h1: 'Where can you see autumn leaves in Tokyo?',
+    title: 'Where to See Autumn Leaves in Tokyo: Gardens, Ginkgo Avenues and Day Trips',
+    short: 'The best maple gardens and ginkgo avenues in the city, easy day trips, and when each one peaks.',
+    desc: 'The best places to see autumn leaves in Tokyo: Rikugien, Shinjuku Gyoen, the Meiji Jingu Gaien ginkgo avenue, Showa Kinen Park and Mount Takao, with peak dates, light-ups, fees and stations.',
+    published: '2026-10-29', updated: '2026-10-29',
+    fl: [], img: 'meiji-jingu-gaien-ginkgo-avenue',
+    sources: "Japan Meteorological Agency, maple colouring normals, 1991–2020; fees and opening times from each spot's official site.",
+    body: `
+<p class="answer"><strong>In central Tokyo, go to Rikugien for maples and the Meiji Jingu Gaien avenue for gold ginkgo.</strong> Both peak from late November into early December. For an easy day trip, Mount Takao colours from mid November and is about an hour from Shinjuku. Tokyo's sample maple usually turns around 28 November.</p>
+
+<h2>Where are the best autumn leaves in central Tokyo?</h2>
+<p>[[rikugien-garden]] is our pick for maples. It's an early 1700s stroll garden with about 560 maples, plus ginkgo and enkianthus around its pond. In late November and early December it opens at night with the trees lit up, on a separate ticket. Entry is 300 yen, and it's 7 minutes on foot from Komagome Station.</p>
+<p>[[shinjuku-gyoen-ginkgo|Shinjuku Gyoen]] has the room the others don't. Great old ginkgos and maples stand around its lawns and ponds, and in mid November they're colouring together. It's 500 yen, closed on Mondays, and 5 minutes from Shinjuku-gyoemmae Station.</p>
+
+<h2>Where are the best ginkgo trees in Tokyo?</h2>
+<p>Ginkgo is Tokyo's official tree, and the city is full of it. The famous one is the [[meiji-jingu-gaien-ginkgo-avenue]]: 146 trees in four rows along a 300 m avenue, pruned into neat cones, gold from mid November to early December. It's busy at weekends, so go early on a weekday.</p>
+<p>A few others worth knowing:</p>
+<ul>
+<li>[[university-of-tokyo-ginkgo-avenue|University of Tokyo, Hongo]]: a tall ginkgo avenue up to the Yasuda Auditorium. It's free, and the ginkgo leaf is the university's emblem.</li>
+<li>[[yasukuni-shrine-ginkgo|Yasukuni Shrine]]: big ginkgos along the main approach from Kudanshita. Free.</li>
+<li>[[hibiya-park-kubikake-ginkgo|Hibiya Park]]: the "neck-wager ginkgo", about 400 years old, moved here when the park was built. Free.</li>
+<li>[[zenpuku-ji-temple-upside-down-ginkgo|Zenpuku-ji]] in Azabu: the biggest ginkgo in Tokyo, with branches that droop like roots. Free.</li>
+</ul>
+
+<h2>What are the best day trips for autumn leaves from Tokyo?</h2>
+<p>[[mount-takao]] is the easy one: Keio Line from Shinjuku to Takaosanguchi, then the cable car or a hike up. The maples line the cable car route and surround Yakuo-in temple near the top, from mid November to early December. Weekend queues for the cable car can be long, so go early or on a weekday.</p>
+<p>[[showa-kinen-park-ginkgo-avenue|Showa Kinen Park]] in Tachikawa has two long ginkgo avenues, and the fallen leaves turn the paths solid gold in mid to late November. It's 2 minutes from Nishi-Tachikawa Station, and entry is 450 yen.</p>
+<p>Further out, Kamakura's [[engakuji-temple]] is right by Kita-Kamakura Station and colours from mid November. For the latest colour near Tokyo, [[yoro-valley]] in Chiba usually peaks in late November and early December. If you're coming earlier in the autumn, Nikko's [[irohazaka-and-lake-chuzenji]] is at its best from mid October to early November.</p>
+
+<h2>When do the leaves peak in Tokyo?</h2>
+<div class="gtable"><table>
+<thead><tr><th>Spot</th><th>Usual peak</th></tr></thead>
+<tbody>
+<tr><td>Irohazaka and Lake Chuzenji (Nikko)</td><td>Mid October to early November</td></tr>
+<tr><td>Mount Takao</td><td>Mid November to early December</td></tr>
+<tr><td>Showa Kinen Park ginkgo</td><td>Mid to late November</td></tr>
+<tr><td>Engaku-ji (Kamakura)</td><td>Mid November to early December</td></tr>
+<tr><td>Meiji Jingu Gaien ginkgo</td><td>Mid November to early December</td></tr>
+<tr><td>Shinjuku Gyoen</td><td>Mid November to early December</td></tr>
+<tr><td>Rikugien</td><td>Late November to mid December</td></tr>
+<tr><td>Yoro Valley (Chiba)</td><td>Late November to early December</td></tr>
+</tbody></table></div>
+<p>Ginkgo usually turns a little before the maples in the same place. So if you're in Tokyo in the third week of November, see the ginkgo first, and if you're there in early December, head for the maple gardens.</p>
+<p>For other cities, see <a href="/guides/autumn-leaves-season">when the autumn leaves turn across Japan</a>. We track {{n:autumn-leaves}} autumn leaves spots and {{n:ginkgo}} ginkgo spots. <a href="/flowers/ginkgo">See the ginkgo</a>.</p>
+`,
+  },
+
+  {
+    slug: 'cherry-blossoms-in-november',
+    h1: 'Can you see cherry blossoms in Japan in November?',
+    title: 'Cherry Blossoms in November: Where to See Japan\'s Autumn Sakura',
+    short: 'Yes, at a few places. Which cherries flower in autumn, where to see them, and what to expect.',
+    desc: 'You can see cherry blossoms in Japan in November. Autumn-flowering cherries bloom alongside the red leaves at Obara in Aichi, Sakurayama Park in Gunma and Jomine Park in Saitama. What to expect and when to go.',
+    published: '2026-10-29', updated: '2026-10-29',
+    fl: [], img: 'obara-shikizakura',
+    sources: "Bloom windows and tree counts from each spot's official or local tourism site.",
+    body: `
+<p class="answer"><strong>Yes, at a few places.</strong> A handful of cherry varieties flower in autumn, and in November you can see them next to the red maples. The best-known are Obara in Aichi, Sakurayama Park in Gunma and Jomine Park in Saitama. Just don't expect the clouds of pink you get in spring.</p>
+
+<h2>Which cherries flower in the autumn?</h2>
+<p>Three names come up. Shikizakura, the "four-season cherry", flowers twice a year: a light bloom from October into winter, then again in spring. Fuyuzakura, the "winter cherry", does the same. Jugatsuzakura, the "October cherry", is another twice-flowering kind, usually with double flowers.</p>
+<p>They're all small, pale pink or white, and they flower in scattered bursts rather than all at once. A tree in November looks lightly dusted, not covered. What makes them special is the setting: pink blossom against red and gold leaves, which you can't see any other time of year.</p>
+
+<h2>Where can you see cherry blossoms in November?</h2>
+<p>[[obara-shikizakura|Obara]] in Toyota, Aichi is the biggest. About 10,000 shikizakura grow across the hills of the Obara district, and in mid to late November they flower among the maples. Kawami Shikizakura Park alone has about 1,200 trees, and the Obara shikizakura festival runs at the same time. You'll want a car, or a bus from central Toyota. [[korankei]], one of the best-known leaf spots in central Japan, is in the same city and peaks around the same weeks.</p>
+<p>[[sakurayama-park-winter-cherries|Sakurayama Park]] in Fujioka, Gunma has about 7,000 fuyuzakura on a hillside. They flower with the autumn leaves from mid November to early December, and the combination has made it a national Place of Scenic Beauty and a Natural Monument. It's free, with parking for 500 yen, and there's a festival in early December with light-ups on weekends.</p>
+<p>[[jomine-park-winter-cherries|Jomine Park]] in Kamikawa, Saitama is the earliest of the three. Its 600 winter cherries flower from late October to early December, and it holds evening light-ups. On weekends in season the roads around the park run one way.</p>
+
+<h2>When is the best time to see them?</h2>
+<p>Mid to late November, when the cherries and the leaves overlap. Earlier than that, the trees have flowers but the maples are still green. Later, the leaves fall and the blossom thins out.</p>
+<p>Autumn cherries are a nice extra rather than a reason to fly to Japan. If cherry blossom is the main thing you want to see, plan for spring: here's <a href="/guides/cherry-blossom-season">when cherry blossom season is</a>. But if you're already here for the leaves, these are well worth a detour.</p>
+<p>For everything else that's in season, see <a href="/guides/japan-in-november">is November a good time to visit Japan</a>.</p>
+`,
+  },
 ];
