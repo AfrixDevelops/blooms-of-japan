@@ -750,4 +750,42 @@ module.exports = [
 <p>We track {{n:red-spider-lily}} red spider lily spots. <a href="/flowers/red-spider-lily">See them all</a>.</p>
 `,
   },
+
+  {
+    slug: 'kochia-season',
+    h1: 'When do kochia turn red in Japan?',
+    title: 'Kochia Season in Japan: When They Turn Red, and Can You See Them in November?',
+    short: 'When the kochia fields turn red, what is left by November, and where to see them.',
+    desc: "Kochia in Japan turn red in October and are usually at their reddest around mid October. By November most fields, including Hitachi Seaside Park, have faded to gold or been cleared. Shima City Tourist Farm in Mie is the main field still red in November.",
+    published: '2026-10-29', updated: '2026-10-29',
+    fl: ['kochia'], img: 'hitachi-seaside-park-october',
+    sources: "Plant counts and bloom windows from each spot's official or local tourism site; 2026 timing from Weathernews.",
+    body: `
+<p class="answer"><strong>Kochia in Japan turn red in October, and most fields are at their reddest around the middle of the month.</strong> They're green through the summer, go red over two or three weeks, then fade to russet and wheat gold in the last week of October. So if you're coming in November, you'll mostly find gold rather than red. The one big exception is <a href="#november">Shima in Mie</a>, which turns later.</p>
+
+<h2>When do kochia turn red?</h2>
+<p>The plants are a soft lime green through the summer and turn red as the nights cool. [[biwako-hakodateyama|Biwako Hakodateyama]] reckons on about 90 days for the whole change from green to red and gold. A field stays properly red for about two weeks, then goes red-brown and finally a pale gold.</p>
+<p>Cooler places go first. The highland fields, all about 1,000 m up or more, turn first, in late September: [[hirugano-picnic-garden]] in Gifu, [[yuzawa-kogen-panorama-park]] in Niigata and [[tambara-lavender-park|Tambara]] in Gunma. So does [[takino-suzuran-hillside-park-october|Takino]] in Sapporo. Lowland fields near Tokyo follow in October.</p>
+
+<h2>Hitachi Seaside Park</h2>
+<p>[[hitachi-seaside-park-october|Hitachi Seaside Park]] in Ibaraki is the one in all the photos: about 40,000 kochia covering Miharashi Hill, with around 2.7 million yellow cosmos flowering below them at the same time. In a normal year they're reddest around mid October. Take the JR Joban Line from Ueno or Tokyo to Katsuta, then the bus to the park.</p>
+<p>2026 was early. Weathernews put the peak at four or five days ahead of average and expected the red to last until about 20 October, with the red-brown stage after that. By the end of October the hill is gold. Then, in early November, the park pulls the kochia and cosmos out to get the hill ready for spring's nemophila. In 2025 that happened on a closed day in the first week of November.</p>
+
+<h2 id="november">Can you see red kochia in November?</h2>
+<p>Mostly no, but there's one good option. At [[shima-city-tourist-farm|Shima City Tourist Farm]], beside the Ise-Shima roadside station in Mie, the kochia go in later and turn red from late October into November, with cosmos in the same field. In 2025 they were still green on 22 October and were expected to start turning in early November, and the farm stayed open until 24 November. It's 300 yen, and free for junior high school students and younger. The timing moves with the weather, so call the Shima city agriculture section (0599-44-0288) before you go.</p>
+<p>Elsewhere, an early November visit gets you gold kochia at best. That's still a pretty sight, but it's not the red in the photos. [[michinoku-lakeside-park|Michinoku Lakeside Park]] in Miyagi, for example, is usually red in early to mid October and wheat-coloured by the end of the month.</p>
+<p>If you're in Japan in November and the kochia have gone, the autumn leaves are the thing to see. See <a href="/guides/japan-in-november">Japan in November</a> for what's on, and <a href="/guides/autumn-leaves-tokyo">autumn leaves in Tokyo</a> for the city.</p>
+
+<h2>Other kochia fields near Tokyo</h2>
+<p>Both of the big ones are in Chiba. [[tokyo-german-village|Tokyo German Village]] has 15,000 kochia in front of its fishing pond, turning from early October. [[mother-farm-october|Mother Farm]] has about 8,000 on the hillside above Tokyo Bay, usually at their best around the mid-October long weekend.</p>
+<p>For Mount Fuji in the background, go to [[oishi-park-october|Oishi Park]] on the north shore of Lake Kawaguchi. It has rows of kochia in the lakeside beds, red from mid to late October, and it's free.</p>
+
+<h2>Where else in Japan?</h2>
+<p>Near Osaka, [[expo-70-commemorative-park-october|Expo '70 Commemorative Park]] has about 4,000 on its Flower Hill during the Cosmos and Kochia festival. Allow time for the long walk from the central gate. Above Lake Biwa, [[biwako-hakodateyama|Biwako Hakodateyama]] has about 8,000 at the top of the gondola, which is included in the ticket. In Fukuoka, [[uminonakamichi-seaside-park|Uminonakamichi Seaside Park]] on Hakata Bay is red for a week or two in mid to late October.</p>
+
+<h2>What is kochia?</h2>
+<p>It's a shrubby annual, <em>Bassia scoparia</em>, sometimes called summer cypress or burning bush. People go to see its foliage, since its flowers are tiny and green. In Japanese it's hōkigi, the "broom tree", because the dried plants were once tied into brooms. In Akita the seeds are eaten as tonburi, sometimes called "field caviar".</p>
+<p>We track {{n:kochia}} kochia spots. <a href="/flowers/kochia">See them all</a>.</p>
+`,
+  },
 ];

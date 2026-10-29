@@ -9,6 +9,7 @@
 // Vercel address; once the domain is live, build with BLOOMS_SITE=https://bloomsofjapan.com
 const fs = require('fs'), path = require('path'), crypto = require('crypto');
 const prerender = require('./tools/prerender.js');
+const { KEY: INDEXNOW_KEY } = require('./tools/indexnow.js');
 const OUT = path.resolve(process.argv[2] || '../dist');
 const SITE = (process.env.BLOOMS_SITE || 'https://blooms-of-japan.vercel.app').replace(/\/$/, '');
 const TITLE = 'Blooms of Japan — The flower year in Japan';
@@ -100,6 +101,8 @@ fs.writeFileSync(path.join(OUT, 'favicon.svg'),
 <use href="#p" transform="rotate(72)"/><use href="#p" transform="rotate(144)"/><use href="#p" transform="rotate(216)"/><use href="#p" transform="rotate(288)"/></g>
 <circle r="1.8" fill="#B08A4F"/></svg>\n`);
 fs.writeFileSync(path.join(OUT, 'robots.txt'), `User-agent: *\nAllow: /\n\nSitemap: ${SITE}/sitemap.xml\n`);
+// proves IndexNow pings (tools/indexnow.js) come from the site's owner
+fs.writeFileSync(path.join(OUT, INDEXNOW_KEY + '.txt'), INDEXNOW_KEY);
 
 const size = d => fs.readdirSync(d).reduce((s, f) => { const p = path.join(d, f); return s + (fs.statSync(p).isDirectory() ? size(p) : fs.statSync(p).size); }, 0);
 const count = d => fs.readdirSync(d).reduce((s, f) => { const p = path.join(d, f); return s + (fs.statSync(p).isDirectory() ? count(p) : 1); }, 0);
