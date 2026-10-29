@@ -330,7 +330,15 @@ function guideView(g){
       '<figcaption><a href="/spots/' + f.slug + '">' + esc(f.name) + '</a> &middot; Photo ' + esc(f.cred) + '</figcaption></figure>' : '') +
     g.body +
     (g.sources ? '<p class="gsrc">Sources: ' + esc(g.sources) + ' Spot details are checked against local tourism sites.</p>' : '') +
-    '</div>';
+    guidePager(g) + '</div>';
+}
+
+// previous / next guide, in the order of guides.js
+function guidePager(g){
+  const i = GUIDES.indexOf(g), prev = GUIDES[i - 1], next = GUIDES[i + 1];
+  const card = (x, cls, label) => x ? '<a class="' + cls + '" href="/guides/' + x.slug + '" rel="' + (cls === 'gprev' ? 'prev' : 'next') + '">' +
+    '<span>' + label + '</span>' + esc(x.h1) + '</a>' : '<i></i>';
+  return '<nav class="gpager" aria-label="More guides">' + card(prev, 'gprev', '&lsaquo; Previous guide') + card(next, 'gnext', 'Next guide &rsaquo;') + '</nav>';
 }
 
 // spot pages link to the guide that covers their flower

@@ -360,4 +360,119 @@ module.exports = [
 <p>We track {{n:hydrangea}} hydrangea spots. <a href="/flowers/hydrangea">See them all</a>.</p>
 `,
   },
+
+  {
+    slug: 'takahata-fudo-hydrangeas',
+    h1: 'Takahata Fudo: a free hydrangea temple in Tokyo',
+    title: 'Takahata Fudo Hydrangeas: Tokyo\'s Free Alternative to Kamakura',
+    short: '7,800 hydrangeas around a five-storey pagoda in Hino, with when to go and how to get there.',
+    desc: 'Takahata Fudo in Hino, Tokyo has about 7,800 hydrangeas of some 250 kinds around a 45 m pagoda, free to visit in June. Bloom dates, what to see, and access from Takahata-fudo Station.',
+    published: '2026-10-29', updated: '2026-10-29',
+    fl: [], img: 'takahata-fudo',
+    sources: 'Takahata Fudoson Kongo-ji official site (takahatafudoson.or.jp); Walkerplus festival listing; TV Tokyo programme notes on the pagoda.',
+    body: `
+<p class="answer"><strong>Takahata Fudo is a big Buddhist temple in Hino, western Tokyo, with about 7,800 hydrangeas of some 250 kinds.</strong> They flower through June, and the temple's hydrangea festival runs from 1 to 30 June. It's free, and it's five minutes on foot from Takahata-fudo Station.</p>
+
+<h2>Where is it?</h2>
+<p>The full name is Takahata-san Kongo-ji, at 733 Takahata, Hino, Tokyo. It's one of the three great Fudo temples of the Kanto region, alongside Naritasan Shinsho-ji and Oyama Fudo, and a special head temple of the Chizan school of Shingon Buddhism. The Fudo hall and the Nio gate date from the early Muromachi period and are Important Cultural Properties.</p>
+
+<h2>When do the hydrangeas bloom?</h2>
+<p>Usually from early June into early July. The wild mountain hydrangeas (yama-ajisai) on the hill behind the temple go first, from late May. The bigger garden kinds around the main grounds follow, and the whole place tends to be at its best from mid June.</p>
+<p>Dates move a week or so either way with the weather, so check the temple's site before you go. If you can only pick one week, we'd go for the middle of June.</p>
+
+<h2>What will you see?</h2>
+<p>Two quite different things. Around the main buildings are the familiar big mophead and lacecap hydrangeas in blues, purples and pinks, with the red five-storey pagoda behind them. That pagoda is 45 m tall, built in 1980 in an early Heian style, and it's the photo most people come for.</p>
+<p>Behind the temple, on the hill called Fudogaoka, about 3,000 mountain hydrangeas grow along the temple's woodland pilgrimage path, a miniature version of Shikoku's 88-temple route. They're smaller, paler and much more delicate than the garden kinds. It's a proper hillside path, so wear shoes you don't mind getting muddy.</p>
+
+<h2>How do you get there?</h2>
+<p>Take the Keio Line from Shinjuku to Takahata-fudo Station. The Tama Monorail stops at the same station. From there it's a five minute walk to the temple gate.</p>
+<p>If you're driving, it's about 10 minutes from the Kunitachi-Fuchu exit of the Chuo Expressway. There's paid parking around the station, but we'd take the train in June.</p>
+
+<h2>Why go here and not Kamakura?</h2>
+<p>Kamakura's hydrangea temples are beautiful, and busy. [[hasedera-temple]] needs a timed ticket in season, and [[meigetsu-in-temple]] has queues on June weekends. Takahata Fudo has more plants than either, costs nothing, and you don't have to book.</p>
+<p>What Kamakura has that Takahata doesn't is the sea view and the famous "Meigetsu-in blue". If it's your first trip and you've got a free day, Kamakura is still the classic. But if you're based in Tokyo and want hydrangeas without the queues, we'd come here.</p>
+
+<h2>Anything else worth knowing?</h2>
+<p>It's the family temple of Hijikata Toshizo, vice-commander of the Shinsengumi, and there's a memorial to him in the grounds. On the 28th of every month there's a temple fair with stalls along the approach. In autumn the maples around the pagoda turn red in the second half of November.</p>
+<p>For more hydrangea spots around Tokyo and further afield, see <a href="/guides/hydrangea-spots">where to see hydrangeas in Japan</a>, or the spot page for [[takahata-fudo|Takahata Fudo]].</p>
+`,
+  },
+
+  {
+    slug: 'wanizuka-cherry-tree',
+    h1: 'Wanizuka: a hidden cherry blossom tree in Nirasaki, Yamanashi',
+    title: 'Wanizuka Cherry Tree, Nirasaki: A Lone Sakura with Mountain Views',
+    short: 'A 330-year-old cherry alone on a mound, with the Yatsugatake mountains behind. When to go and how to get there.',
+    desc: 'The Wanizuka cherry in Nirasaki, Yamanashi is a 330-year-old edo-higan alone on a small mound in the fields, with Yatsugatake and Mount Fuji in view. Bloom dates, night light-up and bus access from Nirasaki Station.',
+    published: '2026-10-29', updated: '2026-10-29',
+    fl: [], img: 'wanizuka-cherry-tree',
+    sources: 'Yamanashi Prefecture tourism site (yamanashi-kankou.jp); Nirasaki City Tourism Association.',
+    body: `
+<p class="answer"><strong>Wanizuka is a single wild cherry tree, about 330 years old, standing on its own on a small mound among the fields of Nirasaki in Yamanashi.</strong> It usually flowers from late March to early April. On a clear day you can see the snowy Yatsugatake range behind it, and Mount Fuji as well. It's free, and it's 15 minutes by bus from Nirasaki Station.</p>
+
+<h2>Where is it?</h2>
+<p>The address is 624 Kitamiyaji, Kamiyama-machi, Nirasaki, Yamanashi. It's in farmland near Takeda Hachiman Shrine, about two hours from Shinjuku by limited express.</p>
+
+<h2>What is it?</h2>
+<p>An edo-higan cherry, the long-lived wild species behind many of Japan's famous old trees. It's 17 m tall with a trunk 3.6 m round, and it's a city-designated cultural property. It has the place to itself: no other trees on the mound, nothing taller around it.</p>
+<p>"Wanizuka" means "Wani mound", and nobody's quite sure whose mound it is. One story says it's the tomb of Prince Takeda, a son of the legendary Yamato Takeru. Others say it's an old burial mound, or that the name comes from a clan once settled here.</p>
+
+<h2>When does it bloom?</h2>
+<p>Usually from late March to early April. Edo-higan flowers are small and pale pink, and the tree is in flower before its leaves come out, so at full bloom it's a solid pink dome.</p>
+<p>For a few evenings around full bloom the tree is lit up after dark, usually from about 6 pm to 8 pm. The times and dates are set each year, so check with the Nirasaki City Tourism Association (0551-22-1991) before you plan around it.</p>
+
+<h2>How do you get there?</h2>
+<p>Take the JR Chuo Line to Nirasaki Station. From there:</p>
+<ul>
+<li>By bus: a Nirasaki city bus to the Takeda-Hachiman-iriguchi stop, about 15 minutes, then a five minute walk. Buses aren't frequent, so check the return times when you arrive.</li>
+<li>By taxi: about 10 minutes from the station.</li>
+<li>By car: about 15 minutes from Nirasaki IC on the Chuo Expressway. There are 35 spaces, plus a temporary car park in cherry season.</li>
+</ul>
+
+<h2>Why go here?</h2>
+<p>Because it's one tree and a big sky. Most cherry spots are rows of trees with people under them. Here you get a single tree you can walk all the way round, mountains on the horizon, and far fewer people than at the famous old trees. It's been used for posters and TV dramas for exactly that reason.</p>
+<p>If you've seen the photos of [[miharu-takizakura]] in Fukushima and fancy a famous lone tree without the crowds that come with it, this is the one we'd pick.</p>
+<p>Make a day of it with [[yamataka-jindai-zakura]] in neighbouring Hokuto, one of Japan's three great cherry trees and perhaps the oldest. It usually flowers around the same time.</p>
+
+<h2>Any tips?</h2>
+<p>Go on a clear day if you can: the mountains are half the view. The tree is surrounded by working farmland, so stay on the paths and don't walk into the fields for a better angle. There are temporary toilets in season, and that's about it for facilities, so bring what you need.</p>
+<p>For more quiet places to see the blossom, see <a href="/guides/quiet-cherry-blossom-spots">cherry blossoms without the crowds</a>, or the spot page for [[wanizuka-cherry-tree|Wanizuka]].</p>
+`,
+  },
+
+  {
+    slug: 'nicchu-line-weeping-cherries',
+    h1: 'Nicchu Line weeping cherries: a 3 km sakura walk in Kitakata, Fukushima',
+    title: 'Nicchu Line Weeping Cherries, Kitakata: A 3 km Sakura Walk',
+    short: 'About 1,000 weeping cherries on an old railway line, starting five minutes from Kitakata Station.',
+    desc: "About 1,000 weeping cherries line a 3 km path on the old Nicchu railway line in Kitakata, Fukushima. Usual bloom in mid April, evening light-ups, the steam locomotive, and how to get there.",
+    published: '2026-10-29', updated: '2026-10-29',
+    fl: [], img: 'nicchu-line-weeping-cherries',
+    sources: 'Kitakata Tourism and Products Association; Jorudan and Weathernews cherry spot listings.',
+    body: `
+<p class="answer"><strong>About 1,000 weeping cherries line a 3 km walking and cycling path along the old Nicchu railway line in Kitakata, Fukushima.</strong> They usually flower in mid April. The path starts about five minutes on foot from JR Kitakata Station, and walking it is free.</p>
+
+<h2>Where is it?</h2>
+<p>The path is officially the Nicchu Line Memorial Cycling and Walking Path. It runs north from near Kitakata Station, past the town's edge and out towards the countryside, for about 3 km. Kitakata is in the Aizu region of western Fukushima, a short ride from Aizu-Wakamatsu on the JR Ban'etsu West Line.</p>
+
+<h2>What was the Nicchu Line?</h2>
+<p>A little rural railway that opened in 1938 and ran 11.6 km from Kitakata to Atsushio. It was planned as part of a longer line north but never got any further, and it closed on 1 April 1984. Steam locomotives pulled its passenger trains, which made it popular with railway fans.</p>
+<p>The town turned the track bed into a path and planted it with weeping cherries. A C11 steam locomotive that once worked the line is on display partway along, and the engine framed by pink branches is the photo everyone takes.</p>
+
+<h2>When does it bloom?</h2>
+<p>Usually mid April, about two weeks after Tokyo, and in a late year it can run into the third week of April. The Kitakata cherry festival runs through the season, with evening light-ups on part of the path for about a week around full bloom. In 2026, the festival ran from 9 to 23 April and the light-up from 13 to 19 April.</p>
+
+<h2>How do you get there?</h2>
+<p>By train, take the JR Ban'etsu West Line to Kitakata Station. The start of the path is about five minutes' walk away. From Tokyo, the usual route is the Tohoku Shinkansen to Koriyama, then the Ban'etsu West Line via Aizu-Wakamatsu.</p>
+<p>There's no dedicated car park. In season temporary car parks open, and the local tourism association asks people not to park on the roadside. We'd come by train.</p>
+
+<h2>Why go here?</h2>
+<p>Weeping cherries are usually the star of a single temple garden or a lone old tree. Here there are a thousand of them in a row, and you can walk under them for the best part of an hour. The crowd is thickest near the station, so keep walking: the further you go towards the countryside, the quieter it gets.</p>
+<p>It's also good timing for a trip north. By mid April the cherries in Tokyo and Kyoto are over, and you can pair this with the castle cherries at [[tsuruga-castle]] in Aizu-Wakamatsu, which flower around the same time.</p>
+
+<h2>Anything else worth knowing?</h2>
+<p>Kitakata is famous for ramen, with a light soy broth and thick wavy noodles, and for its old earthen storehouses (kura). Both are in the town centre, so plan for a long lunch. And since the path was built for bikes too, cycling it is a good way to reach the quiet far end.</p>
+<p>For other cherry spots that peak late, see <a href="/guides/cherry-blossom-season">when cherry blossom season is</a>, or the spot page for the [[nicchu-line-weeping-cherries|Nicchu Line weeping cherries]].</p>
+`,
+  },
 ];

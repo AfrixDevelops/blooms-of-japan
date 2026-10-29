@@ -315,6 +315,13 @@
   .gitem h2{ font-size:26px; line-height:1.2; }
   .gitem p{ margin:8px 0 10px; font-size:16px; line-height:1.6; color:var(--navy-2); }
   .gitem span{ font-family:var(--serif); font-weight:600; font-size:11.5px; letter-spacing:.2em; text-transform:uppercase; color:var(--gold); }
+  .gpager{ display:grid; grid-template-columns:1fr 1fr; gap:14px; margin-top:30px; }
+  .prose .gpager a{ display:block; padding:16px 18px; background:var(--paper); border:1px solid var(--gold-line); border-radius:4px;
+    color:var(--navy); text-decoration:none; font-family:var(--serif); font-size:18px; line-height:1.3; transition:border-color .2s, box-shadow .2s; }
+  .prose .gpager a:hover{ border-color:var(--gold); box-shadow:var(--shadow-sm); }
+  .gpager .gnext{ text-align:right; }
+  .gpager span{ display:block; margin-bottom:6px; font-weight:600; font-size:11.5px; letter-spacing:.2em; text-transform:uppercase; color:var(--gold); }
+  @media (max-width:619px){ .gpager{ grid-template-columns:1fr; } .gpager i{ display:none; } .gpager .gnext{ text-align:left; } }
   .dbox.guide a{ display:block; margin-top:6px; color:var(--acc); font-family:var(--serif); font-size:18px; line-height:1.3; text-decoration:none; }
   .dbox.guide a:hover{ color:var(--gold); }
   @media (max-width:880px){ .prose.guide h2{ font-size:23px; } .glist{ padding:8px 16px 70px; } .gitem h2{ font-size:22px; } }
