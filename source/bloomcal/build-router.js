@@ -327,7 +327,7 @@ function guideView(g){
     '<p class="gmeta">By the Blooms of Japan team &middot; Updated <time datetime="' + g.updated + '">' + longDate(g.updated) + '</time></p></div>' +
     '<div class="prose guide">' +
     (f ? '<figure class="ghero"><img src="' + f.img + '" alt="' + esc(flowerName(f)) + ' at ' + esc(f.name) + '">' +
-      '<figcaption><a href="/spots/' + f.slug + '">' + esc(f.name) + '</a> &middot; Photo ' + esc(f.cred) + '</figcaption></figure>' : '') +
+      '<figcaption><a href="/spots/' + f.slug + '">' + esc(f.name) + '</a>' + (f.cred ? ' &middot; Photo ' + esc(f.cred) : '') + '</figcaption></figure>' : '') +
     g.body +
     (g.sources ? '<p class="gsrc">Sources: ' + esc(g.sources) + ' Spot details are checked against local tourism sites.</p>' : '') +
     guidePager(g) + '</div>';

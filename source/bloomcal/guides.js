@@ -585,4 +585,169 @@ module.exports = [
 <p>For everything else that's in season, see <a href="/guides/japan-in-november">is November a good time to visit Japan</a>.</p>
 `,
   },
+
+  {
+    slug: 'winter-flowers-japan',
+    h1: 'What flowers bloom in Japan in winter?',
+    title: 'Winter Flowers in Japan: What Blooms from December to February',
+    short: 'Narcissus, wintersweet, camellias, winter peonies, plum and the first cherries, with where to see each.',
+    desc: 'Flowers that bloom in Japan in winter: narcissus on the coast, wintersweet, camellias, winter peonies under straw shelters, the first plum blossoms and Okinawa\'s January cherries. Where to see each and when.',
+    published: '2026-10-29', updated: '2026-10-29',
+    fl: ['camellia', 'narcissus', 'wintersweet'], img: 'echizen-coast-narcissus',
+    sources: "Bloom windows, fees and access from each spot's official or local tourism site.",
+    body: `
+<p class="answer"><strong>More than you'd think.</strong> Wild narcissus cover the coast from late December, wintersweet fills the air with scent in January, and camellias flower right through the winter. Winter peonies are on show under straw shelters in Tokyo and Kamakura. By late January the first plum blossoms are out, and Okinawa's cherries are already in bloom.</p>
+
+<h2>What flowers bloom in Japan in winter?</h2>
+<div class="gtable"><table>
+<thead><tr><th>Flower</th><th>When</th><th>Where to see it</th></tr></thead>
+<tbody>
+<tr><td>Sasanqua</td><td>Late November to December</td><td>Kayumi, Mie</td></tr>
+<tr><td>Narcissus</td><td>Late December to February</td><td>Echizen coast, Awaji, Shimoda</td></tr>
+<tr><td>Wintersweet</td><td>Mid December to February</td><td>Robai no Sato, Mount Hodo</td></tr>
+<tr><td>Winter peony</td><td>January to February</td><td>Ueno Toshogu, Tsurugaoka Hachimangu</td></tr>
+<tr><td>Camellia</td><td>December to March</td><td>Izu Oshima, Toshima</td></tr>
+<tr><td>Okinawa cherries</td><td>Mid January to mid February</td><td>Nago, Motobu, Nakijin</td></tr>
+<tr><td>Plum</td><td>Late January to March</td><td>Atami, Koishikawa Korakuen</td></tr>
+</tbody></table></div>
+
+<h2>Where can you see narcissus in Japan?</h2>
+<p>On the coast, where they grow wild on cliffs facing the sea. The three best known are the [[echizen-coast-narcissus|Echizen coast]] in Fukui, above the Sea of Japan; [[nada-kuroiwa-narcissus-field|Nada-Kuroiwa]] on Awaji Island, where some five million flowers cover a steep slope (500 yen); and [[tsumekizaki-narcissus|Cape Tsumeki]] near Shimoda, with over three million on old coastal terraces. All three are at their best from late December into January or February.</p>
+<p>Near Tokyo, [[jogashima-park]] at the tip of the Miura Peninsula has about 300,000 double-flowered narcissus from mid January to mid February. The scent's the thing: on a still day you smell them before you see them.</p>
+
+<h2>What is wintersweet?</h2>
+<p>A shrub called robai in Japanese, with waxy, pale yellow flowers on bare branches and a strong sweet scent. It's one of the first things to flower in the new year. [[robai-no-sato]] in Gunma has about 12,000 of them, at their peak in January. [[hodosan-wintersweet-garden|Mount Hodo]] above Nagatoro has about 3,000, from mid January to late February, with views over the Chichibu mountains.</p>
+<p>In Tokyo, [[tadao-park-wintersweet|Tadao Park]] in Machida is free and usually peaks around New Year, and the [[kyodo-no-mori-museum-wintersweet|Kyodo no Mori Museum]] in Fuchu has about 130 trees from mid December.</p>
+
+<h2>Where can you see camellias in Tokyo?</h2>
+<p>Technically still in Tokyo: the Izu Islands are part of the city. The [[izu-oshima-camellia-garden|camellia garden on Izu Oshima]] covers 7 hectares, with about 1,000 cultivars, and its festival runs from early February into March. Smaller [[toshima-island-camellias|Toshima]] is about 80 percent camellia forest.</p>
+<p>On the mainland, the hillside garden at [[hotel-chinzanso-tokyo-garden|Hotel Chinzanso]] in Mejiro has about 1,000 camellias of some 100 kinds, flowering in turn through the winter. Access can be limited to guests and diners, so check first.</p>
+
+<h2>What are winter peonies?</h2>
+<p>Peonies grown to flower in the depths of winter, each one under its own little straw shelter against the snow. The [[ueno-toshogu-peony-garden|Ueno Toshogu peony garden]] in Ueno Park shows about 160 of them from 1 January to late February (about 1,000 yen). In Kamakura, [[tsurugaoka-hachimangu-winter-peonies|Tsurugaoka Hachimangu]] opens its garden by the Genji Pond on New Year's Day with around 1,000 plants. For the spring peonies, see <a href="/guides/peony-season-japan">when peony season is</a>.</p>
+
+<h2>Are there cherry blossoms in winter?</h2>
+<p>Yes, in two places. Okinawa's deep pink cherries flower from mid January, at [[nago-central-park]], [[mount-yae-cherry-forest-park]] and [[nakijin-castle-ruins-cherry-blossoms]]. On the mainland, the [[atami-itokawa-cherry-blossoms|Atami cherries]] along the Itokawa river flower from early January, and they're free.</p>
+<p>Plum takes over from late January. [[atami-plum-garden]] is one of the earliest, and in Tokyo [[koishikawa-korakuen]] has about 150 plum trees, the first of them open in December.</p>
+
+<h2>Is winter a good time to see flowers in Japan?</h2>
+<p>If you go in with the right idea, yes. December is the thinnest month: the autumn leaves are just finishing and the narcissus are only starting. From January it picks up fast. The big bonus is space. These are some of the quietest weeks of the year at most gardens, and winter light is clear.</p>
+<p>Month by month: <a href="/when/december">December</a>, <a href="/when/january">January</a>, <a href="/when/february">February</a>.</p>
+`,
+  },
+
+  {
+    slug: 'peony-season-japan',
+    h1: 'When is peony season in Japan?',
+    title: 'Peony Season in Japan: When They Bloom and Where to See Them',
+    short: 'Tree peonies in late April and May, winter peonies in January, and the gardens worth visiting.',
+    desc: 'Peony season in Japan is mid April to mid May for tree peonies, with winter peonies on show in January and February. The best peony gardens: Ueno Toshogu, Hase-dera, Sukagawa, Higashimatsuyama and Yuushien.',
+    published: '2026-10-29', updated: '2026-10-29',
+    fl: ['peony'], img: 'hase-dera',
+    sources: "Plant counts, fees and bloom windows from each garden's official or local tourism site.",
+    body: `
+<p class="answer"><strong>The main peony season in Japan is mid April to mid May.</strong> Around Tokyo and Nara the gardens peak in late April and early May, and further north, like Sukagawa in Fukushima, in early to mid May. There's a second, smaller season in winter, when a few gardens show peonies under straw shelters in January and February.</p>
+
+<h2>When do peonies bloom in Japan?</h2>
+<p>It depends which peony. Japan has two kinds in its gardens:</p>
+<ul>
+<li><strong>Botan</strong>, the tree peony, with huge flowers on woody stems. It flowers from mid April to early May, and it's what most peony gardens are about.</li>
+<li><strong>Shakuyaku</strong>, the herbaceous peony, which dies back each winter. It flowers a few weeks later, from May into June.</li>
+</ul>
+<p>There's an old saying that a beautiful woman stands like a shakuyaku, sits like a botan and walks like a lily. The shakuyaku grows tall and straight, while the botan's flowers sit low and wide.</p>
+<p>Then there are the winter peonies, botan grown to flower in January and February.</p>
+
+<h2>Where can you see peonies near Tokyo?</h2>
+<p>The [[ueno-toshogu-peony-garden|Ueno Toshogu peony garden]] is the one most people mean. It's in Ueno Park, 5 minutes from Ueno Station, with a winter show of about 160 plants from 1 January to late February and a spring show of about 500 in April. Entry is about 1,000 yen.</p>
+<p>For a lot more flowers, [[higashimatsuyama-peony-garden|Higashimatsuyama]] in Saitama has about 6,500 peonies of some 150 kinds, from mid April to early May. Entry is 300 or 500 yen, depending on how far they're out, and it's a bus ride from Shinrin-koen Station. The [[machida-peony-garden]] in western Tokyo flowers from mid April to mid May.</p>
+<p>In Kamakura, [[tsurugaoka-hachimangu-winter-peonies|Tsurugaoka Hachimangu]] has about 1,000 winter peonies by the Genji Pond from New Year's Day.</p>
+
+<h2>Where are the best peony gardens in Japan?</h2>
+<p>[[hase-dera]] in Nara is our favourite. About 7,000 peonies line the 399-step covered staircase up to the main hall, from mid April to early May, and the temple stays open longer during the festival. It's a 15 minute walk from Hasedera Station on the Kintetsu line.</p>
+<p>[[sukagawa-peony-garden]] in Fukushima is a national Place of Scenic Beauty with about 7,000 peonies of 290 varieties, some over 200 years old. It peaks a little later, in early to mid May, and costs about 500 yen in season.</p>
+<p>On Daikonshima, the peony-growing island in Lake Nakaumi in Shimane, [[yuushien-garden]] fills its pond with about 30,000 floating peony blooms around Golden Week.</p>
+
+<h2>When's the best time to go?</h2>
+<p>For tree peonies near Tokyo and Nara, the last week of April. Each flower only lasts a few days, so gardens with early and late kinds give you a longer window. A hot spell can bring the whole season forward, so check the garden's bloom report before you go.</p>
+<p>Peonies overlap with wisteria and azaleas, so late April is a good time to combine them. See <a href="/guides/wisteria-spots">where to see wisteria</a>. We track {{n:peony}} peony spots. <a href="/flowers/peony">See them all</a>.</p>
+`,
+  },
+
+  {
+    slug: 'japanese-flowers-by-month',
+    h1: 'What flowers bloom in Japan each month?',
+    title: 'Japanese Flowers by Month: A Month-by-Month Bloom Calendar',
+    short: 'A quick month-by-month table of what flowers in Japan, with the best place to see each.',
+    desc: "What's in bloom in Japan each month: narcissus and wintersweet in January, plum in February, cherry blossom in March and April, wisteria in May, hydrangea in June, lavender in July, through to autumn leaves in November.",
+    published: '2026-10-29', updated: '2026-10-29',
+    fl: [], img: 'ashikaga-flower-park',
+    sources: "Bloom windows from each spot's official or local tourism site.",
+    body: `
+<p class="answer"><strong>Something flowers in Japan every month.</strong> January is narcissus and wintersweet, February plum, late March and April cherry blossom, May wisteria and nemophila, June hydrangea and iris, July lavender and lotus, August sunflowers, September red spider lilies, October kochia and cosmos, November autumn leaves and ginkgo, and December the last leaves and the first narcissus.</p>
+
+<h2>Japanese flowers by month</h2>
+<div class="gtable"><table>
+<thead><tr><th>Month</th><th>What's in bloom</th><th>Where to go</th></tr></thead>
+<tbody>
+<tr><td><a href="/when/january">January</a></td><td>Narcissus, wintersweet, winter peony, Okinawa cherries</td><td>[[nada-kuroiwa-narcissus-field|Nada-Kuroiwa]], [[robai-no-sato]]</td></tr>
+<tr><td><a href="/when/february">February</a></td><td>Plum, camellia, Kawazu cherries</td><td>[[atami-plum-garden]], [[izu-oshima-camellia-garden|Izu Oshima]]</td></tr>
+<tr><td><a href="/when/march">March</a></td><td>Plum, early cherries, then cherry blossom from late March</td><td>[[kairakuen-garden]], [[kawazu-river]]</td></tr>
+<tr><td><a href="/when/april">April</a></td><td>Cherry blossom, tulips, shibazakura, nemophila</td><td>[[hirosaki-park]], [[hitsujiyama-park]]</td></tr>
+<tr><td><a href="/when/may">May</a></td><td>Wisteria, nemophila, azalea, peony, roses</td><td>[[ashikaga-flower-park]], [[hitachi-seaside-park]]</td></tr>
+<tr><td><a href="/when/june">June</a></td><td>Hydrangea, iris</td><td>[[meigetsu-in-temple]], [[horikiri-iris-garden]]</td></tr>
+<tr><td><a href="/when/july">July</a></td><td>Lavender, lotus</td><td>[[farm-tomita]], [[kodaihasu-no-sato]]</td></tr>
+<tr><td><a href="/when/august">August</a></td><td>Sunflowers, lotus</td><td>[[hokuryu-sunflower-village]], [[shinobazu-pond]]</td></tr>
+<tr><td><a href="/when/september">September</a></td><td>Red spider lily, cosmos, kinmokusei</td><td>[[kinchakuda-manjushage-park]], [[showa-kinen-park]]</td></tr>
+<tr><td><a href="/when/october">October</a></td><td>Kochia, cosmos, autumn roses, mountain leaves</td><td>[[hitachi-seaside-park-october|Hitachi Seaside Park]], [[konosu-cosmos-fields]]</td></tr>
+<tr><td><a href="/when/november">November</a></td><td>Autumn leaves, ginkgo, chrysanthemum</td><td>[[eikando-temple]], [[meiji-jingu-gaien-ginkgo-avenue]]</td></tr>
+<tr><td><a href="/when/december">December</a></td><td>Late leaves, wintersweet, narcissus begin</td><td>[[rikugien-garden]], [[tsumekizaki-narcissus|Cape Tsumeki]]</td></tr>
+</tbody></table></div>
+<p>These are the usual windows around Tokyo and Kyoto. The north and the mountains run about two to four weeks later in spring and earlier in autumn, and Okinawa is on a calendar of its own.</p>
+
+<h2>Which month has the most flowers?</h2>
+<p>April and May. Cherry blossom runs into tulips, shibazakura and nemophila, and then wisteria, azaleas and peonies all flower around Golden Week. If flowers are the reason for your trip and you can pick any month, we'd choose late April to mid May. Just avoid Golden Week itself, 29 April to 5 May, when the whole country's on holiday.</p>
+
+<h2>Which month has the fewest?</h2>
+<p>December. The leaves are finishing and winter flowers are only just starting. But even then there's narcissus on the coast and wintersweet in Tokyo, and you'll have the gardens almost to yourself. See <a href="/guides/winter-flowers-japan">winter flowers in Japan</a>.</p>
+
+<h2>Do the dates change every year?</h2>
+<p>Yes, by a week or more either way. A warm spring brings everything forward and a hot summer can delay the autumn flowers. Use this table to plan, then check the spot pages and local bloom reports nearer the time.</p>
+<p>For the story behind each season, see <a href="/guides/flowers-by-season">Japan's flowers by season</a>. For every spot on one page, see the <a href="/calendar">flower calendar</a>.</p>
+`,
+  },
+
+  {
+    slug: 'red-spider-lily-season',
+    h1: 'When do red spider lilies bloom in Japan?',
+    title: 'Red Spider Lily Season in Japan: When They Bloom and Where to See Them',
+    short: 'Usual dates, why they flower at the equinox, and the best fields near Tokyo and across Japan.',
+    desc: 'Red spider lilies (higanbana) bloom in Japan from mid September to early October, peaking around the autumn equinox. The best places to see them: Kinchakuda in Saitama, Yakachi River in Aichi, and terraced rice fields in Nara, Fukuoka and Saga.',
+    published: '2026-10-29', updated: '2026-10-29',
+    fl: ['red-spider-lily'], img: 'kinchakuda-manjushage-park',
+    sources: "Flower counts, fees and bloom windows from each spot's official or local tourism site.",
+    body: `
+<p class="answer"><strong>Red spider lilies bloom in Japan from mid September to early October, and they usually peak around the autumn equinox, about 23 September.</strong> That's where their Japanese name, higanbana, comes from: higan is the week around the equinox. A field is at its best for only about a week or two, and after a hot summer the flowers come later.</p>
+
+<h2>When is red spider lily season?</h2>
+<p>For most of Honshu, Kyushu and Shikoku, the second half of September. They're remarkably punctual in a normal year. In recent hot summers, though, they've often been a week or more late, running into early October. Some spots, like [[hagurosan-park]] in Miyagi, have also seen thinner flowering after the hottest years.</p>
+<p>Our advice is to plan for the last ten days of September, then check the spot's bloom report a week before.</p>
+
+<h2>Where are the best red spider lilies near Tokyo?</h2>
+<p>[[kinchakuda-manjushage-park|Kinchakuda]] in Hidaka, Saitama is the biggest in Japan, with about 5 million flowers in the woods along a bend of the Koma River. During the festival it's 500 yen, and it's 15 minutes on foot from Koma Station on the Seibu Ikebukuro Line. The roads jam at weekends, so take the train.</p>
+<p>[[gongendo-park]] in Satte has about 3 million under the cherry trees of the embankment, free. In Kanagawa, the [[hinata]] valley in Isehara has wild spider lilies along the rice fields, about 25 minutes by bus from Isehara Station. For a city option, [[koishikawa-korakuen-september|Koishikawa Korakuen]] has them among its paths and ponds (300 yen), 8 minutes from Iidabashi Station.</p>
+<p>If you want something unusual, [[josen-ji-temple]] in Zama is known for white spider lilies flowering with the red (about 300 yen).</p>
+
+<h2>Where else in Japan?</h2>
+<p>In Aichi, the [[yakachi-river]] in Handa has about 3 million along 1.5 km of riverbank, planted by volunteers over many years. In Gifu, around 100,000 line 3 km of the [[tsuya-river]] below the Yoro mountains.</p>
+<p>The prettiest settings are the terraced rice fields, where the red lines the ridges just as the rice turns gold: [[inabuchi-terraced-rice-fields|Inabuchi]] in Asuka, Nara; [[tsuzura-terraced-rice-fields|Tsuzura]] in Fukuoka, with some 500,000 flowers; and [[eriyama-rice-terraces|Eriyama]] in Saga. For a castle backdrop, they come up all over the stone walls of [[tsuyama-castle-september|Tsuyama Castle]] in Okayama.</p>
+
+<h2>Why do they grow along rice fields?</h2>
+<p>The bulbs are poisonous. The usual explanation is that farmers planted them on the ridges between paddies and around graves to keep moles and mice away, which is why you see them in neat red lines through the countryside. They're thought to have come to Japan from China long ago, possibly along with rice farming.</p>
+<p>They're also odd plants. The flowers come up on bare stalks with no leaves at all. The leaves only appear after the flowers fade, stay green through the winter, and die back in spring.</p>
+
+<h2>Are red spider lilies bad luck in Japan?</h2>
+<p>They're linked with death, partly because they grow around graves and partly because they flower at higan, when people visit family graves. So you won't often see them in a bouquet. But that doesn't stop thousands of people going to see them every September, and the fields are some of the most striking sights of the Japanese autumn.</p>
+<p>We track {{n:red-spider-lily}} red spider lily spots. <a href="/flowers/red-spider-lily">See them all</a>.</p>
+`,
+  },
 ];
