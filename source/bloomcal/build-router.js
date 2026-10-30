@@ -91,11 +91,15 @@ const SENSOJI_UENO = SENSOJI("A guided tour of Senso-ji, Tokyo's oldest temple, 
 const FUJI_TRIP = (copy) => ({ label: 'Mt Fuji Day Trip from Tokyo', copy,
   href: 'https://www.getyourguide.com/tokyo-l193/tokyo-mt-fujichureito-pagodalake-kawaguchioshino-hakkai-t792363/?partner_id=HB90XTH&utm_medium=online_publisher' });
 const FUJI_KAWAGUCHI = FUJI_TRIP('A day trip from Tokyo to the Chureito Pagoda, Lake Kawaguchi, where this park is, and the springs of Oshino Hakkai.');
+const HITACHI_TRIP = { label: 'Hitachi Seaside Park Day Trip from Tokyo',
+  href: 'https://www.getyourguide.com/tokyo-l193/from-tokyo-hitachi-seaside-park-oarai-isosaki-shrine-tour-t1074116/?partner_id=HB90XTH&utm_medium=online_publisher',
+  copy: 'A day trip from Tokyo to this park and Oarai Isosaki Shrine, with its torii on the rocks by the sea.' };
 const SPOT_PARTNERS = { 'tofuku-ji-temple': FUSHIMI_INARI, 'jonangu-shrine': FUSHIMI_INARI,
   'sumida-park': SENSOJI_ASAKUSA,
   'ueno-park': SENSOJI_UENO, 'shinobazu-pond': SENSOJI_UENO, 'ueno-toshogu-peony-garden': SENSOJI_UENO,
   'arakurayama-sengen-park': FUJI_TRIP('A day trip from Tokyo that stops here at the Chureito Pagoda, then Lake Kawaguchi and the springs of Oshino Hakkai.'),
   'oishi-park': FUJI_KAWAGUCHI, 'oishi-park-april': FUJI_KAWAGUCHI, 'oishi-park-october': FUJI_KAWAGUCHI,
+  'hitachi-seaside-park': HITACHI_TRIP, 'hitachi-seaside-park-october': HITACHI_TRIP,
   'fuji-motosuko-resort': FUJI_TRIP("A day trip from Tokyo to the Chureito Pagoda, Lake Kawaguchi and Oshino Hakkai. It doesn't stop at the shibazakura, so it suits another day in the area.") };
 const partnerBox = f => { const p = SPOT_PARTNERS[f.slug] || PARTNERS[f.pref]; if(!p || (p.skip && p.skip.test(f.address))) return '';
   return '<div class="dbox partner"><h4>Partner</h4>'

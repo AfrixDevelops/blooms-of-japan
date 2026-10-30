@@ -898,4 +898,35 @@ module.exports = [
 <p>For cherry blossom dates across Japan, see <a href="/guides/cherry-blossom-season">when cherry blossom season is</a>.</p>
 `,
   },
+
+  {
+    slug: 'igano-flower-garden',
+    h1: 'When is the best time to visit Igano Flower Garden?',
+    title: 'Igano Flower Garden in Minakami: Red Kochia and Chrysanthemums',
+    short: "When the kochia turn red at this small hillside field in Gunma, the chrysanthemums that follow, and how to get there.",
+    desc: "Igano Flower Garden (Igano no Hanabatake) in Minakami, Gunma is a hillside field of kochia and small chrysanthemums. The kochia start turning red in early October and peak around mid October, then the chrysanthemums take over into early November.",
+    published: '2026-10-30', updated: '2026-10-30',
+    fl: [], spots: ['igano-flower-garden'], img: 'igano-flower-garden',
+    sources: "Dates from Gunma Prefecture's autumn listings and the garden's own notices.",
+    body: `
+<p class="answer"><strong>Go in mid October for the red kochia, or in late October and early November for the small chrysanthemums.</strong> At Igano Flower Garden, known locally as Igano no Hanabatake, the kochia usually start turning red in early October and are at their reddest around the middle of the month. As they fade, the chrysanthemums planted alongside them come into full flower. Soon after that, the field is cleared and goes back to farmland until spring.</p>
+
+<h2>What is Igano Flower Garden?</h2>
+<p>[[igano-flower-garden|Igano Flower Garden]] is a small flower field on a hillside in Haba, in the Tsukiyono area of Minakami in northern Gunma. Its own name for it is "the hill of broom grass and small chrysanthemums": broom grass (hōkigusa) is the Japanese name for kochia. It's planted out each spring, and there's a viewing deck where you can look over the whole field as well as walk among the plants. Don't expect the scale of Hitachi Seaside Park. It's a small local field, which is part of its appeal.</p>
+
+<h2>When do the kochia turn red?</h2>
+<p>In a normal year, colour starts in early October and peaks around mid October. The garden says you can see autumn colour twice here: first the red of the kochia, then the chrysanthemums as the kochia fade to brown. By the first week of November the chrysanthemums are in full flower, and the field is cleared not long after.</p>
+<p>The timing moves by a week or so with the weather, so check the garden's notices before a late visit. For other fields and how kochia change through the season, see <a href="/guides/kochia-season">when kochia turn red in Japan</a>.</p>
+
+<h2>Is there an entry fee?</h2>
+<p>No entry fee is listed, and there's a car park. You can bring your own food. Events are sometimes held in the field in October, with stalls and live music, and there have been free broom-making sessions using the dried kochia.</p>
+
+<h2>How do you get there?</h2>
+<p>By car. It's about 10 minutes from Tsukiyono IC on the Kan-Etsu Expressway, and about 10 minutes from Takumi no Sato. Public transport to this part of Minakami is sparse, so most visitors drive.</p>
+
+<h2>What else is nearby?</h2>
+<p>Takumi no Sato, the craft village 10 minutes away, has workshops for straw craft, bamboo craft and pressed flowers, which makes an easy half day with the garden. For a bigger kochia field in Gunma, [[tambara-lavender-park|Tambara]] on the highlands in Numata has about 10,000 kochia, and it turns earlier, from late September.</p>
+<p>We track {{n:kochia}} kochia spots. <a href="/flowers/kochia">See them all</a>.</p>
+`,
+  },
 ];
