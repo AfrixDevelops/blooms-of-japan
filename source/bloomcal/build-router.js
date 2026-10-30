@@ -362,8 +362,8 @@ function guidePager(g){
   return '<nav class="gpager" aria-label="More guides">' + card(prev, 'gprev', '&lsaquo; Previous guide') + card(next, 'gnext', 'Next guide &rsaquo;') + '</nav>';
 }
 
-// spot pages link to the guide that covers their flower
-const guideBox = f => { const g = GUIDES.find(x => (x.fl || []).some(k => f.fl.includes(k)));
+// spot pages link to a guide written about that spot (its spots list), else the one covering their flower
+const guideBox = f => { const g = GUIDES.find(x => (x.spots || []).includes(f.slug)) || GUIDES.find(x => (x.fl || []).some(k => f.fl.includes(k)));
   return g ? '<div class="dbox guide"><h4>Guide</h4><a href="/guides/' + g.slug + '">' + esc(g.h1) + ' ›</a></div>' : ''; };
 
 function seasonsView(){

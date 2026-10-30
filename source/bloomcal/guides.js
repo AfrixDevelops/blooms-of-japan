@@ -788,4 +788,114 @@ module.exports = [
 <p>We track {{n:kochia}} kochia spots. <a href="/flowers/kochia">See them all</a>.</p>
 `,
   },
+
+  {
+    slug: 'tofuku-ji-autumn-leaves',
+    h1: 'When is the best time to see the autumn leaves at Tofuku-ji?',
+    title: 'Tofuku-ji Autumn Leaves: Best Time, Crowds, and Fushimi Inari Nearby',
+    short: "Peak dates for Kyoto's great maple ravine, how to beat the crowds, and Fushimi Inari one stop away.",
+    desc: "Tofuku-ji's maples in Kyoto usually peak from mid November to early December, and the 2026 autumn viewing runs from 14 November to 6 December. How to beat the crowds on the Tsutenkyo bridge, and how to pair it with Fushimi Inari, one stop away.",
+    published: '2026-10-30', updated: '2026-10-30',
+    fl: [], spots: ['tofuku-ji-temple', 'jonangu-shrine'], img: 'tofuku-ji-temple',
+    sources: "Dates and fees from Tofuku-ji's autumn viewing notices and Kyoto tourism listings.",
+    body: `
+<p class="answer"><strong>The maples at Tofuku-ji usually peak from mid November to early December, and the third and fourth weeks of November are the safest bet.</strong> In 2026 the temple's special autumn viewing runs from 14 November to 6 December, with the Tsutenkyo bridge opening earlier than usual. Go on a weekday, right at opening, because it's one of the most crowded places in Kyoto at peak.</p>
+
+<h2>When do the leaves turn at Tofuku-ji?</h2>
+<p>Kyoto is one of the last places in Japan to turn, and [[tofuku-ji-temple|Tofuku-ji]] runs with the rest of the city: colour starts in early November, peaks from around the middle of the month, and lasts into early December. A warm autumn pushes everything back by a week or so. For how Kyoto compares with the rest of the country, see <a href="/guides/autumn-leaves-season">when the leaves turn in each city</a>.</p>
+
+<h2>What is the Tsutenkyo bridge?</h2>
+<p>It's the covered wooden bridge across the Sengyokukan ravine, and it's the reason people come. About 2,000 maples fill the ravine below it, so from the bridge you look down onto the treetops, which is why the view gets called a sea of red clouds. Some of the trees are three-pointed Tsuten maples, said to have come from Song China. Expect to pay around 1,000 yen in autumn.</p>
+
+<h2>How do you avoid the crowds?</h2>
+<p>Come at opening on a weekday. At peak, weekends bring queues to get onto the bridge and a slow shuffle once you're on it. The temple says it may ban photography on the bridge when it's crowded, so don't plan your visit around the photo. The views from the paths down in the ravine are quieter, and you see the maples from below as well as above.</p>
+<p>If you can only come at the weekend, go first thing or in the last hour before closing. The middle of the day is the worst time.</p>
+
+<h2>Can you combine Tofuku-ji with Fushimi Inari?</h2>
+<p>Yes, and it's an easy pairing. Fushimi Inari is one stop south, on either the JR Nara Line (Tofukuji to Inari) or the Keihan Line (Tofukuji to Fushimi-Inari). The shrine's tunnels of torii gates are open all day and all night with no entry fee, so you can do Tofuku-ji in the morning and Fushimi Inari later, when the day-trip crowds have thinned.</p>
+<p>If you'd rather see the torii after dark with someone who knows the mountain, there's a <a href="https://www.getyourguide.com/kyoto-l96826/kyoto-fushimi-inari-night-walking-tour-t758261/?partner_id=HB90XTH&utm_medium=online_publisher" target="_blank" rel="sponsored noopener">guided Fushimi Inari night walking tour</a>. <em>(Partner link: we earn a commission if you book, at no extra cost to you.)</em></p>
+
+<h2>What's in flower nearby in spring?</h2>
+<p>Come back in late February or March for [[jonangu-shrine|Jonangu]], a shrine in Fushimi with about 150 weeping plum trees and camellia petals scattered on the moss beneath them. The weeping plum and camellia festival runs from mid February to late March, garden entry is about 1,000 yen, and it's a 15 minute walk from Takeda Station.</p>
+
+<h2>Where else in Kyoto for autumn leaves?</h2>
+<p>[[eikando-temple|Eikando]] and [[nanzen-ji-temple|Nanzen-ji]] sit next to each other in the east of the city, and [[ruriko-in-temple|Ruriko-in]] in the north is known for maples reflected in a polished black desk (it opens only for special viewings, with timed booking at peak). We track {{n:autumn-leaves}} autumn leaves spots. <a href="/flowers/autumn-leaves">See them all</a>.</p>
+`,
+  },
+
+  {
+    slug: 'ueno-park-cherry-blossoms',
+    h1: 'When do the cherry blossoms bloom in Ueno Park?',
+    title: 'Ueno Park Cherry Blossoms: When to Go, Night Lanterns, and Asakusa Nearby',
+    short: "When Ueno's 800 cherry trees peak, how to handle the crowds, and Sumida Park and Senso-ji three stops away.",
+    desc: "Ueno Park's 800 cherry trees usually reach full bloom around the end of March, about a week after Tokyo's average opening date of 24 March. What to expect, when to beat the crowds, and how to pair it with Sumida Park and Senso-ji in Asakusa.",
+    published: '2026-10-30', updated: '2026-10-30',
+    fl: [], spots: ['ueno-park', 'sumida-park', 'shinobazu-pond', 'ueno-toshogu-peony-garden'], img: 'ueno-park',
+    sources: "Tree counts and festival details from Taito and Sumida city tourism sites; average dates from the Japan Meteorological Agency.",
+    body: `
+<p class="answer"><strong>Ueno Park's cherry blossoms usually reach full bloom around the last days of March.</strong> Tokyo's cherries open on about 24 March in an average year and are at full bloom a week later, around 31 March, and Ueno runs with the city. Aim for the last few days of March or the first few days of April, and check the <a href="/guides/cherry-blossom-forecast">forecasts</a> from early March, because the date can move by ten days either way.</p>
+
+<h2>What is Ueno Park like in cherry season?</h2>
+<p>[[ueno-park|Ueno Park]] has about 800 cherry trees of some 50 kinds, and most of them line the wide central avenue. It's Tokyo's classic hanami spot: groups spread blue sheets under the trees and picnic all day. During the Ueno Cherry Blossom Festival, lanterns light the trees in the evening, and Ueno is counted among Japan's three great spots for night cherry blossoms.</p>
+<p>It's also one of the busiest places in Tokyo at full bloom. A weekday morning is the calmest time. Weekend afternoons and evenings at peak are crowded enough that the avenue moves at walking pace.</p>
+
+<h2>Is Sumida Park in Asakusa worth it too?</h2>
+<p>Yes, and it's an easy add. [[sumida-park|Sumida Park]] has cherry trees along both banks of the Sumida River, a cherry spot since the Edo period, with Tokyo Skytree across the water. It's 5 minutes on foot from Asakusa Station, and Asakusa is three stops from Ueno on the Ginza Line. The Sumida Park Cherry Blossom Festival runs through the season.</p>
+<p>Senso-ji, Tokyo's oldest temple, is a few minutes' walk from the river, so most people see both. If you'd like the history of the temple and the old streets around it explained, there's a <a href="https://www.getyourguide.com/tokyo-l193/tokyo-asakusa-and-tokyo-s-oldest-temple-senso-ji-tour-t695420/?partner_id=HB90XTH&utm_medium=online_publisher&cmp=tokyo-asakusa" target="_blank" rel="sponsored noopener">guided Asakusa and Senso-ji tour</a>. <em>(Partner link: we earn a commission if you book, at no extra cost to you.)</em></p>
+
+<h2>How do you see both in one day?</h2>
+<p>Start at Ueno Park in the morning, before the picnic crowds settle in. Take the Ginza Line three stops to Asakusa, see Senso-ji, and walk down to the river for the afternoon at Sumida Park. If you still have energy, go back to Ueno after dark for the lanterns.</p>
+
+<h2>What else flowers in Ueno through the year?</h2>
+<p>Ueno isn't only about April. In January and February the peony garden at [[ueno-toshogu-peony-garden|Ueno Toshogu]] shows about 160 winter peonies under straw shelters, and a spring show follows in April with about 500 plants (entry about 1,000 yen). From mid July to mid August, lotus covers the southern part of [[shinobazu-pond|Shinobazu Pond]]. The flowers open early and close by midday, so go between about 7 and 9 am.</p>
+
+<h2>Where else in Tokyo for cherry blossoms?</h2>
+<p>[[chidorigafuchi]] has rowing boats under the trees along the old castle moat, and [[meguro-river|Meguro River]] is the one for evening lights over the water. For dates across Japan, see <a href="/guides/cherry-blossom-season">when cherry blossom season is</a>.</p>
+`,
+  },
+
+  {
+    slug: 'mount-fuji-flowers',
+    h1: 'Where can you see flowers with Mount Fuji behind them?',
+    title: 'Mount Fuji Flowers by Season: Cherry Blossoms, Shibazakura, Lavender and Kochia',
+    short: 'The best flower views with Mount Fuji, month by month, and how to see them on a day trip from Tokyo.',
+    desc: 'The best flower views with Mount Fuji, month by month: Chureito Pagoda cherry blossoms in early to mid April, the Fuji Shibazakura Festival from mid April to late May, Lake Kawaguchi lavender in early July and red kochia in October.',
+    published: '2026-10-30', updated: '2026-10-30',
+    fl: [], spots: ['arakurayama-sengen-park', 'fuji-motosuko-resort', 'oishi-park', 'oishi-park-april', 'oishi-park-october', 'hananomiyako-park', 'yagisaki-park', 'grinpa'], img: 'arakurayama-sengen-park',
+    sources: "Plant counts, fees and bloom windows from each spot's official or local tourism site.",
+    body: `
+<p class="answer"><strong>Spring is the best time for flowers with Mount Fuji: cherry blossoms at the Chureito Pagoda in early to mid April, then pink shibazakura near Lake Motosu from mid April to late May.</strong> Summer brings lavender around Lake Kawaguchi in late June and early July, and October turns the kochia red. Whatever the season, go early in the day, because Fuji often hides behind cloud by the afternoon.</p>
+
+<h2>Which month is best?</h2>
+<div class="gtable"><table>
+<thead><tr><th>When</th><th>Flower</th><th>Where</th></tr></thead>
+<tbody>
+<tr><td>Early - mid April</td><td>Cherry blossom</td><td>[[arakurayama-sengen-park|Chureito Pagoda]]</td></tr>
+<tr><td>Mid April - late May</td><td>Shibazakura</td><td>[[fuji-motosuko-resort|Fuji Shibazakura Festival]]</td></tr>
+<tr><td>Mid April - mid May</td><td>Nemophila</td><td>[[oishi-park-april|Oishi Park]], [[grinpa]]</td></tr>
+<tr><td>Late April - early May</td><td>Tulips</td><td>[[hananomiyako-park|Hananomiyako Park]]</td></tr>
+<tr><td>Late June - mid July</td><td>Lavender</td><td>[[oishi-park|Oishi Park]], [[yagisaki-park|Yagisaki Park]]</td></tr>
+<tr><td>Mid - late October</td><td>Kochia</td><td>[[oishi-park-october|Oishi Park]]</td></tr>
+</tbody>
+</table></div>
+<p>The area sits high, so everything flowers later than in Tokyo. The cherries at Chureito come a week or two after Tokyo's, and the tulips at Lake Yamanaka, about 1,000 m up, two or three weeks after the city's.</p>
+
+<h2>When are the cherry blossoms at the Chureito Pagoda?</h2>
+<p>Usually early to mid April. [[arakurayama-sengen-park|Arakurayama Sengen Park]] has about 650 cherry trees below the five-storey pagoda, with Fuji behind it: one of the most photographed views in Japan. It's 398 steps up the hillside from the shrine, and a 10 minute walk from Shimoyoshida Station on the Fujikyu Line. Get there early, because the viewing deck is crowded by mid morning.</p>
+
+<h2>When is the Fuji Shibazakura Festival?</h2>
+<p>From mid April to late May. [[fuji-motosuko-resort|The festival]] covers the ground near Lake Motosu with around 500,000 moss phlox in pink and white, right at the foot of the mountain. Adults pay 1,000 to 1,300 yen depending on the date, and the Fuji Shibazakura Liner bus runs from Kawaguchiko Station in about 40 minutes.</p>
+
+<h2>What can you see at Lake Kawaguchi?</h2>
+<p>[[oishi-park|Oishi Park]], on the north shore, looks straight across the lake to Fuji, and it's free. Its flower beds change with the seasons: nemophila from mid April, about 3,000 lavender plants for the Kawaguchiko Herb Festival in early July, and red kochia in October. [[yagisaki-park|Yagisaki Park]] on the same lake has about 80,000 lavender plants, most of the lavender around the lake.</p>
+<p>Two more spring options: tulips with Fuji behind them at [[hananomiyako-park|Hananomiyako Park]] above Lake Yamanaka (the flower fields are free), and about 32,000 nemophila at [[grinpa|Grinpa]], a theme park about 1,200 m up on Fuji's southern side.</p>
+
+<h2>Will you actually see Mount Fuji?</h2>
+<p>Not on every day. The mountain is often hidden by cloud or haze, more so in spring and summer than in winter, and the clouds tend to build up as the day goes on. Your best chance is the early morning. If the forecast is cloudy for your only day, the flowers are still there, but plan around the clearest morning you can.</p>
+
+<h2>Can you do it as a day trip from Tokyo?</h2>
+<p>Yes. Lake Kawaguchi is reachable by express bus from Shinjuku or by the Fuji Excursion train, and from there local buses run to the lakes and the shibazakura. If you'd rather not plan the connections, there's a <a href="https://www.getyourguide.com/tokyo-l193/tokyo-mt-fujichureito-pagodalake-kawaguchioshino-hakkai-t792363/?partner_id=HB90XTH&utm_medium=online_publisher" target="_blank" rel="sponsored noopener">day trip from Tokyo to the Chureito Pagoda, Lake Kawaguchi and Oshino Hakkai</a>, the village of spring-fed ponds at the foot of the mountain. It doesn't go to the shibazakura festival. <em>(Partner link: we earn a commission if you book, at no extra cost to you.)</em></p>
+<p>For cherry blossom dates across Japan, see <a href="/guides/cherry-blossom-season">when cherry blossom season is</a>.</p>
+`,
+  },
 ];
