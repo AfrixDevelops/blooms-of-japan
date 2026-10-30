@@ -38,7 +38,10 @@ const html = `<!doctype html>
 <link rel="canonical" href="${SITE}/">
 <meta name="theme-color" content="#F6F0E3">
 <meta name="msvalidate.01" content="E4DB9D6840072792C05DB04A7C6D1023">
+<link rel="icon" href="/favicon.ico" sizes="48x48">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/icon-192.png" type="image/png" sizes="192x192">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Blooms of Japan">
 <meta property="og:title" content="${TITLE}">
@@ -96,11 +99,14 @@ fs.writeFileSync(path.join(OUT, 'index.html'), idx);
 if (!fs.existsSync('og-card.jpg')) throw new Error('og-card.jpg missing — run: node tools/make-og.js');
 fs.copyFileSync('og-card.jpg', path.join(OUT, 'og.jpg'));
 
-fs.writeFileSync(path.join(OUT, 'favicon.svg'),
-  `<svg xmlns="http://www.w3.org/2000/svg" viewBox="-16 -16 32 32"><circle r="15.4" fill="#F6F0E3"/><g fill="none" stroke="#B08A4F" stroke-width="1.4">
-<circle r="15"/><g id="p"><path d="M0 -1.6C-3.6 -3.2 -4.8 -7.6 -2.6 -10.4L0 -8.8 2.6 -10.4C4.8 -7.6 3.6 -3.2 0 -1.6Z"/></g>
-<use href="#p" transform="rotate(72)"/><use href="#p" transform="rotate(144)"/><use href="#p" transform="rotate(216)"/><use href="#p" transform="rotate(288)"/></g>
-<circle r="1.8" fill="#B08A4F"/></svg>\n`);
+// favicon.svg is the source; the .ico and PNGs are drawn from it for the places that don't take SVG
+// (Google falls back to /favicon.ico, iPhones want a square apple-touch-icon).
+// Rebuild them with `node tools/make-icons.js` whenever favicon.svg changes.
+const ICONS = ['favicon.svg', 'favicon.ico', 'icon-192.png', 'apple-touch-icon.png'];
+for (const f of ICONS) {
+  if (!fs.existsSync(f)) throw new Error(f + ' missing — run: node tools/make-icons.js');
+  fs.copyFileSync(f, path.join(OUT, f));
+}
 fs.writeFileSync(path.join(OUT, 'robots.txt'), `User-agent: *\nAllow: /\n\nSitemap: ${SITE}/sitemap.xml\n`);
 // proves IndexNow pings (tools/indexnow.js) come from the site's owner
 fs.writeFileSync(path.join(OUT, INDEXNOW_KEY + '.txt'), INDEXNOW_KEY);
