@@ -813,7 +813,7 @@ module.exports = [
 
 <h2>Can you combine Tofuku-ji with Fushimi Inari?</h2>
 <p>Yes, and it's an easy pairing. Fushimi Inari is one stop south, on either the JR Nara Line (Tofukuji to Inari) or the Keihan Line (Tofukuji to Fushimi-Inari). The shrine's tunnels of torii gates are open all day and all night with no entry fee, so you can do Tofuku-ji in the morning and Fushimi Inari later, when the day-trip crowds have thinned.</p>
-<p>If you'd rather see the torii after dark with someone who knows the mountain, there's a <a href="https://www.getyourguide.com/kyoto-l96826/kyoto-fushimi-inari-night-walking-tour-t758261/?partner_id=HB90XTH&utm_medium=online_publisher" target="_blank" rel="sponsored noopener">guided Fushimi Inari night walking tour</a>. <em>(Partner link: we earn a commission if you book, at no extra cost to you.)</em></p>
+<p>If you'd rather see the torii after dark with someone who knows the mountain, there's a <a href="https://www.getyourguide.com/kyoto-l96826/kyoto-fushimi-inari-night-walking-tour-t758261/?partner_id=HB90XTH&utm_medium=online_publisher" target="_blank" rel="sponsored noopener">guided Fushimi Inari night walking tour</a>.</p>
 
 <h2>What's in flower nearby in spring?</h2>
 <p>Come back in late February or March for [[jonangu-shrine|Jonangu]], a shrine in Fushimi with about 150 weeping plum trees and camellia petals scattered on the moss beneath them. The weeping plum and camellia festival runs from mid February to late March, garden entry is about 1,000 yen, and it's a 15 minute walk from Takeda Station.</p>
@@ -841,7 +841,7 @@ module.exports = [
 
 <h2>Is Sumida Park in Asakusa worth it too?</h2>
 <p>Yes, and it's an easy add. [[sumida-park|Sumida Park]] has cherry trees along both banks of the Sumida River, a cherry spot since the Edo period, with Tokyo Skytree across the water. It's 5 minutes on foot from Asakusa Station, and Asakusa is three stops from Ueno on the Ginza Line. The Sumida Park Cherry Blossom Festival runs through the season.</p>
-<p>Senso-ji, Tokyo's oldest temple, is a few minutes' walk from the river, so most people see both. If you'd like the history of the temple and the old streets around it explained, there's a <a href="https://www.getyourguide.com/tokyo-l193/tokyo-asakusa-and-tokyo-s-oldest-temple-senso-ji-tour-t695420/?partner_id=HB90XTH&utm_medium=online_publisher&cmp=tokyo-asakusa" target="_blank" rel="sponsored noopener">guided Asakusa and Senso-ji tour</a>. <em>(Partner link: we earn a commission if you book, at no extra cost to you.)</em></p>
+<p>Senso-ji, Tokyo's oldest temple, is a few minutes' walk from the river, so most people see both. If you'd like the history of the temple and the old streets around it explained, there's a <a href="https://www.getyourguide.com/tokyo-l193/tokyo-asakusa-and-tokyo-s-oldest-temple-senso-ji-tour-t695420/?partner_id=HB90XTH&utm_medium=online_publisher&cmp=tokyo-asakusa" target="_blank" rel="sponsored noopener">guided Asakusa and Senso-ji tour</a>.</p>
 
 <h2>How do you see both in one day?</h2>
 <p>Start at Ueno Park in the morning, before the picnic crowds settle in. Take the Ginza Line three stops to Asakusa, see Senso-ji, and walk down to the river for the afternoon at Sumida Park. If you still have energy, go back to Ueno after dark for the lanterns.</p>
@@ -894,7 +894,7 @@ module.exports = [
 <p>Not on every day. The mountain is often hidden by cloud or haze, more so in spring and summer than in winter, and the clouds tend to build up as the day goes on. Your best chance is the early morning. If the forecast is cloudy for your only day, the flowers are still there, but plan around the clearest morning you can.</p>
 
 <h2>Can you do it as a day trip from Tokyo?</h2>
-<p>Yes. Lake Kawaguchi is reachable by express bus from Shinjuku or by the Fuji Excursion train, and from there local buses run to the lakes and the shibazakura. If you'd rather not plan the connections, there's a <a href="https://www.getyourguide.com/tokyo-l193/tokyo-mt-fujichureito-pagodalake-kawaguchioshino-hakkai-t792363/?partner_id=HB90XTH&utm_medium=online_publisher" target="_blank" rel="sponsored noopener">day trip from Tokyo to the Chureito Pagoda, Lake Kawaguchi and Oshino Hakkai</a>, the village of spring-fed ponds at the foot of the mountain. It doesn't go to the shibazakura festival. <em>(Partner link: we earn a commission if you book, at no extra cost to you.)</em></p>
+<p>Yes. Lake Kawaguchi is reachable by express bus from Shinjuku or by the Fuji Excursion train, and from there local buses run to the lakes and the shibazakura. If you'd rather not plan the connections, there's a <a href="https://www.getyourguide.com/tokyo-l193/tokyo-mt-fujichureito-pagodalake-kawaguchioshino-hakkai-t792363/?partner_id=HB90XTH&utm_medium=online_publisher" target="_blank" rel="sponsored noopener">day trip from Tokyo to the Chureito Pagoda, Lake Kawaguchi and Oshino Hakkai</a>, the village of spring-fed ponds at the foot of the mountain. It doesn't go to the shibazakura festival.</p>
 <p>For cherry blossom dates across Japan, see <a href="/guides/cherry-blossom-season">when cherry blossom season is</a>.</p>
 `,
   },
