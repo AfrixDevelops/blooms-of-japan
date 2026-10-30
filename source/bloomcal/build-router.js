@@ -76,7 +76,13 @@ const PARTNERS = {
     copy: 'Any three Okinawa attractions on one pass, good for a week.',
     skip: /Yaeyama|Ishigaki|Miyakojima/ },
 };
-const partnerBox = f => { const p = PARTNERS[f.pref]; if(!p || (p.skip && p.skip.test(f.address))) return '';
+// a box for one spot, keyed by slug, wins over its prefecture's: Tofuku-ji (one stop from Inari)
+// and Jonangu are close to Fushimi Inari, which the rest of Kyoto isn't
+const FUSHIMI_INARI = { label: 'Fushimi Inari Night Walking Tour',
+  href: 'https://www.getyourguide.com/kyoto-l96826/kyoto-fushimi-inari-night-walking-tour-t758261/?partner_id=HB90XTH&utm_medium=online_publisher',
+  copy: 'A guided evening walk through the torii gates of Fushimi Inari, a short trip from here.' };
+const SPOT_PARTNERS = { 'tofuku-ji-temple': FUSHIMI_INARI, 'jonangu-shrine': FUSHIMI_INARI };
+const partnerBox = f => { const p = SPOT_PARTNERS[f.slug] || PARTNERS[f.pref]; if(!p || (p.skip && p.skip.test(f.address))) return '';
   return '<div class="dbox partner"><h4>Partner</h4>'
     + '<p class="pcopy">' + esc(p.copy) + '</p>'
     + '<a href="' + p.href + '" target="_blank" rel="sponsored noopener">' + esc(p.label) + ' ›</a>'
@@ -216,7 +222,7 @@ var INFO = {
     'store. If a seasonal list is ever opened, this page will name the provider that receives addresses ' +
     'before any form appears.</p>' +
     '<h3>Affiliate links</h3>' +
-    '<p>Some spot pages carry a clearly marked "Partner" box linking to a booking site, currently Klook. ' +
+    '<p>Some spot pages carry a clearly marked "Partner" box linking to a booking site, currently Klook or GetYourGuide. ' +
     'If you book through one of those links we may earn a commission, and you pay no more than you ' +
     'otherwise would. The link carries a tag identifying this site, so the booking site can see the visit ' +
     'came from here and may set its own cookies once you arrive; what it then collects is covered by that ' +
