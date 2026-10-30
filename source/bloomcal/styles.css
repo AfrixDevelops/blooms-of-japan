@@ -418,7 +418,7 @@
   .fnote{ margin:9px 0 0; font-size:11.5px; line-height:1.6; color:rgba(230,223,208,.6); }
   .fnote.on{ color:var(--gold-2); }
 
-  .fcols{ display:grid; grid-template-columns:repeat(3,1fr); gap:30px; }
+  .fcols{ display:grid; grid-template-columns:repeat(4,1fr); gap:30px; }
   .fcol h4{ font-family:var(--serif); font-size:12px; font-weight:600; letter-spacing:.24em;
     text-transform:uppercase; color:var(--gold-2); margin-bottom:15px;
     padding-bottom:11px; border-bottom:1px solid rgba(205,174,116,.26); }
