@@ -426,6 +426,9 @@
     padding:6px 0; font-size:14px; color:#E6DFD0; text-decoration:none; transition:color .18s; }
   .fcol a:hover{ color:var(--gold-2); }
   .fcol a span{ font-family:var(--jp); font-size:11.5px; color:rgba(205,174,116,.7); font-variant-numeric:tabular-nums; }
+  /* the directory column is too narrow for a description beside the name, so it sits underneath */
+  .fdirs a{ flex-direction:column; align-items:flex-start; gap:2px; }
+  .fdirs a small{ font-size:11.5px; line-height:1.45; color:rgba(230,223,208,.55); }
 
   .footbar{ border-top:1px solid rgba(205,174,116,.2); }
   .footbar{ max-width:1140px; margin:0 auto; padding:18px 28px 34px;

@@ -489,10 +489,16 @@ function route(){
   window.scrollTo({ top: saved !== null ? saved : y, behavior: smooth ? 'smooth' : 'auto' });
   markTop();   // a jump to a new address fires no scroll event, so the button would keep its old state
   // a plain #anchor on the first load (e.g. /about#itravelnet for the directory's link-back check) is
-  // honoured after the scroll above, which would otherwise undo the browser's own jump to it
+  // honoured after the scroll above, which would otherwise undo the browser's own jump to it.
+  // It glides there, so a directory checking its link-back sees the page travel to it: the id is held
+  // back until then, or the browser makes its own instant jump first.
   if (!routed && location.hash.length > 1 && !location.hash.startsWith('#/')) {
     const target = document.getElementById(decodeURIComponent(location.hash.slice(1)));
-    if (target) target.scrollIntoView({ block: 'center' });
+    if (target) {
+      const id = target.id; target.removeAttribute('id');
+      const glide = () => { target.scrollIntoView({ block: 'center', behavior: 'smooth' }); setTimeout(() => { target.id = id; }, 1500); };
+      document.readyState === 'complete' ? glide() : window.addEventListener('load', glide, { once: true });
+    }
   }
   // on first load the web fonts arrive one by one and re-wrap the hero, shifting everything below it,
   // so keep the section lined up while the hero settles, until the visitor scrolls themselves
