@@ -300,12 +300,61 @@ module.exports = [
   },
 
   {
+    slug: 'plum-blossom-season',
+    h1: 'When is plum blossom season in Japan?',
+    title: 'Plum Blossom Season in Japan: When to Go and Where to See Ume',
+    short: 'When plum blossoms flower from late January to May, and the best groves near Tokyo, Kyoto and beyond.',
+    desc: "Plum blossom season in Japan peaks from mid February to early March around Tokyo and Kyoto, starting in late January at Atami and ending in May in Sapporo. The best groves, festivals and free gardens, and when to go.",
+    published: '2026-11-04', updated: '2026-11-04',
+    fl: ['plum-blossom'], img: 'kitano-tenmangu-shrine',
+    sources: 'Bloom windows, tree counts, fees and festivals from our spot listings, which draw on each site and local tourism information. Dates vary by year, and 2027 festival dates are not all confirmed.',
+    body: `
+<p class="answer"><strong>For most trips, go from mid February to early March.</strong> That's when the big plum gardens around Tokyo and Kyoto usually look their best. The season starts earlier on the warm Izu coast, where [[atami-plum-garden]] usually peaks from late January, and it ends in May in Sapporo. If you can only see one place, we'd pick [[kitano-tenmangu-shrine]] in Kyoto.</p>
+
+<h2>When do plum blossoms bloom around Japan?</h2>
+<div class="gtable"><table>
+<thead><tr><th>Usual time</th><th>Where</th><th>Where to look</th></tr></thead>
+<tbody>
+<tr><td>Late January to mid February</td><td>Warm coast, and Tokyo's earliest</td><td>[[atami-plum-garden]], [[koishikawa-korakuen]]</td></tr>
+<tr><td>Mid February to early March</td><td>Tokyo, Kyoto, Osaka, Fukuoka</td><td>[[yushima-tenjin]], [[kitano-tenmangu-shrine]], [[dazaifu-tenmangu-shrine]]</td></tr>
+<tr><td>Late February to mid March</td><td>Hills near Tokyo, Nara, Nagoya</td><td>[[yoshino-baigo]], [[tsukigase-plum-grove]], [[nagoya-agricultural-center]]</td></tr>
+<tr><td>Early to late March</td><td>Gunma</td><td>[[haruna-plum-grove]], [[minowa-plum-grove]], [[akima-plum-grove]]</td></tr>
+<tr><td>Mid March to early April</td><td>Tohoku</td><td>[[sendai-agricultural-center-plum-garden]], [[yutagawa-onsen-plum-park]]</td></tr>
+<tr><td>Late April to mid May</td><td>Sapporo</td><td>[[hiraoka-park-plum-grove]]</td></tr>
+</tbody></table></div>
+<p>These are usual windows, not a 2027 forecast. A cold or mild winter can shift them by a week or more, so check the garden's own updates before you travel.</p>
+
+<h2>Why does plum blossom last longer than cherry?</h2>
+<p>Many gardens plant early, middle and late kinds side by side, so there's no single week when it all happens. [[kairakuen-garden|Kairakuen]] has about 3,000 trees of some 100 kinds, which carry its season from January into March. [[osaka-castle-plum-grove|Osaka Castle]] has about 1,250 trees of some 105 kinds and flowers from January to March. That makes plum much more forgiving to plan around than cherry. You're less likely to miss it, though you may not see every tree in flower at once.</p>
+
+<h2>Where should you see plum blossoms near Tokyo?</h2>
+<p>[[yushima-tenjin|Yushima Tenjin]] is the easy choice in the city: about 300 trees, two minutes from Yushima Station, with the grounds lit up until 8 pm during the festival. [[hanegi-park|Hanegi Park]] has about 650 trees in a quiet part of Setagaya, three minutes from Umegaoka Station.</p>
+<p>For a day trip, go to [[kairakuen-garden|Kairakuen]] in Mito, one of Japan's three great gardens. Adults pay about 320 yen, and the plum festival runs from mid February to late March. On a clear day, [[soga-plum-groves|Soga]] near Odawara may be the better choice, with about 35,000 white plum trees and snow-capped Mount Fuji behind them.</p>
+
+<h2>Where should you see plum blossoms in Kyoto and Kansai?</h2>
+<p>[[kitano-tenmangu-shrine|Kitano Tenmangu]] is our top pick: about 1,500 trees of some 50 kinds at the shrine of Sugawara no Michizane. Aim for 25 February if you can, when the Baika-sai festival brings an open-air tea ceremony served by geiko and maiko from nearby Kamishichiken. The plum garden charges a fee in season.</p>
+<p>[[jonangu-shrine|Jonangu]] is the one for photos: about 150 weeping plums, with camellia petals on the moss beneath them. [[kyoto-imperial-park-plum-grove|Kyoto Imperial Park]] and [[osaka-castle-plum-grove|Osaka Castle]] are both free. If you'd like a landscape instead of a garden, go to [[tsukigase-plum-grove|Tsukigase]] in Nara, where about 10,000 trees line a river gorge, or [[minabe-bairin|Minabe]] in Wakayama, with hillsides of pickling plums.</p>
+
+<h2>Where are the biggest plum groves?</h2>
+<p>Gunma wins on sheer size. [[haruna-plum-grove|Haruna]] has some 120,000 trees over more than 300 hectares, [[minowa-plum-grove|Minowa]] about 100,000, and [[akima-plum-grove|Akima]] about 35,000. They usually flower from early to late March, so they're useful if you've missed the February peak further south. Most of these are working orchards spread across the hills, so don't expect a neat garden.</p>
+
+<h2>Which plum trees have the best stories?</h2>
+<p>Start with the Tobiume, the "flying plum" at [[dazaifu-tenmangu-shrine|Dazaifu Tenmangu]], said to have flown overnight from Michizane's Kyoto garden to follow him into exile. The shrine has about 6,000 plum trees of some 200 kinds. In Kagoshima, the [[fujikawa-tenjin-garyubai|Fujikawa Tenjin]] plums have old trunks lying low along the ground like reclining dragons, and they're a national natural monument. You'll want a car for that one.</p>
+
+<h2>Can you see plum and cherry blossoms on the same trip?</h2>
+<p>Yes, if you travel in the second half of March and don't mind moving around. The Gunma groves and [[jonangu-shrine|Jonangu]] may still have plum when the first cherries open in the south, and early cherries like the [[kawazu-river|Kawazu cherries]] in Izu overlap with plum in late February. In Sapporo, [[hiraoka-park-plum-grove|Hiraoka Park]]'s plums flower at the same time as the city's cherries. For the easiest way to tell them apart, see <a href="/guides/plum-vs-cherry-blossoms">plum vs cherry blossoms</a>.</p>
+
+<p>We track {{n:plum-blossom}} plum blossom spots across Japan, each with its usual peak and how to get there. <a href="/flowers/plum-blossom">See them all</a>.</p>
+`,
+  },
+
+  {
     slug: 'plum-vs-cherry-blossoms',
     h1: 'How do you tell plum blossoms from cherry blossoms?',
     title: 'Plum vs Cherry Blossoms: How to Tell Them Apart in Japan',
     short: 'The quick checks that work every time, and when each one flowers.',
     desc: 'Plum blossoms sit tight on the branch, have round petals and a strong scent, and flower in February and March. Cherry blossoms hang on long stalks, have notched petals and come later.',
-    published: '2026-10-28', updated: '2026-10-28',
+    published: '2026-10-28', updated: '2026-11-04',
     fl: ['plum-blossom'], img: 'kitano-tenmangu-shrine',
     sources: 'Spot bloom windows from local tourism sites and our own spot pages.',
     body: `
@@ -333,7 +382,7 @@ module.exports = [
 <h2>Are plum blossoms worth seeing if you'll miss the cherries?</h2>
 <p>Yes, and in some ways they're the better trip. Crowds are much smaller. A single garden often flowers for a month or more, because early and late kinds open in turn, so your timing doesn't have to be perfect.</p>
 <p>Plum was also Japan's first flower-viewing tree. The Man'yoshu, the oldest collection of Japanese poetry, has about 120 poems about plum and only 40-odd about cherry.</p>
-<p>We track {{n:plum-blossom}} plum blossom spots, each with its usual peak. <a href="/flowers/plum-blossom">See them all</a>.</p>
+<p>Planning a trip around them? Here's <a href="/guides/plum-blossom-season">when and where to see plum blossoms</a>. We track {{n:plum-blossom}} plum blossom spots, each with its usual peak. <a href="/flowers/plum-blossom">See them all</a>.</p>
 `,
   },
 
