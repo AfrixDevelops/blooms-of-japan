@@ -264,6 +264,42 @@ module.exports = [
   },
 
   {
+    slug: 'motoara-river-cherry-blossoms',
+    h1: 'Motoara River: a quiet cherry blossom walk in Saitama',
+    title: 'Motoara River Cherry Blossoms: A Quiet Riverside Walk in Konosu, Saitama',
+    short: "Why this narrow river in Konosu is one of the prettiest cherry walks near Tokyo, when to go, and how to get there.",
+    desc: "About 500 cherry trees line both banks of the Motoara River in Konosu, Saitama, for some 2.5 km, a short walk from JR Fukiage Station. When the blossoms usually peak, the best places to stand, the festival, and how to get there.",
+    published: '2026-11-04', updated: '2026-11-04',
+    fl: [], spots: ['motoara-river-cherry-blossom-avenue'], img: 'motoara-river-cherry-blossom-avenue',
+    sources: "Saitama Prefecture's river project page for the Moto-Arakawa in Konosu; Konosu City details as listed by Jorudan; Minna no Camera; Donny Kimball; 2024 festival listing on iko-yo.",
+    body: `
+<p class="answer"><strong>This is one of our favourite cherry walks near Tokyo, and most visitors to Japan have never heard of it.</strong> About 500 somei-yoshino line both banks of the Motoara River in Konosu, Saitama, for some 2.5 km. They usually peak from late March to early April, and the nearest bank is only 5 to 10 minutes on foot from JR Fukiage Station.</p>
+
+<h2>What makes the Motoara River so beautiful?</h2>
+<p>It's the size of the river. The [[motoara-river-cherry-blossom-avenue|Motoara]] is narrow here, so the trees on one bank reach towards the trees on the other, and you see blossom on both sides at once. Around full bloom, the path feels like a tunnel. On a still day, the pink and the sky sit on the water too.</p>
+<p>The best part may come after full bloom. When the petals start to fall, they gather on the surface in drifting rafts, called <em>hanaikada</em>, and the walk turns pink underfoot as well as overhead. It's a place where a slightly late trip can still pay off.</p>
+<p>You can also get close to the water. Saitama Prefecture and Konosu City built a walkway along the river between 2017 and 2020 to make the water's edge easier to reach. It's a big reason this walk feels so different from a typical avenue of trees beside a road.</p>
+
+<h2>When's the best time to go?</h2>
+<p>Aim for the last days of March or the first days of April. Exact dates move with the weather, so check the <a href="/guides/cherry-blossom-forecast">forecasts</a> in March. If you can, go on a weekday morning: the crowds are thinner, and the low sun lights up the branches and water. Grey days are good too, because the pale flowers hold their colour.</p>
+
+<h2>Where should you stand?</h2>
+<p>Start at Sakurabashi bridge. The stone steps near it are a popular photo spot, so you might wait a little, but there are plenty of quieter views further along. The river has 17 bridges in the Fukiage area, which gives you lots of chances to look straight down the tunnel of trees. Shin-Saga Bridge is worth finding as well: the Japan Society of Civil Engineers listed it as a civil engineering heritage site in 2012.</p>
+
+<h2>Is there a festival?</h2>
+<p>Yes, the Fukiage cherry blossom festival, usually centred on Kamatsuka Event Park. Its dates follow the bloom, so they change: in 2024 it ran on 23 and 24 March, from 10:00 to 16:00. Boat rides have been reported during past festivals, and lanterns are put up in some years only. We haven't been able to confirm any of this for 2027, so check with Konosu City before planning around them.</p>
+
+<h2>How do you get there?</h2>
+<p>Take the JR Takasaki Line to Fukiage Station, which has direct trains from Ueno. Leave by the north exit and walk straight along the main street to the river. The nearest bank takes about 5 to 10 minutes, and Kamatsuka Event Park takes about 15.</p>
+<p>We'd come by train, as there's no dedicated car park. Use a coin car park near the station, and don't leave your car on the roadside. Kamatsuka Event Park is the place to look for toilets.</p>
+
+<h2>What else can you see nearby?</h2>
+<p>Kumagaya Sakura Tsutsumi, on the Arakawa River, is two stops up the same line and about five minutes on foot from Kumagaya Station. It's far better known, with a big festival in season, so it makes a good contrast if you've got a full day.</p>
+<p>Looking for more places like this? Try our <a href="/guides/quiet-cherry-blossom-spots">quiet cherry blossom guide</a>, or see <a href="/guides/cherry-blossoms-2027-by-week">where to go each week in 2027</a>.</p>
+`,
+  },
+
+  {
     slug: 'plum-vs-cherry-blossoms',
     h1: 'How do you tell plum blossoms from cherry blossoms?',
     title: 'Plum vs Cherry Blossoms: How to Tell Them Apart in Japan',
@@ -389,14 +425,14 @@ module.exports = [
     title: 'Quiet Cherry Blossom Spots in Japan, Near Tokyo and Beyond',
     short: 'Riverbanks, old lone trees and early cherries where you won\'t be fighting for a view.',
     desc: 'Quieter cherry blossom spots in Japan: long riverbanks near Tokyo, ancient lone trees in Yamanashi and Tohoku, early cherries in February and March, and Kyoto gardens with weeks of bloom.',
-    published: '2026-10-29', updated: '2026-10-29',
+    published: '2026-10-29', updated: '2026-11-04',
     fl: [], img: 'wanizuka-cherry-tree',
     sources: 'Tree counts, ages and access from each spot\'s official or city site.',
     body: `
 <p class="answer"><strong>Get out of the city centres, or go at the edges of the season.</strong> Ueno, Meguro River and Kyoto's Maruyama Park are packed every year. You'll share the view with far fewer people at long riverbanks where the crowd spreads out, at old lone trees in the countryside, and at cherries that flower weeks before or after the main rush.</p>
 
 <h2>Where are the quieter cherry blossom spots near Tokyo?</h2>
-<p>Our pick is the [[motoara-river-cherry-blossom-avenue|Moto-Arakawa in Konosu]], Saitama. About 500 trees line both banks for some 2.5 km, so even on a busy day there's room to walk. It's a 10 minute walk from Fukiage Station on the JR Takasaki Line, and during the festival you can ride a roofed boat under the trees.</p>
+<p>Our pick is the [[motoara-river-cherry-blossom-avenue|Moto-Arakawa in Konosu]], Saitama. About 500 trees line both banks for some 2.5 km, so even on a busy day there's room to walk. It's a 10 minute walk from Fukiage Station on the JR Takasaki Line. We've written <a href="/guides/motoara-river-cherry-blossoms">a full guide to the Motoara River</a>.</p>
 <p>Also in Saitama, [[sakurazutsumi-park]] in Yoshimi has about 500 cherries over a carpet of yellow rapeseed, both at their best in late March and early April. Parking fills early at weekends, so go on a weekday.</p>
 <p>If you're stuck in central Tokyo, [[zojo-ji-temple]] is a decent compromise. It has about 200 trees around the main hall with Tokyo Tower behind, and it's far calmer first thing in the morning than by lunchtime.</p>
 
