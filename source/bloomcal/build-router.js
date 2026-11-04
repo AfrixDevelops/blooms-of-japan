@@ -94,8 +94,18 @@ const FUJI_KAWAGUCHI = FUJI_TRIP('A day trip from Tokyo to the Chureito Pagoda, 
 const HITACHI_TRIP = { label: 'Hitachi Seaside Park Day Trip from Tokyo',
   href: 'https://www.getyourguide.com/tokyo-l193/from-tokyo-hitachi-seaside-park-oarai-isosaki-shrine-tour-t1074116/?partner_id=HB90XTH&utm_medium=online_publisher',
   copy: 'A day trip from Tokyo to this park and Oarai Isosaki Shrine, with its torii on the rocks by the sea.' };
+// the Kyoto walk starts at Ginkaku-ji and takes in the Philosopher's Path and Heian Shrine; the sakura tour
+// goes to Myoshin-ji and Ninna-ji
+const KYOTO_WALK = (copy) => ({ label: 'Private Kyoto Cherry Blossom Walk', copy,
+  href: 'https://www.getyourguide.com/kyoto-l96826/splendeur-saisonniere-fleurs-de-cerisier-de-kyoto-printemps-uniquement-t1103008/?partner_id=HB90XTH&utm_medium=online_publisher' });
 const SPOT_PARTNERS = { 'tofuku-ji-temple': FUSHIMI_INARI, 'jonangu-shrine': FUSHIMI_INARI,
   'sumida-park': SENSOJI_ASAKUSA,
+  'meguro-river': { label: 'Nakameguro Sakura Riverside Walk', copy: 'A one-hour small-group walk along this river with an English-speaking guide.',
+    href: 'https://www.getyourguide.com/tokyo-l193/tokyo-nakameguro-sakura-riverside-walk-with-street-stalls-t1144980/?partner_id=HB90XTH&utm_medium=online_publisher' },
+  'ninna-ji-temple': { label: 'Kyoto Sakura Tour', copy: 'A three-hour guided tour from Kyoto Station to Myoshin-ji and this temple. Temple entry fees are extra.',
+    href: 'https://www.getyourguide.com/kyoto-l96826/kyoto-s-cherry-blossom-splendor-a-3-hour-sakura-tour-t886681/?partner_id=HB90XTH&utm_medium=online_publisher' },
+  'philosopher-s-path': KYOTO_WALK('A private spring walk from Ginkaku-ji that takes in this path and Heian Shrine, in late March and early April only.'),
+  'heian-shrine': KYOTO_WALK("A private spring walk from Ginkaku-ji along the Philosopher's Path to this shrine, in late March and early April only."),
   'ueno-park': SENSOJI_UENO, 'shinobazu-pond': SENSOJI_UENO, 'ueno-toshogu-peony-garden': SENSOJI_UENO,
   'arakurayama-sengen-park': FUJI_TRIP('A day trip from Tokyo that stops here at the Chureito Pagoda, then Lake Kawaguchi and the springs of Oshino Hakkai.'),
   'oishi-park': FUJI_KAWAGUCHI, 'oishi-park-april': FUJI_KAWAGUCHI, 'oishi-park-october': FUJI_KAWAGUCHI,

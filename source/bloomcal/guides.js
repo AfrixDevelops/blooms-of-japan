@@ -17,7 +17,7 @@ module.exports = [
     title: 'When Is Cherry Blossom Season in Japan? Usual Dates by City',
     short: 'Usual opening and full-bloom dates for 15 cities, how long the blossoms last, and when to book.',
     desc: 'Cherry blossom season in Japan runs from late March in Tokyo, Kyoto and Fukuoka to early May in Hokkaido. Usual dates by city, how long it lasts and how to time a trip.',
-    published: '2026-10-28', updated: '2026-10-28',
+    published: '2026-10-28', updated: '2026-11-04',
     fl: ['cherry-blossom'], img: 'chidorigafuchi',
     sources: 'Japan Meteorological Agency, normal flowering and full-bloom dates for somei-yoshino cherries, 1991–2020.',
     body: `
@@ -52,7 +52,7 @@ module.exports = [
 
 <h2>When's the best time to go?</h2>
 <p>If you've only got one shot, we'd aim for the first week of April and spend it in Kyoto or Osaka. Tokyo usually peaks around 31 March and Kyoto around 4 April, so a trip from about 28 March to 7 April gives you a fair chance at one of them, even in an early or late year.</p>
-<p>Don't plan around a single date months ahead. The dates swing a lot: Tokyo's cherries opened on 14 March in 2020, 2021 and 2023, ten days before normal. Book a flexible week, keep the cities you visit in an order you can swap, and check the <a href="/guides/cherry-blossom-forecast">forecasts</a> once they start appearing in the new year.</p>
+<p>Don't plan around a single date months ahead. The dates swing a lot: Tokyo's cherries opened on 14 March in 2020, 2021 and 2023, ten days before normal. Book a flexible week, keep the cities you visit in an order you can swap, and check the <a href="/guides/cherry-blossom-forecast">forecasts</a> once they start appearing in the new year. For a spring 2027 trip, we've also mapped out <a href="/guides/cherry-blossoms-2027-by-week">where to go each week</a>.</p>
 
 <h2>Can you see cherry blossoms outside March and April?</h2>
 <p>Yes, which is handy if your dates are fixed. At the early end, Okinawa's cherries peak from late January, at places like [[nago-central-park]] and [[nakijin-castle-ruins-cherry-blossoms]]. The Kawazu cherries along the [[kawazu-river]] in Izu flower from mid February into early March.</p>
@@ -94,6 +94,172 @@ module.exports = [
 
 <h2>Where can you check it?</h2>
 <p>tenki.jp, Weathernews and n-kishou.com all publish city-by-city dates. They're in Japanese, but the tables are easy to read with your browser's translate button.</p>
+`,
+  },
+
+  {
+    slug: 'cherry-blossoms-2027-by-week',
+    h1: 'Where should you see cherry blossoms in 2027, week by week?',
+    title: 'Japan Cherry Blossoms 2027: Where to Go, Week by Week',
+    short: 'The best places for each week from late March to early May 2027, based on usual bloom dates.',
+    desc: "Where to see cherry blossoms in Japan each week of spring 2027: Tokyo in the last days of March, Kyoto and Osaka in the first days of April, Tohoku in mid to late April and Hokkaido into May. Based on usual dates, not a forecast.",
+    published: '2026-11-04', updated: '2026-11-04',
+    fl: [], img: 'hirosaki-park',
+    sources: 'Japan Meteorological Agency, normal flowering and full-bloom dates for somei-yoshino cherries, 1991–2020. Spot windows from our own listings. No 2027 forecast has been published yet.',
+    body: `
+<p class="answer"><strong>If you can choose any week, pick 29 March to 4 April 2027.</strong> Tokyo usually reaches full bloom on 31 March and Kyoto and Osaka on 4 April, so that week gives you the best shot at the cities most people come for. Later in April, head north: Tohoku peaks from mid to late April and Hokkaido around the start of May.</p>
+
+<h2>Is this a 2027 forecast?</h2>
+<p>No. The forecasters don't usually publish until January, so these weeks use the normal dates from the Japan Meteorological Agency and the usual windows for each spot. We'll add the forecasts here once they're out. Treat every week as a best guess, because the season moves: Tokyo's cherries opened on 14 March in 2020, 2021 and 2023, ten days before normal.</p>
+
+<h2>Where should you go each week?</h2>
+<div class="gtable"><table>
+<thead><tr><th>Week in 2027</th><th>Best bet</th><th>Where to look</th></tr></thead>
+<tbody>
+<tr><td>22 to 28 March</td><td>Kyushu</td><td>[[nishi-park|Nishi Park, Fukuoka]], [[kumamoto-castle]]</td></tr>
+<tr><td>29 March to 4 April</td><td>Tokyo, Kyoto, Osaka</td><td>[[chidorigafuchi]], [[philosopher-s-path]], [[osaka-castle-park]]</td></tr>
+<tr><td>5 to 11 April</td><td>Mt Fuji, the Japan Alps, Kanazawa</td><td>[[arakurayama-sengen-park|Chureito Pagoda]], [[matsumoto-castle]], [[kenrokuen]]</td></tr>
+<tr><td>12 to 18 April</td><td>Southern Tohoku</td><td>[[nishi-park-april|Nishi Park, Sendai]], [[shiroishi-river-hitome-senbonzakura]], [[nicchu-line-weeping-cherries]]</td></tr>
+<tr><td>19 to 25 April</td><td>Northern Tohoku</td><td>[[kitakami-tenshochi]], [[kakunodate-samurai-district]], [[hirosaki-park|Hirosaki Park]]</td></tr>
+<tr><td>26 April to 2 May</td><td>Far north of Honshu, southern Hokkaido</td><td>[[hirosaki-park|Hirosaki Park]], [[goryokaku-park]], [[matsumae-park]]</td></tr>
+<tr><td>3 to 9 May</td><td>Hokkaido</td><td>[[shizunai-nijukken-road]], [[matsumae-park]]</td></tr>
+</tbody></table></div>
+<p>If the March forecasts say an early year, move one row up. If they say a late one, move one row down.</p>
+
+<h2>What's best in the first days of the season?</h2>
+<p>In the week of 22 March, we'd go to Kyushu, where Fukuoka usually opens on 22 March and reaches full bloom on 31 March. Tokyo usually opens on 24 March, so you may catch its first flowers by the end of the week, but it's unlikely to be at its best yet.</p>
+
+<h2>What about the peak week in Tokyo and Kyoto?</h2>
+<p>In Tokyo, start at [[chidorigafuchi]] or [[meguro-river|Meguro River]], and go early on a weekday because both get packed. [[sumida-park|Sumida Park]] is a few minutes' walk from Senso-ji, and there's a <a href="https://www.getyourguide.com/tokyo-l193/tokyo-asakusa-and-tokyo-s-oldest-temple-senso-ji-tour-t695420/?partner_id=HB90XTH&utm_medium=online_publisher&cmp=tokyo-asakusa" target="_blank" rel="sponsored noopener">guided Asakusa and Senso-ji tour</a> if you'd like the history explained.</p>
+<p>In Kyoto, the [[philosopher-s-path]], [[maruyama-park]] and [[daigo-ji-temple]] all usually peak in late March to early April. If you're running late, [[ninna-ji-temple]] and [[hirano-shrine]] hold on longer, into mid April.</p>
+
+<h2>Where should you go in the second week of April?</h2>
+<p>This is the week we'd pick for Mount Fuji. The [[arakurayama-sengen-park|Chureito Pagoda]] usually flowers from early to mid April, later than Tokyo. There's a <a href="https://www.getyourguide.com/tokyo-l193/tokyo-mt-fujichureito-pagodalake-kawaguchioshino-hakkai-t792363/?partner_id=HB90XTH&utm_medium=online_publisher" target="_blank" rel="sponsored noopener">day trip from Tokyo</a> that stops there, then at Lake Kawaguchi and Oshino Hakkai. [[matsumoto-castle]], [[takato-castle-ruins-park]] and [[mount-yoshino]] are good at this point too.</p>
+
+<h2>What if you're going late in April or in May?</h2>
+<p>Go north. [[hirosaki-park|Hirosaki Park]] is the one we'd build a late trip around, since Aomori's normal full bloom is 26 April and fallen petals cover the castle moat. Golden Week holidays fall on 29 April and 3 to 5 May in 2027, so book early for those dates. By 3 May, you'll want Hokkaido: Hakodate usually reaches full bloom on 2 May and Sapporo on 6 May.</p>
+
+<h2>What if your trip is before 22 March?</h2>
+<p>You've still got options, though they're different kinds of cherry. Okinawa's deep pink cherries peak from late January at places like [[nago-central-park]], and the [[kawazu-river|Kawazu cherries]] in Izu flower from mid February to early March. In mid to late March, try [[izu-kogen-cherry-avenue]].</p>
+
+<p>Going to the big two? We've got separate guides to <a href="/guides/kyoto-cherry-blossoms">Kyoto</a> and <a href="/guides/tokyo-cherry-blossoms">Tokyo</a>, plus <a href="/guides/cherry-blossom-tours">which tours are worth booking</a>. For the dates behind this page, see <a href="/guides/cherry-blossom-season">usual bloom dates by city</a>. For the full list, <a href="/flowers/cherry-blossom">see all {{n:cherry-blossom}} cherry blossom spots</a>.</p>
+`,
+  },
+
+  {
+    slug: 'kyoto-cherry-blossoms',
+    h1: 'When and where should you see cherry blossoms in Kyoto?',
+    title: 'Kyoto Cherry Blossoms: When to Go and the Best Places to See Them',
+    short: "Kyoto's usual bloom dates, the spots we'd pick, the best night cherries, and where to go if you arrive late.",
+    desc: "Kyoto's cherry blossoms usually open around 26 March and reach full bloom around 4 April. The best places to see them, from the Philosopher's Path and Maruyama Park to late-flowering Ninna-ji, with night cherries and entry fees.",
+    published: '2026-11-04', updated: '2026-11-04',
+    fl: [], img: 'philosopher-s-path',
+    sources: 'Japan Meteorological Agency, normal flowering and full-bloom dates for somei-yoshino cherries, 1991–2020. Tree counts, fees and events from our spot listings, which draw on each site and local tourism information.',
+    body: `
+<p class="answer"><strong>Aim for the first week of April.</strong> Kyoto's cherries usually open around 26 March and reach full bloom around 4 April. If you've got one day, walk the [[philosopher-s-path]] in the morning and finish at [[gion-shirakawa]] and [[maruyama-park]] after dark. If you arrive after the peak, go to [[ninna-ji-temple]], whose cherries are among the city's last.</p>
+
+<h2>When do Kyoto's cherry blossoms peak?</h2>
+<p>The normal full-bloom date is 4 April, nine days after the first flowers. Most of the big spots look their best from late March to early April, but the dates move every year. Book your trip on those normal dates, then check the <a href="/guides/cherry-blossom-forecast">forecasts</a> in March to decide which day goes where.</p>
+
+<h2>Where are the best places to see them?</h2>
+<p>[[philosopher-s-path|The Philosopher's Path]] is the one we'd do first. It follows a small canal for about 2 km between Ginkaku-ji and the Nanzen-ji area, under some 400 cherry trees. Start at the northern end, by the Ginkakuji-michi bus stop.</p>
+<p>[[maruyama-park|Maruyama Park]] is the place for a picnic. It's Kyoto's oldest public park, behind Yasaka Shrine, with a 12 m weeping cherry at its centre and several hundred more trees around it.</p>
+<p>[[arashiyama|Arashiyama]] has about 1,500 trees, with wild mountain cherries on the slopes and somei-yoshino by the Togetsukyo Bridge. [[kiyomizu-dera-temple|Kiyomizu-dera]] has about 1,000 around its great wooden stage. Both are busy, so go as early as you can.</p>
+<p>[[daigo-ji-temple|Daigo-ji]] is further out and costs about 1,800 yen for all three areas in spring, but it's worth the trip. Toyotomi Hideyoshi held his famous cherry party here in 1598, and about 700 trees still flower over three weeks.</p>
+
+<h2>Where can you see cherry blossoms at night?</h2>
+<p>Go to [[gion-shirakawa|Gion Shirakawa]] first. Cherry and willow trees lean over a little stream between the old teahouses, and the street is lit up in the evening in season. [[maruyama-park|Maruyama Park]]'s weeping cherry is lit up too, and it's an easy walk from Gion, so the two make one evening.</p>
+<p>[[kiyomizu-dera-temple|Kiyomizu-dera]] opens for a special evening visit with the trees lit up in late March and early April. [[hirano-shrine|Hirano Shrine]]'s night cherries have been a tradition since the Edo period.</p>
+
+<h2>What if you arrive after the peak?</h2>
+<p>Kyoto's a good city for a late arrival, because several gardens flower after the somei-yoshino:</p>
+<ul>
+<li>[[ninna-ji-temple|Ninna-ji]]: about 200 short Omuro cherries, which flower at eye level in front of the five-storey pagoda, usually early to mid April.</li>
+<li>[[heian-shrine|Heian Shrine]]: red weeping cherries in the garden behind the main hall. Garden entry is 600 yen, and it's quietest at 8:30, when it opens.</li>
+<li>[[hirano-shrine|Hirano Shrine]]: about 400 trees of some 60 kinds, flowering from late March to mid April.</li>
+<li>[[kyoto-botanical-gardens|Kyoto Botanical Gardens]]: about 500 trees of some 180 kinds, flowering from mid March to late April. Adults pay 500 yen.</li>
+</ul>
+
+<h2>Are there any events worth planning around?</h2>
+<p>Two regular dates are worth a look. Hirano Shrine holds its Ouka-sai festival, with a procession, on 10 April. Daigo-ji re-enacts Hideyoshi's cherry party with a costume procession on the second Sunday of April, which is 11 April in 2027. Confirm both before you travel.</p>
+
+<h2>What's worth a day trip from Kyoto?</h2>
+<p>[[mount-yoshino|Mount Yoshino]] is the one we'd choose. About 30,000 trees climb the mountain in four zones that flower one after another from early to late April, so it's a good backup if Kyoto's peak has passed. [[himeji-castle|Himeji Castle]] has about 1,000 trees below its white keep, and [[mii-dera-temple|Mii-dera]] has about 1,000 above Lake Biwa. In Osaka, [[osaka-castle-park]] has about 3,000.</p>
+
+<p>Want a guide? See <a href="/guides/cherry-blossom-tours">which cherry blossom tours are worth booking</a>. Planning more of Japan? Here's <a href="/guides/cherry-blossoms-2027-by-week">where to go each week in 2027</a>.</p>
+`,
+  },
+
+  {
+    slug: 'tokyo-cherry-blossoms',
+    h1: 'When and where should you see cherry blossoms in Tokyo?',
+    title: 'Tokyo Cherry Blossoms: When to Go and the Best Places to See Them',
+    short: "Tokyo's usual bloom dates, the spots we'd pick, the best places for a picnic or a night walk, and where to go late.",
+    desc: "Tokyo's cherry blossoms usually open around 24 March and reach full bloom around 31 March. The best places to see them, from Chidorigafuchi and Meguro River to Shinjuku Gyoen, with night cherries, picnics and entry fees.",
+    published: '2026-11-04', updated: '2026-11-04',
+    fl: [], img: 'meguro-river',
+    sources: 'Japan Meteorological Agency, normal flowering and full-bloom dates for somei-yoshino cherries, 1991–2020. Tree counts, fees and events from our spot listings, which draw on each site and local tourism information.',
+    body: `
+<p class="answer"><strong>Aim for the last few days of March.</strong> Tokyo's cherries usually open around 24 March and reach full bloom around 31 March. If you've got time for one place, go to [[chidorigafuchi]], where you can rent a rowing boat on the old castle moat. If you arrive in April, head for [[shinjuku-gyoen|Shinjuku Gyoen]], which has late-flowering trees into the middle of the month.</p>
+
+<h2>When do Tokyo's cherry blossoms peak?</h2>
+<p>The normal full-bloom date is 31 March, a week after the first flowers. Don't count on that date, though: Tokyo's cherries opened on 14 March in 2020, 2021 and 2023, ten days before normal. Book a flexible week around the end of March, and check the <a href="/guides/cherry-blossom-forecast">forecasts</a> in March.</p>
+<p>Tokyo's official sample tree is at [[yasukuni-shrine|Yasukuni Shrine]]. When its first five or six flowers open, the season is declared open. That's not the day to visit. Wait for full bloom.</p>
+
+<h2>Where are the best places to see them?</h2>
+<p>[[chidorigafuchi|Chidorigafuchi]] is our first pick. About 260 trees lean over the moat of Edo Castle along a 700 m walkway. [[yasukuni-shrine|Yasukuni Shrine]], with about 500 trees, is close by, so you can easily see both.</p>
+<p>[[meguro-river|Meguro River]] has about 800 trees along nearly 4 km of both banks, arching over the water around Naka-Meguro. It's lovely and very crowded, so go early in the morning or on a weekday.</p>
+<p>[[shinjuku-gyoen|Shinjuku Gyoen]] has about 1,000 trees of some 65 kinds. Entry's 500 yen, and weekend and holiday visits in March and April have to be booked ahead. Plan for that, because it catches people out.</p>
+<p>[[sumida-park|Sumida Park]] lines both banks of the Sumida River near Asakusa, with Tokyo Skytree across the water. [[zojo-ji-temple|Zojo-ji]] has about 200 trees and Tokyo Tower directly behind the great hall, so it's the one to choose for a photo.</p>
+
+<h2>Where's the best place for a picnic?</h2>
+<p>[[yoyogi-park|Yoyogi Park]] is our pick for a relaxed picnic: around 650 trees, a big central lawn, and it's three minutes from Harajuku Station. [[ueno-park|Ueno Park]] is the classic, with about 800 trees, but it's much more crowded. We've got a <a href="/guides/ueno-park-cherry-blossoms">separate guide to Ueno</a>. [[asukayama-park|Asukayama Park]] is smaller, with about 600 trees, and it has been a public cherry spot since around 1720.</p>
+
+<h2>Where can you see cherry blossoms at night?</h2>
+<p>Lanterns light the trees along [[meguro-river|Meguro River]] through the season, and [[ueno-park|Ueno Park]] and [[asukayama-park|Asukayama Park]] have evening lanterns too. Our pick is [[chidorigafuchi|Chidorigafuchi]], where the trees over the moat are lit up in season.</p>
+
+<h2>What if you arrive early or late?</h2>
+<p>[[shinjuku-gyoen|Shinjuku Gyoen]] covers both. Its early cherries flower from February, the somei-yoshino in late March, and the double-flowered ichiyo and kanzan in mid April. If you're late, you can also head for the mountains: the [[arakurayama-sengen-park|Chureito Pagoda]] near Mount Fuji usually flowers from early to mid April. For a quieter day out, [[inokashira-park|Inokashira Park]] has about 400 trees and rowing boats, and [[tsurugaoka-hachimangu-dankazura|Kamakura's Dankazura]] has about 180 trees along the approach to its great shrine.</p>
+
+<p>Want a guide? See <a href="/guides/cherry-blossom-tours">which cherry blossom tours are worth booking</a>. For calmer spots, try our <a href="/guides/quiet-cherry-blossom-spots">quiet cherry blossom guide</a>. Planning more of Japan? Here's <a href="/guides/cherry-blossoms-2027-by-week">where to go each week in 2027</a>.</p>
+`,
+  },
+
+  {
+    slug: 'cherry-blossom-tours',
+    h1: 'Are cherry blossom tours in Japan worth booking?',
+    title: 'Are Cherry Blossom Tours in Japan Worth It? Which to Book and Skip',
+    short: 'When a tour helps, when it does not, and the Tokyo, Kyoto and Mount Fuji options we would look at first.',
+    desc: "Most cherry blossom spots in Tokyo and Kyoto are easy to reach alone, so you often don't need a tour. They make most sense for a Mount Fuji day trip or when you want a guide. Which to look at, and how to book around uncertain bloom dates.",
+    published: '2026-11-04', updated: '2026-11-04',
+    fl: [], img: 'arakurayama-sengen-park',
+    sources: 'Tour details from GetYourGuide listings, checked in November 2026. Bloom dates from the Japan Meteorological Agency and our spot listings. We earn a commission if you book through these links.',
+    body: `
+<p class="answer"><strong>In most cases, no: Tokyo and Kyoto's best-known cherry spots are easy to reach by yourself.</strong> A tour makes more sense for a day trip to Mount Fuji, or if you want a local guide to explain what you're seeing. Whichever you pick, a tour can't promise blossoms, so look for free cancellation and book close to your dates once forecasts are out.</p>
+
+<h2>When is a tour worth it?</h2>
+<p>We'd pay for one in three situations: you want to reach somewhere awkward without planning connections, you've only got a day or two, or you care about the history as much as the photos. If you just want to walk under the trees, keep your money. [[chidorigafuchi]], [[meguro-river]] and the [[philosopher-s-path]] are all easy to reach on public transport or by bus.</p>
+
+<h2>Which Tokyo tours should you look at?</h2>
+<p>Start with this <a href="https://www.getyourguide.com/tokyo-l193/tokyo-nakameguro-sakura-riverside-walk-with-street-stalls-t1144980/?partner_id=HB90XTH&utm_medium=online_publisher" target="_blank" rel="sponsored noopener">Nakameguro riverside walk</a>, a one-hour small-group walk along [[meguro-river|Meguro River]] with an English-speaking guide. It's short, so it fits around the rest of your day.</p>
+<p>If you'd rather have the day planned for you, there's a <a href="https://www.getyourguide.com/tokyo-l193/tokyo-cherry-blossom-full-day-tour-with-local-expert-guide-t923357/?partner_id=HB90XTH&utm_medium=online_publisher" target="_blank" rel="sponsored noopener">full-day Tokyo cherry blossom tour</a> of about eight hours. It suits a first visit, but it's a big commitment if the trees aren't at their best. Near [[sumida-park|Sumida Park]], there's also a <a href="https://www.getyourguide.com/tokyo-l193/tokyo-asakusa-and-tokyo-s-oldest-temple-senso-ji-tour-t695420/?partner_id=HB90XTH&utm_medium=online_publisher&cmp=tokyo-asakusa" target="_blank" rel="sponsored noopener">guided Asakusa and Senso-ji tour</a>, which is still worthwhile if the blossoms have gone.</p>
+
+<h2>Which Kyoto tours should you look at?</h2>
+<p>For most people, we'd start with this <a href="https://www.getyourguide.com/kyoto-l96826/kyoto-s-cherry-blossom-splendor-a-3-hour-sakura-tour-t886681/?partner_id=HB90XTH&utm_medium=online_publisher" target="_blank" rel="sponsored noopener">three-hour Kyoto sakura tour</a>. It goes by train from Kyoto Station to Myoshin-ji and [[ninna-ji-temple|Ninna-ji]], and because Ninna-ji flowers late, it's a sensible choice if you arrive after the peak. Temple entry fees are extra.</p>
+<p>For a private walk, this <a href="https://www.getyourguide.com/kyoto-l96826/splendeur-saisonniere-fleurs-de-cerisier-de-kyoto-printemps-uniquement-t1103008/?partner_id=HB90XTH&utm_medium=online_publisher" target="_blank" rel="sponsored noopener">spring-only Kyoto tour</a> lasts about four and a half hours. It starts at Ginkaku-ji and takes in the [[philosopher-s-path]] and [[heian-shrine|Heian Shrine]]. It costs far more than a group tour and only runs in late March and early April, so it's for people who've already settled on those dates.</p>
+<p>After dark, the <a href="https://www.getyourguide.com/kyoto-l96826/kyoto-fushimi-inari-night-walking-tour-t758261/?partner_id=HB90XTH&utm_medium=online_publisher" target="_blank" rel="sponsored noopener">Fushimi Inari night walking tour</a> isn't about blossoms at all, but it's a good backup for a rainy or petal-free week.</p>
+
+<h2>Which tour is worth it for Mount Fuji?</h2>
+<p>This is the one we'd book. The <a href="https://www.getyourguide.com/tokyo-l193/tokyo-mt-fujichureito-pagodalake-kawaguchioshino-hakkai-t792363/?partner_id=HB90XTH&utm_medium=online_publisher" target="_blank" rel="sponsored noopener">Mt Fuji day trip from Tokyo</a> stops at the [[arakurayama-sengen-park|Chureito Pagoda]], Lake Kawaguchi and Oshino Hakkai, which saves you working out the connections. The pagoda's cherries usually flower from early to mid April, about a week or two after Tokyo, so don't book it for late March and expect blossoms there.</p>
+
+<h2>How do you book around uncertain bloom dates?</h2>
+<ul>
+<li>Check the 2027 dates on the listing, as some tours may not have opened them yet.</li>
+<li>Look for free cancellation, and read the current terms before you pay.</li>
+<li>Read recent reviews, and check what's included. Entry fees and meals often vary.</li>
+<li>Wait for the <a href="/guides/cherry-blossom-forecast">March forecasts</a> before fixing a blossom-specific tour, if your trip allows it.</li>
+</ul>
+<p>Prices change with the date and group size, so we don't list them here. Still choosing dates? Here's <a href="/guides/cherry-blossoms-2027-by-week">where to go each week in 2027</a>.</p>
 `,
   },
 
