@@ -329,7 +329,7 @@ module.exports = [
 
 <h2>Where should you see plum blossoms near Tokyo?</h2>
 <p>[[yushima-tenjin|Yushima Tenjin]] is the easy choice in the city: about 300 trees, two minutes from Yushima Station, with the grounds lit up until 8 pm during the festival. [[hanegi-park|Hanegi Park]] has about 650 trees in a quiet part of Setagaya, three minutes from Umegaoka Station.</p>
-<p>For a day trip, go to [[kairakuen-garden|Kairakuen]] in Mito, one of Japan's three great gardens. Adults pay about 320 yen, and the plum festival runs from mid February to late March. On a clear day, [[soga-plum-groves|Soga]] near Odawara may be the better choice, with about 35,000 white plum trees and snow-capped Mount Fuji behind them.</p>
+<p>For a day trip, go to [[kairakuen-garden|Kairakuen]] in Mito, one of Japan's three great gardens. Adults pay about 320 yen, and the plum festival runs from mid February to late March. On a clear day, [[soga-plum-groves|Soga]] near Odawara may be the better choice, with about 35,000 white plum trees and snow-capped Mount Fuji behind them. We've got more in our guide to <a href="/guides/plum-blossoms-near-tokyo">plum blossoms near Tokyo</a>.</p>
 
 <h2>Where should you see plum blossoms in Kyoto and Kansai?</h2>
 <p>[[kitano-tenmangu-shrine|Kitano Tenmangu]] is our top pick: about 1,500 trees of some 50 kinds at the shrine of Sugawara no Michizane. Aim for 25 February if you can, when the Baika-sai festival brings an open-air tea ceremony served by geiko and maiko from nearby Kamishichiken. The plum garden charges a fee in season.</p>
@@ -345,6 +345,52 @@ module.exports = [
 <p>Yes, if you travel in the second half of March and don't mind moving around. The Gunma groves and [[jonangu-shrine|Jonangu]] may still have plum when the first cherries open in the south, and early cherries like the [[kawazu-river|Kawazu cherries]] in Izu overlap with plum in late February. In Sapporo, [[hiraoka-park-plum-grove|Hiraoka Park]]'s plums flower at the same time as the city's cherries. For the easiest way to tell them apart, see <a href="/guides/plum-vs-cherry-blossoms">plum vs cherry blossoms</a>.</p>
 
 <p>We track {{n:plum-blossom}} plum blossom spots across Japan, each with its usual peak and how to get there. <a href="/flowers/plum-blossom">See them all</a>.</p>
+`,
+  },
+
+  {
+    slug: 'plum-blossoms-near-tokyo',
+    h1: 'Where can you see plum blossoms near Tokyo?',
+    title: 'Plum Blossoms in and Near Tokyo: The Best Gardens, Shrines and Day Trips',
+    short: "The best plum blossom spots in Tokyo and on day trips from it, with usual peaks, fees and how to get there.",
+    desc: "The best plum blossoms in and near Tokyo: Yushima Tenjin and Hanegi Park in the city, with day trips to Kairakuen in Mito, Soga with Mount Fuji behind it, Yugawara and Atami. Usual peaks, fees and access.",
+    published: '2026-11-04', updated: '2026-11-04',
+    fl: [], img: 'kairakuen-garden',
+    sources: 'Bloom windows, tree counts, fees, festivals and access from our spot listings, which draw on each site and local tourism information. Dates vary by year, and 2027 festival dates are not all confirmed.',
+    body: `
+<p class="answer"><strong>In the city, go to [[yushima-tenjin|Yushima Tenjin]]. For a day trip, go to [[kairakuen-garden|Kairakuen]] in Mito, or [[soga-plum-groves|Soga]] if the forecast is clear and you want Mount Fuji in the view.</strong> Most of these spots usually look their best from mid February to early March, a few weeks before Tokyo's cherry blossoms.</p>
+
+<h2>Which plum spot should you choose?</h2>
+<div class="gtable"><table>
+<thead><tr><th>Place</th><th>Usual peak</th><th>Trees</th><th>Getting there</th></tr></thead>
+<tbody>
+<tr><td>[[koishikawa-korakuen]]</td><td>Late January to late February</td><td>About 150</td><td>8 min walk from Iidabashi Station</td></tr>
+<tr><td>[[ikegami-plum-garden]]</td><td>Early February to early March</td><td>About 370</td><td>10 min walk from Nishi-Magome Station</td></tr>
+<tr><td>[[hanegi-park]]</td><td>February to early March</td><td>About 650</td><td>3 min walk from Umegaoka Station</td></tr>
+<tr><td>[[yushima-tenjin]]</td><td>Mid February to early March</td><td>About 300</td><td>2 min walk from Yushima Station</td></tr>
+<tr><td>[[yoshino-baigo]]</td><td>Late February to mid March</td><td>About 1,200</td><td>15 min walk from Hinatawada Station</td></tr>
+<tr><td>[[kairakuen-garden]]</td><td>Mid February to mid March</td><td>About 3,000</td><td>5 min walk from Kairakuen Station, open in season</td></tr>
+<tr><td>[[soga-plum-groves]]</td><td>February to early March</td><td>About 35,000</td><td>20 min walk from Shimo-Soga Station</td></tr>
+<tr><td>[[atami-plum-garden]]</td><td>Late January to mid February</td><td>About 470</td><td>In Atami, on the Izu coast</td></tr>
+</tbody></table></div>
+<p>These are usual windows, not a 2027 forecast, so check the garden's own updates before you go.</p>
+
+<h2>Where are the best plum blossoms in Tokyo?</h2>
+<p>[[yushima-tenjin|Yushima Tenjin]] is the one we'd see first. It's Tokyo's best-known shrine of the god of learning, so in plum season you'll share it with students praying before their exams. Its trees are mostly white, and during the Bunkyo Plum Festival the grounds are lit up until 8 pm, which makes it an easy stop after a day out.</p>
+<p>For more trees and more space, go to [[hanegi-park|Hanegi Park]]. It has about 650 red and white trees on a gentle hill in a quiet part of Setagaya, and the Setagaya Plum Festival runs through most of February.</p>
+<p>[[koishikawa-korakuen|Koishikawa Korakuen]] is the garden to choose if you're early. It's one of Tokyo's oldest daimyo gardens, its plums start in late January, and entry's 300 yen. [[ikegami-plum-garden|Ikegami]] costs around 100 yen, and it's lit up in the evenings for part of February.</p>
+
+<h2>What's the best plum blossom day trip from Tokyo?</h2>
+<p>For a classic day out, it's [[kairakuen-garden|Kairakuen]]. It's one of Japan's three great gardens, with about 3,000 trees of some 100 kinds, so there's usually something in flower from January into March. Adults pay about 320 yen, and the Mito Plum Festival runs from mid February to late March.</p>
+<p>For the best view, it's [[soga-plum-groves|Soga]] near Odawara. About 35,000 white plum trees spread across some 100 hectares of farmland, with snow-capped Mount Fuji behind them on clear days. They're grown for their fruit, so this feels like countryside and not a formal garden. Check the weather first, because the view's the reason to go.</p>
+
+<h2>Where can you combine plum blossoms with a hot spring?</h2>
+<p>[[yugawara-plum-grove|Yugawara]] is our pick: about 4,000 trees on the slopes below Mount Maku, above the Yugawara hot springs. It's about 15 minutes by bus from Yugawara Station, and entry's 300 yen during the festival. If you're coming earlier in the season, try [[atami-plum-garden|Atami]], where plums are among Japan's first to flower. You can also see [[atami-itokawa-cherry-blossoms|Atami's early cherries]] on the same trip.</p>
+
+<h2>Which plum spots are out in the hills?</h2>
+<p>[[ogose-bairin|Ogose]] in Saitama has about 1,000 trees by a stream, including one said to be some 670 years old, and entry's 500 yen during the festival. [[mt-tsukuba-plum-blossom-garden|Mount Tsukuba]] has about 1,000 trees on rocky slopes above the Kanto Plain, and admission's free, though you'll need a shuttle bus of about 40 minutes from Tsukuba Station and a 10 minute walk. [[yoshino-baigo|Yoshino Baigo]] in western Tokyo has a good story: a plant virus forced the old trees to be cut down from 2009, and replanting began in 2016, so its roughly 1,200 trees are still young.</p>
+
+<p>For the rest of Japan, see <a href="/guides/plum-blossom-season">when and where to see plum blossoms</a>. Staying for spring? Here's <a href="/guides/tokyo-cherry-blossoms">where to see cherry blossoms in Tokyo</a>.</p>
 `,
   },
 
@@ -383,6 +429,97 @@ module.exports = [
 <p>Yes, and in some ways they're the better trip. Crowds are much smaller. A single garden often flowers for a month or more, because early and late kinds open in turn, so your timing doesn't have to be perfect.</p>
 <p>Plum was also Japan's first flower-viewing tree. The Man'yoshu, the oldest collection of Japanese poetry, has about 120 poems about plum and only 40-odd about cherry.</p>
 <p>Planning a trip around them? Here's <a href="/guides/plum-blossom-season">when and where to see plum blossoms</a>. We track {{n:plum-blossom}} plum blossom spots, each with its usual peak. <a href="/flowers/plum-blossom">See them all</a>.</p>
+`,
+  },
+
+  {
+    slug: 'ginkgo-trees-japan',
+    h1: 'When and where can you see golden ginkgo trees in Japan?',
+    title: 'Ginkgo Trees in Japan: When They Turn Gold and the Best Places to See Them',
+    short: 'When the ginkgo turn gold from Hokkaido to Kyushu, the best avenues in Tokyo and Osaka, and the ancient trees worth the trip.',
+    desc: "Japan's ginkgo trees usually turn gold from late October in Hokkaido to early December in Tokyo, Osaka and Kumamoto. The best avenues, including Meiji Jingu Gaien and Midosuji, ancient giants, and when to go.",
+    published: '2026-11-04', updated: '2026-11-04',
+    fl: ['ginkgo'], img: 'meiji-jingu-gaien-ginkgo-avenue',
+    sources: "Timing, tree counts, fees and access from our spot listings, which draw on each site and local tourism information; Meiji Memorial Picture Gallery closure from its museum listing. Colour timing varies by year.",
+    body: `
+<p class="answer"><strong>For most trips, go from mid November to early December.</strong> That's when Tokyo, Kyoto and Osaka usually turn gold. For one classic avenue, we'd choose the [[meiji-jingu-gaien-ginkgo-avenue|Meiji Jingu Gaien avenue]] in Tokyo or [[midosuji-ginkgo-avenue|Midosuji]] in Osaka. Once the trees turn, don't wait long, because the leaves can fall within a week or two.</p>
+
+<h2>When do ginkgo trees turn gold around Japan?</h2>
+<div class="gtable"><table>
+<thead><tr><th>Usual time</th><th>Where</th><th>Where to look</th></tr></thead>
+<tbody>
+<tr><td>Late October to early November</td><td>Sapporo</td><td>[[hokkaido-university-ginkgo-avenue]]</td></tr>
+<tr><td>Early to mid November</td><td>Northern and inland towns</td><td>[[kitakanegasawa-ginkgo]], [[hida-kokubun-ji-ginkgo]], [[ueda-castle-ginkgo]]</td></tr>
+<tr><td>Mid to late November</td><td>Western Tokyo, Kyoto</td><td>[[showa-kinen-park-ginkgo-avenue]], [[hachioji-koshu-kaido-ginkgo-avenue]], [[kyoto-gyoen-ginkgo]]</td></tr>
+<tr><td>Mid November to early December</td><td>Central Tokyo</td><td>[[meiji-jingu-gaien-ginkgo-avenue]], [[shinjuku-gyoen-ginkgo]]</td></tr>
+<tr><td>Late November to early December</td><td>Tokyo, Yokohama, Osaka, Kyushu</td><td>[[gyoko-dori-ginkgo-avenue]], [[midosuji-ginkgo-avenue]], [[kumamoto-castle-ginkgo]]</td></tr>
+</tbody></table></div>
+<p>These are usual windows, and a warm autumn can push them later. Check a recent photo or the local tourism site before making a special trip.</p>
+
+<h2>Where are the best ginkgo trees in Tokyo?</h2>
+<p>[[meiji-jingu-gaien-ginkgo-avenue|Meiji Jingu Gaien]] is the famous one: 146 trees in four rows along a 300 m avenue, pruned into neat cones. It's worth knowing that the Meiji Memorial Picture Gallery at the far end is closed for conservation work until about the end of May 2027, and scaffolding has been reported in the classic view. The trees are still the reason to go, but you may want to frame your photos differently.</p>
+<p>If you'd like a change, walk [[gyoko-dori-ginkgo-avenue|Gyoko-dori]], a minute from Tokyo Station, or go to [[showa-kinen-park-ginkgo-avenue|Showa Kinen Park]], where the fallen leaves turn the paths gold. [[hikarigaoka-park-ginkgo-avenue|Hikarigaoka Park]] is a local favourite and much quieter. For more on the city, see our guide to <a href="/guides/autumn-leaves-tokyo">autumn leaves in Tokyo</a>.</p>
+
+<h2>Where can you see them in Osaka and Kyoto?</h2>
+<p>[[midosuji-ginkgo-avenue|Midosuji]] is hard to beat for scale: roughly 1,000 trees, four rows deep, along about 4 km of Osaka's main boulevard. The leaves turn from the north end first, so start there early in the season. At [[osaka-castle-park-ginkgo|Osaka Castle Park]], the gold frames the white keep.</p>
+<p>In Kyoto, go to [[nishi-hongan-ji-water-spouting-ginkgo|Nishi Hongan-ji]], 15 minutes on foot from Kyoto Station. Legend says its huge, spreading tree sprayed water to save the Founder's Hall from the Great Fire of 1788. For more space, we'd go to [[kyoto-gyoen-ginkgo|Kyoto Gyoen]], which is free and one of the calmest places in the city to see the leaves.</p>
+
+<h2>Which ginkgo trees are worth a special trip?</h2>
+<p>[[kitakanegasawa-ginkgo|Kitakanegasawa]] in Aomori comes first for us. It's the largest ginkgo in Japan by girth, with a trunk about 22 m round and aerial roots like a forest of pillars. It's said to be over 1,000 years old, and it's lit up at night while the leaves are out.</p>
+<p>In Takayama, the great ginkgo at [[hida-kokubun-ji-ginkgo|Hida Kokubun-ji]] is said to be about 1,200 years old, five minutes from the station. If you'd like a whole landscape of them, [[sobue-ginkgo-villages|Sobue]] in Aichi has around 10,000 trees around its farmhouses and shrines, with a festival and night lighting in late November.</p>
+
+<h2>Which ginkgo trees have the best stories?</h2>
+<p>The [[shukkeien-a-bombed-ginkgo|ginkgo at Shukkeien]] in Hiroshima survived the atomic bomb in 1945 and still grows, leaning from the blast. In Tokyo, the [[hibiya-park-kubikake-ginkgo|neck-wager ginkgo at Hibiya Park]] got its name when the park's designer staked his neck on moving it. And [[kumamoto-castle-ginkgo|Kumamoto Castle]] is nicknamed Ginkgo Castle after a tree planted by its builder, Kato Kiyomasa.</p>
+
+<p>We track {{n:ginkgo}} ginkgo spots across Japan. <a href="/flowers/ginkgo">See them all</a>, or find out <a href="/guides/autumn-leaves-season">when the maples turn</a>.</p>
+`,
+  },
+
+  {
+    slug: 'chrysanthemum-shows-japan',
+    h1: 'Where can you see chrysanthemum shows in Japan?',
+    title: 'Chrysanthemum Shows in Japan: Where to Go, Dates and Flower Dolls',
+    short: 'The best chrysanthemum shows from Tokyo to Fukushima, what you will see, and when each one usually runs.',
+    desc: "Japan's chrysanthemum shows usually run from late October to late November. The best are at Shinjuku Gyoen and Meiji Jingu in Tokyo, Kasama Inari Shrine in Ibaraki, Yahiko Shrine in Niigata and Nihonmatsu in Fukushima, with life-size flower dolls.",
+    published: '2026-11-04', updated: '2026-11-04',
+    fl: ['chrysanthemum'], img: 'meiji-jingu-chrysanthemum-show',
+    sources: "Show details from our spot listings, which draw on each site and local tourism information. 2026 dates for Kasama and Yahiko from Rurubu and the Niigata tourism site. Other dates are usual windows, so confirm them before you go.",
+    body: `
+<p class="answer"><strong>Go in the first half of November if you can, when most of the big shows overlap.</strong> In Tokyo, see [[shinjuku-gyoen-november|Shinjuku Gyoen]], which usually runs from 1 to 15 November, or the free [[meiji-jingu-chrysanthemum-show|Meiji Jingu show]]. For a day out, go to [[kasama-inari-shrine-chrysanthemum-festival|Kasama]], which runs until 23 November in 2026.</p>
+
+<h2>What's on, and when?</h2>
+<div class="gtable"><table>
+<thead><tr><th>Show</th><th>Dates</th><th>Cost</th></tr></thead>
+<tbody>
+<tr><td>[[shinjuku-gyoen-november|Shinjuku Gyoen]], Tokyo</td><td>1 to 15 November each year</td><td>500 yen garden entry</td></tr>
+<tr><td>[[meiji-jingu-chrysanthemum-show|Meiji Jingu]], Tokyo</td><td>Usually late October to late November</td><td>Free</td></tr>
+<tr><td>[[kasama-inari-shrine-chrysanthemum-festival|Kasama Inari Shrine]], Ibaraki</td><td>24 October to 23 November in 2026</td><td>Free in the shrine</td></tr>
+<tr><td>[[yahiko-chrysanthemum-festival|Yahiko Shrine]], Niigata</td><td>1 to 24 November in 2026</td><td>Free</td></tr>
+<tr><td>[[nihonmatsu-chrysanthemum-dolls|Nihonmatsu]], Fukushima</td><td>Usually about 10 October to late November</td><td>About 1,000 yen</td></tr>
+<tr><td>[[hamamatsu-flower-park|Hamamatsu Flower Park]], Shizuoka</td><td>Through most of November</td><td>Check the park's fee</td></tr>
+<tr><td>[[takefu-chrysanthemum-dolls|Takefu]], Fukui</td><td>Usually mid October to early November</td><td>Check before you go</td></tr>
+</tbody></table></div>
+<p>Dates change from year to year, so check the organiser's site before making a special trip.</p>
+
+<h2>What will you actually see?</h2>
+<p>Chrysanthemum growing is a long-standing craft in Japan, and these shows put months of careful training on display. Look for three things:</p>
+<ul>
+<li><strong>Cascades:</strong> plants trained to hang like a cliff, which you'll see lining the approach at [[meiji-jingu-chrysanthemum-show|Meiji Jingu]].</li>
+<li><strong>Flower dolls (<em>kiku-ningyo</em>):</strong> life-size figures dressed in living chrysanthemums and set out in scenes, at [[nihonmatsu-chrysanthemum-dolls|Nihonmatsu]] and [[takefu-chrysanthemum-dolls|Takefu]].</li>
+<li><strong>Grafted plants:</strong> at [[hamamatsu-flower-park|Hamamatsu Flower Park]], the Edo-period <em>hyakushu tsugiwake-giku</em> carries more than 100 varieties on one plant.</li>
+</ul>
+
+<h2>Where should you go in Tokyo?</h2>
+<p>If you've only got time for one, we'd pick [[shinjuku-gyoen-november|Shinjuku Gyoen]]. The old imperial garden shows chrysanthemums grown in its own traditions, under seven wooden pavilions and in open beds through the Japanese garden, with no extra charge on top of entry. Miss those dates, and the [[meiji-jingu-chrysanthemum-show|Meiji Jingu show]] is free and five minutes from Harajuku Station. It's been held since 1926 for the shrine's autumn festival.</p>
+
+<h2>Which shows are worth a day trip?</h2>
+<p>[[kasama-inari-shrine-chrysanthemum-festival|Kasama]] is our first choice. It's Japan's oldest chrysanthemum festival, held since 1908, with about 5,000 pots in the grounds of one of Japan's three great Inari shrines and some 10,000 across the town. It's a 20 minute walk from Kasama Station.</p>
+<p>For the flower dolls, go to [[nihonmatsu-chrysanthemum-dolls|Nihonmatsu]], where the scenes are set in the castle ruins of Kasumigajo Park. [[yahiko-chrysanthemum-festival|Yahiko Shrine]] has about 4,000 pots, and Takefu's dolls use about 20,000 chrysanthemums, though that show usually finishes earlier.</p>
+
+<h2>What else can you see in November?</h2>
+<p>A lot. You can pair Tokyo's shows with [[shinjuku-gyoen-ginkgo|Shinjuku Gyoen's ginkgo]] later in the month, and [[igano-flower-garden|Igano Flower Garden]] in Gunma has small chrysanthemums into early November. See <a href="/guides/japan-in-november">what's on in Japan in November</a> or <a href="/guides/ginkgo-trees-japan">where to see golden ginkgo</a>.</p>
+
+<p>We track {{n:chrysanthemum}} chrysanthemum spots. <a href="/flowers/chrysanthemum">See them all</a>.</p>
 `,
   },
 
@@ -733,7 +870,7 @@ module.exports = [
     title: "Is November a Good Time to Visit Japan? Leaves, Weather and What's On",
     short: "What's in season in early, mid and late November, what the weather's like, and where to go.",
     desc: "November is one of the best months to visit Japan: autumn leaves in Tokyo and Kyoto, gold ginkgo avenues, chrysanthemum shows and even winter cherries, with mild, mostly dry weather. What's on week by week.",
-    published: '2026-10-29', updated: '2026-10-29',
+    published: '2026-10-29', updated: '2026-11-04',
     fl: [], img: 'korankei',
     sources: 'Japan Meteorological Agency, maple colouring normals and Tokyo climate normals, 1991–2020.',
     body: `
@@ -745,8 +882,8 @@ module.exports = [
 
 <h2>What's in season in November?</h2>
 <p>It depends which week you go.</p>
-<p><strong>Early November</strong> is mountain time. The colour is still up high, at places like [[irohazaka-and-lake-chuzenji]] in Nikko and [[oirase-gorge]] in Aomori, while the cities are still green. It's also chrysanthemum season. [[shinjuku-gyoen-november|Shinjuku Gyoen]] puts on its chrysanthemum show from 1 to 15 November, and the [[meiji-jingu-chrysanthemum-show]] runs through the month for free.</p>
-<p><strong>Mid November</strong> is when the colour comes down to the valleys near the big cities. [[korankei]] near Nagoya, [[mount-takao]] outside Tokyo and [[hananuki-gorge]] in Ibaraki are all at their best. Ginkgo starts turning in western Tokyo, at [[showa-kinen-park-ginkgo-avenue]] and along the [[hachioji-koshu-kaido-ginkgo-avenue|Koshu Kaido in Hachioji]].</p>
+<p><strong>Early November</strong> is mountain time. The colour is still up high, at places like [[irohazaka-and-lake-chuzenji]] in Nikko and [[oirase-gorge]] in Aomori, while the cities are still green. It's also chrysanthemum season. [[shinjuku-gyoen-november|Shinjuku Gyoen]] puts on its chrysanthemum show from 1 to 15 November, and the [[meiji-jingu-chrysanthemum-show]] runs through the month for free. Here's <a href="/guides/chrysanthemum-shows-japan">our guide to the shows</a>.</p>
+<p><strong>Mid November</strong> is when the colour comes down to the valleys near the big cities. [[korankei]] near Nagoya, [[mount-takao]] outside Tokyo and [[hananuki-gorge]] in Ibaraki are all at their best. Ginkgo starts turning in western Tokyo, at [[showa-kinen-park-ginkgo-avenue]] and along the [[hachioji-koshu-kaido-ginkgo-avenue|Koshu Kaido in Hachioji]]. See <a href="/guides/ginkgo-trees-japan">where to find the best ginkgo</a>.</p>
 <p><strong>Late November</strong> is the big one. Central Tokyo's ginkgo avenues, like [[meiji-jingu-gaien-ginkgo-avenue]], go gold, and Kyoto's temples reach their peak at [[eikando-temple]], [[tofuku-ji-temple]] and [[nanzen-ji-temple]]. Tokyo's gardens, such as [[rikugien-garden]], carry on into early December.</p>
 <p>There's one surprise too: some cherries flower in November. See <a href="/guides/cherry-blossoms-in-november">where to see cherry blossoms in November</a>.</p>
 
