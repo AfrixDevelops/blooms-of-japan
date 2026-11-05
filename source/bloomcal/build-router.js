@@ -209,7 +209,7 @@ async function loadWeather(f){
    Privacy, terms, about and contact. They are plain strings with no interpolation, and they render into
    the same secondary container the seasons page uses. Keep the privacy page honest: it has to describe
    what the site actually does, so amend it whenever a new third party or any storage is introduced. */
-var CONTACT_EMAIL = 'hello@bloomsofjapan.com';   // must be a mailbox that works before applying to AdSense
+var CONTACT_EMAIL = 'bloomsofjapan@gmail.com';   // must be a mailbox that works before applying to AdSense
 
 var INFO = {
   privacy: { title: 'Privacy', jp: '個人情報', h1: 'Privacy policy', body:
