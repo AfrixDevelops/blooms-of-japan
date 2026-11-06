@@ -29,6 +29,7 @@ module.exports = async function prerender(OUT, { SITE, D, HOME_DESC }) {
   const ORG_ID = SITE + '/#org';
   pages.push({ url: '/', file: 'index.html', desc: HOME_DESC, img: null,
     ld: [{ '@type': 'Organization', '@id': ORG_ID, name: 'Blooms of Japan', url: SITE + '/',
+      founder: { '@type': 'Person', name: 'Gerald Africa', url: SITE + '/about' },
       sameAs: ['https://www.instagram.com/bloomsofjapan/', 'https://www.pinterest.com/bloomsofjapan'] },
       { '@type': 'WebSite', name: 'Blooms of Japan', url: SITE + '/', publisher: { '@id': ORG_ID },
       potentialAction: { '@type': 'SearchAction', target: `${SITE}/spots?q={search_term_string}`, 'query-input': 'required name=search_term_string' } }] });

@@ -305,6 +305,12 @@ var INFO = {
   about: { title: 'About', jp: '花暦について', h1: 'About Blooms of Japan', body:
     '<p>Almost everything written about flowers in Japan is about cherry blossom, and cherry blossom is ' +
     'about three weeks of the year. This site is an attempt to cover the other forty-nine.</p>' +
+    '<h3>Who runs it</h3>' +
+    '<p>I\\'m Gerald Africa. I\\'ve been to Japan seven times and explored 14 prefectures so far, and I lived ' +
+    'in Ueda, in Nagano, for a while to learn Japanese.</p>' +
+    '<p>One of the best cherry spots I\\'ve seen is the <a href="/spots/motoara-river-cherry-blossom-avenue">' +
+    'Motoara River</a> in Saitama, which most visitors to Tokyo never hear of. Places like that are why this ' +
+    'site exists: the flowers worth travelling for are rarely the ones on every list.</p>' +
     '<h3>What is here</h3>' +
     '<p>A calendar of the flowering year, and a page for every spot with its typical peak window, the nearest ' +
     'station, and what the place is actually like. Each flower has its own page, and each month has its own ' +
@@ -312,7 +318,7 @@ var INFO = {
     '<h3>Where the information comes from</h3>' +
     '<p>Bloom windows, prices and access details are compiled from prefectural and city tourism sources, ' +
     'park and temple websites, and Japanese autumn-colour and blossom trackers. They are checked against ' +
-    'those sources and corrected when they turn out to be out of date &mdash; admission prices in particular ' +
+    'those sources and corrected when they turn out to be out of date. Admission prices in particular ' +
     'change more often than most travel pages admit.</p>' +
     '<p>Photographs are free-licensed images from Wikimedia Commons, credited to their photographers on each ' +
     'spot page.</p>' +

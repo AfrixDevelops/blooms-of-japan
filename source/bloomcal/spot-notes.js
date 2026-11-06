@@ -1303,4 +1303,475 @@ module.exports = {
 <p>In late March, the moat beside the park becomes [[chidorigafuchi]], one of Tokyo's most famous cherry walks. It's 5 minutes' walk from Kudanshita Station. In autumn, you can also walk on to [[yasukuni-shrine-ginkgo|Yasukuni Shrine]], whose ginkgos turn gold in late November.</p>
 `,
 
+'meiji-jingu-chrysanthemum-show': `
+<h3>When to go</h3>
+<p>The show runs from late October to late November, timed with the shrine's Autumn Grand Festival around 3 November, the birthday of the Emperor Meiji. In 2024 it ran from 25 October to 23 November, and the dates are similar each year. The flowers are freshest in the first half of November. It's free.</p>
+<h3>What you'll see</h3>
+<p>Prize chrysanthemums line the main approach near the inner shrine, grown by enthusiasts and offered to the shrine. Look out for styles such as <em>kengai</em>, plants trained over months to cascade like a waterfall down a cliff, and the <em>ozukuri</em>, a single plant trained to carry hundreds of flowers in a perfect dome. The chrysanthemum is the imperial crest, so it has a special place at Meiji Jingu.</p>
+<h3>Getting there</h3>
+<p>It's about 5 minutes' walk from Harajuku Station to the south gate, then about 10 minutes along the forest path to the inner shrine. In late November, the [[meiji-jingu-gaien-ginkgo-avenue|Gaien ginkgo avenue]], on the shrine's outer grounds, turns gold, and in June the [[meiji-jingu-inner-garden|inner garden]] has its irises.</p>
+`,
+
+'keisei-rose-garden-october': `
+<h3>When to go</h3>
+<p>The autumn rose season runs from mid October to late November, and the colours deepen as the nights get colder, so late October and early November are often the best. The 2026 autumn event runs from 10 October to 23 November, from 9 am to 5 pm, with some early mornings and evening openings on set days.</p>
+<p>Adults pay 1,700 yen and primary and junior high school children 800 yen. Advance tickets online are a little cheaper.</p>
+<h3>Why go in autumn</h3>
+<p>Autumn roses are fewer and smaller than in spring, but the colours are richer and the scent stronger, because the flowers open slowly in the cool air. About 1,000 kinds and 7,000 plants flower in autumn, out of some 1,600 kinds in the garden, one of the biggest rose collections in the Kanto region. It's also much quieter than in May.</p>
+<h3>Getting there</h3>
+<p>It's about 15 minutes' walk from Yachiyo-Midorigaoka Station on the Toyo Rapid Railway, which connects with the Tozai Line. Parking is paid. For the spring season, see [[keisei-rose-garden]].</p>
+`,
+
+'gyoko-dori-ginkgo-avenue': `
+<h3>When to go</h3>
+<p>The ginkgos usually turn gold from late November to early December. A sunny afternoon is best, when the light falls across the trees and the red-brick Tokyo Station building behind them. It's free and open all day.</p>
+<h3>The avenue</h3>
+<p>Gyoko-dori runs from the Marunouchi side of Tokyo Station towards the Imperial Palace, about 73 m wide and paved in stone, with a pedestrian promenade down the middle and ginkgos on either side. It was rebuilt around 2010, along with the restoration of the station building and its square, and some of the ginkgos that had been lost were replanted. The road is used for state occasions, such as new ambassadors riding to the palace in a horse-drawn carriage.</p>
+<h3>Make it a walk</h3>
+<p>Gyoko-dori takes 10 minutes at most, so turn it into a walk. Continue to the palace moat and the Imperial Palace East Gardens, or walk south through Marunouchi to [[hibiya-park]], where the old [[hibiya-park-kubikake-ginkgo|Kubikake ginkgo]] turns at the same time.</p>
+`,
+
+'meiji-jingu-gaien-ginkgo-avenue': `
+<h3>When to go</h3>
+<p>The trees usually start turning in mid November and are fully gold in late November, often into early December. The Jingu Gaien Ginkgo Festival, with food stalls, runs from mid November to early December. The 2026 dates hadn't been announced when we checked. The avenue has been lit up in the evenings in late November in past years.</p>
+<p>Go early on a weekday morning. On weekend afternoons at peak, the avenue is shoulder to shoulder.</p>
+<h3>Things to know for 2026</h3>
+<p>The domed Meiji Memorial Picture Gallery at the end of the avenue, the backdrop of the classic photo, is under construction in 2026, with scaffolding in view. The Christmas market that used to run alongside the ginkgos isn't being held at Gaien this year. The trees themselves are as good as ever.</p>
+<h3>The avenue</h3>
+<p>146 ginkgos in four rows line about 300 m from Aoyama-dori, pruned into neat cones and planted in order of height, tallest at the Aoyama end, so the avenue looks longer than it is. It's a short walk from Aoyama-itchome or Gaienmae stations. The [[meiji-jingu-chrysanthemum-show]] at the inner shrine runs at the same time.</p>
+`,
+
+'showa-kinen-park-ginkgo-avenue': `
+<h3>When to go</h3>
+<p>The Autumn Leaves Festival and Autumn Night Walk runs from 29 October to 29 November in 2026, and the ginkgos are usually at their best from mid to late November. The park is open until 9 pm during the festival, with the ginkgo avenue, the canal and the Japanese garden lit up from 4:30 to 8:30 pm. The night walk has been named a Night View Heritage site.</p>
+<p>Entry is 450 yen for adults and 210 yen for over-65s, and junior high age and under get in free. After 31 October, the evening Japanese garden needs a separate ticket, from 1,200 yen for adults.</p>
+<h3>The avenues</h3>
+<p>There are two. One runs beside the long canal fountains from the Tachikawa gate, and the other, the Katarai ginkgo avenue, is near Lake Kanko. The fallen leaves cover the ground so thickly that the paths turn solid gold, and you're allowed to walk through them. The park is huge, so hire a bike at the gate to get around.</p>
+<h3>Getting there</h3>
+<p>The Nishi-Tachikawa gate is 2 minutes' walk from Nishi-Tachikawa Station on the JR Ome Line. The same park has a big cosmos display in autumn, see [[showa-kinen-park]], and tulips in April.</p>
+`,
+
+'korankei': `
+<h3>When to go</h3>
+<p>The maples usually peak in the second half of November. The Korankei Momiji Festival runs through the season, and the gorge is lit up every evening until 9 pm. Sources give different dates for 2026, so check with the Asuke tourist association before you go. Kyoto's leaves are forecast to be late this year, and Korankei may follow.</p>
+<h3>Beat the traffic</h3>
+<p>Korankei is famous for its traffic jams. At peak weekends the roads into Asuke back up for hours, and parking costs around 1,000 yen in November. Go on a weekday, arrive early, or skip the car: in the leaf season, direct buses run from Yakusa Station on the Aichi Loop Line. The Tokai-Kanjo Expressway now only lets ETC-equipped cars on and off, so without ETC, use the Toyota interchange on the Tomei.</p>
+<h3>The gorge</h3>
+<p>About 4,000 maples line the Tomoe River. The most famous view is the red Taigetsu bridge with the maples on the slope behind. Climb up to Kojaku-ji, the temple whose monk is said to have planted the first maples, and on weekend evenings the temple has bamboo lanterns. The old merchant street of Asuke, a short walk away, has good places for lunch.</p>
+`,
+
+'kyoto-gyoen-ginkgo': `
+<h3>When to go</h3>
+<p>The ginkgos usually turn in the second half of November, and the leaves stay on the ground into early December. In 2026, Kyoto's autumn leaves are forecast to be later than usual, so the end of November is a safer bet. It's free and open all day.</p>
+<h3>Where to look</h3>
+<p>Kyoto Gyoen is the big park around the Imperial Palace, and the ginkgos are scattered across it rather than in one place. Around the site of the old Gyokado there are about 20 big ginkgos, and the ground beneath them turns yellow. The ginkgo avenue near the Sawaragi gate is low enough to see the leaves at eye level. The site of the old Ichijo residence has more.</p>
+<h3>Why go</h3>
+<p>Kyoto in late November is crowded, and the temples with the famous maples can be packed. The Gyoen is huge and open, so it's one of the calmest places in the city to see autumn colour. It's 5 minutes' walk from Marutamachi or Imadegawa stations on the Karasuma Line. For maples, [[tofuku-ji-temple]] and [[eikando-temple]] peak at the same time.</p>
+`,
+
+'midosuji-ginkgo-avenue': `
+<h3>When to go</h3>
+<p>The ginkgos usually turn from late November into early December, a little later than in Tokyo. The 2026 autumn is forecast to be warmer than usual, so the leaves may be late. The street is free and open all day.</p>
+<h3>The avenue</h3>
+<p>Midosuji is Osaka's main boulevard, about 4 km from Umeda to Namba, lined with around 970 ginkgos on both sides. They were planted when the road was widened in the 1930s. You don't need to walk all of it: pick a stretch between two subway stations, such as Yodoyabashi to Hommachi through the business district, or on to Shinsaibashi for the shops.</p>
+<h3>Nearby</h3>
+<p>Osaka's other big ginkgo spot is [[osaka-castle-park-ginkgo|Osaka Castle Park]], whose ginkgos turn at the same time. The Midosuji subway line runs right under the avenue, so you can walk a section and hop back on.</p>
+`,
+
+'university-of-tokyo-ginkgo-avenue': `
+<h3>When to go</h3>
+<p>The ginkgos usually turn from late November to early December, and in some years they've peaked as late as the first week of December. The campus is open to visitors, and it's free to walk.</p>
+<h3>The avenue</h3>
+<p>The avenue runs from the main gate on Hongo-dori to the Yasuda Auditorium, the brick tower that's the symbol of the university, and the tall ginkgos meet overhead. The ginkgo leaf is the university's emblem. The campus is a working university, so be quiet near the buildings, and don't go into lecture halls.</p>
+<p>The university holds its Homecoming Day, with stalls and a music festival along the ginkgo avenue, in mid October, before the leaves turn. In 2026 it was on 17 October.</p>
+<h3>Around the campus</h3>
+<p>Look for Sanshiro Pond, a quiet pond garden from the Edo period, named after a novel by Natsume Soseki. The famous red gate, Akamon, is a few minutes' walk south. It's 5 minutes' walk from Todaimae Station on the Namboku Line, or 10 minutes from Hongo-sanchome.</p>
+`,
+
+'tofuku-ji-temple': `
+<h3>When to go</h3>
+<p>The maples usually peak in the second half of November, but 2026 is forecast to be late, with one forecast putting Kyoto's maples at their best around 11 December. The temple's autumn special opening runs from 14 November to 6 December in 2026, with the Tsutenkyo bridge and the Hojo garden open 30 minutes earlier than usual. Last entry is at 4 pm, and the gates close at 4:30.</p>
+<p>In autumn, the Tsutenkyo bridge costs 1,000 yen for adults and 500 yen for children, and the Hojo garden 600 yen for adults and 300 yen for children. There's no combined ticket in the autumn season.</p>
+<h3>Beat the crowds</h3>
+<p>Tofuku-ji is one of the busiest autumn spots in Kyoto, and photos are banned on the Tsutenkyo bridge in the leaf season to keep the crowds moving. Get there for the opening on a weekday. In some years the temple has offered early-morning private viewings, booked through its website, so check.</p>
+<h3>The temple</h3>
+<p>About 2,000 maples fill the Sengyokukan ravine, and from the bridge they look like a sea of red. The Hojo garden, by Shigemori Mirei, has a famous chequerboard of moss and stone. It's 10 minutes' walk from Tofukuji Station on the JR Nara Line or the Keihan line, and one stop from Fushimi Inari.</p>
+`,
+
+'igano-flower-garden': `
+<h3>When to go</h3>
+<p>The kochia usually start turning red in early October and are at their reddest around mid October. Go then for the deep red, or in late September for the soft green bushes just starting to blush. Entry and parking are free.</p>
+<p>Kochia dry out and turn a golden brown in late autumn, and they're traditionally used to make brooms. In 2026 the garden held a free broom-making workshop on 1 November with the old plants.</p>
+<h3>The garden</h3>
+<p>The Igano flower garden is a hillside kochia field in Haba, in the Tsukiyono area of Minakami, with a gazebo at the top looking out over the rounded bushes and the mountains of northern Gunma. It's a small, local garden, much quieter than the big kochia displays at [[hitachi-seaside-park-october|Hitachi Seaside Park]]. For questions, call the garden on 090-2674-2177.</p>
+<h3>Getting there</h3>
+<p>You'll need a car. Minakami is a hot spring and outdoor sports area, and the kochia season overlaps with the autumn leaves in the mountains around it. Tanbara, near Numata, has another kochia garden, see [[tambara-lavender-park]].</p>
+`,
+
+'fukuyama-rose-park': `
+<h3>When to go</h3>
+<p>There are two seasons. Spring is the big one: the roses peak in mid to late May, and the Fukuyama Rose Festival is held on a weekend in mid May. In 2026 it was the 59th, on 16 and 17 May, and the roses are usually best for about two weeks either side. The autumn roses flower from mid October into early December, with fewer flowers but deeper colours and a quieter park. It's free.</p>
+<h3>The park</h3>
+<p>The park reopened in April 2024 after renovation, with about 7,000 roses of some 670 kinds on 15,000 square metres, laid out in themed areas. Older guides quote smaller numbers from before the rebuild.</p>
+<p>Fukuyama calls itself the City of Roses. After the city was burned in the war, residents planted roses to bring colour back, and there are now roses all over town, along the streets and in front of homes.</p>
+<h3>Getting there</h3>
+<p>Buses run from Fukuyama Station, on the Sanyo Shinkansen. Fukuyama Castle is right next to the station. Tomonoura, an old port town with views over the Seto Inland Sea, is about 30 minutes away by bus.</p>
+`,
+
+'shima-city-tourist-farm': `
+<h3>When to go</h3>
+<p>The farm opens its kochia field on 1 October. The bushes are green until about mid October, then turn red through late October and early November. The cosmos field opened on 29 October in 2026 and runs until 23 November, from 9 am to 4 pm, so from late October you can see the red kochia and the cosmos together.</p>
+<p>Entry is 300 yen, and junior high age and under get in free. Parking is free, and dogs on leads are welcome.</p>
+<h3>The farm</h3>
+<p>The farm is run by Shima City behind the Ise-Shima roadside station on Route 167. It changes with the seasons: nemophila and moss phlox in spring, then kochia and cosmos in autumn. It's a simple farm field rather than a polished park, but the colours are bright and it's never as crowded as the big flower parks.</p>
+<h3>Getting there</h3>
+<p>By car, it's about 30 minutes from the Ise-nishi interchange on the Ise Expressway. Ise Grand Shrine is on the way, so the farm makes an easy stop on a day in Ise-Shima. For questions, call Shima City's agriculture section on 0599-44-0288.</p>
+`,
+
+'hamamatsu-flower-park': `
+<h3>When to go</h3>
+<p>The chrysanthemum show is usually held from early to late November. The fee at Hamamatsu Flower Park changes with what's in flower, so check the website for November prices and this year's show dates, or call 053-487-0511.</p>
+<h3>What you'll see</h3>
+<p>The star of the show is the <em>hyakushu tsugiwake-giku</em>: a single chrysanthemum plant with more than 100 varieties grafted onto it, so one plant carries flowers of every colour and shape. It's an Edo-period craft. The rest of the show has classic exhibition chrysanthemums, and the autumn rose garden flowers at the same time.</p>
+<h3>The park</h3>
+<p>Hamamatsu Flower Park sits on the shore of Lake Hamana and is best known for its spring cherries and tulips, see [[hamamatsu-flower-park-april]]. Buses run from Hamamatsu Station, on the Tokaido Shinkansen. The park is in the Kanzanji onsen area on the lake, so you can end the day with a bath.</p>
+`,
+
+'tsurugaoka-hachimangu-ginkgo': `
+<h3>When to go</h3>
+<p>The ginkgos usually turn from late November into mid December, later than in central Tokyo. The shrine grounds also have maples and other trees that turn at the same time, so the whole place is in autumn colour. It's free.</p>
+<h3>The great ginkgo</h3>
+<p>For centuries a huge ginkgo stood beside the stone steps to the main hall. Legend says an assassin hid behind it in 1219 to kill the shogun Minamoto no Sanetomo. It fell in a storm in March 2010. The lower trunk was replanted nearby, and new shoots grew from the old roots; one of them is now a young tree, slowly growing where the old one stood. Part of the old trunk is on display in the Kamakura Bunkakan Tsurugaoka Museum café, in the shrine grounds.</p>
+<h3>Getting there</h3>
+<p>It's about 10 minutes' walk from Kamakura Station along Wakamiya-oji or Komachi-dori. In late November, the maples of [[engakuji-temple]] in Kita-Kamakura are at their best too, and the walk between the two takes about 30 minutes.</p>
+`,
+
+'yabakei-gorge': `
+<h3>When to go</h3>
+<p>The leaves usually turn from late October to mid November, and the inner gorge, Shin-Yabakei, often peaks a little later, into late November. In mid October 2026 the trees were still green. In 2025, the Keisekien garden and the Hisashi maple were lit up from 1 November to 1 December, from 5 to 9 pm. Check this year's dates with the Nakatsu city tourism section (0979-62-9034).</p>
+<h3>The views</h3>
+<p>Yabakei is a gorge of tall rock pinnacles rising out of maple-covered slopes. The best-known view is Hitome Hakkei, eight views at a glance, a lookout five minutes from the car park where you see eight rock peaks at once. It gets busy at peak weekends, so arrive early.</p>
+<h3>Getting there</h3>
+<p>Buses from JR Nakatsu Station take about 75 minutes to the inner gorge, but a car is much easier, because the viewpoints are spread out. On the way in, you pass [[aonodomon]], the hand-dug tunnel through the cliffs, whose fields are covered in blue nemophila in spring.</p>
+`,
+
+'yoshino-baigo': `
+<h3>When to go</h3>
+<p>The Yoshino Baigo Plum Festival runs from late February to March. In 2026 it was from 21 February to 22 March, centred on Ome City's Ume no Koen park, and the plums are usually at their best from late February to mid March.</p>
+<h3>A plum village coming back</h3>
+<p>Yoshino Baigo was once one of the biggest plum spots in the Kanto region, until a plant virus, plum pox, forced all the old trees to be cut down from 2009. Replanting began in 2016, and Ume no Koen now has about 1,200 young trees of some 150 kinds. The trees are still growing, so it doesn't look like the old photos yet, but it gets better every year. It's a rare chance to see a famous plum spot being rebuilt.</p>
+<h3>Getting there</h3>
+<p>Ume no Koen is about 15 minutes' walk from Hinatawada Station on the JR Ome Line, about 90 minutes from Shinjuku. The walk along the Tama River between Hinatawada and Ishigamimae stations is pleasant. For a bigger plum display near Tokyo, try [[ogose-bairin]] in Saitama.</p>
+`,
+
+'oishi-park-october': `
+<h3>When to go</h3>
+<p>The kochia are usually at their reddest in mid to late October. In early November they start to fade to a soft pink and then brown. Clear mornings are best, when Mount Fuji stands out across Lake Kawaguchi. The park is free.</p>
+<h3>The park</h3>
+<p>Oishi Park is a lakeside flower park on the north shore of Lake Kawaguchi. In autumn, rows of round kochia bushes line the beds with the lake and Fuji behind them, one of the classic Fuji views. In summer, the same park is known for its lavender, see [[oishi-park]]. The park has a café and a shop selling local blueberry jam and lavender goods.</p>
+<p>Weekends get busy with tour buses, so go early on a weekday if you can.</p>
+<h3>Getting there</h3>
+<p>Take the Kawaguchiko sightseeing bus from Kawaguchiko Station to the Kawaguchiko Natural Living Center stop. In November, the Momiji Corridor on the north shore is the lake's best-known maple spot.</p>
+`,
+
+'nishi-park': `
+<h3>When to go</h3>
+<p>The cherries are usually at their best from late March to early April. In cherry season, cars aren't allowed into the park, so come by subway.</p>
+<h3>The park</h3>
+<p>About 1,300 cherry trees cover a wooded hill above Hakata Bay. It's the only spot in Fukuoka Prefecture on the list of Japan's 100 best cherry spots. The lookout at the top looks out over the bay to the islands, and there's a shrine, Terumo Shrine, in the middle of the park. Locals come for hanami picnics, and it's busy at weekends.</p>
+<h3>Getting there</h3>
+<p>It's about 15 minutes' walk, partly uphill, from Ohorikoen Station on the Kuko subway line. Ohori Park, with its big lake, is on the way, and the ruins of Fukuoka Castle, another cherry spot, are just beyond it. Don't confuse it with Sendai's Nishi Park, a different cherry spot that flowers in mid April, see [[nishi-park-april]].</p>
+`,
+
+'naruko-gorge': `
+<h3>When to go</h3>
+<p>The leaves usually peak from late October to early November. In the leaf season, from about 10 October to 30 November, the car park by the rest house charges: in recent years it was 500 yen per car. It holds about 250 cars and fills up at peak weekends, so arrive early.</p>
+<h3>The view</h3>
+<p>The classic view is from the lookout by the Naruko Gorge rest house: the red Ofukazawa bridge spanning the gorge, with the slopes in every shade of red and yellow. The walking path along the gorge is open from 9 am to 4 pm. A train crossing the bridge is the shot photographers wait for, so check the JR Rikuu East Line timetable.</p>
+<h3>Getting there</h3>
+<p>It's about 10 minutes by taxi from Naruko-Onsen Station on the JR Rikuu East Line. During the leaf season, a temporary bus runs from the station, and National Route 47 can be jammed. Naruko Onsen is one of the best-known hot spring towns in Tohoku, so stay the night and come early. For questions, call the Naruko Onsen tourist association on 0229-83-3441.</p>
+`,
+
+'motoara-river-cherry-blossom-avenue': `
+<h3>When to go</h3>
+<p>The cherries usually peak from late March to early April, around the same time as Tokyo. Konosu City publishes the cherry festival dates each spring, and boat rides on the river have been reported at past festivals, so check with the city before planning around one.</p>
+<h3>Why we love it</h3>
+<p>This is one of our founder Gerald's favourite cherry spots in Japan, and it's the kind of place the site was made for. About 500 somei-yoshino line both banks of the Moto-Arakawa, the old course of the Arakawa River, for some 2.5 km through Fukiage. It's a narrow, quiet river with trees on both sides, and far less crowded than the famous river walks in Tokyo.</p>
+<h3>Getting there</h3>
+<p>It's about 10 minutes' walk from Fukiage Station on the JR Takasaki Line, about an hour from Ueno. Walk one bank and back along the other. Konosu calls itself a city of flowers, and in October the [[konosu-cosmos-fields]] by the Arakawa are some of the biggest cosmos fields near Tokyo.</p>
+`,
+
+'ashikaga-flower-park': `
+<h3>When to go</h3>
+<p>The Great Wisteria Festival runs from mid April to late May. In 2026 it was from 11 April to 20 May, and the great wisteria is usually at its best from late April into early May. The yellow wisteria flowers last, into mid May. The fee changes daily with the flowers, from 900 to 2,300 yen for adults and 500 to 1,200 yen for children in 2026, so peak days cost the most.</p>
+<h3>Day or night?</h3>
+<p>Both, if you can. The evening light-up is the famous view: the purple wisteria glows over the dark garden, and reflections double it in the ponds. In 2026 the garden stayed open until 8:30 pm during the light-up, and day tickets let you stay on into the evening without paying twice. At peak weekends, arrive early or after 4 pm to avoid the worst of the crowds.</p>
+<h3>The wisteria</h3>
+<p>The great wisteria is more than 160 years old and covers a trellis of about 1,000 square metres. There's an 80 m tunnel of white wisteria, a yellow wisteria tunnel, and more than 350 wisteria in all. The roses take over from early May to early June.</p>
+<h3>Getting there</h3>
+<p>Ashikaga Flower Park Station on the JR Ryomo Line is 3 minutes' walk from the gate. From Tokyo, it's about two hours by train.</p>
+`,
+
+'meguro-river': `
+<h3>When to go</h3>
+<p>The cherries usually peak in the last week of March, close to Tokyo's official full bloom date. The Nakameguro cherry festival is held on a weekend in late March: in 2026 it was on 28 and 29 March, from 10 am to 5 pm, centred near Nakameguro Station. The trees are lit with lanterns in the evening while they're in flower.</p>
+<h3>How to enjoy it</h3>
+<p>Meguro River is a walk, not a picnic spot. There's no lawn, and the narrow paths along the river move slowly at peak. Early morning is the quietest time and the best light. In the evening, the lanterns and the cafés along the river make it lively, but expect shoulder-to-shoulder crowds near Nakameguro Station.</p>
+<p>The trees continue for nearly 4 km. If Nakameguro is packed, walk downstream towards Meguro and Gotanda, where it's much quieter.</p>
+<h3>Getting there</h3>
+<p>Nakameguro Station on the Tokyu Toyoko and Hibiya lines is a 5 minute walk away. For a cherry spot where you can sit down, try [[shinjuku-gyoen]] or [[yoyogi-park]].</p>
+`,
+
+'kairakuen-garden': `
+<h3>When to go</h3>
+<p>The Mito Plum Festival runs from mid February to late March. In 2026 it was the 130th, from 11 February to 22 March. With about 3,000 trees of some 100 kinds, the early plums open in January and the late ones last into March, but late February to early March is usually the peak. On Friday to Sunday evenings during the festival, the garden holds UME The Lights, an illumination from 6 to 8 pm.</p>
+<p>Entry to the main garden is 320 yen for adults and 160 yen for children and over-70s. The Kobuntei pavilion costs extra.</p>
+<h3>The garden</h3>
+<p>Kairakuen is one of Japan's three great gardens, with [[kenrokuen]] and [[okayama-korakuen]]. The Mito lord Tokugawa Nariaki laid it out in 1842 and opened it to the townspeople, which was unusual at the time. Climb up to the Kobuntei, his three-storey pavilion, for the view over the plum groves and Lake Senba.</p>
+<h3>Getting there</h3>
+<p>During the festival, trains stop at the temporary Kairakuen Station, right by the garden. Otherwise, buses run from Mito Station, about 15 minutes. The Kodokan, Nariaki's old domain school in central Mito, also has plums and is worth adding.</p>
+`,
+
+'showa-kinen-park': `
+<h3>When to go</h3>
+<p>The Cosmos Festival runs from mid September to late October. In 2026 it was from 12 September to 25 October. The yellow cosmos on the Flower Hill flower first, in September, and the pink and white Sensation cosmos on the Harappa fields peak in early to mid October.</p>
+<p>Entry is 450 yen for adults and 210 yen for over-65s, and junior high age and under get in free. In 2026 the last weekend of the festival was free for everyone.</p>
+<h3>The cosmos</h3>
+<p>More than 4 million cosmos are planted across several fields, the biggest cosmos display in the Tokyo area. In 2026 the Harappa East field had 200,000 Sensation cosmos, plus red buckwheat flowers for the first time.</p>
+<h3>Getting there</h3>
+<p>The cosmos fields are a long walk from the Tachikawa gate, so use the Nishi-Tachikawa gate, 2 minutes from Nishi-Tachikawa Station on the JR Ome Line, or hire a bike. In November, the park's [[showa-kinen-park-ginkgo-avenue|ginkgo avenues]] turn gold, and in April it has tulips.</p>
+`,
+
+'hokkaido-university-ginkgo-avenue': `
+<h3>When to go</h3>
+<p>The ginkgos start turning in mid October and are usually at their best from late October into early November, a month before Tokyo's. The student-run Kin'yosai festival is held at the end of October when the trees peak, and the avenue is lit up in the evening. It's been held since 2011.</p>
+<h3>The avenue</h3>
+<p>About 70 ginkgos line both sides of a 380 m avenue on the Hokkaido University campus in the middle of Sapporo, and the fallen leaves turn the ground gold. The campus is open to visitors and free, but cars can't come onto the campus. The avenue runs beside a busy road, so stay off the roadway when you take photos.</p>
+<h3>Around the campus</h3>
+<p>The campus is a big green space a short walk north of Sapporo Station, with old buildings and the bust of William S. Clark, the founding teacher famous for "Boys, be ambitious". The [[hokkaido-university-botanic-garden]], south of the campus, has autumn colour at the same time. It's 4 to 5 minutes' walk from Kita-12-jo Station on the Namboku subway line.</p>
+`,
+
+'ikoma-kogen': `
+<h3>When to go</h3>
+<p>The cosmos usually flower from mid September through October, with early October the peak. Check this year's festival dates and fee with the Hana no Eki Ikoma Kogen on 0984-27-1919.</p>
+<h3>The highland</h3>
+<p>Ikoma Kogen is a flower park at about 540 m on a highland in Kobayashi, with the Kirishima mountains behind. About a million cosmos of some 16 kinds fill the slopes in autumn, and in spring it has Iceland poppies and other flowers. The view of the volcanoes over the flowers is the reason to come.</p>
+<h3>Getting there</h3>
+<p>Buses from JR Kobayashi Station take about 20 minutes, and by car it's about 3 km from the Kobayashi interchange on the Miyazaki Expressway. Ebino Kogen, in the Kirishima mountains, is close by, see [[ebino-kogen-tsutsuji-ga-oka]] for its azaleas in late May.</p>
+`,
+
+'kiyozumi-cosmos-garden': `
+<h3>When to go</h3>
+<p>The cosmos usually flower from late September to mid October, with early October the peak. In 2026 they were listed from 27 September to 18 October.</p>
+<h3>The garden</h3>
+<p>About 5 million cosmos fill some 7 hectares of fallow rice paddies in Kiyozumi, in the Hikami area of Tamba, near the temple of Tasshin-ji. Local farmers run it, so it's a countryside field rather than a park, with the hills of Tamba around it.</p>
+<h3>Nearby</h3>
+<p>Tasshin-ji, next to the fields, is known for its many old Buddhist statues, and Tamba is famous for its black soybeans and chestnuts, which are in season at the same time. It's easiest by car. For more autumn flowers in Kansai, [[hannya-ji-temple]] in Nara is a cosmos temple.</p>
+`,
+
+'takamatsu-park': `
+<h3>When to go</h3>
+<p>The cherries usually peak from mid to late April, a little later than central Morioka. The park is part of the Morioka Cherry Festival, held from early to late April. Paper lanterns light the trees from 6 to 9 pm while they're in flower. It's free and open all day.</p>
+<h3>The view</h3>
+<p>The cherries ring Takamatsu Pond, and the view people come for is the pink trees reflected in the water with snow-capped Mount Iwate behind. Sources put the number of trees anywhere from 800 to 1,500. It's on the list of Japan's 100 best cherry spots.</p>
+<h3>Getting there</h3>
+<p>Takamatsu Park is in the north of Morioka. Buses run from Morioka Station. In the same weeks, [[morioka-castle-ruins-park]] in the city centre has more cherries, and the famous rock-splitting cherry, [[ishiwarizakura]], is near the courthouse.</p>
+`,
+
+'sera-kogen-farm': `
+<h3>When to go</h3>
+<p>The sunflower festival runs from late July to late August. In 2026 it was from 25 July to 23 August, from 9 am to 5 pm, with longer hours over Obon. The sunflowers are planted in sections that flower in turn, so something is at its peak through the whole festival. The fee changes with how much is in flower: in 2026 adults paid 700 to 1,200 yen and children aged 4 to primary school 300 to 600 yen.</p>
+<h3>The fields</h3>
+<p>About 6.5 hectares of sunflowers cover the hilltop farm, including white sunflowers and branching kinds that carry up to 100 flowers on one plant. There's a sunflower maze with a quiz for children.</p>
+<h3>Other seasons</h3>
+<p>The farm opens for different flowers through the year: [[sera-kogen-farm-april|tulips]] in spring, sunflowers in summer, and dahlias in autumn. Its sister garden, [[flower-village-kamu-no-sato]], is nearby. You'll need a car.</p>
+`,
+
+'kawazu-river': `
+<h3>When to go</h3>
+<p>The Kawazu Cherry Blossom Festival usually starts around the beginning of February and runs into early March, and it's often extended if the flowers are late. In 2026 it was the 36th, from 7 February to 8 March, and in 2025 it ran from 1 February to 9 March. The trees are usually at their best from mid to late February. During the festival they're lit up every evening from 6 to 9 pm, below the Tate bridge near the station and in the cherry tunnel behind the Odoriko Onsen Kaikan.</p>
+<h3>Beat the crowds</h3>
+<p>Kawazu is one of the most famous cherry spots in Japan, and at weekends the narrow town and the river path are packed. Come on a weekday, ideally early. The trees run about 4 km along the river, so walk upstream, away from the station, and it gets much quieter.</p>
+<h3>Getting there</h3>
+<p>Kawazu Station on the Izukyu Line is 3 minutes from the river. The Odoriko limited express runs direct from Tokyo in about 2 and a half hours. Further south on the same coast, the [[minami-izu-cherry-and-rapeseed-festival]] has the same cherries with rapeseed and far fewer people.</p>
+`,
+
+'matsuyama-castle': `
+<h3>When to go</h3>
+<p>The cherries usually peak from late March to early April. In 2026 the castle had a special light-up for the 120th anniversary of Natsume Soseki's <em>Botchan</em>, from 20 March to 12 April, 6 to 8:50 pm. The keep is lit up every evening of the year too.</p>
+<h3>The castle</h3>
+<p>About 200 cherry trees, mostly somei-yoshino, grow around the hilltop keep, one of Japan's twelve original castle keeps that survive from before the modern era. It's one of the top 100 cherry spots. The castle park and the summit square are free; the keep costs 520 yen for adults and 160 yen for children.</p>
+<h3>Getting up</h3>
+<p>Ride the ropeway or the single-seat chairlift up over the trees: a return costs 520 yen for adults and 260 yen for children, and the chairlift is the more fun of the two. The station is a short walk from the Okaido tram stop. You can also walk up in about 20 minutes. Afterwards, take the tram to Dogo Onsen, one of Japan's oldest hot springs. For questions, call the castle office on 089-921-4873.</p>
+`,
+
+'yamataka-jindai-zakura': `
+<h3>When to go</h3>
+<p>The tree usually flowers from late March to early April. Around 80,000 daffodils flower in the temple grounds at the same time, with the snowy Southern Alps behind, so the whole scene is yellow, pink and white. Weekends at peak are very busy, and weekdays are busy too, so come early.</p>
+<h3>The tree</h3>
+<p>The Yamataka Jindai-zakura is an edo-higan cherry thought to be 1,800 to 2,000 years old, perhaps the oldest cherry in Japan. Its trunk is nearly 12 m round, and its old limbs are propped up on supports. It's one of Japan's three great cherry trees, and in 1922 it was among the first cherries made a national natural monument. It grows in the grounds of Jisso-ji temple, which are open from 8:30 am to 5 pm, with a fee in the cherry season.</p>
+<h3>Getting there</h3>
+<p>By car, it's about 15 minutes from the Sutama interchange on the Chuo Expressway. Parking is open only in the cherry season, at 500 yen for cars. By train, take a taxi from Hinoharu Station on the JR Chuo Line, about 15 minutes. For questions, call the Hokuto city tourist association on 0551-30-7866.</p>
+`,
+
+'funaoka-castle-ruin-park': `
+<h3>When to go</h3>
+<p>The cherries usually peak in early to mid April. The Shibata Cherry Festival runs from late March to mid April, with the trees lit up from sunset to 9 pm.</p>
+<h3>Things to know</h3>
+<p>The slope car that carries visitors up the castle hill is out of service, and it isn't due back until about April 2027. So for now you'll need to walk up the hill. Check with Shibata Town (0224-55-2123) before you go, because the date may change.</p>
+<h3>The view</h3>
+<p>About 1,000 cherry trees cover the old castle hill. From the top you look down on the Shiroishi River's [[shiroishi-river-hitome-senbonzakura|Hitome Senbon-zakura]], a line of cherries about 8 km long, with the snowy Zao mountains behind, one of the best cherry views in Tohoku. The Shibata Senoh bridge links the park to the riverbank, so you can walk from the hill straight into the cherry tunnel.</p>
+<p>It's about 15 minutes' walk from Funaoka Station on the JR Tohoku Line.</p>
+`,
+
+'toneri-park': `
+<h3>When to go</h3>
+<p>The nemophila are usually at their best from mid to late April. In 2026 the park held its Flower and Light Movement from 10 to 26 April, with the nemophila lit up in the evening, from 6 to 8 pm on weekdays and until 8:30 pm on Fridays and weekends. Entry is free.</p>
+<h3>The park</h3>
+<p>About 50,000 nemophila fill the area around the fountain and the lawn in section B of the park. It's the easiest place to see a nemophila field inside Tokyo's 23 wards, much smaller than the famous hills at [[hitachi-seaside-park]] but only a short train ride from central Tokyo.</p>
+<p>Toneri Park is also a cherry spot, with about 1,000 trees, and it holds a cherry festival a couple of weeks before the nemophila.</p>
+<h3>Getting there</h3>
+<p>Toneri-koen Station on the Nippori-Toneri Liner is right by the park, about 20 minutes from Nippori. For questions, call the park service centre on 03-3857-2308.</p>
+`,
+
+'florante-miyazaki': `
+<h3>When to go</h3>
+<p>The spring floral festival runs from mid April to late May. In 2026 it was from 15 April to 24 May, from 9 am to 5 pm. The first half is for the tulips, about 100,000 of some 50 kinds, and then the roses and summer bedding take over. For tulips, go in the first two weeks.</p>
+<h3>Planning a visit</h3>
+<p>Entry is 310 yen for adults and 150 yen for primary and junior high school children, and preschoolers get in free. During events, a special fee may be added on top, so check the website for the festival price.</p>
+<h3>The park</h3>
+<p>Florante Miyazaki is a botanical park near the coast, north of central Miyazaki, with themed gardens and a big lawn. It's an easy family half day. Buses run from Miyazaki Station. In late March and early April, the [[saitobaru-burial-mounds]] are an hour's drive north, with cherries and rapeseed among the ancient mounds.</p>
+`,
+
+'kuju-mountains': `
+<h3>When to go</h3>
+<p>The Miyama-kirishima azaleas usually peak from late May to mid June, opening from the lower slopes upwards. In 2026, the middle slopes of Mount Kuju were at their best around 24 May while the summit was still in bud, and by 7 to 9 June the azaleas on Mount Taisen and Mount Hiji were finishing, while Mount Kuju and its neighbours were covered in pink. So the timing depends on which peak you climb.</p>
+<h3>The hike</h3>
+<p>The classic view is from Mount Hiji, looking down on the Bogatsuru grasslands with the slopes in pink. Miyama-kirishima is a small wild azalea that grows only in the volcanic mountains of Kyushu, and it covers whole hillsides. This is mountain hiking, with steep, rocky trails and changeable weather, so bring proper boots, rain gear and water, and start early.</p>
+<h3>Getting there</h3>
+<p>You'll need a car to reach the trailheads, such as Makinoto Pass and Chojabaru. Kuju Flower Park, at the foot of the mountains, is an easier flower stop; see [[kuju-flower-park]].</p>
+`,
+
+'lake-onneto': `
+<h3>When to go</h3>
+<p>The leaves usually turn from late September to mid October, and early October is the safest bet. The forest around the lake is a mix of Sakhalin spruce, rowan, maples and birch, so the red and yellow stand out against dark green.</p>
+<h3>The lake</h3>
+<p>Onneto is a small lake below the volcanoes Meakandake and Akan-Fuji, and its colour shifts with the weather and the angle, from clear blue to emerald to deep navy. There's a lakeside walking path and a viewing deck. On a still morning, the volcano and the leaves reflect in the water.</p>
+<h3>Getting there</h3>
+<p>By car, it's about 50 minutes from the Ashoro interchange on the Doto Expressway, with free parking for about 80 cars. Without a car, take an Akan Bus from Kushiro Station to the Akan bus terminal, then a taxi for about 20 minutes. Lake Akan, with its onsen town, is the obvious place to stay. For questions, call the Ashoro tourist association on 0156-25-6131.</p>
+`,
+
+'onuma-quasi-national-park': `
+<h3>When to go</h3>
+<p>The leaves usually peak from late October to early November, and in 2026 the peak was forecast from 26 October. The park is free.</p>
+<h3>The park</h3>
+<p>Onuma is a lake scattered with small wooded islands, below the jagged volcano Komagatake. Walking paths cross the islands on little bridges, and you can see the mountain over the coloured trees. On a windless day the lake reflects it all. A sightseeing boat goes out among the islands, or you can hire a canoe or a bike. For boat times and fares, ask the Onuma tourist information centre on 0138-67-2170.</p>
+<h3>Getting there</h3>
+<p>Onuma-koen Station on the JR Hakodate Line is a short walk from the lake, about 25 minutes from Hakodate by limited express. It's an easy day trip from Hakodate, where [[goryokaku-park]] is a famous cherry spot in spring.</p>
+`,
+
+'horomitoge-lavender-garden': `
+<h3>When to go</h3>
+<p>The lavender garden opens for a few weeks in July, usually from early or mid July to late July, depending on the flowers. Check the dates before you go: it's run by a small local business, Yume Kobo Sato, and you can call them on 011-622-5167.</p>
+<h3>The garden</h3>
+<p>About 7,000 to 8,000 lavender plants grow on a slope at Horomi Pass, above the west side of Sapporo, with the whole city spread out below. It's small, but the view of purple rows with a city behind them is unusual. People walk in free; cars pay 500 yen for parking.</p>
+<h3>After dark</h3>
+<p>The car park is famous in its own right: it's a recognised Night View Heritage site, said to be the only car park in Japan built just for night views. It's open from 1 April to 30 November, and the evening fee is higher. Motorbikes and bicycles aren't allowed in. You'll need a car or a taxi, from Maruyama Koen Station on the Tozai Line.</p>
+`,
+
+'hirosaki-park': `
+<h3>When to go</h3>
+<p>The cherries usually peak from late April into early May. The Hirosaki Cherry Blossom Festival runs through the season, and in 2026 it was brought forward because the blossom was early, running from 10 April to 5 May. The trees are lit up from sunset to 11 pm.</p>
+<p>Don't leave as soon as the trees are past their best. A few days after full bloom, the falling petals cover the outer moat in a pink carpet, the <em>hanaikada</em>, one of the most photographed sights in Japan.</p>
+<h3>The park</h3>
+<p>About 2,600 cherry trees of some 50 kinds grow around Hirosaki Castle, including some of the oldest somei-yoshino in Japan, kept healthy by Hirosaki's own apple-style pruning. Walking the park is free; the inner citadel and north enclosure charge 320 yen for adults and 100 yen for children in the festival season.</p>
+<p>The castle keep was moved off its base in 2015 so the stone walls could be repaired. The work to move it back was planned to start in July 2026 and finish around mid November, so in 2027 the keep should be back on its walls.</p>
+<h3>Getting there</h3>
+<p>Buses run from Hirosaki Station in about 15 minutes, or it's about 30 minutes' walk. Hirosaki is about 40 minutes by train from Shin-Aomori on the Tohoku Shinkansen. In the same weeks, [[ashino-park]] has the train through the cherry tunnel, a short trip north.</p>
+`,
+
+'kawachi-wisteria-garden': `
+<h3>When to go</h3>
+<p>The wisteria usually peaks from late April to mid May. In the wisteria season, entry is by timed ticket only, in two-hour slots from 8 am to 6 pm, bought in advance online or at convenience stores. In 2026 web tickets went on sale on 25 March and convenience store tickets on 1 April. The price changes with the flowers, from 600 yen up to 1,600 yen for adults at peak, so book early and expect to top up on the day.</p>
+<h3>Come back in autumn</h3>
+<p>The garden reopens for the autumn leaves from mid November to early December, with about 700 maples and a maple tunnel up a steep slope. In autumn there's no timed ticket, entry is 500 yen, and up to two children under high school age get in free with each adult. Wear good shoes for the slope.</p>
+<h3>The wisteria</h3>
+<p>About 22 kinds of wisteria, a great trellis of long Noda wisteria and two tunnels, 80 m and 110 m long, in purple, pink and white. The tunnels are the famous view, and they're worth the effort of booking.</p>
+<h3>Getting there</h3>
+<p>You'll need a car or a taxi: it's about 20 minutes from the Otani or Yamaji interchanges on the Kitakyushu Urban Expressway. For questions, call the garden on 093-652-0334.</p>
+`,
+
+'maruyama-park': `
+<h3>When to go</h3>
+<p>The Gion weeping cherry usually peaks in late March, a few days before the somei-yoshino. The tree is lit up in the evening during the season: in 2026 the light-up ran from 24 March to 8 April, from 6 to 10 pm.</p>
+<h3>The park</h3>
+<p>Maruyama is Kyoto's oldest public park, right behind Yasaka Shrine at the top of Shijo-dori. The Gion weeping cherry in the middle is a 12 m tree grown from the seed of the famous old tree that stood here before it. Several hundred more cherries fill the park, and it's one of the few places in Kyoto where people hold big, noisy hanami picnics, especially in the evening.</p>
+<h3>Make a walk of it</h3>
+<p>Walk up through Yasaka Shrine from Gion, see the tree, then head north to Chion-in and [[heian-shrine]], or south along Nene-no-Michi to [[kiyomizu-dera-temple]]. The [[gion-shirakawa]] canal, with its cherries over the water, is a 10 minute walk away. It's 10 minutes from Gion-Shijo Station on the Keihan Line.</p>
+`,
+
+'bairin-ji-temple-garden': `
+<h3>When to go</h3>
+<p>The plums usually flower from early or mid February to early March. With some 30 kinds, the early ones open first, so mid to late February is the safest time to see most of the garden in flower.</p>
+<h3>The garden</h3>
+<p>About 500 plum trees of some 30 kinds, white, red and weeping, fill the outer garden of Bairin-ji, a Zen temple of the Myoshinji school. A small tea house stands among the trees. The temple itself is a working training monastery, so keep to the garden.</p>
+<h3>Getting there</h3>
+<p>It's about 5 minutes' walk from JR Kurume Station, on the Kyushu Shinkansen, so it's an easy stop. There's no big car park, just a riverside one. The garden is beside the Chikugo River. For questions, call the Kurume tourist information office on 0942-33-4422. In Fukuoka, the famous plums of [[dazaifu-tenmangu-shrine]] are about 30 minutes away.</p>
+`,
+
+'mother-farm-october': `
+<h3>When to go</h3>
+<p>The kochia usually start turning red in early October and peak around the middle of the month, often over the long weekend for Sports Day. In 2026 they were at their reddest around 12 to 16 October. After that they fade to gold through late October and into November, which is a softer but still pretty look.</p>
+<h3>The farm</h3>
+<p>About 8,000 kochia cover a hillside of this big farm park above Tokyo Bay. The farm also has animals, sheep shows and food made from its own dairy, so it's an easy family day out. Entry was 1,800 yen for adults and 900 yen for children aged 4 to primary school in summer 2026; check the autumn price on the website.</p>
+<h3>Getting there</h3>
+<p>Buses run from Kimitsu Station on the JR Uchibo Line, and there are highway buses from Tokyo and Yokohama. In spring, the same farm has a hillside of nemophila, see [[mother-farm]].</p>
+`,
+
+'tennogawa-park': `
+<h3>When to go</h3>
+<p>The Owari-Tsushima Wisteria Festival runs in the second half of April. In 2026 it was from 15 to 29 April, with the trellis lit up from 6:30 to 9 pm. Entry is free. Parking costs 1,000 yen and fills up, so take the train.</p>
+<h3>The wisteria</h3>
+<p>The trellis is 275 m long, covering about 5,000 square metres with 12 kinds of wisteria, and it runs beside the park pond, so the flowers are reflected in the water. In the evening light-up, the reflections are the best part.</p>
+<p>Tennogawa Park is also the setting for the Owari Tsushima Tenno Festival in July, when boats covered in hundreds of lanterns float on the pond, one of Japan's great summer festivals.</p>
+<h3>Getting there</h3>
+<p>It's about 15 minutes' walk from Tsushima Station on the Meitetsu Tsushima Line, about 30 minutes from Nagoya. For questions, call the Tsushima tourist association on 0567-28-8051.</p>
+`,
+
+'meiji-jingu-inner-garden': `
+<h3>When to go</h3>
+<p>The irises usually peak in early to mid June, and they start opening at the end of May. It's rainy season, but irises look their best in soft, wet light, so don't let a grey day put you off.</p>
+<h3>The garden</h3>
+<p>The inner garden of Meiji Jingu is a quiet, wooded garden that predates the shrine. The iris field was first planted for the Empress Shoken, and it now holds over 150 kinds and 1,500 plants. It's watered from the Kiyomasa well, a spring at the far end of the garden that never runs dry, and which is said to bring good luck. Entry to the inner garden costs 500 yen; the shrine itself is free.</p>
+<h3>Getting there</h3>
+<p>The garden entrance is on the main approach to Meiji Jingu, about 10 minutes' walk from Harajuku Station. Go early, before the crowds reach the shrine. Later in the year, the [[meiji-jingu-chrysanthemum-show]] fills the approach in November.</p>
+`,
+
+'sumida-park': `
+<h3>When to go</h3>
+<p>The cherries usually peak in the last days of March, close to Tokyo's full bloom date. There are two festivals: the Sumida Park Cherry Blossom Festival on the Taito side, from mid March to early April, and the Bokutei Cherry Festival on the Sumida side across the river. In the evening, lanterns light the trees until about 9 pm.</p>
+<h3>The park</h3>
+<p>The cherries line both banks of the Sumida River near Asakusa, and the river has been a cherry spot since the Edo period, when the shogun Tokugawa Yoshimune planted trees along the embankment. The Taito side has about 510 trees, and the view of the cherries with Tokyo Skytree across the water is the classic photo. It's busy at weekends, so for a picnic spot, arrive early.</p>
+<h3>Make a day of it</h3>
+<p>Sensoji temple and Nakamise are 5 minutes away, and a river cruise from Asakusa takes you under the cherries towards Hamarikyu. It's 5 minutes from Asakusa Station on the Ginza, Asakusa and Tobu lines.</p>
+`,
+
+'keisei-rose-garden': `
+<h3>When to go</h3>
+<p>The spring roses usually start in early May and peak from mid May to early June. Weekday mornings are best, before the heat and the crowds. Check the garden's website for the spring festival dates and price, or call 047-459-0214.</p>
+<h3>The garden</h3>
+<p>Keisei Rose Garden is run by a rose grower and breeder, and it's one of the biggest rose gardens in Japan, with about 10,000 bushes of some 1,600 varieties. It has wild species and old roses as well as the latest hybrids, including Keisei's own. The shop sells plants, so it's a favourite with Japanese gardeners.</p>
+<h3>Getting there</h3>
+<p>It's about 15 minutes' walk from Yachiyo-Midorigaoka Station on the Toyo Rapid Railway, which connects with the Tozai Line. In autumn, the roses flower again, see [[keisei-rose-garden-october]].</p>
+`,
+
+'biwako-hakodateyama': `
+<h3>When to go</h3>
+<p>The kochia usually turn red from late September to mid October, and the full red lasts only a few weeks. The summit resort is open in the green season from mid July: in 2026 it reopened on 18 July after a renewal and runs until 15 November.</p>
+<h3>The flower field</h3>
+<p>About 8,000 kochia cover a field near the summit, at about 630 m, with Lake Biwa spread out below. The gondola ride up takes about 8 minutes, and in 2026 a combined gondola and entry ticket cost 2,800 yen for adults and 1,400 yen for children. Pets are allowed for an extra fee. In autumn, migrating Asagimadara butterflies stop off on the mountain.</p>
+<h3>Getting there</h3>
+<p>The gondola base is in Takashima, on the northwest shore of Lake Biwa, about an hour from Kyoto by car. By train, take the JR Kosei Line to Omi-Imazu, then a bus or taxi. For more autumn colour nearby, the [[metasequoia-avenue]] in Makino turns orange in late November.</p>
+`,
+
 };
