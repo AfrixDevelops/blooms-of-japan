@@ -91,9 +91,11 @@ module.exports = async function prerender(OUT, { SITE, D, HOME_DESC }) {
            crumbs([['Home', '/'], [MonCap(m), `/when/${MONTHS[m - 1]}`]])] });
   }
 
+  // thin spot pages stay out of Google until they get a write-up (see hidden-spots.js)
+  const HIDDEN = new Set(require('../hidden-spots.js')), NOTES = require('../spot-notes.js');
   D.feat.forEach(f => {
     const fl = flowerOf(f), k = (f.fl || [])[0];
-    pages.push({ url: `/spots/${f.slug}`, file: `spots/${f.slug}.html`, img: f.img,
+    pages.push({ url: `/spots/${f.slug}`, file: `spots/${f.slug}.html`, img: f.img, noindex: HIDDEN.has(f.slug) && !NOTES[f.slug],
       desc: clip(`${f.name}${f.jp ? ' (' + f.jp + ')' : ''}: ${fl.toLowerCase()} in ${f.region}, best ${f.peak}. ${firstSentence(f.desc)}`),
       ld: [{ '@type': 'TouristAttraction', name: f.name, ...(f.jp ? { alternateName: f.jp } : {}), description: f.desc,
              url: `${SITE}/spots/${f.slug}`, image: [abs(f.img)].concat((f.gal || []).map(g => abs(g.i))),
@@ -237,7 +239,7 @@ ${foot}
 
   const today = new Date().toISOString().slice(0, 10);
   fs.writeFileSync(path.join(OUT, 'sitemap.xml'), '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
-    + pages.map(p => `  <url><loc>${SITE}${p.url === '/' ? '/' : p.url}</loc><lastmod>${today}</lastmod></url>`).join('\n') + '\n</urlset>\n');
+    + pages.filter(p => !p.noindex).map(p => `  <url><loc>${SITE}${p.url === '/' ? '/' : p.url}</loc><lastmod>${today}</lastmod></url>`).join('\n') + '\n</urlset>\n');
   return pages;
 
   function withHead(html, pg) {

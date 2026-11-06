@@ -19,6 +19,15 @@ const GUIDES = require('./guides.js').map(g => {
 });
 const GUIDES_JSON = JSON.stringify(GUIDES).replace(/</g, '\\u003c');
 
+/* the longer write-ups for spot pages (spot-notes.js), with the same checked spot links as the guides */
+const NOTES = Object.fromEntries(Object.entries(require('./spot-notes.js')).map(([slug, html]) => {
+  if (!SPOTS.feat.some(x => x.slug === slug)) throw new Error(`spot-notes: no spot "${slug}"`);
+  return [slug, html.trim().replace(/\[\[([a-z0-9-]+)(?:\|([^\]]+))?\]\]/g, (_, s, text) => {
+    const f = SPOTS.feat.find(x => x.slug === s); if (!f) throw new Error(`spot-notes ${slug}: no spot "${s}"`);
+    return `<a href="/spots/${s}">${text || f.name}</a>`; })];
+}));
+const NOTES_JSON = JSON.stringify(NOTES).replace(/</g, '\\u003c');
+
 /* 1. wrap the hero down to the <!-- /home --> marker as the home view. The footer sits after the
       marker, outside all three views, so it stays on screen on every page. */
 const start = t.indexOf('<section class="hero">');
@@ -136,6 +145,7 @@ function spotView(slug){
       \${f.gal && f.gal.length ? \`<div class="dthumbs">\${f.gal.map((g,i)=>\`<img src="\${g.i}" alt="\${esc(f.name)}, photo \${i + 2}" loading="lazy">\`).join('')}</div>\` : ''}
       \${credits.length ? \`<p class="dcred">\${(f.gal && f.gal.length) ? 'Photos' : 'Photo'} \${credits.map(esc).join(' · ')}\${credits.some(c => c[0] === '©') ? '' : ' — via Wikimedia Commons'}</p>\` : ''}
       <div class="dblock"><h3>About this spot</h3><p>\${esc(f.desc)}</p></div>
+      \${NOTES[f.slug] ? \`<div class="dblock dnotes">\${NOTES[f.slug]}</div>\` : ''}
       <div class="dblock"><h3>Getting there</h3><div class="dfacts">
         \${f.station ? \`<div class="dfact"><div class="k">Nearest station</div><div class="v">\${esc(f.station)}</div></div>\` : ''}
         <div class="dfact"><div class="k">Address</div><div class="v">\${esc(f.address)}</div></div>
@@ -339,6 +349,7 @@ function infoView(key){
    /guides lists them, /guides/<slug> is one guide: the question as the heading, the answer straight after.
    The text comes from guides.js, with spot links and counts already filled in by the build. */
 const GUIDES = ${GUIDES_JSON};
+const NOTES = ${NOTES_JSON};
 const longDate = s => { const [y, m, d] = s.split('-').map(Number); return d + ' ' + MON[m] + ' ' + y; };
 
 function guidesIndex(){

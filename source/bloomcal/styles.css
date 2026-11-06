@@ -467,6 +467,9 @@
   .dblock h3{ font-size:28px; margin-bottom:10px; display:flex; align-items:center; gap:14px; }
   .dblock h3::after{ content:""; flex:1; height:1px; background:var(--gold-line); }
   .dblock p{ margin:0; color:var(--navy-2); font-size:15.5px; line-height:1.85; }
+  /* the longer write-ups from spot-notes.js: several headed sections in one block */
+  .dnotes p + p{ margin-top:14px; }
+  .dnotes p + h3{ margin-top:34px; }
   .dfacts{ background:var(--paper); border:1px solid var(--gold-line); padding:4px 20px; margin-top:14px; }
   .dfact{ padding:14px 0; }
   .dfact + .dfact{ border-top:1px solid var(--gold-soft); }
