@@ -3204,4 +3204,347 @@ module.exports = {
 <p>It's about 10 minutes by bus from JR Tsuruoka Station. Tsuruoka is known for its food: it's a UNESCO City of Gastronomy, and it's the gateway to the Dewa Sanzan pilgrimage mountains. In late March, the [[yutagawa-onsen-plum-park]] in Tsuruoka has plums.</p>
 `,
 
+'eikando-temple': `
+<h3>When to go</h3>
+<p>The maples usually peak from mid to late November, though 2026 is forecast to be late in Kyoto. The temple's autumn treasure exhibition runs from 11 November to 6 December in 2026, from 9 am to 4 pm, with the gate closing at 5. Entry during the exhibition has been 1,000 yen for adults; at other times it's 600 yen. In past years there's also been an evening light-up with a separate ticket, and you can't stay on from the day visit, so check this year's evening dates.</p>
+<h3>The temple</h3>
+<p>Eikando, properly Zenrin-ji, has been called Momiji no Eikando, Eikando of the maples, for centuries. About 3,000 maples surround its hillside halls, the Tahoto pagoda and the Hojo pond. Look for the Mikaeri Amida, a statue of the Buddha looking back over his shoulder, said to have turned to call a monk who was falling behind.</p>
+<h3>Getting there</h3>
+<p>It's about 15 minutes' walk from Keage Station on the Tozai Line, just north of [[nanzen-ji-temple]]. The [[philosopher-s-path]] starts a few minutes away. It's one of the busiest autumn spots in Kyoto, so come at opening.</p>
+`,
+
+'momijidani-park': `
+<h3>When to go</h3>
+<p>The maples usually peak from mid to late November, starting to turn in early November. In 2025, the park was lit up from 8 to 30 November, from sunset to 9 pm. For this year's dates, call the Miyajima tourist association on 0829-44-2011.</p>
+<h3>The park</h3>
+<p>About 700 maples line a stream in the valley behind Itsukushima Shrine, with stone lanterns and little red bridges among them. The leaves over the clear water are lovely, and the tame deer of Miyajima wander through. It's free. The Miyajima ropeway to Mount Misen starts from the top of the park.</p>
+<h3>Getting there</h3>
+<p>Take the ferry from Miyajimaguchi, about 10 minutes, then walk past the shrine, about 20 minutes. Visitors to Miyajima pay a small visitor tax, collected with the ferry fare. Go early or stay late: day-trippers fill the island from mid morning. The great torii stands in the sea at high tide, so check the tide times.</p>
+`,
+
+'kankakei-gorge': `
+<h3>When to go</h3>
+<p>The leaves usually peak from mid November to early December; in 2026 the peak was forecast from about 11 November. Lunchtime to mid afternoon is the busiest at the ropeway, so go early.</p>
+<h3>The gorge</h3>
+<p>Kankakei is a volcanic gorge in the middle of Shodoshima, an island in the Seto Inland Sea, with strange rock pillars and steep slopes covered in maples. The ropeway takes about 5 minutes to skim over the ravine, with the sea in view from the top. A return costs 2,340 yen for junior high age and up and 1,170 yen for primary school children, and it runs from 8 am to 5 pm. You can also walk up or down one of the hiking trails and ride the other way.</p>
+<h3>Getting there</h3>
+<p>Ferries run to Shodoshima from Takamatsu, Okayama and Kobe. From Kusakabe port, take a bus to the Koun-tei ropeway station. Shodoshima is famous for its olives and its soy sauce breweries, so make a day of it. For questions, call the ropeway on 0879-82-2171.</p>
+`,
+
+'komoro-castle-ruins-kaikoen': `
+<h3>When to go</h3>
+<p>The maples usually peak from late October to mid November. The Kaikoen Autumn Leaves Festival runs then: in 2026 it was from 24 October to 23 November, with the maples around the Momiji-ga-oka lit up from sunset to 9 pm, and the Toshin chrysanthemum show from 24 October to 12 November. A combined ticket costs 500 yen for adults and 200 yen for children. Parking is 500 yen.</p>
+<h3>The castle</h3>
+<p>Komoro Castle is unusual: it was built lower than the town around it, in a valley, so it's sometimes called the hole castle. The mossy stone walls and the old gates are what remain, and the maples against the stone are the view to see. The poet Shimazaki Toson lived in Komoro, and there's a museum about him in the park.</p>
+<h3>Getting there</h3>
+<p>It's right by JR Komoro Station, on the Shinano Railway, about 25 minutes from Karuizawa. In Ueda, a few stations along, [[ueda-castle-ginkgo|Ueda Castle]] has ginkgos in early November. For questions, call the park office on 0267-22-0296.</p>
+`,
+
+'hananuki-gorge': `
+<h3>When to go</h3>
+<p>The leaves usually peak from mid to late November; the 2026 forecast put it at late November to early December. The autumn leaf festival is planned from 31 October to 30 November in 2026, with an evening light-up from 14 to 29 November. During the festival, some roads are closed to cars and the car parks charge 1,000 yen.</p>
+<h3>The gorge</h3>
+<p>Hananuki is a quiet river gorge in Takahagi, in northern Ibaraki. The Shiomi-taki suspension bridge, about 60 m long, crosses the river, and from it the maples lean in from both banks to make a tunnel of red and gold over the water. The walking path along the river is pleasant, and there's a small waterfall by the bridge.</p>
+<h3>Getting there</h3>
+<p>You'll want a car. It's in the hills west of Takahagi, about two and a half hours from Tokyo. For questions, call the Takahagi tourist association on 0293-23-2121.</p>
+`,
+
+'kasama-inari-shrine-chrysanthemum-festival': `
+<h3>When to go</h3>
+<p>The Kasama Chrysanthemum Festival runs from late October to late November: the 2026 festival, the 119th, is from 24 October to 23 November. The chrysanthemums are freshest in early to mid November. Entry to the shrine and the displays is free.</p>
+<h3>The festival</h3>
+<p>Held since 1908, it's said to be the oldest chrysanthemum festival in Japan. About 10,000 pots fill the grounds of Kasama Inari Shrine and the town, including chrysanthemum dolls and huge single plants trained to carry hundreds of flowers. Kasama Inari is one of Japan's three great Inari shrines. In past years there's been horseback archery on 3 November.</p>
+<h3>Getting there</h3>
+<p>It's about 20 minutes' walk from Kasama Station on the JR Mito Line. Kasama is also a pottery town, and its shops and kilns are worth an hour. In February, the plums of [[kairakuen-garden]] in Mito are nearby.</p>
+`,
+
+'yahiko-chrysanthemum-festival': `
+<h3>When to go</h3>
+<p>The Yahiko Chrysanthemum Festival runs through November: in 2026 it's from 1 to 24 November. It's free, and you can visit at any time of day.</p>
+<h3>The festival</h3>
+<p>This is the Niigata Prefecture chrysanthemum show, held in the grounds of Yahiko Shrine, and unlike the doll shows, the flowers are entered and judged. The star is the great landscape bed, a huge scene made from about 30,000 small cutting-grown chrysanthemums, with a new theme each year. About 4,000 pots are on show in all.</p>
+<h3>Getting there</h3>
+<p>It's about 15 minutes' walk from Yahiko Station on the JR Yahiko Line, or 25 minutes by car from the Sanjo-Tsubame interchange. Parking holds about 2,000 cars, some paid. In the same season, the maples of Momiji-dani in Yahiko Park are lit up. For questions, call the Yahiko tourist association on 0256-94-3154.</p>
+`,
+
+'nihonmatsu-chrysanthemum-dolls': `
+<h3>When to go</h3>
+<p>The 70th Nihonmatsu Chrysanthemum Doll show runs from 10 October to 23 November in 2026, in Kasumigajo Park. For the anniversary, it brings back the waterfall scene, a favourite of past shows, and displays old posters. Entry has been 1,000 yen for high school age and up, according to one listing, and free for junior high age and under.</p>
+<h3>The show</h3>
+<p>Life-size dolls are dressed in living chrysanthemums and set out in scenes from history and legend, a craft that goes back to the Edo period. The castle park is also an autumn leaf spot, so the maples are turning at the same time.</p>
+<h3>Getting there</h3>
+<p>It's about 20 minutes' walk from Nihonmatsu Station on the JR Tohoku Line. Nihonmatsu is also known for its sake breweries. For questions, call the Nihonmatsu chrysanthemum association on 0243-55-5122.</p>
+`,
+
+'takefu-chrysanthemum-dolls': `
+<h3>When to go</h3>
+<p>The 75th Takefu Chrysanthemum Doll show runs from 9 October to 8 November in 2026, in Takefu Central Park, closed on 22 October. The show is usually held from early October to early November each year. Entry is free; tickets for the OSK revue shows cost 2,000 yen for adults.</p>
+<h3>The show</h3>
+<p>It's one of Japan's three great chrysanthemum doll shows, with about 20,000 chrysanthemums dressing life-size dolls in scenes. The theme for 2026 is yokai, Japan's ghosts and monsters. Shows by the OSK Nippon Revue Company, a women's theatre company, run every day except a couple of rest days.</p>
+<h3>Getting there</h3>
+<p>Buses from Takefu Station on the Hapi-Line Fukui take about 5 minutes, and a free shuttle runs on Sundays. Parking for about 1,200 cars is free. For questions, call the organisers on 0778-21-0175.</p>
+`,
+
+'shinjuku-gyoen-november': `
+<h3>When to go</h3>
+<p>The chrysanthemum show runs every year from 1 to 15 November. It's included in the normal entry fee, 500 yen for adults. During the show the garden is usually open every day, including Mondays.</p>
+<h3>The show</h3>
+<p>Shinjuku Gyoen was an imperial garden, and its chrysanthemum show keeps up the court traditions. The flowers are grown in the garden's own styles and displayed under seven wooden pavilions and in beds through the Japanese garden: cascades trained down a frame, single plants carrying hundreds of flowers in a dome, and rows of classic large-flowered chrysanthemums. It's one of the most refined chrysanthemum shows in Japan.</p>
+<h3>Nearby</h3>
+<p>Later in November, the garden's [[shinjuku-gyoen-ginkgo|ginkgos and maples]] turn. At the same time, the [[meiji-jingu-chrysanthemum-show]] runs at Meiji Jingu, about 20 minutes' walk away.</p>
+`,
+
+'obara-shikizakura': `
+<h3>When to go</h3>
+<p>The Obara Shikizakura Festival runs from 21 November to 6 December in 2026, from 9 am to 4 pm, at four venues across Obara, including Kawami Shikizakura Park and the Obara washi paper village. The cherries are usually at their best in mid to late November, when the maples around them turn red.</p>
+<h3>The cherries</h3>
+<p>Shikizakura, four-season cherries, flower twice a year, lightly in autumn and again in spring. About 10,000 grow across the Obara district of Toyota, in the hills east of Nagoya, and Kawami Shikizakura Park alone has about 1,200. Pale pink blossom against red maples is a sight you won't see in many places.</p>
+<h3>Getting there</h3>
+<p>You'll want a car; Obara is in the hills, and the festival brings traffic. The Obara washi paper museum is worth a stop. Nearby, [[korankei]] in Asuke is the most famous maple gorge near Nagoya, and peaks at the same time. For questions, call the Obara tourist association on 0565-65-3808.</p>
+`,
+
+'kitakanegasawa-ginkgo': `
+<h3>When to go</h3>
+<p>The leaves usually turn from mid to late November. In 2025 the tree was lit up from 12 to 30 November, from 4:30 to 8:30 pm, as part of a leaf festival called Big Yellow. It's free.</p>
+<h3>The tree</h3>
+<p>The great ginkgo of Kitakanegasawa is the largest ginkgo in Japan by girth, with a trunk about 22 m round, and a national natural monument. It's said to be over 1,000 years old. Hanging aerial roots, called chichi, droop from its branches like a forest of pillars. When the leaves fall, the ground around it turns solid gold.</p>
+<h3>Getting there</h3>
+<p>It's about 10 minutes' walk from Kitakanegasawa Station on the JR Gono Line, or about 15 minutes by car from the Ajigasawa interchange. The Gono Line runs along the Sea of Japan coast, one of the most scenic railways in Japan; the Resort Shirakami train runs on it. For questions, call the Fukaura tourism section on 0173-74-4412.</p>
+`,
+
+'ibaraki-flower-park': `
+<h3>When to go</h3>
+<p>The autumn roses usually peak from mid October to mid November. In 2025 the park lit up its gardens from 11 October to 26 January, from 5 to 8:30 pm, for its Moonlight Rose Garden illumination, starting with the autumn roses. A 2026 edition has been announced. Entry has been 900 yen for adults and 300 yen for primary and junior high school children.</p>
+<h3>The park</h3>
+<p>Ibaraki Flower Park is a big flower park in the hills of Ishioka, with about 8,000 rose bushes of some 800 kinds, laid out by colour and by scent, and a rose tunnel. The spring roses in May are the bigger display; the autumn roses have fewer flowers but deeper colours.</p>
+<h3>Getting there</h3>
+<p>It's about 15 minutes by car from the Tsuchiura-kita interchange on the Joban Expressway. For questions, call the park on 0299-42-4111.</p>
+`,
+
+'hannya-ji-temple': `
+<h3>When to go</h3>
+<p>The cosmos usually peak from late September to late October. During the flower season, entry is 700 yen for adults, 300 yen for junior and senior high school students and 200 yen for primary school children, from 9 am to 5 pm. The temple plants early-flowering cosmos too, which have flowered as early as June alongside the hydrangeas.</p>
+<h3>The temple</h3>
+<p>Hannya-ji is known as the cosmos temple, with about 150,000 cosmos of some 25 kinds around its 13-storey stone pagoda. Its two-storey gate, from the Kamakura period, is a national treasure. It's a quiet temple on the northern edge of Nara, away from the crowds of Nara Park.</p>
+<h3>Getting there</h3>
+<p>Buses run from JR and Kintetsu Nara stations. The temple sometimes shows its hidden Buddhist statues in autumn; check its website.</p>
+`,
+
+'konosu-cosmos-fields': `
+<h3>When to go</h3>
+<p>The cosmos usually peak in mid to late October. The Konosu Cosmos Festival is held on a weekend in late October: in 2026 it was the 28th, on 24 and 25 October, from 9 am to 4 pm, around the Cosmos Arena Fukiage.</p>
+<h3>The fields</h3>
+<p>About 10 million cosmos fill the flood plain of the Arakawa River, among the largest cosmos fields in the Tokyo area. Behind them stretches a water pipe bridge said to be the longest in Japan. It's free.</p>
+<h3>Getting there</h3>
+<p>It's about 30 minutes' walk from Fukiage Station on the JR Takasaki Line. In late March, the [[motoara-river-cherry-blossom-avenue]] near the same station is one of our founder's favourite cherry spots.</p>
+`,
+
+'jindai-botanical-gardens': `
+<h3>When to go</h3>
+<p>The autumn roses usually flower from early October into November, and the garden holds an autumn rose festival then. About 300 of the garden's 400 kinds flower in autumn, with deeper colours than in spring. The spring roses flower in May, and are the bigger display. Entry is 500 yen for adults, and the garden is closed on Mondays.</p>
+<h3>The rose garden</h3>
+<p>Jindai Botanical Gardens is Tokyo's largest botanical garden. Its formal sunken rose garden is laid out around a fountain, in a symmetrical European style, and the view from the terrace above is the classic one. The great greenhouse, with its begonias and water lilies, is next door.</p>
+<h3>Getting there</h3>
+<p>Buses run from Chofu Station on the Keio Line. Jindai-ji temple, with its soba shops, is right beside the garden. See also the [[jindai-botanical-gardens-begonia-room|begonia room]] and the [[jindai-botanical-gardens-osmanthus|osmanthus]].</p>
+`,
+
+'hikarigaoka-park-ginkgo-avenue': `
+<h3>When to go</h3>
+<p>The ginkgos usually turn gold in late November, often lasting into early December. The park is free and open all day.</p>
+<h3>The avenue</h3>
+<p>A broad ginkgo avenue runs from the park entrance across Hikarigaoka Park, one of Tokyo's largest parks, built on the site of a former airfield. It's much quieter than the famous city-centre avenues, and the wide path has room to stop and take photos. Locals bring picnics to the lawns beyond.</p>
+<h3>Getting there</h3>
+<p>It's 8 minutes' walk from Hikarigaoka Station, at the end of the Oedo Line. In early October, the same park smells of [[hikarigaoka-park-kinmokusei|fragrant olive]].</p>
+`,
+
+'shukkeien-a-bombed-ginkgo': `
+<h3>When to go</h3>
+<p>The ginkgo usually turns gold in late November. The garden's maples turn at the same time. Entry has been 260 yen for adults.</p>
+<h3>The garden</h3>
+<p>Shukkeien is a stroll garden from 1620, built for the Asano lords of Hiroshima, with scenes in miniature around a central pond. It was badly damaged by the atomic bomb in August 1945, about 1.3 km from the hypocentre, and many people who fled here died. A ginkgo by the pond survived the blast and still grows, leaning from it. It's one of Hiroshima's hibaku trees, the A-bombed trees that are protected and marked with plates.</p>
+<h3>Getting there</h3>
+<p>It's a minute from the Shukkeien-mae tram stop, and about 15 minutes' walk from Hiroshima Station. The Peace Memorial Park is about 20 minutes' walk away. In spring, see [[hiroshima-botanical-garden]] for its begonias.</p>
+`,
+
+'ueda-castle-ginkgo': `
+<h3>When to go</h3>
+<p>The ginkgos usually turn gold in early to mid November, and they drop a thick carpet of leaves by the moat and gate towers. The park is free.</p>
+<h3>The castle</h3>
+<p>Ueda Castle was the castle of the Sanada clan, famous for holding off Tokugawa armies twice, in 1585 and 1600. Only the stone walls, the moat and three turrets remain, and the castle grounds are now a park, with the ginkgos by the East Tiger gate turret the best spot. Sanada Shrine stands in the grounds. Our founder Gerald lived in Ueda for a while to learn Japanese.</p>
+<h3>Getting there</h3>
+<p>It's about 12 minutes' walk from Ueda Station on the Hokuriku Shinkansen. Komoro, a few stations along, has the maples of [[komoro-castle-ruins-kaikoen]] at the same time. In spring, the castle park is a cherry spot too.</p>
+`,
+
+'hida-kokubun-ji-ginkgo': `
+<h3>When to go</h3>
+<p>The ginkgo usually turns gold in early to mid November. It's free to see.</p>
+<h3>The tree</h3>
+<p>Hida Kokubun-ji was founded in the 8th century as the official temple of Hida province. Its great ginkgo is said to be about 1,200 years old and is a national natural monument. It stands beside the only three-storey pagoda in the city, so the gold tree and the dark pagoda make a classic Takayama view. Legend says the ginkgo can tell the coming winter: if its leaves fall all at once, the snow will be deep.</p>
+<h3>Getting there</h3>
+<p>It's 5 minutes from JR Takayama Station, on the way to the old town of Sanmachi. In the same weeks, the maples along the Miya River are turning, and Takayama's morning markets are open every day.</p>
+`,
+
+'oirase-gorge': `
+<h3>When to go</h3>
+<p>The leaves usually peak from late October to early November, turning first near Lake Towada and later downstream. In 2026 the forecast put the peak around 31 October. The gorge is free.</p>
+<p>The car restrictions that used to apply in the leaf season moved in 2026: the road was closed to private cars from 7 to 13 September instead, so in autumn you can drive in, but the car parks fill up fast. The bus is easier.</p>
+<h3>The walk</h3>
+<p>The Oirase stream flows about 14 km out of Lake Towada through beech forest, past mossy rocks and waterfalls, with a walking path along most of it. You don't need to walk it all: take the bus to a stop such as Ishigedo, walk a few kilometres upstream past Kumoi Falls and the Ashura rapids, and catch the bus again. Choshi Otaki falls, near the lake, is the classic last stop.</p>
+<h3>Getting there</h3>
+<p>JR buses run from Hachinohe, about 90 minutes to Ishigedo, and from Aomori, about 2 hours 20 minutes. Lake Towada has hotels for an overnight stay. In late April, the cherries of [[towada-kanchogai-street]] in Towada city flower. For questions, call the Towada-ko information centre on 0176-75-2425.</p>
+`,
+
+'jozankei': `
+<h3>When to go</h3>
+<p>The leaves usually peak from early to mid October. In the leaf season, the Kappa sightseeing bus tours the best spots with local guides; in 2025 it ran from 1 to 21 October. Check this year's dates with the Jozankei tourist association on 011-598-2012.</p>
+<h3>The town</h3>
+<p>Jozankei is a hot spring town in a river gorge about an hour from Sapporo. The best leaf spots are the Futami suspension bridge over the Toyohira River, the Kappa-buchi pool, the Nishiki bridge and the walking paths along the river. The kappa, a water spirit, is the town's mascot, and statues of it are everywhere. After the leaves, take a soak in one of the onsen hotels or the free foot baths.</p>
+<h3>Getting there</h3>
+<p>Buses run from Sapporo Station in about an hour, or from Makomanai Station on the Namboku subway line. It's an easy day trip, but an overnight stay is better.</p>
+`,
+
+'fukuhara-sanso': `
+<h3>When to go</h3>
+<p>The garden opens free to the public for about three weeks each autumn, timed to the maples: in 2026 it was open from 3 to 25 October, from 9 am to 4 pm. The maples are usually at their best from late September to mid October. The dates can change with the leaves, so check with the Fukuhara memorial museum on 0156-66-1010.</p>
+<h3>The garden</h3>
+<p>Fukuhara Sanso is a private garden of 8.5 hectares in Shikaoi, in the Tokachi region, with about 300 maples, rare in Hokkaido, around three ponds and five little waterfalls. It was made by the founder of a local supermarket chain, and the family opens it to the public only in the leaf season.</p>
+<h3>Getting there</h3>
+<p>It's about 40 minutes by car from Shintoku Station on the JR Nemuro Line; there's free parking for about 20 cars. In July, the [[shikisai-no-oka]] and Furano lavender are about two hours north.</p>
+`,
+
+'akiu-great-falls': `
+<h3>When to go</h3>
+<p>The leaves usually peak from late October to early November. The falls are free to see.</p>
+<h3>The falls</h3>
+<p>Akiu Great Falls drops 55 m in a single wide curtain into a wooded gorge in the hills west of Sendai, one of Japan's top 100 waterfalls. There's a viewing platform at the top, by the Fudo-do hall, and a path down to the basin at the bottom, where you feel the spray. The path is steep, so wear good shoes. Leaves frame the falls from both sides in autumn.</p>
+<h3>Getting there</h3>
+<p>Buses run from Sendai Station via Akiu Onsen, about 80 minutes, but a car is easier. Akiu Onsen, on the way, is one of Sendai's hot spring towns. Nearby, [[naruko-gorge]] peaks a little earlier.</p>
+`,
+
+'hokkaido-university-botanic-garden': `
+<h3>When to go</h3>
+<p>The old trees colour in October. The garden is open from late April to 3 November, so the end of the season is also the end of the year's opening. Entry has been 420 yen for adults.</p>
+<h3>The garden</h3>
+<p>Hokkaido University Botanic Garden is a 13-hectare garden in the middle of Sapporo, with old trees from the original forest of the Ishikari plain, an Ainu ethnographic collection and a small museum in a Meiji-era building. It's a quiet, shady place a few minutes from the station.</p>
+<h3>Getting there</h3>
+<p>It's about 10 minutes' walk from Sapporo Station. Make a day of autumn colour in Sapporo with the [[hokkaido-university-ginkgo-avenue]] on the main campus and [[nakajima-park]].</p>
+`,
+
+'nakajima-park': `
+<h3>When to go</h3>
+<p>The leaves usually colour from mid October to early November. The park is free and open all day.</p>
+<h3>The park</h3>
+<p>Nakajima Park is a city park around a pond in central Sapporo. The path in from Nakajima-koen Station runs under tall ginkgos whose fallen leaves carpet the ground, and maples colour around the pond. The park has two historic buildings: the Hoheikan, a Western-style guest house from 1880, and the Hasso-an teahouse, both important cultural properties. The Japanese garden is a peaceful spot for the leaves.</p>
+<h3>Getting there</h3>
+<p>It's right next to Nakajima-koen Station on the Namboku subway line, and a short walk from Susukino. Sapporo's other autumn spots, the [[hokkaido-university-ginkgo-avenue]] and [[jozankei]], peak a little earlier.</p>
+`,
+
+'kosetsu-en-garden': `
+<h3>When to go</h3>
+<p>The leaves usually peak from late October to early November. The Hakodate MOMI-G Festa lights up the garden: in 2026 it was from 16 October to 8 November, from 4 to 9 pm, free. The festival weekends are very busy, so take the bus.</p>
+<h3>The garden</h3>
+<p>Kosetsu-en is the only garden in Hokkaido that is a national place of scenic beauty, the garden of a Meiji-era merchant family in Miharashi Park. About 600 maples, mostly Japanese maple and mountain maple, grow in the Japanese garden, and the maple avenue, about 100 m long, is the highlight.</p>
+<h3>Getting there</h3>
+<p>Take Hakodate bus route 14 from Hakodate Station, about 40 minutes, to the Kosetsuen stop. There's parking for about 167 cars. In late April, [[goryokaku-park]] in Hakodate is a famous cherry spot.</p>
+`,
+
+'sounkyo-gorge': `
+<h3>When to go</h3>
+<p>The leaves usually peak from late September to mid October, among the first in Japan. Ride the Kurodake ropeway to see the colour moving down the mountain: the top turns first, in mid to late September, and the gorge follows.</p>
+<h3>The gorge</h3>
+<p>Sounkyo is a gorge of sheer basalt cliffs, about 24 km long, in the Daisetsuzan National Park, with waterfalls dropping down the rock walls. The Ginga and Ryusei falls, the Milky Way and the Shooting Star, are the best-known pair. The onsen town at the entrance is the base for the Kurodake ropeway and chairlift.</p>
+<h3>Getting there</h3>
+<p>Buses run from Kamikawa Station and from Asahikawa Station, about 2 hours. In late August and September, [[mount-asahidake]], on the other side of Daisetsuzan, colours even earlier.</p>
+`,
+
+'mount-asahidake': `
+<h3>When to go</h3>
+<p>Mount Asahidake is the first place in Japan to colour. The alpine meadows around the Sugatami ponds turn red and gold from late August, and they're usually at their best in mid September. By late September the colour has moved down the mountain and the first snow can fall.</p>
+<h3>The mountain</h3>
+<p>Asahidake is Hokkaido's highest peak, 2,291 m, in Daisetsuzan National Park, with steam rising from fumaroles on its slopes. The ropeway rises about 490 m in 10 minutes to the Sugatami station, and from there a loop walk of about an hour goes round the ponds, through rowan, Aleutian heath and other alpine plants. A return ticket has been about 3,500 yen in summer. It's cold up there even in September, so bring warm layers.</p>
+<h3>Getting there</h3>
+<p>Buses run from Asahikawa Station to Asahidake Onsen, about 90 minutes. In July, the lavender fields of [[farm-tomita]] and [[shikisai-no-oka]] are about an hour and a half away.</p>
+`,
+
+'irohazaka-and-lake-chuzenji': `
+<h3>When to go</h3>
+<p>The leaves turn from the top down. The high moors of Oku-Nikko, such as Senjogahara, colour from late September, then Lake Chuzenji and Kegon Falls in mid October, and the Irohazaka road by late October. So there's a three-week window to catch something at its best.</p>
+<h3>Things to know</h3>
+<p>Weekend traffic on the Irohazaka can back up for hours at peak, so set out early or come on a weekday. The Akechidaira ropeway, with the famous view of Lake Chuzenji and Kegon Falls, is closed for renewal until about August 2027.</p>
+<h3>The route</h3>
+<p>The Irohazaka is two one-way roads with 48 hairpin bends, one for each sound of the old Japanese alphabet, climbing from Nikko to Lake Chuzenji. At the top, Kegon Falls drops 97 m; an elevator takes you down to a viewing platform at the bottom. Take a bus from Nikko Station to Chuzenji Onsen, and combine it with the shrines of Nikko, a World Heritage site.</p>
+`,
+
+'hitachi-seaside-park-october': `
+<h3>When to go</h3>
+<p>The kochia usually start turning in early October and are at their reddest in mid October; in 2026 the peak was forecast from about 10 to 20 October, fading to red and russet gradients by the end of the month. In the kochia season, a seasonal fee applies on top of the normal entry; check the park's website for the dates and prices.</p>
+<h3>The hill</h3>
+<p>About 40,000 kochia cover Miharashi Hill, the same hill that turns blue with nemophila in spring. In October they turn into round red bushes rolling down the slope to the sea, with about 2.7 million yellow cosmos flowering at the same time below. Weekday mornings are much quieter than weekends.</p>
+<h3>Getting there</h3>
+<p>Buses run from Katsuta Station on the JR Joban Line. In spring, see [[hitachi-seaside-park]] for the nemophila.</p>
+`,
+
+'expo-70-commemorative-park-october': `
+<h3>When to go</h3>
+<p>The Cosmos and Kochia Festa runs through October: in 2026 it was from 3 to 30 October, from 9:30 am to 5 pm. The kochia were expected to turn red in mid October. The festival itself is free, but you pay the park entry, 450 yen for high school age and up, and free for junior high age and under.</p>
+<h3>The flowers</h3>
+<p>About 150,000 cosmos and some 3,600 kochia share the Flower Hill in the park's natural culture garden. The hill is a long walk from the central gate, so allow time. The Tower of the Sun, the giant sculpture by Okamoto Taro from the 1970 World Expo, stands near the entrance.</p>
+<h3>Getting there</h3>
+<p>Take the Osaka Monorail to Banpaku-Kinen-Koen Station. In summer, the same park has sunflowers, see [[expo-70-commemorative-park]].</p>
+`,
+
+'takino-suzuran-hillside-park-october': `
+<h3>When to go</h3>
+<p>The kochia turn red from late September into early October, when the park's autumn leaves festival begins. Entry is 450 yen for adults and 210 yen for over-65s, and under-15s get in free. The park closes for the season in early November.</p>
+<h3>The garden</h3>
+<p>About 4,300 kochia grow in the Country Garden at the heart of the park, bright green in August, then a gradient of red. In the same weeks, the forests around the park turn red and yellow, and the Ashiribetsu waterfall is framed by autumn colour.</p>
+<h3>Getting there</h3>
+<p>Buses run from Makomanai Station, at the southern end of the Namboku subway line. In late May, see [[takino-suzuran-hillside-park]] for the tulips.</p>
+`,
+
+'michinoku-lakeside-park': `
+<h3>When to go</h3>
+<p>The kochia usually turn red in early to mid October, then fade to wheat gold by the end of the month. Entry is 450 yen for adults and 210 yen for over-65s, and junior high age and under get in free. Parking costs 400 yen.</p>
+<h3>The park</h3>
+<p>Michinoku Lakeside Park is Tohoku's only national government park, on the shore of Lake Kamafusa. Around 7,000 kochia are planted on the terraced fields and in the big flower beds, and the lakeside park makes a full autumn day.</p>
+<h3>Getting there</h3>
+<p>It's in Kawasaki, about 40 minutes by car from Sendai. In spring, see [[michinoku-lakeside-park-april]] for the tulips. For questions, call the park centre on 0224-84-5991.</p>
+`,
+
+'tokyo-german-village': `
+<h3>When to go</h3>
+<p>The kochia usually turn red from early October. Entry has usually been around 1,000 yen for adults and 500 yen for children, with a separate charge to park, though prices change by season, so check the website.</p>
+<h3>The park</h3>
+<p>Tokyo German Village is a farm park in Sodegaura, Chiba, despite the name, with a German-themed village, animals and flower fields. About 15,000 kochia fill the field in front of the fishing pond. From late October, its big winter illumination begins: the 2026 to 2027 season runs from 31 October 2026 to 4 April 2027.</p>
+<h3>Getting there</h3>
+<p>It's easiest by car, about 10 minutes from the Sodegaura interchange. Buses run from JR Sodegaura Station. In October, [[mother-farm-october]] nearby also has kochia.</p>
+`,
+
+'tambara-lavender-park': `
+<h3>When to go</h3>
+<p>The kochia usually turn red from late September to mid October, after the lavender has finished. In summer, the same highland is a lavender park.</p>
+<h3>The garden</h3>
+<p>The Tambara Kochia Garden opens on the slopes of Tambara Ski Park, about 1,250 m up on Mount Kanomata, near Numata. About 10,000 kochia and marigolds cover some 8,000 square metres, with wide views over the mountains of northern Gunma. Being high up, it turns earlier than the lowland kochia fields.</p>
+<h3>Getting there</h3>
+<p>You'll need a car; it's about 30 minutes from the Numata interchange on the Kan-Etsu Expressway. Bring a jacket, it's cool up there even in September. In the same area, the [[igano-flower-garden]] in Minakami has kochia too.</p>
+`,
+
+'uminonakamichi-seaside-park': `
+<h3>When to go</h3>
+<p>The kochia are usually red for a week or two in mid to late October. Entry is 450 yen for adults and 210 yen for over-65s, and junior high age and under get in free.</p>
+<h3>The park</h3>
+<p>Thousands of kochia fill the Rainbow and Irodori flower beds of this huge seaside park on the Uminonakamichi sandbar in Hakata Bay, alongside autumn cosmos. The park is big enough to need a bike, which you can hire at the gate.</p>
+<h3>Getting there</h3>
+<p>Uminonakamichi Station on the JR Kashii Line is right by the park, about half an hour from Hakata. In spring, see [[uminonakamichi-seaside-park-april]] for a million nemophila.</p>
+`,
+
+'yuzawa-kogen-panorama-park': `
+<h3>When to go</h3>
+<p>The kochia are usually red from late September to early October, earlier than lowland fields because the plateau is about 1,000 m up. The summer season in 2026 runs from 30 May to 15 November, and the ropeway runs from 8:40 am to 4:40 pm.</p>
+<h3>The park</h3>
+<p>A ropeway carries you up in about 7 minutes to the summit plateau, with its kochia field, the Alp no Sato alpine garden and wide views over the mountains. A return ticket has been 3,500 yen for adults and 1,700 yen for children, including the alpine garden, the lift and the park bus.</p>
+<h3>Getting there</h3>
+<p>The ropeway station is 8 minutes' walk from the west exit of Echigo-Yuzawa Station, on the Joetsu Shinkansen, about 75 minutes from Tokyo. Yuzawa is an onsen town, so end with a bath. The maples turn on the mountain in October.</p>
+`,
+
 };
