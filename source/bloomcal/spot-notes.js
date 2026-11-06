@@ -870,7 +870,7 @@ module.exports = {
 <p>About 1,250 kinds and 2,500 plants, mostly wild species and old roses, grown for their history as much as their looks. In 2015 the garden won the Award of Garden Excellence from the World Federation of Rose Societies. The scent on a warm May morning is the best thing about it.</p>
 <p>Entry was 410 yen for adults in 2024. The garden is part of Kusabue-no-Oka, a big park with a mini railway (extra charge), so it's good with children.</p>
 <h3>Nearby</h3>
-<p>Sakura is an old castle town with a samurai district and the National Museum of Japanese History. In April, the tulips by the Dutch windmill at [[sakura-furusato-hiroba]] are the town's big spring draw. For a modern rose garden near Tokyo, [[keisei-rose-garden]] in Yachiyo is about 30 minutes away.</p>
+<p>Sakura is an old castle town with a samurai district and the National Museum of Japanese History. The tulips by the Dutch windmill at [[sakura-furusato-hiroba]] used to be the town's big spring draw, though the festival is paused while the area is renovated. For a modern rose garden near Tokyo, [[keisei-rose-garden]] in Yachiyo is about 30 minutes away.</p>
 `,
 
 'hamadera-park-rose-garden': `
@@ -2841,6 +2841,367 @@ module.exports = {
 <p>About 1,200 cherry trees, planted in 1923 and 1927 by a local businessman, line some 8 km of the Shiroishi River from Ogawara to Funaoka, a thousand cherries at a glance, with the snowy Zao mountains behind. It's one of Japan's top 100 cherry spots. The JR Tohoku Line runs right beside the river, so you get a glimpse from the train too.</p>
 <h3>Getting there</h3>
 <p>Ogawara Station is a short walk from the river. Walk the bank to Funaoka, about an hour, then climb [[funaoka-castle-ruin-park]] for the view looking down on the whole line of trees. In March, the [[tsutsumi-plum-orchards]] in Ogawara flower first.</p>
+`,
+
+'tonami-tulip-park': `
+<h3>When to go</h3>
+<p>The Tonami Tulip Fair runs from late April to the Golden Week holidays: in 2026 it was from 22 April to 5 May, from 9 am to 5:30 pm. Adults paid 2,000 yen, or 1,900 yen in advance, and primary and junior high school children 100 yen. Late April is usually the peak.</p>
+<h3>The fair</h3>
+<p>About 3.5 million tulips of some 300 kinds fill the park and the fields around it, one of the biggest tulip displays in Japan. Tonami is the country's biggest tulip bulb growing area, so the fair is a showcase for local growers. Look for the big floral patterns, the tulip tower and the water garden, where tulip heads float on the water.</p>
+<h3>Getting there</h3>
+<p>It's 15 minutes' walk from JR Tonami Station, or about 20 minutes from Shin-Takaoka on the Hokuriku Shinkansen by car. Tonami is also famous for its scattered farmhouse landscape, the sankyoson, best seen from the Tonami lookout in the hills. In early April, the [[asahi-funakawa-spring-quartet]] in eastern Toyama is in flower.</p>
+`,
+
+'hitsujiyama-park': `
+<h3>When to go</h3>
+<p>The Shibazakura Festival runs from early April into Golden Week: in 2026 it was from 3 April to 6 May. The moss phlox usually peaks from mid April to early May. During the paid period, from 10 April to 6 May in 2026, entry to the moss phlox hill was 500 yen from 8 am to 5 pm, and free for junior high age and under. The rest of the park is free.</p>
+<h3>The hill</h3>
+<p>More than 400,000 moss phlox of nine or ten kinds are planted in bands and swirls of pink, white and purple on the hill, with the great limestone mountain of Buko behind. Morning light is best, before the crowds.</p>
+<h3>Getting there</h3>
+<p>Come by train: it's about 20 minutes' walk from Seibu-Chichibu, Yokoze or Ohanabatake stations, and the Seibu limited express runs from Ikebukuro in about 80 minutes. Car parks cost about 700 yen, and over Golden Week there are traffic restrictions and park-and-ride. For questions, call Chichibu City's tourism section on 0494-25-5209.</p>
+`,
+
+'sakura-furusato-hiroba': `
+<h3>Things to know</h3>
+<p>The Sakura Tulip Festa isn't being held for now. Sakura Furusato Hiroba is being renovated, with work planned until the end of fiscal 2028, so the festival has been paused from 2026. Some beds are still planted with tulips, so there's something to see in April, but not the full display of past years. Check Sakura City's website before you go.</p>
+<h3>The park</h3>
+<p>The park sits on the shore of Lake Inba, beside a Dutch windmill called Liefde, built with the help of Dutch engineers. In 2025, the last festival before the pause, about 600,000 tulips of some 100 kinds were planted around it, from 1 to 20 April. In past years visitors could dig up bulbs at the end of the festival. The windmill festival and the sightseeing boats on the lake have carried on.</p>
+<h3>Nearby</h3>
+<p>Sakura is an old castle town with a samurai district and the National Museum of Japanese History. In May, the old roses of [[sakura-kusabue-no-oka-rose-garden]] are in flower in the same city.</p>
+`,
+
+'gunma-flower-park': `
+<h3>When to go</h3>
+<p>The tulips usually peak in mid to late April, followed by the azaleas and spring flowers over Golden Week. The park reopened in autumn 2025 as Gunma Flower Park+, after a renewal, and entry now changes with the season; check the website for prices.</p>
+<h3>The park</h3>
+<p>The park sits on the lower slopes of Mount Akagi, with views over the Kanto plain. In spring, about 190,000 tulips are planted around the central flower field and in the Spring Bouquet Garden. After the renewal it's more of an activity park, with garden events through the year and a paddling pool for children in summer, when primary and junior high school children got in free in 2026.</p>
+<h3>Getting there</h3>
+<p>It's about 10 minutes by taxi from Ogo Station on the Jomo Electric Railway, or easiest by car. Mount Akagi's azaleas and the Akagi shrine are higher up the same mountain.</p>
+`,
+
+'senshu-park': `
+<h3>When to go</h3>
+<p>The cherries usually peak from mid to late April. The park sits on a rise, so it flowers a few days after the rest of Akita. During the cherry festival, the trees are lit up from 6 to 10 pm and there are food stalls. There's no parking during the festival, so walk from the station.</p>
+<h3>The park</h3>
+<p>About 650 cherry trees, mostly somei-yoshino, grow on the site of Kubota Castle, the castle of the Satake lords of Akita. The moats are covered in lotus in summer. The rebuilt Osumi-yagura turret has a view over the city.</p>
+<h3>Getting there</h3>
+<p>It's about 15 minutes' walk from JR Akita Station, on the Akita Shinkansen. A week or so later, [[kakunodate-samurai-district]], an hour away, has its famous weeping cherries. For questions, call the Akita city tourist information centre on 018-832-7941.</p>
+`,
+
+'fuji-motosuko-resort': `
+<h3>When to go</h3>
+<p>The Fuji Shibazakura Festival runs from mid April to late May: in 2026 it was from 11 April to 24 May, from 8 am to 4 pm. The moss phlox is usually at its fullest from late April to mid May. Entry is 1,000 to 1,300 yen for adults and 500 to 700 yen for children aged 3 and up, depending on the date.</p>
+<h3>The festival</h3>
+<p>About 500,000 moss phlox in pink, white and purple cover the fields at the foot of Mount Fuji near Lake Motosu, with the mountain rising right behind, one of the most famous spring views in Japan. Go on a clear morning, when Fuji is most likely to be out. Food stalls sell Fuji-area dishes such as Yoshida udon.</p>
+<h3>Getting there</h3>
+<p>During the festival, the Fuji Shibazakura Liner bus runs from Kawaguchiko Station in about 40 minutes. Golden Week and weekends are very crowded, with traffic jams on the roads, so the bus or a weekday is better. Lake Kawaguchi's [[oishi-park-april|Oishi Park]] has nemophila at the same time.</p>
+`,
+
+'mifuneyama-rakuen': `
+<h3>When to go</h3>
+<p>The azaleas usually peak in mid to late April, after the cherries. The spring flower festival covers the azaleas, the great wisteria and the fresh spring maples: in 2026 it ran from 6 April to 6 May, from 8 am to 6:30 pm.</p>
+<h3>The garden</h3>
+<p>About 200,000 Kurume and Hirado azaleas fill the bowl-shaped Tsutsuji-dani, the azalea valley, below the cliffs of Mount Mifune. A viewing deck about 30 m above the slope gives the full view of the pink and red. The 170-year-old great wisteria by the Haginoo teahouse flowers at the same time, see [[mifuneyama-rakuen-april]].</p>
+<h3>Getting there</h3>
+<p>Buses from JR Takeo-Onsen Station take about 12 minutes. The garden is also famous for its autumn leaves, with evening light-ups from early November to early December. For questions, call 0954-23-3131.</p>
+`,
+
+'shiofune-kannon-ji-temple': `
+<h3>When to go</h3>
+<p>The azalea festival runs from mid April to early May, and the azaleas usually peak in mid to late April, with late kinds into Golden Week. During the festival, entry is 300 yen for junior high age and up and 100 yen for primary school children. On 3 May the temple holds a fire-walking ceremony.</p>
+<h3>The temple</h3>
+<p>About 20,000 azaleas of some 20 kinds cover the bowl-shaped hillside around Shiofune Kannon-ji, an old temple in Ome, western Tokyo. The shape of the valley is said to look like a boat, which gave the temple its name. Climb to the Kannon statue at the top for the view down over the whole bowl of colour.</p>
+<h3>Getting there</h3>
+<p>Buses run from JR Kabe Station on the Ome Line, or it's about 25 minutes' walk. For questions, call the temple on 0428-22-6677. In February, Ome's [[yoshino-baigo]] plum park is nearby.</p>
+`,
+
+'mother-farm': `
+<h3>When to go</h3>
+<p>The nemophila usually peak from mid April to early May; in 2026 they were in full flower on 27 April. Over Golden Week the farm runs special events, including a big sheep parade with about 200 sheep, and opening hours change by day, so check the website.</p>
+<h3>The farm</h3>
+<p>About a million nemophila cover the Hana no Tani, the flower valley, about 5,000 square metres of hillside above Tokyo Bay. The farm has planted them for six years. It's a full day out with children, with sheep shows, animal petting, and ice cream and food made from the farm's own dairy.</p>
+<h3>Getting there</h3>
+<p>Buses run from Kimitsu Station on the JR Uchibo Line, and highway buses run from Tokyo and Yokohama. In October, the same farm has a hillside of red kochia, see [[mother-farm-october]].</p>
+`,
+
+'oishi-park-april': `
+<h3>When to go</h3>
+<p>The nemophila usually flower from mid April to mid May, with late April to early May the peak. Clear mornings give the best chance of Mount Fuji. The park is free.</p>
+<h3>The park</h3>
+<p>Oishi Park is a lakeside flower park on the north shore of Lake Kawaguchi. In spring its beds turn nemophila blue, with Mount Fuji standing directly across the water: blue flowers, blue lake and a snowy mountain. The park has a café and a shop at the Natural Living Center.</p>
+<h3>Getting there</h3>
+<p>Take the Kawaguchiko sightseeing bus from Kawaguchiko Station to the Kawaguchiko Natural Living Center. In summer, the same park is known for its [[oishi-park|lavender]], and in autumn for its [[oishi-park-october|red kochia]]. The [[fuji-motosuko-resort|Fuji Shibazakura Festival]] runs at the same time as the nemophila.</p>
+`,
+
+'kameido-tenjin-shrine': `
+<h3>When to go</h3>
+<p>The wisteria festival runs through April: in 2026 it was from 4 to 30 April. The wisteria usually peaks in mid to late April, with early kinds from early April and late ones into early May. During the peak, the trellises are lit up in the evening. Entry is free.</p>
+<h3>The shrine</h3>
+<p>About 100 wisteria vines on 15 trellises hang over the shrine pond, with red arched bridges and Tokyo Skytree in view. Hiroshige painted the bridge and the wisteria here in his One Hundred Famous Views of Edo, and the scene still looks much the same. The shrine is dedicated to Sugawara no Michizane, so it's also a plum spot in February.</p>
+<p>Weekends at peak are very crowded. Come early in the morning, or in the evening for the light-up with Skytree glowing behind.</p>
+<h3>Getting there</h3>
+<p>It's about 12 to 15 minutes' walk from JR Kameido Station on the Sobu Line. Try the kuzu-mochi at Funabashiya, an old sweet shop by the shrine. For questions, call the shrine on 03-3681-0010.</p>
+`,
+
+'ushijima-wisteria': `
+<h3>When to go</h3>
+<p>The garden opens only while the wisteria flowers, roughly mid April to early May; in 2026 it was open from 11 April to 3 May. The tree usually peaks from mid to late April, so late April and Golden Week are often the safest bet. The fee has been 1,200 yen for adults and goes towards the upkeep of the tree.</p>
+<h3>The tree</h3>
+<p>The Ushijima wisteria is a Noda wisteria put at about 1,200 years old, the only wisteria in Japan designated a Special Natural Monument. Its longest clusters reach about 2 m, and they hang over a garden pond.</p>
+<h3>Getting there</h3>
+<p>It's about 10 minutes' walk from Fuji-no-Ushijima Station on the Tobu Urban Park Line, a station named after the tree. See [[ushijima-wisteria-april]] for more on visiting.</p>
+`,
+
+'tsutsujigaoka-park': `
+<h3>When to go</h3>
+<p>The azalea festival runs from early April into Golden Week: in 2026 it was from 8 April to 6 May, from 8 am to 5 pm. The azaleas usually peak in late April. The entry fee for adults goes up and down with the flowers, from a few hundred yen when they're just starting to about 1,000 yen at peak; junior high age and under get in free.</p>
+<h3>The park</h3>
+<p>About 10,000 azaleas of more than 100 kinds grow in Tsutsujigaoka Park in Tatebayashi, including wild mountain azaleas thought to be over 800 years old, some taller than a person. It's been a national scenic site since 1934. The park sits on the shore of Lake Jonuma, and the oldest trees grow on the slopes above the water.</p>
+<h3>Getting there</h3>
+<p>Buses run from Tatebayashi Station on the Tobu Isesaki Line, about an hour from Asakusa. For questions, call the park office on 0276-74-5233. The [[ashikaga-flower-park]] wisteria is nearby, and flowers at the same time.</p>
+`,
+
+'hase-dera': `
+<h3>When to go</h3>
+<p>The peonies usually peak from late April to early May. The temple's spring peony season ran from 18 April to 10 May in 2026, with a peony offering ceremony in late April. Entry is 500 yen.</p>
+<h3>The temple</h3>
+<p>Hase-dera is the flower temple of Nara. About 7,000 peonies of some 150 kinds line the Noborirou, a covered staircase of 399 steps climbing the hillside to the main hall, a national treasure with a wooden stage that juts out over the valley. The main hall holds a great Kannon statue about 10 m tall. In June the temple is full of hydrangeas, and in autumn maples.</p>
+<h3>Getting there</h3>
+<p>It's about 15 to 20 minutes' walk from Hasedera Station on the Kintetsu Osaka Line, up through the old temple town, about an hour from Osaka. For questions, call the temple on 0744-47-7001.</p>
+`,
+
+'higashimatsuyama-peony-garden': `
+<h3>When to go</h3>
+<p>The peonies usually peak from mid April to early May. In 2026 the garden was open from 20 March to 10 May, from 9 am to 5 pm, with the paid period depending on the flowers. Adults (high school age and up) pay 300 or 500 yen depending on how far the flowers are out, and junior high age and under get in free.</p>
+<h3>The garden</h3>
+<p>About 6,500 peonies of some 150 kinds, early to late flowering, in red, pink, purple, yellow and white. The peony is Higashimatsuyama's city flower, and the garden is one of the biggest peony gardens in the Kanto region. Peonies have huge, delicate flowers that bruise in the rain, so a dry, still day is best.</p>
+<h3>Getting there</h3>
+<p>Buses run from Shinrin-koen Station on the Tobu Tojo Line. For questions, call the garden on 0493-81-7607. In late March, the cherries and rapeseed of [[sakurazutsumi-park]] in nearby Yoshimi flower together.</p>
+`,
+
+'nagaoka-tenmangu-shrine': `
+<h3>When to go</h3>
+<p>The Kirishima azaleas usually peak in the second half of April, often around 20 April; other azaleas in the grounds open a little later. In March, the plums by the pond flower first.</p>
+<h3>The shrine</h3>
+<p>About 100 Kirishima azaleas line the path across Hachijo-ga-ike pond to the shrine. They're over 2.5 m tall and said to be around 150 years old, and in full flower they turn a deep, glowing crimson, so the whole avenue looks like a wall of red. The shrine is dedicated to Sugawara no Michizane, who is said to have stopped here on his way into exile.</p>
+<h3>Getting there</h3>
+<p>It's 10 minutes' walk from Nagaoka-tenjin Station on the Hankyu Kyoto Line, about 15 minutes from Kyoto. Nagaokakyo is also known for its bamboo shoots, in season at the same time. For questions, call the shrine on 075-951-1025.</p>
+`,
+
+'ichikai-shibazakura-park': `
+<h3>When to go</h3>
+<p>The moss phlox festival runs through April: in 2026 it was from 4 to 30 April. The moss phlox usually peaks in mid to late April. Entry during the festival has been 500 yen for adults and free for children, and the fee may apply outside those dates if the flowers are still out.</p>
+<h3>The park</h3>
+<p>About 250,000 moss phlox cover some 2 hectares of hillside, one of the largest displays in northern Kanto, planted in bands of pink, white and purple. The park is in Ichikai, in the countryside of eastern Tochigi.</p>
+<h3>Getting there</h3>
+<p>You'll want a car. There are two paid car parks, with about 150 and 800 spaces. For questions during the festival, call the park on 0285-68-4839. In March, the [[kannonyama-ume-no-sato]] plum garden is in the same town.</p>
+`,
+
+'kasuga-taisha-shrine': `
+<h3>When to go</h3>
+<p>The wisteria usually flowers from late April into early May. The shrine grounds are free; the inner area and the botanical garden charge.</p>
+<h3>The wisteria</h3>
+<p>Wisteria is the crest of Kasuga Taisha and of the Fujiwara family who founded it; fuji means wisteria. By the south gate grows the Sunazuri no Fuji, the sand-brushing wisteria, whose clusters hang over a metre long and can almost touch the ground. Next door, the [[manyo-botanical-garden]] has a wisteria garden with some 20 kinds.</p>
+<h3>The shrine</h3>
+<p>Kasuga Taisha is part of the Nara World Heritage site, famous for its thousands of stone and bronze lanterns and its vermilion halls in the forest. The tame deer of Nara Park wander the approach. Buses run from JR and Kintetsu Nara stations, or it's about 25 minutes' walk from Kintetsu Nara through the park.</p>
+`,
+
+'wake-wisteria-park': `
+<h3>When to go</h3>
+<p>The wisteria usually peaks from late April into early May. The festival starts in late April, depending on the flowers: in 2026 it opened on 21 April. During the festival, entry is 500 yen for junior high age and up and free for younger children, and the trellises are lit up after dark, from about 6 pm. Outside the festival the park is free.</p>
+<h3>The park</h3>
+<p>About 140 wisteria vines of some 100 kinds, gathered from 46 prefectures of Japan and from China and Korea, grow on a long trellis, which makes it the park with the most kinds of wisteria in Japan. The colours and cluster lengths vary a lot, from white and pink to deep purple, so it's a good place to see how different wisteria can be. During the festival there are food stalls and stage events.</p>
+<h3>Getting there</h3>
+<p>It's about 15 minutes by car from the Wake interchange on the Sanyo Expressway, or about 20 minutes from Wake Station. For questions, call Wake Town on 0869-93-1126.</p>
+`,
+
+'mandara-ji-park': `
+<h3>When to go</h3>
+<p>The Konan Wisteria Festival runs from mid April to early May: in 2026 it was the 61st, from 17 April to 3 May. Peak is usually late April.</p>
+<h3>The park</h3>
+<p>About 60 wisteria vines of 11 or 12 kinds grow on trellises around Mandara-ji, an old temple in Konan, including Kokuryu, the black dragon wisteria with deep purple double flowers, Kyushakufuji, the nine-foot wisteria with very long clusters, and white Hakuryu. Seeing so many kinds side by side is the reason to come. The temple itself, with its old halls, is worth a look too.</p>
+<h3>Getting there</h3>
+<p>Buses run from Konan Station on the Meitetsu Inuyama Line, about 20 minutes from Nagoya. For questions, call the Konan tourist association on 0587-54-1111. In Aichi at the same time, the [[tennogawa-park]] trellis in Tsushima is 275 m long.</p>
+`,
+
+'kuroki-great-wisteria': `
+<h3>When to go</h3>
+<p>The Yame Kuroki Great Wisteria Festival is held from mid April into early May, timed to the flowers: in 2026 it was listed from 10 to 26 April. Peak is usually mid to late April. About 200,000 people visit during the festival. The wisteria is free to see.</p>
+<h3>The tree</h3>
+<p>The great wisteria in the grounds of Susanoo Shrine is said to be about 630 years old, and it's been a national natural monument since 1928. It spreads over a trellis of about 3,000 square metres, with flower clusters up to about 1.2 m long, so standing underneath is like being in a purple cloud.</p>
+<h3>Getting there</h3>
+<p>Kuroki is in the hills of Yame, in southern Fukuoka, famous for its green tea, and a car is easiest. During the festival there are stalls selling Yame tea and local food. The [[nakayama-ofuji]] in Yanagawa flowers at the same time, about 40 minutes away.</p>
+`,
+
+'tamashiki-park': `
+<h3>When to go</h3>
+<p>The wisteria usually peaks in late April. The Kisai Wisteria Festival is held on weekends and holidays then: in 2026 it was on 18, 19, 25, 26 and 29 April.</p>
+<h3>The wisteria</h3>
+<p>A great wisteria thought to be more than 450 years old grows beside Tamashiki Shrine, a prefectural natural monument, with pale purple clusters about a metre long. It's a quiet, local spot, much less crowded than the famous wisteria gardens of the Kanto region.</p>
+<h3>Getting there</h3>
+<p>Take a bus from Kazo Station on the Tobu Isesaki Line, bound for Konosu, to Kisai 1-chome, then walk about 10 minutes. The city asks visitors to use public transport during the festival.</p>
+`,
+
+'showa-kinen-park-april': `
+<h3>When to go</h3>
+<p>The tulips usually peak in early to mid April. The park's Flower Festival runs from late March to late May: in 2026 it was from 20 March to 24 May, with the tulips first, then other spring flowers. Entry is 450 yen for adults and 210 yen for over-65s, and junior high age and under get in free.</p>
+<h3>The tulips</h3>
+<p>About 230,000 tulips of some 260 kinds are planted in drifts along the stream in the Watery Garden, so they look like they're growing wild along the water rather than in formal beds. The cherries on the park's lawns flower at about the same time in early April.</p>
+<h3>Getting there</h3>
+<p>The Akebono gate is about 10 minutes' walk from Tachikawa Station on the JR Chuo Line. The park is huge, so hire a bike. In autumn, see [[showa-kinen-park]] for the cosmos and [[showa-kinen-park-ginkgo-avenue]] for the ginkgos.</p>
+`,
+
+'tanto-flower-park': `
+<h3>When to go</h3>
+<p>The Tanto Tulip Festival is held in mid to late April: in 2026 it was from 15 to about 26 April, depending on the flowers. Entry has been listed at 1,000 yen for adults and 500 yen for primary and junior high school children. For this year's dates, call the Tanto Silk Road tourist association on 0796-54-0500.</p>
+<h3>The park</h3>
+<p>About a million tulips of some 300 kinds are planted in patterns across the farmland of Tanto, in the hills of Toyooka, in northern Hyogo.</p>
+<h3>Getting there</h3>
+<p>You'll need a car. Toyooka is also home to Kinosaki Onsen, one of Japan's best-loved hot spring towns, and the Oriental white storks that were brought back from extinction in the wild here.</p>
+`,
+
+'machida-peony-garden': `
+<h3>When to go</h3>
+<p>The peonies usually peak in late April and early May, and the herbaceous peonies follow in May. The garden opens only in season: in 2026 the Peony and Herbaceous Peony Festival ran from 10 April to 6 May, from 8:30 am to 4 pm. Entry was 520 yen for adults and 200 yen for junior and senior high school students, and free for primary school age and under.</p>
+<h3>The garden</h3>
+<p>About 1,700 peonies of some 330 kinds and 600 herbaceous peonies of some 60 kinds grow in this hillside garden in Machida, western Tokyo, part of the Yakushi-ike Park Shikisai no Mori. With so many kinds, it's a good place to see the range of colours and shapes, from simple single flowers to huge doubles.</p>
+<h3>Getting there</h3>
+<p>Buses run from Machida Station. In the same park area, [[yakushi-ike-park]] has lotus in July. For questions during the season, call 042-736-4477.</p>
+`,
+
+'nagai-botanical-garden': `
+<h3>When to go</h3>
+<p>The nemophila usually flowers in April. In 2025 the garden held a nemophila fair from 5 April to 6 May, when adults paid 300 yen and high school and university students 200 yen; junior high age and under get in free. Check this year's fair on the garden's website.</p>
+<h3>The garden</h3>
+<p>Nagai Botanical Garden is inside Nagai Park in southern Osaka, next to the stadium. In spring, a field of nemophila turns blue, the easiest nemophila to reach in Osaka city. The garden also has a rose garden, peonies and hydrangeas through the year, and a natural history museum.</p>
+<h3>Getting there</h3>
+<p>Nagai Station on the Midosuji subway line and the JR Hanwa Line is a short walk away. For questions, call 06-6696-7117.</p>
+`,
+
+'nokonoshima-island-park': `
+<h3>When to go</h3>
+<p>The nemophila flowers in April, with the tulips and rapeseed. The park is open all year, with something in flower in every season. Entry has been 1,500 yen for adults, 800 yen for primary and junior high school children and 500 yen for children aged 3 and up.</p>
+<h3>The island</h3>
+<p>Nokonoshima Island Park is a flower park on a small island in Hakata Bay, with views across the water to Fukuoka city. Besides the flower fields, it has an old-style street of shops, farm animals and a restaurant, so it's an easy family day out from Fukuoka.</p>
+<h3>Getting there</h3>
+<p>Take the city ferry from Meinohama, about 10 minutes, then a bus up to the park. There's paid parking at the ferry terminal in Meinohama. For questions, call the park on 092-881-2494. The [[uminonakamichi-seaside-park-april|Uminonakamichi Seaside Park]] across the bay has a million nemophila at the same time.</p>
+`,
+
+'yuya-no-naga-fuji': `
+<h3>When to go</h3>
+<p>The wisteria usually peaks from mid to late April. The Ikeda Yuya no Naga-fuji Festival runs then: in 2025 it was from 12 to 29 April. During the peak, temporary parking opens on the Tenryu River bank, and at weekends a shuttle bus runs from JR Toyodacho Station. For questions, call the Ikeda community centre on 0538-34-4737.</p>
+<h3>The wisteria</h3>
+<p>The long-tressed wisteria at Gyoko-ji temple is said to have been planted about 850 years ago by Yuya Gozen, a heroine of the late Heian period, and the oldest vine is a national natural monument. Its clusters can reach about 1.5 m. It's free to see. The famous long wisteria of Toko-ji in Makinohara was grafted from this tree.</p>
+<h3>Getting there</h3>
+<p>The temple is in the Ikeda district of Iwata, by the Tenryu River. You'll want the shuttle bus at weekends, or a car.</p>
+`,
+
+'omishima-wisteria-park': `
+<h3>When to go</h3>
+<p>The wisteria usually peaks from late April into early May, and a wisteria festival is held around 3 May. Check the dates with Imabari City before you go.</p>
+<h3>The park</h3>
+<p>The park's 300 m wisteria trellis makes a long purple tunnel on Omishima, an island in the Seto Inland Sea. Omishima is home to Oyamazumi Shrine, which holds one of Japan's largest collections of ancient armour and swords, many of them national treasures.</p>
+<h3>Getting there</h3>
+<p>Omishima is on the Shimanami Kaido, the chain of bridges and islands between Onomichi and Imabari, so it's a classic stop by car or on a cycling trip. Buses run along the route too. For more wisteria in western Japan, see [[wake-wisteria-park]] in Okayama.</p>
+`,
+
+'okazaki-park': `
+<h3>When to go</h3>
+<p>The Gomangoku Wisteria Festival runs from late April to early May: in 2026 it was from 24 April to 6 May, with the trellis lit up from 6 to 9 pm, starting a week earlier on 17 April. Entry is free.</p>
+<h3>The wisteria</h3>
+<p>Old wisteria vines cover a trellis of about 1,300 square metres beside Okazaki Castle, by the Oto River, with clusters about 1.2 m long. The castle keep stands right behind, so you can see the wisteria with the castle in one view.</p>
+<h3>Getting there</h3>
+<p>It's about 15 minutes' walk from Higashi-Okazaki Station on the Meitetsu line, about 30 minutes from Nagoya. Parking at the castle is limited, about 150 spaces. Okazaki Castle is the birthplace of Tokugawa Ieyasu; the museum next to it, Mikawa Bushi no Yakata Ieyasu-kan, tells his story. In early April, the [[igagawa-cherry-embankment]] in the same park has cherries.</p>
+`,
+
+'goryokaku-park': `
+<h3>When to go</h3>
+<p>The cherries usually peak from late April to early May. In 2026 they came about ten days early, with full bloom declared on 20 April. The trees are lit up in the evening during the season, from 7 to 9 pm. The park is free.</p>
+<h3>The fort</h3>
+<p>Goryokaku is a star-shaped Western-style fort, finished in 1864, where the last battle of the Boshin War was fought in 1869. About 1,500 cherry trees, mostly somei-yoshino, fill the star and line its moats. The rebuilt Hakodate Magistrate's Office stands in the middle. The best view is from the observation deck of Goryokaku Tower next door, where you can see the whole star outlined in pink; the tower charges separately.</p>
+<h3>Getting there</h3>
+<p>It's about 15 minutes' walk from the Goryokaku-koen-mae tram stop. Hakodate is about 20 minutes by train from Shin-Hakodate-Hokuto on the Hokkaido Shinkansen. A week or so later, [[matsumae-park]] in Matsumae has Hokkaido's longest cherry season. For questions, call the park on 0138-31-5505.</p>
+`,
+
+'matsumae-park': `
+<h3>When to go</h3>
+<p>The Matsumae Cherry Festival runs from late April into May: in 2026 it was the 78th, from 18 April to 10 May. With around 250 kinds of cherry, early, mid and late kinds flower one after another, so the season lasts about a month, and something is usually out whenever you go. For questions, call the Matsumae tourist association on 0139-42-2726.</p>
+<h3>The park</h3>
+<p>Around 10,000 cherry trees grow around Matsumae Castle, Hokkaido's only Japanese-style castle town, and about 80 per cent are double-flowered kinds, many bred here. The temple district on the hill behind the castle has some of the oldest trees, including the [[kechimyaku-zakura]], the parent of the Nanden cherry.</p>
+<h3>Getting there</h3>
+<p>It's a long way: buses from Kikonai Station, on the Hokkaido Shinkansen, take about 90 minutes. Stay the night if you can. On the way, the [[sarakimisaki-tulip-garden]] in Kikonai flowers in early May.</p>
+`,
+
+'shizunai-nijukken-road': `
+<h3>When to go</h3>
+<p>The cherries usually peak from late April to early May. The Shizunai Cherry Festival runs then: sources gave different dates for 2026, from 25 to 30 April or from 29 April to 4 May, so check with the Shinhidaka tourist association on 0146-42-1000. Entry is free, and there's parking for about 650 cars.</p>
+<h3>The road</h3>
+<p>A dead-straight road runs for about 7 km through the horse-farm country of Hidaka, lined on both sides with some 2,000 cherry trees, mostly Ezo mountain cherries, which are a deeper pink than somei-yoshino. The road was built as an approach for the imperial family's horse farm. Pets aren't allowed, to protect the grazing thoroughbreds in the fields beside the road.</p>
+<h3>Getting there</h3>
+<p>You'll need a car. It's in Shinhidaka, about two and a half hours from Sapporo or New Chitose Airport. Hidaka is the home of most of Japan's racehorses, so you'll see horses in every field.</p>
+`,
+
+'nicchu-line-weeping-cherries': `
+<h3>When to go</h3>
+<p>The weeping cherries usually peak in mid April. The Kitakata Cherry Festival runs then: in 2026 it was from 9 to 23 April, with the trees lit up from 6:30 to 8 pm from 13 to 19 April.</p>
+<h3>The path</h3>
+<p>About 1,000 weeping cherries line a 3 km cycling and walking path along the old Nicchu railway line, closed in 1984. An old steam locomotive is displayed by the path. The further you walk from the station, the quieter it gets.</p>
+<h3>Getting there</h3>
+<p>The path starts about 5 minutes' walk from Kitakata Station on the JR Ban'etsu West Line. There's no dedicated car park, only temporary ones. Kitakata is famous for its ramen and its old storehouses, so have a bowl of Kitakata ramen after your walk. For questions, call the Kitakata tourism section on 0241-24-5243.</p>
+`,
+
+'kannonji-river': `
+<h3>When to go</h3>
+<p>The cherries usually peak from late April to early May, later than in the cities because Inawashiro is high and cold. A cherry festival is held then, and the trees are often lit up in the evening, though in 2026 the light-up was undecided. Entry is free, and there's free parking for about 100 cars.</p>
+<h3>The river</h3>
+<p>About 200 cherry trees, somei-yoshino, edo-higan and weeping cherries, line both banks of a small river for about 1 km near Lake Inawashiro. The branches meet over the narrow river, and on a clear day the snowy peak of Mount Bandai is in view.</p>
+<h3>Getting there</h3>
+<p>It's a minute from Kawageta Station on the JR Ban'etsu West Line. For questions, call the Inawashiro tourist association on 0242-62-2048. In mid April, the [[nicchu-line-weeping-cherries]] in Kitakata flower a little earlier.</p>
+`,
+
+'nishi-park-april': `
+<h3>When to go</h3>
+<p>The cherries usually peak in mid April, with the double red weeping cherries a little after the somei-yoshino. It's a popular hanami picnic spot, busy at weekends.</p>
+<h3>The park</h3>
+<p>Nishi Park is the oldest park in Sendai, on a terrace above the Hirose River, and about 350 cherry trees grow there, most of them double red weeping cherries, a kind that Sendai is known for. It's a city park, free and open all day.</p>
+<h3>Getting there</h3>
+<p>Omachi-nishi-koen Station on the Tozai subway line is right next to it. Don't confuse it with Fukuoka's [[nishi-park]], a different cherry spot. For another Sendai cherry park, see [[tsutsujigaoka-park-april]].</p>
+`,
+
+'kajo-park': `
+<h3>When to go</h3>
+<p>The cherries usually peak in early to mid April, and the trees are lit up in the evening during the season. The park is free.</p>
+<h3>The park</h3>
+<p>Kajo Park is the site of Yamagata Castle, the castle of Mogami Yoshiaki, one of the largest castles in Japan in its day. About 1,500 cherry trees, mostly somei-yoshino, line its moats and stone walls, and the rebuilt Higashi-otemon gate makes a good backdrop. JR trains run right beside the moat, and the shot of a train passing the cherries is a local favourite.</p>
+<h3>Getting there</h3>
+<p>It's about 10 minutes' walk from JR Yamagata Station, on the Yamagata Shinkansen. A week or so later, [[eboshiyama-park]] in Nanyo and the [[kubo-zakura]] in Nagai flower.</p>
+`,
+
+'eboshiyama-park': `
+<h3>When to go</h3>
+<p>The cherries usually peak in mid April. There are about 25 kinds, so the season is a little longer than at most parks.</p>
+<h3>The park</h3>
+<p>Eboshiyama is a small hill above the Akayu hot springs in Nanyo, covered in cherries of some 25 kinds, including old edo-higan. It's one of Japan's 100 best cherry spots, and from the top there's a view over the Okitama basin to the mountains. Stay at one of the Akayu onsen inns at the foot of the hill and walk up in the morning.</p>
+<h3>Getting there</h3>
+<p>Akayu Station on the Yamagata Shinkansen is the nearest station. Nearby, the [[kubo-zakura]] in Nagai flowers at the same time.</p>
+`,
+
+'kubo-zakura': `
+<h3>When to go</h3>
+<p>The tree usually flowers in mid to late April. It's free to see.</p>
+<h3>The tree</h3>
+<p>The Kubo-zakura is an edo-higan cherry thought to be about 1,200 years old, among the largest old cherries in Tohoku, with branches spreading some 25 m. It's a national natural monument. Local legend links it with a woman called Otama, so it's also known as the Otama-zakura. Its great trunk and limbs are held up by supports.</p>
+<h3>Getting there</h3>
+<p>It's in Nagai, in the Okitama basin of southern Yamagata, and a car is easiest. Nagai has several more great old cherries nearby, part of a route of famous trees through the basin, and [[eboshiyama-park]] in Nanyo is close by.</p>
+`,
+
+'tsuruoka-park': `
+<h3>When to go</h3>
+<p>The cherries usually peak in early to mid April, and lanterns light the trees in the evening during the season. The park is free.</p>
+<h3>The park</h3>
+<p>Tsuruoka Park is the site of Tsurugaoka Castle, seat of the Sakai lords of Shonai, and about 700 cherry trees line its moats and old stone walls. The Fujisawa Shuhei Memorial Museum, about the novelist whose samurai stories are set in a fictional version of this town, stands in the park.</p>
+<h3>Getting there</h3>
+<p>It's about 10 minutes by bus from JR Tsuruoka Station. Tsuruoka is known for its food: it's a UNESCO City of Gastronomy, and it's the gateway to the Dewa Sanzan pilgrimage mountains. In late March, the [[yutagawa-onsen-plum-park]] in Tsuruoka has plums.</p>
 `,
 
 };
