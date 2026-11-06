@@ -2480,4 +2480,367 @@ module.exports = {
 <p>Kitayama Station on the Karasuma subway line is next to the north gate. The south gate opens onto the Kamo River, a lovely cherry walk itself.</p>
 `,
 
+'kenrokuen': `
+<h3>When to go</h3>
+<p>The plums flower in March, and the cherries usually peak in early to mid April, a week or so after Tokyo. For about a week in cherry season, starting about five days after Kanazawa's official first-bloom date, the garden opens free from 7 am to 9:30 pm and is lit up with Kanazawa Castle after dark. In 2026 that was from 2 to 8 April. The rest of the year, entry is 320 yen for adults.</p>
+<p>The garden's own Kenrokuen Kikuzakura, a chrysanthemum-flowered cherry with more than 300 petals to a flower, opens last, from late April into May.</p>
+<h3>The garden</h3>
+<p>Kenrokuen is one of Japan's three great gardens, with [[kairakuen-garden]] and [[okayama-korakuen]], laid out by the Maeda lords of Kanazawa over almost two centuries. About 400 cherries of some 40 kinds grow around its ponds and streams. The two-legged Kotoji stone lantern by Kasumiga-ike pond is the symbol of the garden.</p>
+<h3>Getting there</h3>
+<p>Buses run from Kanazawa Station, on the Hokuriku Shinkansen, in about 15 minutes. Kanazawa Castle Park, across the road, is a cherry spot too, and the Higashi Chaya geisha district is a short walk away.</p>
+`,
+
+'shinjuku-gyoen': `
+<h3>When to go</h3>
+<p>About 1,000 cherry trees of some 65 kinds flower in turn, so something is out from February to late April. The somei-yoshino peak in late March, and the double-flowered ichiyo and kanzan in mid April, when the rest of Tokyo has finished. From mid March to June, the garden is open from 9 am to 6 pm, with last entry at 5:30, and entry is 500 yen for adults.</p>
+<h3>Book ahead at peak</h3>
+<p>On the busiest cherry weekends, entry has to be booked online in advance. In 2026 that applied from 10 am to 4 pm on 28 and 29 March and 5 April, with hourly limits, and bookings opened on 2 March. Annual pass holders and visitors who get in free didn't need to book. Check the garden's website in February for 2027.</p>
+<h3>The garden</h3>
+<p>Shinjuku Gyoen was once an imperial garden, and it mixes French formal, English landscape and Japanese gardens. The wide English lawn is the classic hanami picnic spot, and alcohol isn't allowed, so it's calmer than most Tokyo parks. The Shinjuku-gyoemmae Station gate is 5 minutes from the Marunouchi Line. In autumn, see [[shinjuku-gyoen-ginkgo]] and the [[shinjuku-gyoen-november|chrysanthemum show]].</p>
+`,
+
+'chidorigafuchi': `
+<h3>When to go</h3>
+<p>The cherries usually peak in the last week of March, close to Tokyo's official full bloom. The Chiyoda Cherry Festival runs through the season: in 2026 it was from 5 March to 22 April, with the walkway lit up in the evenings from late March to early April. At weekends in peak season, the walkway is one-way to manage the crowds.</p>
+<h3>The boats</h3>
+<p>The Chidorigafuchi boat house hires out rowing boats on the moat, putting you right under the branches. The queues are long at peak, so go at opening. You can book a boat in advance with the Smart Ticket, which costs much more and includes a donation to the cherry fund; in 2026 it was 12,000 yen per boat per hour. In the light-up period, the boat house stays open into the evening.</p>
+<h3>The walk</h3>
+<p>About 260 cherries lean over the old moat of Edo Castle along a 700 m walkway. It's about 10 minutes from Kudanshita Station. Make it a loop with [[yasukuni-shrine]], across the road, and [[kitanomaru-park-kinmokusei|Kitanomaru Park]], whose cherries flower at the same time.</p>
+`,
+
+'yasukuni-shrine': `
+<h3>When to go</h3>
+<p>The cherries usually peak in the last week of March. The shrine's sample tree is the one the Japan Meteorological Agency watches to declare Tokyo's cherry season open, so this is where the season officially begins. During the season the shrine holds Noh and other performances, and stays open into the evening.</p>
+<h3>The shrine</h3>
+<p>About 500 cherry trees, mostly somei-yoshino, grow in the grounds, and in season there are food stalls along the approach. The shrine is controversial because of its war history, so be respectful in the grounds.</p>
+<h3>Nearby</h3>
+<p>It's 5 minutes from Kudanshita Station. [[chidorigafuchi]], with its boats under the cherries, is right across the road, and in late November the shrine's [[yasukuni-shrine-ginkgo|ginkgo avenue]] turns gold.</p>
+`,
+
+'zojo-ji-temple': `
+<h3>When to go</h3>
+<p>The cherries usually peak in the last week of March. Come early in the morning, when the light is soft and the crowds haven't arrived. The grounds are free.</p>
+<h3>The temple</h3>
+<p>Zojo-ji was the family temple of the Tokugawa shoguns, and six shoguns are buried here. About 200 cherry trees, including weeping and edo-higan cherries, grow around the great main hall, with Tokyo Tower rising directly behind. Cherries, an old temple and a 1950s steel tower in one frame is the classic Tokyo view. The Sangedatsu gate, from 1622, is one of the oldest wooden buildings in Tokyo.</p>
+<h3>Getting there</h3>
+<p>It's 3 minutes from Onarimon or Shibakoen stations on the Toei Mita Line, or 10 minutes from Hamamatsucho. Shiba Park around the temple has more cherries.</p>
+`,
+
+'inokashira-park': `
+<h3>When to go</h3>
+<p>The cherries usually peak in the last week of March. In 2026 strong winds brought the petals down quickly, and the season was over by 9 April. When the petals fall, they cover the pond in pink, which is a sight in itself.</p>
+<h3>The park</h3>
+<p>About 400 cherry trees grow in the park, half of them around Inokashira Pond, with their branches hanging over the water. Rowing boats and swan boats are for hire, and they put you right among the blossom. It's one of Tokyo's favourite hanami spots, so expect crowds at weekends. If you're holding a picnic, fires and karaoke are banned, take your rubbish home, and parties have to finish by 10 pm.</p>
+<h3>Getting there</h3>
+<p>It's 5 minutes from Kichijoji Station on the JR Chuo Line and the Keio Inokashira Line. Kichijoji's shops and cafés are right by the park, and the Ghibli Museum is at its southern end. For questions, call the park office on 0422-47-6900.</p>
+`,
+
+'asukayama-park': `
+<h3>When to go</h3>
+<p>The cherries usually peak in the last week of March. The trees are lit with lanterns in the evening during the season, and the hill is busy with picnics.</p>
+<h3>The park</h3>
+<p>Asukayama is one of Tokyo's oldest cherry spots. Around 1720 the shogun Tokugawa Yoshimune had about 1,270 cherries planted here to give the ordinary people of Edo a place to enjoy the blossom, and it's been a hanami spot ever since. About 600 trees grow today. The park also has three small museums, about paper and about the businessman Shibusawa Eiichi, whose face is on the new 10,000 yen note.</p>
+<h3>Getting there</h3>
+<p>It's 2 minutes from Oji Station on the JR Keihin-Tohoku Line and the Namboku Line. A free mini monorail, the Ascargo, carries visitors up the hill from the station side. The Toden Arakawa tram passes the park, and its line is lined with roses in May.</p>
+`,
+
+'tsurugaoka-hachimangu-dankazura': `
+<h3>When to go</h3>
+<p>The cherries usually peak from late March to early April. Early morning is the quietest time and the best light.</p>
+<h3>The approach</h3>
+<p>The Dankazura is a raised footpath running up the middle of Wakamiya-oji, the main avenue of Kamakura, from the second torii to the shrine. It was built in 1182 by Minamoto no Yoritomo, the first shogun, as a prayer for the safe birth of his child. About 180 cherries line it, forming a tunnel over the path, and the path narrows as it nears the shrine, which makes it look longer than it is.</p>
+<h3>Getting there</h3>
+<p>It's about 10 minutes' walk from Kamakura Station. At the shrine, the [[tsurugaoka-hachimangu-winter-peonies|peony garden]] has spring peonies in late April, and in late November the [[tsurugaoka-hachimangu-ginkgo|ginkgos]] turn gold.</p>
+`,
+
+'kumamoto-castle': `
+<h3>When to go</h3>
+<p>The cherries usually peak from late March to early April. In 2026 the castle opened in the evenings for the cherries from 20 March to 5 April, from 6 to 8 pm. The Ninomaru square, free to enter, has a view of the keep over the blossom.</p>
+<h3>After the 2026 earthquake</h3>
+<p>A magnitude 7.1 earthquake struck the Kumamoto area on 28 July 2026, and stone walls collapsed in about 40 places. The castle reopened on 13 August, with the keep and the raised special viewing walkway open again. Check the castle's website before you go to see which areas are open in spring 2027.</p>
+<h3>The castle</h3>
+<p>About 550 cherry trees of some 16 kinds grow around the black keep and the great curved stone walls that Kato Kiyomasa built in the early 1600s. The keep reopened in 2021 after years of repairs from the 2016 earthquake. In late November, see the [[kumamoto-castle-ginkgo]], and nearby, [[suizenji-jojuen]] has cherries at the same time.</p>
+`,
+
+'omiya-park': `
+<h3>When to go</h3>
+<p>The cherries usually peak in the last week of March. The trees are lit up in the evening during the season, and the lawn fills with picnics, so come early at weekends.</p>
+<h3>The park</h3>
+<p>Omiya Park is one of Japan's 100 best cherry spots, with about 700 cherry trees around a wide lawn next to Hikawa Shrine, one of the oldest shrines in the Kanto region. The long tree-lined approach to the shrine, about 2 km, is worth walking. The park also has a small zoo and a pond.</p>
+<h3>Getting there</h3>
+<p>It's 10 minutes' walk from Omiya-koen Station on the Tobu Urban Park Line, or about 20 minutes from JR Omiya Station along the shrine approach. In May, [[yono-park]] in Saitama city has a rose garden.</p>
+`,
+
+'daigo-ji-temple': `
+<h3>When to go</h3>
+<p>With some 700 trees of different kinds, Daigo-ji's season lasts about three weeks, from the great weeping cherries in late March to the mountain cherries in early April. The Taiko weeping cherry in front of the Sanbo-in is usually the first to peak. In spring, a ticket covering the Sanbo-in, the main temple grounds and the Reihokan museum has been 1,800 yen.</p>
+<p>The Hotaiko Hanami Gyoretsu, a costume procession that re-enacts Toyotomi Hideyoshi's party, is usually held on the second Sunday of April, but one report says it wasn't held in 2026, so check the temple's website for 2027.</p>
+<h3>The temple</h3>
+<p>Hideyoshi held his famous cherry-viewing party here in 1598, a few months before he died, and Daigo-ji has been one of Kyoto's great cherry spots ever since. It's a World Heritage site, and its five-storey pagoda, from 951, is the oldest building in Kyoto. The Reihokan garden has one of the best weeping cherries in the city.</p>
+<h3>Getting there</h3>
+<p>It's 10 minutes' walk from Daigo Station on the Tozai subway line. It gets very crowded at peak, so arrive for opening. In early March, the [[yodo-canal-kawazu-cherries]] in the same ward flower first.</p>
+`,
+
+'kiyomizu-dera-temple': `
+<h3>When to go</h3>
+<p>The cherries usually peak from late March to early April. The temple's spring evening opening runs then: in 2026 it was from 27 March to 5 April, from 6 pm with last entry around 9, for 500 yen for adults and 200 yen for children. The lit-up stage and pagoda above the cherries are one of the great night views of Kyoto.</p>
+<h3>The temple</h3>
+<p>About 1,000 cherry trees, somei-yoshino and mountain cherries, surround the great wooden stage, which juts out from the hillside on tall wooden pillars built without nails. Kiyomizu-dera is a World Heritage site and the most visited temple in Kyoto, so in cherry season it's packed. Come at opening, 6 am, for the best chance of space.</p>
+<h3>Getting there</h3>
+<p>It's about 10 minutes' walk uphill from the Kiyomizu-michi or Gojo-zaka bus stops, through the old slopes of Sannenzaka and Ninenzaka. From here, walk north along Nene-no-Michi to [[maruyama-park]] and [[gion-shirakawa]].</p>
+`,
+
+'neodani-usuzumi-zakura': `
+<h3>When to go</h3>
+<p>The tree usually flowers from late March to early April. Watch how it changes: the buds open pale pink, the flowers turn white, and they fade to a pale ink-grey as they fall, which gives it the name Usuzumi, pale ink. The tree is lit up in the evenings in season. Weekends at peak are very crowded.</p>
+<h3>The tree</h3>
+<p>Said to be more than 1,500 years old, the Usuzumi-zakura is one of Japan's three great cherry trees and a national natural monument. Legend says the young Emperor Keitai planted it. It nearly died in the 1940s and 1950s and was saved by grafting new roots onto it, and its huge limbs are now held up by supports.</p>
+<h3>Getting there</h3>
+<p>It's about 15 minutes' walk from Tarumi Station, the end of the little Tarumi Railway, about an hour from Ogaki. Trains are infrequent, so check the timetable. By car, there are about 700 spaces, 500 yen in the cherry season. For questions, call the Motosu tourist association on 058-323-7756.</p>
+`,
+
+'wanizuka-cherry-tree': `
+<h3>When to go</h3>
+<p>The tree usually flowers from late March to early April. It's lit up from 6 to 8 pm for about five evenings around full bloom. Weekends at peak are very crowded, and weekdays busy too.</p>
+<h3>The tree</h3>
+<p>A lone edo-higan cherry about 330 years old stands on a small mound among the fields, said to be the grave of an ancient prince. Behind it on a clear day are the snowy peaks of the Yatsugatake range, and that's the photo everyone comes for: one tree, a mound and the mountains. Go in the morning, when the mountains are clearest.</p>
+<h3>Getting there</h3>
+<p>Take the city bus from JR Nirasaki Station to Takeda-Hachiman-iriguchi, then walk about 10 minutes, or take a taxi, about 10 minutes. By car, it's 15 minutes from the Nirasaki interchange on the Chuo Expressway, with about 120 spaces. The [[yamataka-jindai-zakura]] in nearby Hokuto flowers at the same time. For questions, call the Nirasaki tourist association on 0551-22-1991.</p>
+`,
+
+'gojo-river': `
+<h3>When to go</h3>
+<p>The cherries usually peak from late March to early April. The Iwakura Cherry Blossom Festival runs through the season: in 2026 it was from 27 March to 5 April, with the trees lit up in the evenings. For questions, call Iwakura City on 0587-38-5812 on weekdays.</p>
+<h3>The river</h3>
+<p>About 1,400 somei-yoshino arch over the Gojo River for some 7.6 km through Iwakura, north of Nagoya. During the festival, look for the nonbori-arai near Toyokuni bridge: craftsmen rinse hand-dyed carp streamers in the cold river to wash out the starch paste, a traditional spring sight. The paste washed away even feeds the real carp.</p>
+<h3>Getting there</h3>
+<p>Iwakura Station on the Meitetsu Inuyama Line is a short walk from the river, about 15 minutes from Nagoya. Walk upstream or downstream; the crowds thin out quickly away from the festival area.</p>
+`,
+
+'hirano-shrine': `
+<h3>When to go</h3>
+<p>About 400 cherries of some 60 kinds flower in turn, so the season runs from late March to mid April, with many rare varieties. The Ouka-sai cherry festival is held every year on 10 April, with a procession in Heian costume. It's said to have started in 985, which makes it the oldest cherry festival in Kyoto. The night cherries of Hirano have been famous since the Edo period, and the grounds are lit up in the evening.</p>
+<h3>The shrine</h3>
+<p>Many of the cherries were raised at the shrine itself, and some kinds are named after it. In season there are stalls in the grounds, and locals hold hanami parties under the trees, so it feels like a neighbourhood festival rather than a tourist sight.</p>
+<h3>Getting there</h3>
+<p>It's a short walk from the Kinugasako-mae bus stop. [[kitano-tenmangu-shrine]], famous for plums, is a few minutes south, and Kinkaku-ji is about 10 minutes' walk north.</p>
+`,
+
+'arashiyama': `
+<h3>When to go</h3>
+<p>The cherries usually peak from late March to early April. The somei-yoshino by the river open first, then the wild mountain cherries on the slopes of Mount Arashi. Come early in the morning, before the tour groups.</p>
+<h3>The view</h3>
+<p>About 1,500 cherry trees grow around the Togetsukyo bridge over the Katsura River. The classic view is from the bridge, with the cherries scattered across the green hillside of Mount Arashi. Arashiyama has been a cherry spot for over a thousand years, since the Heian court came here to view blossom. Hire a rowing boat on the river for a different angle.</p>
+<h3>Make a day of it</h3>
+<p>The bamboo grove, Tenryu-ji temple, a World Heritage site, and the Sagano Romantic Train are all nearby. Arashiyama is very crowded in cherry season, so walk upriver or into the Sagano backstreets for space. It's 5 minutes from Arashiyama Station on the Randen line or the Hankyu line.</p>
+`,
+
+'philosopher-s-path': `
+<h3>When to go</h3>
+<p>The cherries usually peak in late March and early April. When the petals fall, they float down the canal in pink drifts, called hana-ikada, petal rafts, and that's as lovely as the trees in full flower.</p>
+<h3>The path</h3>
+<p>The Philosopher's Path follows a small canal for about 2 km between Ginkaku-ji and the Nanzen-ji area, lined with some 400 cherry trees. It's named after the philosopher Nishida Kitaro, who walked here every day. Many of the trees were planted by the painter Hashimoto Kansetsu and his wife, so locals call them Kansetsu cherries.</p>
+<h3>Getting there</h3>
+<p>Start at the north end, from the Ginkakuji-michi bus stop, see Ginkaku-ji, then walk south. Allow an hour or more, with stops at small temples along the way, such as Honen-in. At the south end, [[nanzen-ji-temple]] and [[eikando-temple]] are a few minutes away. Weekends at peak are very busy, so go early.</p>
+`,
+
+'gion-shirakawa': `
+<h3>When to go</h3>
+<p>The cherries usually peak in late March and early April. In the evening, the street is lit up and the cherries and willows glow over the stream, one of the most beautiful night walks in Kyoto.</p>
+<h3>The street</h3>
+<p>Shirakawa is a little stream through the old teahouse quarter of Gion, with stone paving, wooden teahouses and cherries and willows leaning over the water. Tatsumi bridge and Tatsumi Daimyojin, a small shrine popular with geiko and maiko, are the heart of it. Restaurants along the stream have balconies over the water.</p>
+<p>This is a living neighbourhood. Don't chase or photograph geiko and maiko, and stay off private alleys, some of which now fine visitors who go in.</p>
+<h3>Getting there</h3>
+<p>It's 3 minutes from Gion-Shijo Station on the Keihan line. [[maruyama-park]], with its great weeping cherry, is a 10 minute walk east.</p>
+`,
+
+'igagawa-cherry-embankment': `
+<h3>When to go</h3>
+<p>The cherries usually peak from late March to early April. The Okazaki Cherry Festival runs through the season, with the trees lit up in the evening. On a Sunday in early April, the Ieyasu Procession, a costume parade in honour of Tokugawa Ieyasu, who was born at Okazaki Castle, passes through the town.</p>
+<h3>The river</h3>
+<p>About 700 cherry trees line the Iga River beside Okazaki Castle Park, and the park itself has many more around the rebuilt castle keep.</p>
+<h3>Getting there</h3>
+<p>Okazaki Castle Park is about 15 minutes' walk from Higashi-Okazaki Station on the Meitetsu line, about 30 minutes from Nagoya. In late April, the wisteria of [[okazaki-park]] is in the same park.</p>
+`,
+
+'himeji-castle': `
+<h3>When to go</h3>
+<p>The cherries usually peak from late March to early April. The grounds are lit up for evening cherry viewing in season, and the Sannomaru lawn below the keep is the main picnic spot, busy from early morning at weekends.</p>
+<h3>New prices from March 2026</h3>
+<p>Since 1 March 2026, entry to the castle keep costs 2,500 yen for adults who don't live in Himeji, the highest castle fee in Japan, while Himeji residents pay 1,000 yen. Under-18s now get in free. A combined ticket with the Koko-en garden next door costs 2,600 yen. You don't need a ticket to see the cherries in the outer grounds, which are free.</p>
+<h3>The castle</h3>
+<p>Himeji is the finest surviving original castle in Japan, a World Heritage site, nicknamed the White Heron Castle for its white plaster walls. About 1,000 cherry trees surround it. The classic photo is from the Sannomaru square, with the cherries in front and the keep above. It's a 20 minute walk up the main street from Himeji Station, on the Sanyo Shinkansen, or a short bus ride.</p>
+`,
+
+'okawa-river': `
+<h3>When to go</h3>
+<p>The cherries usually peak in the last days of March, around the same time as Osaka's official full bloom. Weekends at peak are busy with picnics along the river.</p>
+<h3>The river</h3>
+<p>About 4,800 cherry trees line some 4.2 km of the Okawa River in central Osaka, from the Kema lock down to Tenmabashi, along the Kema Sakuranomiya Park. The riverside path is wide and flat, so it's a good long walk, and sightseeing boats run under the trees. Across the river, the [[japan-mint-cherry-passage]] opens for a week in mid April, after these trees have finished.</p>
+<h3>Getting there</h3>
+<p>Sakuranomiya Station on the JR Osaka Loop Line is a short walk from the river. Walk south towards Tenmabashi and [[osaka-castle-park]], whose cherries flower at the same time.</p>
+`,
+
+'osaka-castle-park': `
+<h3>When to go</h3>
+<p>The cherries usually peak in the last days of March and early April. The late double-flowered cherries near the Tamatsukuri gate extend the season by a week or so. In cherry season, the Nishinomaru Garden opens late into the evening, with the keep lit up behind the trees.</p>
+<h3>The park</h3>
+<p>About 3,000 cherry trees grow around the castle, about 300 of them in the Nishinomaru Garden, a paid lawn garden with the best view of the keep over the blossom. The rest of the park is free and full of picnics at weekends. The castle keep is a modern museum inside, and entry costs 1,200 yen for adults.</p>
+<h3>Getting there</h3>
+<p>Osakajokoen Station on the JR Osaka Loop Line is a short walk from the park, and Morinomiya and Tanimachi 4-chome are close too. The [[okawa-river]] cherries are a 15 minute walk north. In February, the park's [[osaka-castle-plum-grove|plum grove]] is one of the best in the city.</p>
+`,
+
+'hikone-castle': `
+<h3>When to go</h3>
+<p>The cherries usually peak in early April, a few days after Kyoto. During the cherry festival, the inner moat is lit up in the evening, and roofed boats run on the moat on weekend evenings, a lovely way to see the trees.</p>
+<h3>The castle</h3>
+<p>About 1,100 cherry trees, mostly somei-yoshino, grow around the moats of Hikone Castle, one of only five castles whose keeps are national treasures, and one of twelve that survive from before the modern era. Entry to the castle has been 1,000 yen for adults. Look for Hikonyan, the castle's cat mascot, who appears at set times.</p>
+<h3>Getting there</h3>
+<p>It's a 15 minute walk from JR Hikone Station, about 50 minutes from Kyoto on the JR line. The Genkyu-en garden below the castle is worth adding. From Hikone, the [[mii-dera-temple]] cherries in Otsu are on the way back to Kyoto.</p>
+`,
+
+'tsuyama-castle': `
+<h3>When to go</h3>
+<p>The cherries usually peak from late March to early April. During the Tsuyama Cherry Festival, the trees are lit up until 10 pm. Entry to the castle grounds has been about 310 yen for adults.</p>
+<h3>The castle</h3>
+<p>Only the stone walls of Tsuyama Castle survive, but they're among the most impressive in Japan: tall, layered terraces climbing the hill. About 1,000 cherry trees grow on the terraces, so the whole hill turns pink, and it's Okayama's most popular cherry spot. A rebuilt turret, the Bitchu-yagura, gives a sense of what the castle looked like.</p>
+<h3>Getting there</h3>
+<p>It's a 10 minute walk from JR Tsuyama Station, about 70 minutes from Okayama. Nearby, the Shurakuen garden has cherries too. In autumn, the castle's [[tsuyama-castle-september|other season]] is on our calendar, and the great ginkgo of [[bodai-ji-temple-ginkgo|Bodai-ji]] is in Nagi, nearby.</p>
+`,
+
+'kintaikyo-bridge': `
+<h3>When to go</h3>
+<p>The cherries usually peak from late March to early April. Lanterns light the trees from sunset into the evening during the season, and the bridge is lit up too. Weekends at peak are very busy.</p>
+<h3>The bridge</h3>
+<p>Kintaikyo is a wooden bridge of five arches over the Nishiki River, first built in 1673 and rebuilt carefully over the centuries. About 1,500 cherry trees, mostly somei-yoshino, line the river and fill Kikko Park on the far bank. Crossing the bridge costs 310 yen for adults and 150 yen for primary school children. Kikko Park is free.</p>
+<h3>Getting there</h3>
+<p>Buses run from Iwakuni Station or Shin-Iwakuni Station, on the Sanyo Shinkansen. Iwakuni Castle, on the hill above, is reached by ropeway and looks down on the bridge and the cherries. Miyajima is about 30 minutes away by train, so the two make a good day. For questions, call the Iwakuni tourism section on 0827-29-5116.</p>
+`,
+
+'heian-shrine': `
+<h3>When to go</h3>
+<p>The shrine's red weeping cherries usually peak in early April, a little after the somei-yoshino. Entry to the garden has been 600 yen for adults, and it's quietest when it opens at 8:30 am.</p>
+<h3>The garden</h3>
+<p>The stroll garden behind the main hall is famous for its red weeping cherries, the yaebeni-shidare, which hang over the ponds and the covered bridge. About 300 cherries of several kinds grow in the garden. Tanizaki Junichiro wrote about these trees in his novel <em>The Makioka Sisters</em>, where the sisters come here every spring.</p>
+<h3>Getting there</h3>
+<p>It's 10 minutes' walk from Higashiyama Station on the Tozai Line. The huge red torii on the approach is one of the biggest in Japan. Nearby, the canal along Okazaki has cherries, with boat rides in season, and the [[philosopher-s-path]] is about 15 minutes' walk away.</p>
+`,
+
+'ninna-ji-temple': `
+<h3>When to go</h3>
+<p>The Omuro cherries usually peak in early to mid April, among Kyoto's last cherries of the season, after the somei-yoshino have finished. During the Omuro Flower Festival, from late March to early May, there's a special entry fee for the temple grounds: in 2026 it was 800 yen for adults, and free for high school age and under. A combined ticket with the Goten palace garden costs 1,400 yen.</p>
+<h3>The cherries</h3>
+<p>About 200 Omuro cherries grow in a grove in front of the five-storey pagoda. Omuro is a short, late-flowering cherry that blooms at about head height, so you walk through the flowers rather than under them. Ninna-ji is a World Heritage site and was once the home of retired emperors.</p>
+<h3>Getting there</h3>
+<p>It's 3 minutes from Omuro-Ninnaji Station on the Randen line. Kinkaku-ji and Ryoan-ji are a short walk away. For questions, call the temple on 075-461-1155.</p>
+`,
+
+'mii-dera-temple': `
+<h3>When to go</h3>
+<p>The cherries usually peak in early April. In season, the temple is lit up in the evening, with a separate evening fee.</p>
+<h3>The temple</h3>
+<p>Mii-dera is one of the great temples of Japan, the head temple of the Tendai Jimon school, on the hillside above Lake Biwa in Otsu. About 1,000 cherry trees grow in its large grounds, around halls that include several national treasures. Its bell, one of the Eight Views of Omi, is said to have the most beautiful sound in Japan.</p>
+<h3>Getting there</h3>
+<p>It's 10 minutes' walk from Miidera Station on the Keihan Ishiyama-Sakamoto Line, about 25 minutes from Kyoto. The Biwako canal starts right below the temple, and its cherries line the water; in spring, boats carry passengers along the canal to Kyoto. In the same town, [[ishiyama-dera-temple]] is a maple spot in autumn.</p>
+`,
+
+'mount-yoshino': `
+<h3>When to go</h3>
+<p>The cherries flower in four zones up the mountain, Shimo, Naka, Kami and Oku Senbon, from the bottom up, so the season lasts about three weeks, from early to late April. Mid April is usually the peak for the middle zones. In 2026 there were evening light-ups from 20 March to 19 April.</p>
+<h3>Plan for the crowds</h3>
+<p>Yoshino is Japan's most famous cherry mountain, and at peak weekends it's very crowded. Private car parks cost around 2,000 yen a day, and on some days there's park-and-ride instead. The train is easier: from Kintetsu Yoshino Station, a ropeway runs up in about 3 minutes, and extra buses run to the middle zones in cherry season. Stay the night on the mountain if you can, and walk the upper zones at dawn.</p>
+<h3>The mountain</h3>
+<p>About 30,000 cherry trees, mostly white mountain cherries, cover the slopes. They were planted over centuries as offerings to Zao Gongen, the deity of Kinpusen-ji, whose great hall is one of the largest wooden buildings in Japan. Yoshino is part of the Kii Mountains World Heritage site. The view from the Hanayagura lookout over the Naka and Kami Senbon is the classic one. For questions, call the Yoshino Visitors Bureau on 0746-34-2522.</p>
+`,
+
+'arakurayama-sengen-park': `
+<h3>When to go</h3>
+<p>The cherries usually peak in early to mid April. Go at dawn: by mid morning the viewing deck is packed, and waits of one to three hours have been reported at peak. Clear mornings are also when Mount Fuji is most likely to be out.</p>
+<h3>Things to know</h3>
+<p>The view became so popular that the city stopped holding its cherry festival. In 2026, Fujiyoshida cancelled the Arakurayama cherry festival because of the effect of overtourism on residents, but kept crowd control, security staff, temporary toilets and traffic restrictions from 1 to 19 April. The main car park was closed during that time; temporary car parks cost 500 yen and the city car parks 1,000 yen. Please be considerate: people live on the streets below the park.</p>
+<h3>The view</h3>
+<p>The five-storey Chureito Pagoda, a memorial to the war dead, stands above about 650 cherry trees, with Mount Fuji behind: one of the most photographed views in Japan. The pagoda and the deck are 398 steps up the hillside. It's about 15 to 20 minutes' walk from Shimoyoshida Station on the Fujikyu Line.</p>
+`,
+
+'matsumoto-castle': `
+<h3>When to go</h3>
+<p>The cherries usually peak in early to mid April. The Night Cherry Party opens the castle's inner garden free in the evening, from 5:30 to 9 pm, for eight days starting three days after the castle declares the trees open; in 2026 that was from 2 to 9 April. You can't go up the keep in the evening. At the same time, the cherries along the outer moat and the Metoba River are lit up for the Corridor of Light.</p>
+<h3>The castle</h3>
+<p>Matsumoto Castle is one of Japan's twelve original castle keeps and a national treasure, nicknamed the Crow Castle for its black walls. About 300 cherry trees grow around the moats, and the classic photo has the black keep reflected in the moat with the pink blossom in front, and the snowy Northern Alps behind on a clear day.</p>
+<h3>Getting there</h3>
+<p>It's a 15 minute walk from JR Matsumoto Station. For questions, call the castle office on 0263-32-2902. In March, the [[akanuta-adonis-fields]] in Matsumoto are golden with adonis.</p>
+`,
+
+'takato-castle-ruins-park': `
+<h3>When to go</h3>
+<p>The cherries usually peak in early to mid April. In 2026 the trees were forecast to open around 6 April and peak around 11 April. Entry is charged only in the cherry season, from the day after the trees open until the petals fall: 600 yen for adults and 300 yen for primary and junior high school children, rising to 1,000 yen for adults on peak weekends. The trees are lit up from 6 to 9 pm for about ten days, and at peak the park opens from 6 am.</p>
+<h3>The cherries</h3>
+<p>About 1,500 Takato kohigan-zakura, a small deep pink cherry found mainly here, cover the castle ruins. They're a prefectural natural monument, and they've long been called the finest cherry under heaven. The trees are packed so close that from the bridges and the old castle walls you look across a solid cloud of pink.</p>
+<h3>Getting there</h3>
+<p>Buses run from Inashi Station on the JR Iida Line. Peak weekends are very busy, and the roads jam, so arrive early or come on a weekday. For questions, call the Ina tourist association on 0265-96-8100.</p>
+`,
+
+'miharu-takizakura': `
+<h3>When to go</h3>
+<p>The tree usually flowers in early to mid April, though it varies: it opened on 1 April in 2025 and 10 April in 2024. In 2026 it opened on 2 April and was in full bloom by 6 April. There's a viewing fee from the day after it opens until it turns to leaf: 500 yen, and free for junior high age and under. It's lit up in the evening, from 6 to 9 pm.</p>
+<h3>The tree</h3>
+<p>The Takizakura, the waterfall cherry, is a single weeping cherry thought to be over 1,000 years old, its branches spilling down like a waterfall. It's one of Japan's three great cherry trees, and in 1922 it was among the first cherry trees made a national natural monument. Peak weekends are very crowded, so come early in the morning or on a weekday.</p>
+<h3>Getting there</h3>
+<p>During the season, the Takizakura-go temporary bus runs from JR Miharu Station in about 20 minutes; adults paid 700 yen in 2026. The big car park holds 850 cars and is free. The area around Miharu has hundreds of other old cherries, many descended from the Takizakura, so it's worth driving around.</p>
+`,
+
+'tsuruga-castle': `
+<h3>When to go</h3>
+<p>The cherries usually peak from mid to late April. During the Tsurugajo Cherry Blossom Festival, the trees are lit up in the evening. Entry to the grounds is free; the keep, which is a museum, charges.</p>
+<h3>The castle</h3>
+<p>About 1,000 cherry trees, mostly somei-yoshino, grow around the stone walls and moats of Tsuruga Castle, the castle of Aizu. Its keep is the only one in Japan with red-glazed roof tiles, which look striking with the pink blossom. The castle is famous for its siege in the Boshin War of 1868, when the young samurai of the Byakkotai fought for Aizu.</p>
+<h3>Getting there</h3>
+<p>Take the town loop bus from JR Aizu-Wakamatsu Station. Aizu-Wakamatsu has sake breweries and old merchant streets, and Mount Iimori, where the Byakkotai died, is a short bus ride away.</p>
+`,
+
+'kitakami-tenshochi': `
+<h3>When to go</h3>
+<p>The cherries usually peak in mid to late April. The Kitakami Tenshochi Cherry Festival runs then: in 2026 it was from 10 to 29 April, with the trees lit up in the evening and carp streamers flying over the Kitakami River. Parking costs about 1,000 yen per car.</p>
+<h3>The park</h3>
+<p>Tenshochi is one of the three great cherry spots of Tohoku, with about 10,000 cherry trees of some 150 kinds. The famous part is a 2 km avenue of cherries along the Kitakami River, planted in the 1920s, with horse-drawn carriages running under the trees during the festival. You can also take a boat on the river.</p>
+<h3>Getting there</h3>
+<p>It's about 25 minutes' walk from JR Kitakami Station, on the Tohoku Shinkansen, or a shuttle bus in the festival. For more Iwate cherries the same week, see [[morioka-castle-ruins-park]] and [[ishiwarizakura]] in Morioka.</p>
+`,
+
+'kakunodate-samurai-district': `
+<h3>When to go</h3>
+<p>The weeping cherries usually peak in late April, and the somei-yoshino tunnel along the Hinokinai River follows a few days to a week later, into early May. Come early in the morning, before the day-trippers arrive, when the street is quiet.</p>
+<h3>The street</h3>
+<p>About 400 weeping cherries hang over the black wooden fences of the old samurai street, 162 of them a national natural monument. They're said to descend from three saplings brought from Kyoto in the 17th century. Several of the samurai houses, such as the Aoyagi and Ishiguro houses, are open to visitors. The 2 km tunnel of somei-yoshino along the river was planted in 1934 to mark the birth of the Crown Prince.</p>
+<h3>Getting there</h3>
+<p>Kakunodate Station on the Akita Shinkansen is about 20 minutes' walk from the street. Lake Tazawa, Japan's deepest lake, is nearby. Kakunodate's cherry boxes and cherry-bark crafts, kabazaiku, make good souvenirs.</p>
+`,
+
+'ishiwarizakura': `
+<h3>When to go</h3>
+<p>The tree usually flowers in mid April, a little before the other cherries in Morioka. It's on the pavement outside the Morioka District Court, so you can see it any time, free.</p>
+<h3>The tree</h3>
+<p>The Ishiwarizakura, the rock-splitting cherry, is an edo-higan about 350 years old that has grown out of a split in a huge granite boulder. Nobody knows whether the tree split the rock or grew into a crack that was already there, but it's become a symbol of Morioka's resilience. It's been a national natural monument since 1923.</p>
+<h3>Getting there</h3>
+<p>It's about 20 minutes' walk from Morioka Station, or a short bus ride. [[morioka-castle-ruins-park]] is a few minutes away, and its cherries flower at the same time.</p>
+`,
+
+'morioka-castle-ruins-park': `
+<h3>When to go</h3>
+<p>The cherries usually peak in mid to late April, and the trees are lit up in the evening in season. The park is free.</p>
+<h3>The park</h3>
+<p>Morioka Castle had no keep left after the Meiji era, but its massive granite walls still stand in the middle of the city, among the finest in Tohoku. About 250 cherry trees of several kinds grow above them, so the pink blossom sits over grey stone. The poet Ishikawa Takuboku, who went to school here, wrote about lying on the castle grass, and a monument to him stands in the park.</p>
+<h3>Getting there</h3>
+<p>It's about 15 minutes' walk from Morioka Station. The [[ishiwarizakura]] is a few minutes away, and [[takamatsu-park]], in the north of the city, flowers a little later. Try Morioka's wanko soba, served in tiny bowls until you say stop.</p>
+`,
+
+'shiroishi-river-hitome-senbonzakura': `
+<h3>When to go</h3>
+<p>The cherries usually peak in early to mid April. The Shibata Cherry Festival runs from late March to mid April, with the trees lit up in the evening. Sendai's cherries open a few days later, so this is the first big cherry spot in Miyagi.</p>
+<h3>The river</h3>
+<p>About 1,200 cherry trees, planted in 1923 and 1927 by a local businessman, line some 8 km of the Shiroishi River from Ogawara to Funaoka, a thousand cherries at a glance, with the snowy Zao mountains behind. It's one of Japan's top 100 cherry spots. The JR Tohoku Line runs right beside the river, so you get a glimpse from the train too.</p>
+<h3>Getting there</h3>
+<p>Ogawara Station is a short walk from the river. Walk the bank to Funaoka, about an hour, then climb [[funaoka-castle-ruin-park]] for the view looking down on the whole line of trees. In March, the [[tsutsumi-plum-orchards]] in Ogawara flower first.</p>
+`,
+
 };
