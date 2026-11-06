@@ -100,4 +100,101 @@ module.exports = {
 <p>The garden is a 7 minute walk from Kami-Nakazato Station on the JR Keihin-Tohoku Line, or about 12 minutes from Komagome. From Komagome, [[rikugien-garden]], an Edo-period stroll garden known for its maples and weeping cherry, is a short walk the other way, so you can see both in an afternoon.</p>
 `,
 
+'hanamiyama-park': `
+<h3>Why it's special</h3>
+<p>Hanamiyama isn't a public park in the usual sense. It's a hillside of flower farms owned by the Abe family, who began opening it to visitors for free in 1959. The photographer Akiyama Shotaro called it a <em>togenkyo</em>, a hidden paradise, and the name stuck. What makes it different from a cherry park is the mix: cherries, forsythia, magnolia, quince and peach all flower in the same few weeks, so the whole hill is pink, yellow and white at once.</p>
+<h3>When to go</h3>
+<p>The best weeks are usually early to mid April. The somei-yoshino cherries peak around the first or second week of April, with other trees flowering just before and after. Weekdays are far calmer. On a sunny weekend at peak, the path up the hill can be slow.</p>
+<p>Signposted walking courses go up the hill, roughly 30, 60 and 90 minutes long. The longer ones climb higher and give the best views over the farms towards the snowy Azuma mountains.</p>
+<h3>Getting there</h3>
+<p>During the flower season, traffic around the hill is restricted and a temporary bus, the Hanamiyama-go, runs from the east exit of Fukushima Station. From the bus stop it's about a 15 minute walk. If you drive, you park at a temporary car park outside the area and take a shuttle, which has come with a 500 yen fee per person. Fukushima is about 90 minutes from Tokyo by shinkansen, so it works as a long day trip.</p>
+`,
+
+'takada-castle-ruins-park': `
+<h3>When to go</h3>
+<p>Joetsu is on the snowy Sea of Japan side, so the cherries flower later than in Tokyo, usually in the first half of April. The Takada cherry festival runs through the season. In 2026 it was the 101st, held from 3 to 19 April.</p>
+<p>Come after dark. About 3,000 paper lanterns, <em>bonbori</em>, are lit along the paths, and the rebuilt three-storey turret is lit up and reflected in the moat with the cherries around it. The light-up usually runs from about 6 pm to 9 pm, and later at peak. It's the reason Takada is counted among Japan's three great night-cherry spots, and we'd plan the trip around an evening here.</p>
+<h3>In the park</h3>
+<p>The park itself is free. The turret has a small museum inside, about 310 yen for adults, with a view over the castle grounds. Takada is also known in summer, when lotus flowers fill the outer moat, one of the biggest lotus displays in Japan, from July to August.</p>
+<h3>Getting there</h3>
+<p>Take the Hokuriku Shinkansen to Joetsumyoko, then the Echigo Tokimeki Railway a few minutes north to Takada. The park is 15 minutes on foot from Takada Station, and a shuttle bus runs at peak. Book a hotel early if you're coming for the festival weekend.</p>
+`,
+
+'okayama-korakuen': `
+<h3>When to go</h3>
+<p>Korakuen is one of Japan's three great gardens, with [[kenrokuen]] in Kanazawa and [[kairakuen-garden]] in Mito, and it's worth seeing in any season. For lotus, go in July. On one early July morning each year, the Kanrensetsu, the garden opens at 4 am so you can watch the flowers open at dawn. In 2026 it was on 5 July. Later in summer, the garden opens at night for the Summer Fantasy Garden illumination, usually in August.</p>
+<p>In spring, the garden's plum grove and cherry grove make it a good stop from February to early April, and the maples turn in November.</p>
+<h3>Practical details</h3>
+<p>Entry is 500 yen for adults, and high school students and younger go free. The garden opens at 7:30 am from late March to September and at 8 am the rest of the year, closing at 6 pm in summer and 5 pm in winter. The garden was finished in 1700 for the lord of Okayama, and its open lawns, tea houses and ponds take about an hour to walk round.</p>
+<h3>Getting there</h3>
+<p>From Okayama Station, take the tram to Shiroshita, then walk about 10 minutes across the river. Okayama Castle, the black "crow castle", stands right on the other bank, so you can see both in one morning.</p>
+`,
+
+'ritsurin-garden': `
+<h3>When to go</h3>
+<p>Ritsurin is one of the finest daimyo gardens in Japan, with six ponds and 13 small hills set against Mount Shiun. The plum groves flower first, usually in February, with a plum festival early in the month. About 300 cherry trees follow from late March to early April.</p>
+<p>For cherries, aim for the spring light-up. In 2026 it ran for about ten days around the end of March and start of April, from 6 pm to 9 pm, at the normal entry price. The garden opens at night again in late autumn for the maples, from 20 to 29 November in 2026.</p>
+<h3>What to do there</h3>
+<p>Give it at least 90 minutes. The garden's views were laid out to be seen on foot, and the most famous one, from Engetsu-kyo bridge over the South Pond, is worth walking to. You can stop for matcha at the Kikugetsu-tei tea house, which looks out over the water. During the light-ups, traditional boats take visitors round the North Pond. They need booking in advance.</p>
+<p>Entry is 500 yen for adults and 170 yen for junior high school students and younger.</p>
+<h3>Getting there</h3>
+<p>The garden is in Takamatsu, three minutes on foot from Ritsurin-koen Kitaguchi Station on the JR Kotoku Line, or a short walk from Ritsurin-koen Station on the Kotoden. Takamatsu is also where the ferries leave for the art islands of Naoshima and Teshima, so it's easy to fit in on a trip there.</p>
+`,
+
+'nabana-no-sato': `
+<h3>When to go</h3>
+<p>Most people come for the winter illumination, one of the biggest in Japan. The 2026 to 2027 season runs from 17 October 2026 to 31 May 2027, with the park closed on 6 and 7 January. The lights come on around sunset. The main display changes its theme every year, and the tunnel of light, about 200 m long, is the highlight we'd plan around.</p>
+<p>Go on a weekday if you can, and arrive before dark so you see the lights come on. Weekends and the Christmas season are the busiest.</p>
+<h3>Tickets</h3>
+<p>The entry price changes through the season. For the first weeks of the 2026 illumination it was about 2,700 yen at the gate, rising to about 3,200 yen from late November. Tickets bought in advance at convenience stores are a little cheaper. Entry includes the Begonia Garden, a big greenhouse where begonias flower all year.</p>
+<h3>Getting there</h3>
+<p>Nabana no Sato is on Nagashima, between Nagoya and Kuwana. Buses run from Nagashima Station, and during the illumination there are direct buses from the Meitetsu Bus Center in Nagoya. Parking is free and large, but the roads back towards Nagoya jam on busy evenings. Nagashima Spa Land and the Jazz Dream Nagashima outlet mall are next door, so it's easy to make a full day of it.</p>
+`,
+
+'byodo-in-temple': `
+<h3>When to go</h3>
+<p>The wisteria usually flowers from mid April to the start of May. The trellis by the pond is at its best for about a week, when the clusters hang longest, and the temple cuts them back soon after the Golden Week holidays. Come at opening time on a weekday. Uji fills up quickly on spring weekends, and the best view of the wisteria and the Phoenix Hall together is from a small stretch of path.</p>
+<h3>Seeing the Phoenix Hall</h3>
+<p>The Phoenix Hall was built in 1053, and it's one of the oldest wooden buildings in the Kyoto area. Your entry ticket covers the garden and the Hoshokan museum, where the original bronze phoenixes from the roof and the carved figures of bodhisattvas on clouds are on show. Going inside the hall itself costs a little extra. Tickets for timed groups are sold in the garden from 9:10 am on the day, and on busy days they sell out early, so get one as soon as you arrive.</p>
+<h3>Around Uji</h3>
+<p>Uji is famous for green tea, and the street from the station to the temple is lined with tea shops selling matcha sweets and ice cream. Across the river, Ujigami Shrine is another World Heritage site, with a main hall from the 11th century. In June, [[mimuroto-ji-temple]] in the hills behind Uji has one of the best hydrangea gardens in Kansai. Uji is about 20 to 30 minutes from Kyoto Station on the JR Nara Line.</p>
+`,
+
+'hamarikyu-gardens': `
+<h3>When to go</h3>
+<p>The rapeseed field is usually at its best from late February to mid March, when its yellow flowers stand out against the glass towers of Shiodome. The plum trees flower around the same time or a little before, so a visit in late February often catches both. In spring the garden also has cherries, and in summer and autumn it's one of the calmest places to sit in central Tokyo.</p>
+<h3>The garden</h3>
+<p>Hamarikyu was a garden of the Tokugawa shoguns, and it was used for duck hunting. Its big pond is fed by seawater from Tokyo Bay, and the water level rises and falls with the tide. On the island in the pond, the Nakajima teahouse serves matcha and a Japanese sweet with a view over the water. We think it's one of the best-placed tea stops in the city. Entry to the garden is 300 yen.</p>
+<h3>Getting there</h3>
+<p>Walk 7 minutes from Shiodome or Tsukijishijo Station, so a visit combines well with breakfast at Tsukiji Outer Market. Or arrive by water: a water bus runs between Asakusa and the garden's own pier, about 35 minutes along the Sumida River. Check whether your water bus ticket includes garden entry, as this has varied.</p>
+`,
+
+'odawara-castle-park': `
+<h3>When to go</h3>
+<p>The Gyokan no Fuji wisteria usually flowers from mid to late April, with clusters more than a metre long. It's free to see and stands in the castle grounds below the keep. Come on a weekday morning, when it's quiet enough to take photos without a crowd under the trellis.</p>
+<p>The castle has a second flower season in late March and early April, when about 300 cherry trees flower around the moats and the keep is lit up in the evening.</p>
+<h3>The castle</h3>
+<p>The keep was rebuilt in 1960 and is a museum inside, with a small entry fee and a view from the top over Sagami Bay. It was the seat of the Hojo clan, who held much of eastern Japan until 1590.</p>
+<h3>Getting there and nearby</h3>
+<p>The castle is 10 minutes on foot from Odawara Station, about 35 minutes from Tokyo by shinkansen or about 75 minutes from Shinjuku on the Odakyu Romancecar. There's no car park for the castle, so take the train. Odawara is also the gateway to Hakone. The [[hakone-tozan-railway]], famous for its hydrangeas in June, starts nearby, and in February the [[soga-plum-groves]] just outside the city are one of the biggest plum displays near Tokyo.</p>
+`,
+
+'awaji-island-national-government-park': `
+<h3>When to go</h3>
+<p>The tulips are usually at their best in early April. In 2025 the park planted about 168,000 tulips of 100 kinds, flowering from mid March to mid April. The beds slope down a hillside with Osaka Bay behind, so a sunny morning gives the best colour.</p>
+<h3>Tickets</h3>
+<p>There's a small entry fee for adults, and children of junior high school age and younger go free. Check the official site before you go, because the fee and any free days change from year to year.</p>
+<h3>Make a day of it</h3>
+<p>The park is right next to Awaji Yumebutai, a complex designed by the architect Tadao Ando, with the Hyakudanen, a hillside of 100 stepped square flower beds. It's free to walk round and well worth an hour. On the way, the Akashi Kaikyo Bridge, one of the longest suspension bridges in the world, takes you over to the island.</p>
+<p>Highway buses from Sannomiya in Kobe stop at Awaji Yumebutai in about an hour. With a car, you could add [[awaji-hanasajiki]], a free hilltop flower park elsewhere in the north of the island.</p>
+`,
+
+'yokohama-park': `
+<h3>When to go</h3>
+<p>The tulips usually peak from early to mid April. About 100,000 tulips of some 70 kinds are planted in the beds around Yokohama Stadium, and they're part of the Garden Necklace Yokohama festival, which runs across the city in spring. It's free and open all day, and right next to Kannai Station, so it's one of the easiest flower stops in the Tokyo area.</p>
+<p>Weekday mornings are best for photos. On weekends, and on evenings when the Yokohama DeNA BayStars are playing at home, the park gets busy.</p>
+<h3>Walk to the waterfront</h3>
+<p>Yokohama Park makes a good start to a walk through the city. Chinatown is about 5 minutes away. Head towards the sea along Nihon-odori, which also has tulip beds in spring, and you reach [[yamashita-park]], where the rose garden flowers in May. Up the hill, [[minato-no-mieru-oka-park]] has another rose garden and a view over the harbour. For a bigger garden, [[yokohama-english-garden]] is best known for its roses.</p>
+`,
+
 };
