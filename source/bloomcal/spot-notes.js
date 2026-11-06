@@ -496,7 +496,7 @@ module.exports = {
 'suizenji-jojuen': `
 <h3>When to go</h3>
 <p>The cherries are usually at their best from late March to early April. In 2026 the Suizenji Jojuen festival was held on 28 and 29 March. The garden is lovely at any time of year, though, because it's built around a pond fed by clear spring water from the Aso volcano, which stays at the same temperature all year.</p>
-<p>It's open from 8:30 am to 5 pm, with last entry at 4:30. Adults pay 400 yen, and children from primary school age to 15 pay 200 yen.</p>
+<p>It's open from 8:30 am to 5 pm, with last entry at 4:30. Adults pay 400 yen, and children from primary school age to 15 pay 200 yen. A magnitude 7.1 earthquake struck the Kumamoto area on 28 July 2026, so check that the garden is open and its spring is flowing before you go (096-383-0074).</p>
 <h3>The garden</h3>
 <p>The Hosokawa lords of Kumamoto laid out the garden from the 1630s, and it's a classic stroll garden: you walk round the pond, and the scenery changes as you go. The grass hill shaped like Mount Fuji is the best-known view. Inside the grounds stands Izumi Shrine, dedicated to the Hosokawa lords, and the Kokin Denju no Ma, an old teahouse moved here from Kyoto, where you can have matcha and a sweet looking out over the pond.</p>
 <h3>Getting there</h3>
@@ -1227,7 +1227,7 @@ module.exports = {
 <h3>The tree</h3>
 <p>The tree is said to be over 770 years old and has been a national natural monument since 1934. Its single trunk, about 2.75 m round, splits into three limbs about 3.5 m up. It stands beside a small Kannon hall in the farmland of Kosa. It's one of only five kinmokusei in Japan with national monument status, and the only one in Kyushu.</p>
 <h3>Getting there</h3>
-<p>You'll need a car. Kosa is about 40 minutes south of Kumamoto city. On the way, [[suizenji-jojuen]] in Kumamoto is one of the finest gardens in Kyushu.</p>
+<p>You'll need a car. Kosa is about 40 minutes south of Kumamoto city, in the area hit by the magnitude 7.1 earthquake of 28 July 2026, so check local road conditions before you set out. On the way, [[suizenji-jojuen]] in Kumamoto is one of the finest gardens in Kyushu.</p>
 `,
 
 'oshimori-ji-temple-kinmokusei': `
@@ -1772,6 +1772,360 @@ module.exports = {
 <p>About 8,000 kochia cover a field near the summit, at about 630 m, with Lake Biwa spread out below. The gondola ride up takes about 8 minutes, and in 2026 a combined gondola and entry ticket cost 2,800 yen for adults and 1,400 yen for children. Pets are allowed for an extra fee. In autumn, migrating Asagimadara butterflies stop off on the mountain.</p>
 <h3>Getting there</h3>
 <p>The gondola base is in Takashima, on the northwest shore of Lake Biwa, about an hour from Kyoto by car. By train, take the JR Kosei Line to Omi-Imazu, then a bus or taxi. For more autumn colour nearby, the [[metasequoia-avenue]] in Makino turns orange in late November.</p>
+`,
+
+'rikugien-garden': `
+<h3>When to go</h3>
+<p>The maples usually peak from late November to mid December, among the latest in Tokyo. The garden's autumn night viewing runs from 25 November to 6 December in 2026, from 6 to 8:30 pm with last entry at 7:30. Night tickets cost 1,000 yen in advance or 1,200 yen on the day, and last year you had to buy them ahead, so check the garden's website for when sales open. During the day, entry is 300 yen.</p>
+<h3>The garden</h3>
+<p>Rikugien is a daimyo stroll garden laid out in the early 1700s by Yanagisawa Yoshiyasu, a senior official of the shogun, with scenes from famous Japanese poems around its pond. About 560 maples, ginkgo and enkianthus turn around the water. At night the lit trees reflect in the pond, and in 2026 there are food stalls and a matcha set by the storehouse.</p>
+<h3>Getting there</h3>
+<p>It's 7 minutes' walk from Komagome Station on the JR Yamanote and Namboku lines. The night viewing gets busy, so arrive early in the evening. In spring, the garden's famous weeping cherry is lit up too. For questions, call the garden service centre on 03-3941-2222.</p>
+`,
+
+'mount-takao': `
+<h3>When to go</h3>
+<p>The leaves usually peak from mid November to early December, starting at the top and working down. The Takao Momiji Festival runs from 24 October to 13 December in 2026, and it's free. From 1 November, the maples along the cable car line are lit up in the evenings, with a night view over the Kanto plain from the top.</p>
+<h3>Beat the crowds</h3>
+<p>Takao is one of the most climbed mountains in the world, and late November is its busiest season. On weekends the queue for the cable car can be very long. Go on a weekday, arrive by 8 am, or walk up instead: Trail 1, the paved main path, takes about 90 minutes to the top, and Trail 6, along a stream, is quieter.</p>
+<h3>On the mountain</h3>
+<p>The cable car and the chairlift run up the lower half. The best maples are around the cable car line, by Yakuo-in temple near the top, and on the summit, where on a clear day you can see Mount Fuji. Try the grilled dango and the tororo soba at the foot of the mountain afterwards. Takaosanguchi Station on the Keio Line is about an hour from Shinjuku.</p>
+`,
+
+'engakuji-temple': `
+<h3>When to go</h3>
+<p>The maples usually turn from mid or late November to early December. The trees near the Senbutsujo hall colour first, and the maples deeper in, around Myoko Pond, follow. There are no light-ups. Entry is 500 yen for adults and 200 yen for children.</p>
+<h3>The temple</h3>
+<p>Engaku-ji is one of the five great Zen temples of Kamakura, founded in 1282. Walk up past the big Sanmon gate to the Kojirin hall and Myoko Pond, a garden pond that dates from the founding of the temple, where the maples reflect in the water. The ginkgos along the approach inside the main gate turn gold at the same time.</p>
+<h3>Getting there</h3>
+<p>It's a minute from Kita-Kamakura Station on the JR Yokosuka Line, so come early, before the crowds from Tokyo arrive. From here, walk south past Kencho-ji to [[tsurugaoka-hachimangu-ginkgo|Tsurugaoka Hachimangu]], about 30 minutes, for a full autumn day in Kamakura. For questions, call the temple on 0467-22-0478.</p>
+`,
+
+'nanzen-ji-temple': `
+<h3>When to go</h3>
+<p>The maples usually peak from mid to late November, though 2026 is forecast to be later than usual in Kyoto. The temple grounds are free and open all day, so you can come early in the morning, before the crowds.</p>
+<h3>What to see</h3>
+<p>The great Sanmon gate is the centre of it. Climb to its upper floor for the view over the maples to the Kyoto hills; in recent years it's cost 600 yen for adults. The Hojo garden is a separate ticket. Behind the main hall, the brick arches of the Suirokaku, an aqueduct from the 1880s that still carries water from Lake Biwa, are framed by maples.</p>
+<p>Tenju-an, a subtemple next to the Sanmon, has one of the best small maple gardens in Kyoto, 500 yen for adults.</p>
+<h3>Getting there</h3>
+<p>It's 10 minutes' walk from Keage Station on the Tozai subway line. From Nanzen-ji, walk the Philosopher's Path north towards Ginkaku-ji, or head to [[eikando-temple]], famous for its maples, just to the north.</p>
+`,
+
+'yasukuni-shrine-ginkgo': `
+<h3>When to go</h3>
+<p>The ginkgos usually turn gold from late November into early December. The shrine is free and open all day, and the trees look their best in morning light along the approach.</p>
+<h3>The approach</h3>
+<p>Rows of big ginkgos line the long main approach from Kudanshita to the inner gate, under the giant torii, one of the largest in Japan. When the leaves fall, the broad path turns gold. The shrine is a sensitive place for many people because of its war history, so be respectful in the grounds.</p>
+<h3>Nearby</h3>
+<p>It's 5 minutes from Kudanshita Station. [[kitanomaru-park-kinmokusei|Kitanomaru Park]] and the [[chidorigafuchi]] moat walk are just across the road, with autumn colour along the palace moat at the same time. In spring, the shrine is home to the trees the Japan Meteorological Agency uses to declare Tokyo's cherry season, see [[yasukuni-shrine]].</p>
+`,
+
+'shinjuku-gyoen-ginkgo': `
+<h3>When to go</h3>
+<p>The ginkgos usually turn gold from mid November, and the maples peak from late November into early December, so late November gives you both. Entry has been 500 yen for adults and 250 yen for over-65s and students, and junior high age and under get in free. The garden is usually closed on Mondays, though it opens every day during the busiest seasons, so check the calendar.</p>
+<h3>Where to look</h3>
+<p>Great old ginkgos stand around the open lawns of the English landscape garden, and the biggest ones, near the Shinjuku gate, are a classic sight. The maples are best by the ponds in the Japanese garden. Early in November, the garden also holds its chrysanthemum show, see [[shinjuku-gyoen-november]].</p>
+<h3>Getting there</h3>
+<p>The Shinjuku-gyoemmae Station gate is 5 minutes from the Marunouchi Line, and the Shinjuku gate is about 10 minutes from JR Shinjuku Station. Alcohol isn't allowed in the garden. For questions, call the service centre on 03-3350-0151.</p>
+`,
+
+'osaka-castle-park-ginkgo': `
+<h3>When to go</h3>
+<p>The ginkgos usually turn from late November into early December. In 2026, Osaka's autumn is forecast to be warmer than usual, so the leaves may be a little late. The park is free and open all day.</p>
+<h3>Where to look</h3>
+<p>Ginkgos ring the castle's moats and stone walls, and the best views put the gold leaves in front of the white and green castle keep. The castle tower is a modern museum inside, and entry costs 1,200 yen for adults.</p>
+<h3>Getting there</h3>
+<p>It's about 10 minutes' walk from Morinomiya or Osakajokoen stations on the JR Osaka Loop Line. For Osaka's other big ginkgo walk, see [[midosuji-ginkgo-avenue]]. In February, the park's [[osaka-castle-plum-grove|plum grove]] is one of the best in the city.</p>
+`,
+
+'hibiya-park-kubikake-ginkgo': `
+<h3>When to go</h3>
+<p>The tree usually turns gold from late November into early December. It's free and the park is open all day.</p>
+<h3>The story</h3>
+<p>When Hibiya Park was being built in the early 1900s, this old ginkgo stood in the way of a road widening and was going to be cut down. The park's designer, Honda Seiroku, said he'd stake his neck on moving it and keeping it alive, and he did, which is why it's called the neck-wager ginkgo. It's said to be about 400 years old, and it stands next to the Matsumotoro restaurant, which has been in the park since 1903.</p>
+<h3>Nearby</h3>
+<p>It's 2 minutes from Hibiya Station. The [[gyoko-dori-ginkgo-avenue]] in Marunouchi turns gold at the same time, about 15 minutes' walk north. In October, the park smells of [[hibiya-park-kinmokusei|fragrant olive]].</p>
+`,
+
+'zenpuku-ji-temple-upside-down-ginkgo': `
+<h3>When to go</h3>
+<p>The tree usually turns gold from late November into early December. It's free.</p>
+<h3>The tree</h3>
+<p>The Sakasa Icho, the upside-down ginkgo, is the largest ginkgo in Tokyo and a national natural monument. Its branches droop down like roots, which gave it its name. Legend says it grew from a staff that the monk Shinran stuck into the ground here. It stands in the grounds of Zenpuku-ji, said to be the second-oldest temple in Tokyo after Sensoji. Fukuzawa Yukichi, the founder of Keio University, whose face was on the 10,000 yen note, is buried here.</p>
+<h3>Getting there</h3>
+<p>It's about 10 minutes' walk from Azabu-juban Station on the Namboku and Oedo lines, up a quiet back street of Azabu. Azabu-juban's shopping street makes a good stop for lunch.</p>
+`,
+
+'nishi-hongan-ji-water-spouting-ginkgo': `
+<h3>When to go</h3>
+<p>The tree usually turns gold from late November into early December. Nishi Hongan-ji is free to visit, and it opens early in the morning, so you can see the tree before the crowds.</p>
+<h3>The tree</h3>
+<p>The huge ginkgo in front of the Founder's Hall spreads its heavy branches sideways rather than up, which is why it's also called the upside-down ginkgo. Legend says it sprayed water to protect the hall in the Great Fire of 1788, giving it its other name, the water-spouting ginkgo. It's a Kyoto city natural monument.</p>
+<h3>The temple</h3>
+<p>Nishi Hongan-ji is the head temple of the Jodo Shinshu Hongwanji school and a World Heritage site, with two of the largest wooden halls in Kyoto. It's 15 minutes' walk from Kyoto Station, so it's an easy first or last stop on a Kyoto trip. For maples, [[tofuku-ji-temple]] is one stop south of Kyoto Station.</p>
+`,
+
+'kumamoto-castle-ginkgo': `
+<h3>When to go</h3>
+<p>The ginkgos usually turn from late November into early December. The castle is open from 9 am, and entry to the keep area has been 800 yen for high school age and up and 300 yen for primary and junior high school children.</p>
+<h3>After the 2026 earthquake</h3>
+<p>A magnitude 7.1 earthquake struck the Kumamoto area on 28 July 2026, and the castle's stone walls collapsed in about 40 places. The castle closed, then reopened on 13 August with the keep and the raised special viewing walkway open again. From the walkway you can see the damaged walls and the repair work, which is a sobering sight after the long rebuild from the 2016 earthquake. Check the castle's website for what's open before you go.</p>
+<h3>Ginkgo Castle</h3>
+<p>Kumamoto Castle is nicknamed Ginnan-jo, Ginkgo Castle, after the tree that its builder, Kato Kiyomasa, planted in the main bailey. The great ginkgo there today grew back from the roots of that tree after the castle burned in 1877. It's 3 minutes from the Kumamotojo-Shiyakusho-mae tram stop. Visitor numbers fell by about half in the weeks after it reopened, so local businesses are glad of every visitor.</p>
+`,
+
+'negoro-ji-temple-momijidani': `
+<h3>When to go</h3>
+<p>The maples usually peak from mid November into early December, one of the later autumn spots in Kansai. The Kishu Negoro-ji Kakuban Festival is held in late November, in time with the leaves. Entry has been 500 yen for adults.</p>
+<h3>The valley</h3>
+<p>Negoro-ji is the head temple of the Shingi Shingon school, founded by the monk Kakuban in the 12th century, and its Daito pagoda is the largest wooden tahoto pagoda in Japan and a national treasure. The maple valley, the Momijidani, is a walking path through the temple grounds, and it's best seen from the Momijidani Park path. For details, call Iwade City's industry section on 0736-63-5840.</p>
+<h3>Getting there</h3>
+<p>Negoro-ji is in Iwade, in the north of Wakayama Prefecture, close to Kansai Airport. Buses run from JR Iwade Station, or it's easy by car. It's a good last stop before a flight from Kansai.</p>
+`,
+
+'tanzan-shrine': `
+<h3>When to go</h3>
+<p>The maples usually peak from mid November to early December. In 2025 the shrine held its autumn leaf festival from 1 October to 7 December and lit up the trees from 14 November to 7 December, from sunset to 8:30 pm. Entry is 600 yen for adults and 300 yen for primary school children.</p>
+<h3>The shrine</h3>
+<p>Tanzan Shrine sits in the mountains of Tonomine, above Sakurai. It's dedicated to Fujiwara no Kamatari, who plotted the Taika coup of 645 here with the future Emperor Tenji. About 3,000 maples surround the shrine and its thirteen-storey pagoda, rebuilt in 1532, the only wooden one of its kind still standing. The red pagoda among red maples is the photo everyone comes for.</p>
+<h3>Getting there</h3>
+<p>Take the community bus from Sakurai Station (JR and Kintetsu) to Tanzan Jinja, about 25 minutes, then walk 5 minutes. Buses are infrequent, so check the return times. For questions, call the shrine on 0744-49-0001.</p>
+`,
+
+'metasequoia-avenue': `
+<h3>When to go</h3>
+<p>The trees usually turn from late November to early December, a rich russet orange. The avenue is free and open all day. Go early in the morning, before the traffic and the tour buses, when the low sun lights up the trees.</p>
+<h3>The avenue</h3>
+<p>About 500 metasequoias line a 2.4 km country road near Makino Kogen, in the north of Takashima on Lake Biwa. It's a working road, so please don't stand in the middle of it for photos, and don't park on the verge. Use the free car park at Makino Pickland, which holds about 230 cars. The avenue is lovely in every season: fresh green in spring and snow in winter.</p>
+<h3>Getting there</h3>
+<p>Take the Makino Kogen bus from Makino Station on the JR Kosei Line to Makino Pickland. With a car, combine it with [[biwako-hakodateyama]] on the same side of the lake. For questions, call the Biwako Takashima tourist association on 0740-33-7101.</p>
+`,
+
+'ishiyama-dera-temple': `
+<h3>When to go</h3>
+<p>The maples usually peak from mid November to early December. In 2025 the temple held its autumn evening opening, Atara Yo Momiji, from 14 to 30 November, from 5:30 to 9 pm, for 800 yen for adults. Daytime entry is 600 yen. Check the temple's website for this year's evening dates.</p>
+<h3>The temple</h3>
+<p>Ishiyama-dera stands on huge outcrops of wollastonite rock above the Seta River, which gave the temple its name, Stone Mountain Temple. Murasaki Shikibu is said to have begun writing <em>The Tale of Genji</em> here, looking at the moon over the lake, and there's a room in the main hall said to be where she wrote. The maples around the rocks and the old pagoda are lit up in the evening opening.</p>
+<h3>Getting there</h3>
+<p>It's 10 minutes' walk from Ishiyamadera Station on the Keihan Ishiyama-Sakamoto Line, or a bus from JR Ishiyama Station. Kyoto is about 20 minutes away by train, so it's an easy half day.</p>
+`,
+
+'yoro-valley': `
+<h3>When to go</h3>
+<p>The leaves usually peak from late November into early December, among the last near Tokyo. The Yoro Valley Momiji Festival is held then; in 2025 it ran from 29 November to 7 December, with spots such as the Kengaikyo cliffs and the Kiraku-ri mountain station lit up in the evenings. Check this year's dates with the Otaki tourist association on 0470-80-1146.</p>
+<h3>Where to go</h3>
+<p>The Awamata Falls are the centrepiece, a 30 m drop and 100 m long, spreading over a wide rock slope, with a walking path below them. Part of the waterfall trail has been closed in recent years, so check what's open. The Kannon bridge in Ichihara and the Tsutsumori Momiji Valley are other good spots. The whole valley is free.</p>
+<h3>Getting there</h3>
+<p>You'll want a car to see more than one spot. Yoro Valley is in the hills of the Boso Peninsula, about 90 minutes from central Tokyo. The local Kominato Railway and Isumi Railway reach the area, but check for service changes before you go.</p>
+`,
+
+'oguni-shrine': `
+<h3>When to go</h3>
+<p>The maples usually peak from late November into early December. In 2025 the shrine's maple festival ran from 22 November to 7 December, with an evening light-up for about two weeks, concerts and a tea ceremony. At weekends it's busiest from 10 am to 2 pm, so come early.</p>
+<h3>The shrine</h3>
+<p>Oguni Shrine is the ichinomiya, the chief shrine, of old Totomi Province, in the forest of Mori in western Shizuoka. Tokugawa Ieyasu prayed here for victory, and the shrine is known as a place to pray for wishes to come true. About 1,000 maples line the Miya River beside the shrine, and the red leaves over the clear stream are the view to see.</p>
+<h3>Getting there</h3>
+<p>It's about 10 minutes by taxi from Ensyu-Mori Station on the Tenryu Hamanako Railway. For this year's festival dates, call the shrine on 0538-89-7302.</p>
+`,
+
+'keio-university-hiyoshi-ginkgo-avenue': `
+<h3>When to go</h3>
+<p>The ginkgos usually turn from late November into early December. The campus is open to visitors and free, and the avenue is right across from the station, so it's easy to fit in.</p>
+<h3>The avenue</h3>
+<p>A long, straight ginkgo avenue climbs gently from the gate opposite Hiyoshi Station into Keio University's Hiyoshi campus, and when the leaves change it becomes a golden tunnel. It's a working campus, so be quiet and don't block the way for students. The fallen leaves smell strongly of ginkgo nuts, so watch where you step.</p>
+<h3>Getting there</h3>
+<p>Hiyoshi Station on the Tokyu Toyoko Line is a minute away, about 15 minutes from Shibuya or Yokohama. For more ginkgos in Yokohama the same week, see [[nihon-odori-ginkgo-avenue]] and [[yamashita-koen-dori-ginkgo-avenue]].</p>
+`,
+
+'yamashita-koen-dori-ginkgo-avenue': `
+<h3>When to go</h3>
+<p>The ginkgos usually turn from late November into early December, and they're often at their best in the first days of December. The avenue is free and open all day.</p>
+<h3>The avenue</h3>
+<p>Yamashita-koen-dori runs along Yokohama's waterfront beside [[yamashita-park]], and its ginkgos hang over the road in a thick yellow canopy. On one side is the harbour, with the old ocean liner Hikawa Maru moored as a museum, and on the other the Hotel New Grand, from 1927, one of the classic hotels of Japan.</p>
+<h3>A Yokohama ginkgo walk</h3>
+<p>Combine it with [[nihon-odori-ginkgo-avenue]] and [[yokohama-park]] for a flat loop of about 2 km, with Chinatown a few minutes away for lunch. It's 3 minutes from Motomachi-Chukagai Station on the Minatomirai Line. Up the hill, [[minato-no-mieru-oka-park]] looks out over the harbour.</p>
+`,
+
+'sobue-ginkgo-villages': `
+<h3>When to go</h3>
+<p>The ginkgos usually turn from late November into early December. The Sobue Ginkgo Festival is held in late November; in 2025 it was the 28th, from 22 to 30 November, with the trees at Sobue Ginnan Park and Yusen-ji temple lit up from 5 to 8 pm. It's free.</p>
+<h3>The villages</h3>
+<p>Sobue is Japan's biggest ginkgo nut growing area. Around 10,000 ginkgos stand around the farmhouses, shrines and temples, first planted as windbreaks against the cold winter winds off the mountains. In late autumn the whole district turns yellow, and the smell of ginkgo nuts is everywhere. Look for roasted ginkgo nuts and ginkgo sweets at the festival stalls.</p>
+<h3>Getting there</h3>
+<p>Yamazaki Station on the Meitetsu Bisai Line is 5 minutes from the festival area, about 40 minutes from Nagoya. For this year's dates, call the Sobue chamber of commerce on 0587-97-5800.</p>
+`,
+
+'sakurayama-park-winter-cherries': `
+<h3>When to go</h3>
+<p>The winter cherries usually flower from mid November into early December, at the same time as the maples, so you see pink blossom and red leaves together. The Sakurayama Festival, to celebrate full bloom, is held on a Sunday in early December; in 2025 it was on 7 December. In 2025 the trees were lit up on Saturdays, Sundays and holidays from 1 November to 7 December, from 4 to 8:30 pm, with last entry at 8. There's no light-up on weekdays.</p>
+<h3>The park</h3>
+<p>About 7,000 fuyuzakura cover the hillsides, a cherry that flowers lightly in late autumn and again in spring. The mix of cherries and autumn leaves is so unusual that the park is a national Place of Scenic Beauty and Natural Monument. It's free, though parking is charged, and during the light-up a contribution is asked instead.</p>
+<h3>Getting there</h3>
+<p>It's in Onishi, part of Fujioka in southwest Gunma, about 40 minutes by car from the Honjo-Kodama interchange on the Kan-Etsu Expressway. By public transport, a bus from Honjo Station takes about 40 minutes to Onishi Post Office, then it's 15 minutes by taxi. Across the valley in Saitama, [[jomine-park-winter-cherries]] has more winter cherries. For questions, call the Onishi office on 0274-52-3111.</p>
+`,
+
+'jomine-park-winter-cherries': `
+<h3>When to go</h3>
+<p>The winter cherries flower from late October to early December, with the autumn leaves turning alongside them from mid November. The Winter Cherry Festival is held on the last Sunday of October, from 10 am to 3 pm, with stage events and stalls selling grilled sweetfish and local produce. The trees are lit up during the season, and the park stays open until 8 pm then.</p>
+<h3>Getting there</h3>
+<p>On Saturdays, Sundays and holidays in the season, the roads around the park are one-way, so follow the signs. Parking inside the park is limited, so arrive early. It's in Kamikawa, in the hills of northwest Saitama, and a car is much the easiest way to get there.</p>
+<h3>The park</h3>
+<p>About 600 winter cherries grow on the hillside, also called jugatsuzakura, October cherries, because they start flowering in October and flower again in spring. Combine it with [[sakurayama-park-winter-cherries]], across the valley in Gunma, which has thousands more.</p>
+`,
+
+'nada-kuroiwa-narcissus-field': `
+<h3>When to go</h3>
+<p>The narcissus field opens from late December to late February, from 9 am to 5 pm. The flowers are usually at their best in January, but it changes from year to year, so check how far they've come before you go. Entry has been 500 yen for adults and 300 yen for primary and junior high school children.</p>
+<h3>The field</h3>
+<p>About five million wild narcissus cover some seven hectares of steep slope above the sea, one of Japan's three great narcissus spots. The slope faces south across the water to the island of Nushima, and the scent of the flowers carries all the way down. The path is steep, so wear good shoes.</p>
+<h3>Getting there</h3>
+<p>It's at the southern tip of Awaji Island. Buses run from Maiko Station on the JR Kobe Line, over the Akashi Kaikyo Bridge, to the Suisenkyo stop, but check the timetable, because services are few. A car is easier. In spring, Awaji has much more: see [[awaji-hanasajiki]] and [[awaji-island-national-government-park]].</p>
+`,
+
+'echizen-coast-narcissus': `
+<h3>When to go</h3>
+<p>The narcissus flower from late December to February, with early January to February usually the best. The Echizen Narcissus Festival is held along the coast from mid December into January; the 2023 to 2024 festival ran from 16 December to 22 January. Check this year's dates with Echizen town.</p>
+<h3>The coast</h3>
+<p>Wild Japanese narcissus cover the cliffs above the Sea of Japan along the Echizen coast, with about 60 hectares grown along the shore. It's one of the three great narcissus spots in Japan, and the narcissus is Fukui's prefectural flower. The Echizen-misaki narcissus field is free. Echizen-misaki Suisen Land is open from 9 am to 4 pm in winter and closed on Thursdays.</p>
+<p>The Sea of Japan in winter is wild, with big waves and snow showers, and the flowers bending in the wind are part of the scene. Winter is also crab season on this coast, so have Echizen crab for lunch.</p>
+<h3>Getting there</h3>
+<p>Take a Keifuku bus from Fukui Station, on the Hokuriku Shinkansen, to Echizen Suisen no Sato Park. A car is easier for exploring the coast.</p>
+`,
+
+'tsumekizaki-narcissus': `
+<h3>When to go</h3>
+<p>The Shimoda Onsen Narcissus Festival runs from 20 December to 31 January every year, and the 2026 to 2027 festival follows the same dates. The flowers are usually at their best from late December to late January. Entry is free. Parking is charged per day, around 500 to 800 yen depending on the source.</p>
+<h3>The cape</h3>
+<p>More than three million narcissus cover some 10 hectares of coastal terraces at Cape Tsumeki, looking out over the Pacific to the Izu islands. A path runs from the car park through the flowers to the white lighthouse on the point. Look for the Tawara-iso rocks below the lighthouse, columns of volcanic rock that look like stacked straw bales.</p>
+<h3>Getting there</h3>
+<p>Buses run from Izukyu-Shimoda Station in about 15 minutes. In December and January, the [[izu-shirahama-aloe-fields]] on the other side of Shimoda flower at the same time, so you can see both in a day. For questions, call the Shimoda tourist association on 0558-22-1531.</p>
+`,
+
+'edzuki-narcissus-road': `
+<h3>When to go</h3>
+<p>The narcissus festival usually runs from early December to the end of January; the 2025 to 2026 festival ran from 6 or 7 December to 1 February. The flowers are usually at their best in late December and January.</p>
+<h3>The road</h3>
+<p>The Edzuki narcissus road is a narrow country road through the hills of Kyonan, in southern Boso, lined with tall, scented narcissus. During the festival, farmers sell vegetables and cut narcissus along the road. In February, after the narcissus, the early Yoritomo cherries flower nearby.</p>
+<h3>Getting there</h3>
+<p>You'll want a car. It's near Hota Station on the JR Uchibo Line, and the Hota Station tourist information office (0470-55-1683) can help with directions. The road is narrow and busy on festival weekends, so go on a weekday if you can.</p>
+`,
+
+'kyodo-no-mori-museum-wintersweet': `
+<h3>When to go</h3>
+<p>The wintersweet usually flowers from mid December to late January, one of the first flowers of the new year. Then the plum festival follows: in 2026 it ran from 31 January to 8 March, with the plums at their peak from mid to late February. Entry is 300 yen for adults and 150 yen for junior high age and under.</p>
+<h3>The museum</h3>
+<p>The Kyodo no Mori is an open-air museum in Fuchu, with old houses and buildings from the area moved here and restored, set in parkland. About 130 wintersweet trees flower in the grounds, their waxy yellow flowers with a strong, sweet scent. The plum garden, with about 1,100 trees, is one of the best in western Tokyo.</p>
+<h3>Planning a visit</h3>
+<p>It's open from 9 am to 5 pm, with last entry at 4, and closed on Mondays, or the next weekday after a holiday, and over New Year. It's in Fuchu, in western Tokyo; buses run from Fuchu Station on the Keio Line. For questions, call 042-368-7921.</p>
+`,
+
+'tadao-park-wintersweet': `
+<h3>When to go</h3>
+<p>The wintersweet is usually at its best around New Year and keeps flowering through January, one of the earliest flowers of the year in the Tokyo area. It's free.</p>
+<h3>The garden</h3>
+<p>About 80 wintersweet trees grow in the robai garden of Tadao Park in Machida, western Tokyo. Wintersweet has waxy, pale yellow flowers with a sweet scent you'll notice before you see them, and on a sunny January day the garden smells wonderful. It's a quiet local park, not a tourist sight.</p>
+<h3>Nearby</h3>
+<p>Machida has more flower spots through the year: [[yakushi-ike-park]] has lotus in summer, and the [[machida-peony-garden]] is in flower in late April. For a bigger wintersweet display, try [[robai-no-sato]] in Saitama.</p>
+`,
+
+'matsuyama-sogo-park-camellia-garden': `
+<h3>When to go</h3>
+<p>The camellias flower from January to early April, with different kinds opening in turn. February and March are usually the fullest. In autumn, the park's sasanqua and winter camellias flower first.</p>
+<h3>The park</h3>
+<p>The camellia is Matsuyama's city flower, and the camellia garden in this hilltop park has about 500 kinds collected together. The park looks out over Matsuyama city and the Seto Inland Sea, and in spring it's a cherry spot too.</p>
+<h3>Getting there</h3>
+<p>The park is in the west of Matsuyama. It's easiest by car or taxi. In late March, the cherries of [[matsuyama-castle]] are in the middle of the city. For questions, call the park office on 089-923-9439.</p>
+`,
+
+'nago-central-park': `
+<h3>When to go</h3>
+<p>The cherries usually peak from late January into mid February. The Nago Cherry Blossom Festival is held on the last weekend of January every year: in 2026 it was on 31 January and 1 February, so in 2027 it's likely to be on 30 and 31 January. Check with the Nago tourist association before you go.</p>
+<h3>The park</h3>
+<p>Thousands of deep pink kanhizakura, Okinawa's own early cherry, line a 2 km walking path up to the ruins of Nago Castle on the hill above the town. They're bell-shaped and hang down, quite different from the pale cherries of the mainland. From the top there's a view over Nago and the sea. The festival is one of the first cherry festivals in Japan each year, with stalls and local performances.</p>
+<h3>Nearby</h3>
+<p>Okinawa's cherries open from north to south, so the north of the island is the place to be in late January. [[mount-yae-cherry-forest-park]] and [[nakijin-castle-ruins-cherry-blossoms]] on the Motobu Peninsula are both under 30 minutes away, and the [[haneji-paddies-cosmos]] flower in Nago at the same time.</p>
+`,
+
+'mount-yae-cherry-forest-park': `
+<h3>When to go</h3>
+<p>The cherries usually peak from mid January to early February, the first in Japan each year. The Motobu Yaedake Cherry Festival is held from mid January into early February: in 2026 it was the 48th, from 17 January to 1 February.</p>
+<h3>The mountain</h3>
+<p>About 7,000 kanhizakura line the road up Mount Yae on the Motobu Peninsula, and in Okinawa the cherries open from the top of the mountain downwards, the colder end first, so if the lower trees are still in bud, drive higher. The deep pink blossom against the green subtropical forest is something you won't see on the mainland. The road is narrow and busy at festival weekends, so drive carefully.</p>
+<h3>Nearby</h3>
+<p>Motobu is also home to the Churaumi Aquarium and the [[tropical-dream-center]], whose orchid show runs at the end of January. January to March is whale-watching season off Motobu too. For more cherries, see [[nago-central-park]] and [[nakijin-castle-ruins-cherry-blossoms]], both nearby.</p>
+`,
+
+'nakijin-castle-ruins-cherry-blossoms': `
+<h3>When to go</h3>
+<p>The cherries usually peak from late January into early February. The Nakijin Gusuku Cherry Festival runs then: in 2026 it was from 31 January to 8 February, open from 8 am to 9 pm, with the castle walls and the cherries lit up from 6:30 pm. Entry to the castle ruins has been 1,000 yen for adults and 500 yen for junior and senior high school students; check the festival price with the Nakijin tourist association on 0980-56-4400.</p>
+<h3>The castle</h3>
+<p>Nakijin Castle was the seat of the kings of Hokuzan, the northern kingdom of Okinawa, before the island was unified in the 15th century, and it's now part of a World Heritage site. Its long, curving limestone walls follow the shape of the hill. About 630 kanhizakura grow across the site, and the path from the gate up to the main enclosure is lined with them.</p>
+<p>The evening light-up, with pink cherries against the pale stone, is the best time to come.</p>
+<h3>Nearby</h3>
+<p>[[mount-yae-cherry-forest-park]] and [[nago-central-park]] are both close by, and from the top of the castle there are views out to the East China Sea.</p>
+`,
+
+'atami-itokawa-cherry-blossoms': `
+<h3>When to go</h3>
+<p>The Atami cherries usually flower from early January into February, the first cherries of the year on Honshu. The Atami Cherry and Itokawa Promenade Festival runs through the season: in 2026 it was the 16th, from 10 January to 8 February, with the trees lit up every evening from 4:30 to 11 pm. At weekends there's free cherry tea, street performers and sword dances. It's free.</p>
+<h3>The promenade</h3>
+<p>About 58 Atami-zakura line some 300 m of the Itokawa river promenade in the middle of Atami. Atami-zakura is an early, pink variety that opens slowly over a long period, so the trees stay in flower for weeks. The lit trees over the little river are lovely after dark.</p>
+<h3>Make a day of it</h3>
+<p>Atami is an onsen town an hour or less from Tokyo by Shinkansen. In late January and February, the [[atami-plum-garden]] has one of the earliest plum festivals in the Kanto area, so you can see cherries and plums on the same day. For questions, call the Atami tourist association on 0557-85-2222.</p>
+`,
+
+'tsurugaoka-hachimangu-winter-peonies': `
+<h3>When to go</h3>
+<p>The peony garden opens for the winter peonies on New Year's Day, and they're usually at their best from early January to late February. Entry has been 500 yen, and the garden is open from 9 am to 4 pm. Check the 2027 dates and fee with the shrine on 0467-22-0315.</p>
+<h3>The garden</h3>
+<p>The garden lies on the southeast side of the Genji Pond, near the shrine's main approach. About 1,000 plants of some 100 kinds flower under little straw shelters that keep off the frost, a lovely sight in the coldest weeks of the year. It's small, so 30 minutes is plenty.</p>
+<h3>Make a day of it</h3>
+<p>New Year is the busiest time at Tsurugaoka Hachimangu, with huge crowds for hatsumode, the first shrine visit of the year, so come after the first few days of January. The shrine is 10 minutes from Kamakura Station. In Tokyo, the [[ueno-toshogu-peony-garden]] has winter peonies at the same time.</p>
+`,
+
+'hodosan-wintersweet-garden': `
+<h3>When to go</h3>
+<p>The wintersweet is usually at its best from mid or late January to late February. About 3,000 trees of five kinds grow around the summit of Mount Hodo, so something is in flower for most of that time. Weekends in late January are busy.</p>
+<h3>The mountain</h3>
+<p>Mount Hodo rises to 497 m above the Nagatoro gorge, and the wintersweet gardens surround the summit, with views over the Chichibu mountains. The waxy yellow flowers have a strong, sweet scent, and on a still winter day the whole summit smells of them. Near the summit is the Okumiya, the inner shrine of Hodosan Shrine, and a small zoo.</p>
+<h3>Getting there</h3>
+<p>The Hodosan ropeway runs from near the shrine to the summit in about 5 minutes; a return has been 1,200 yen for adults and 600 yen for children, and there can be queues at weekends. It's about 15 minutes' walk from Nagatoro Station on the Chichibu Railway to the ropeway. For more wintersweet, [[robai-no-sato]] in Gunma is a little over an hour's drive away.</p>
+`,
+
+'robai-no-sato': `
+<h3>When to go</h3>
+<p>The garden opens for the season at the end of December, and the trees are usually in full flower in January. The wintersweet festival is held in early January, with taiko drumming, dancing and local vegetables for sale, and entry has been free on festival day. Flowers usually last until about mid February.</p>
+<h3>The garden</h3>
+<p>About 12,000 wintersweet grow on 3.2 hectares near Mount Myogi, one of the largest wintersweet gardens in Japan. With so many trees in one place, the scent is strong and sweet across the whole hillside, and the jagged peaks of Myogi behind make a striking backdrop.</p>
+<h3>Getting there</h3>
+<p>Public transport is limited, so most people take a taxi from Nishi-Matsuida Station on the JR Shinetsu Line, or drive. Check this year's dates and fee with Annaka City before you go. On the same trip, the Usui Pass and the Megane bridge are nearby.</p>
+`,
+
+'azumayama-park': `
+<h3>When to go</h3>
+<p>The early rapeseed usually flowers from January into February, and the best is often until mid February. The town's Nanohana Watching event runs from mid January to mid February. Go on a clear morning, when Mount Fuji is most likely to be out.</p>
+<h3>The view</h3>
+<p>About 60,000 rapeseed plants fill the grassy summit of Mount Azuma, just 136 m high, above the town of Ninomiya. With yellow flowers in front, Mount Fuji behind and Sagami Bay below, it's one of the best winter views near Tokyo. It's free.</p>
+<h3>Getting there</h3>
+<p>The park entrance is about 5 minutes' walk from JR Ninomiya Station on the Tokaido Line, and from there it's about 20 minutes uphill to the summit, including some 300 steps on the town-hall route. Wear comfortable shoes. Ninomiya is about an hour from Tokyo.</p>
+`,
+
+'jogashima-park': `
+<h3>When to go</h3>
+<p>The double-flowered narcissus usually peak from mid January to early February. In 2026 they were in full flower on 19 January. A narcissus festival is held on a Sunday in late January; in 2025 it was on 26 January. For this year's date, call the park office on 046-881-6640.</p>
+<h3>The park</h3>
+<p>About 300,000 double-flowered narcissus grow in the park, with roughly as many again along the 1.5 km narcissus road to the Jogashima lighthouse. Jogashima is a small island at the tip of the Miura Peninsula, linked by a bridge, with cliffs, rock shelves and views to Mount Fuji and the Izu islands on a clear day.</p>
+<h3>Getting there</h3>
+<p>Take a bus from Misakiguchi Station on the Keikyu Line to Hakushu-hi-mae, then walk 5 minutes. Misaki port, on the way, is famous for tuna, so have a maguro lunch. In February, the [[miura-kaigan-kawazu-cherries]] flower along the Keikyu line.</p>
+`,
+
+'toshima-island-camellias': `
+<h3>When to go</h3>
+<p>The camellias flower from December to March, and January to March is the main season. As the flowers fall in February and March, they carpet the forest floor in red.</p>
+<h3>The island</h3>
+<p>Toshima is a tiny, cone-shaped island south of Izu Oshima, and about 200,000 yabu-tsubaki cover some 80 per cent of it. It's one of Japan's leading producers of camellia oil, pressed from the seeds of these trees, and you can buy it on the island. With a population of only a few hundred, it's a quiet, unusual place to visit.</p>
+<h3>Getting there</h3>
+<p>Fast ferries from Takeshiba pier in Tokyo take about 2 and a half hours, and the overnight ship about 9 hours. Ferries can't always land in rough winter seas, so allow spare days. There's also a helicopter from Izu Oshima, about 10 minutes, which books up a month ahead. If Toshima is too hard to reach, [[izu-oshima-camellia-garden]] has camellias on a bigger, easier island.</p>
 `,
 
 };
