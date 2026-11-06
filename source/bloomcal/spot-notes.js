@@ -2128,4 +2128,356 @@ module.exports = {
 <p>Fast ferries from Takeshiba pier in Tokyo take about 2 and a half hours, and the overnight ship about 9 hours. Ferries can't always land in rough winter seas, so allow spare days. There's also a helicopter from Izu Oshima, about 10 minutes, which books up a month ahead. If Toshima is too hard to reach, [[izu-oshima-camellia-garden]] has camellias on a bigger, easier island.</p>
 `,
 
+'atami-plum-garden': `
+<h3>When to go</h3>
+<p>Atami's plums are some of the earliest in Japan. The plum festival starts in early to mid January, and in 2026 it began on 10 January. The early trees peak from late January to mid February, and the late ones carry on into early March. The garden is free outside the festival; during it, there's a small entry fee from 8:30 am to 4 pm.</p>
+<h3>The garden</h3>
+<p>About 470 plum trees of nearly 60 kinds grow along a little valley with a stream, bridges and a small waterfall. Some of the trees are over 100 years old. The garden is also one of the latest autumn leaf spots in Japan, in early December.</p>
+<h3>Make a day of it</h3>
+<p>It's a short walk from Kinomiya Station, one stop from Atami. In January and early February, the [[atami-itokawa-cherry-blossoms]] are in flower in the centre of Atami, so you can see plums and cherries on the same day, then end with an onsen. For questions, call the Atami tourist association on 0557-85-2222.</p>
+`,
+
+'ikegami-plum-garden': `
+<h3>When to go</h3>
+<p>The plums flower from February into March, with mid to late February usually the peak. In 2026 the garden was lit up from 13 February to 1 March, from sunset to 8 pm, with last entry at 7:30. Normally it's open from 9 am to 4:30 pm. Entry is 100 yen for adults and 20 yen for children aged 6 to 15, and free for over-65s.</p>
+<h3>The garden</h3>
+<p>About 370 red and white plums of some 30 kinds cover a hillside in Ota Ward, in the south of Tokyo. The garden was once the home of the painter Ito Shinsui, and it has two small tea houses and a pond. It's one of the cheapest flower gardens in Tokyo, and much quieter than the big plum spots.</p>
+<h3>Getting there</h3>
+<p>It's 10 minutes' walk from Nishi-Magome Station on the Toei Asakusa Line. Ikegami Honmon-ji, a big Nichiren temple, is next door and worth a look.</p>
+`,
+
+'mt-tsukuba-plum-blossom-garden': `
+<h3>When to go</h3>
+<p>The Tsukubasan Plum Festival runs from early February to mid March: in 2026 it was the 53rd, from 7 February to 15 March. The plums usually peak from late February to early March. Entry is free, with events mostly at weekends.</p>
+<h3>The garden</h3>
+<p>About 1,000 red and white plums grow among big rocks on the slopes of Mount Tsukuba, at about 250 m, looking out over the Kanto plain. On a clear day the view stretches a long way across the plain. It's a hillside, so the paths are steep in places.</p>
+<h3>Getting there</h3>
+<p>Take the Tsukubasan shuttle bus from Tsukuba Station on the Tsukuba Express, about 40 minutes, to Tsukubasan-jinja-iriguchi, then walk 10 minutes. During the festival, a forest road near the garden is closed to cars from 9 am to 4 pm, so the bus is easier. Afterwards, ride the cable car to the summit of Mount Tsukuba, one of Japan's 100 famous mountains.</p>
+`,
+
+'okamoto-plum-grove-park': `
+<h3>When to go</h3>
+<p>The plums are usually best from mid February to mid March, and in some years the early kinds open in late January. In 2023 the peak was early March. Entry is free.</p>
+<h3>The park</h3>
+<p>About 200 plum trees of some 40 kinds grow on a 5,400 square metre slope above Okamoto, a neighbourhood of Kobe that was famous for plum viewing in the Edo period. Local volunteers look after the trees. Further up the hill, past Okamoto Hachiman Shrine, the Hokura plum grove has about 250 more trees on a south-facing slope with views out to the sea, and you can walk between the two.</p>
+<h3>Getting there</h3>
+<p>It's about 10 minutes' walk northwest from Okamoto Station on the Hankyu Kobe Line, or 15 minutes from Settsu-Motoyama on the JR Kobe Line. There's no car park. The Okamoto area has nice cafés and bakeries for afterwards.</p>
+`,
+
+'gifu-bairin-park': `
+<h3>When to go</h3>
+<p>The early plums open from mid January, and the park is at its best from early March, with late kinds into late March. The Gifu Plum Festival is held on a weekend in early March: in 2026 it was the 73rd, on 7 and 8 March, from 10 am to 3 pm, with drumming, a children's drawing contest and a mini steam train. Entry is free.</p>
+<h3>The park</h3>
+<p>About 1,300 plum trees of 50 kinds, roughly 700 white and 600 red, fill this city park on the east side of Gifu. It's a local favourite, and less crowded than the famous plum spots near Tokyo.</p>
+<h3>Getting there</h3>
+<p>Take a bus from JR or Meitetsu Gifu Station to Bairin Koen-mae. There's no car park, so use the paid car parks in the Yanagase shopping area or come by bus. For more plums nearby, see [[anpachi-hyakubaien]].</p>
+`,
+
+'yushima-tenjin': `
+<h3>When to go</h3>
+<p>The Bunkyo Plum Festival runs from early February to early March: in 2026 it was from 8 February to 8 March. The plums usually peak in the second half of February. In the evenings, the grounds are lit up for night plum viewing, until about 8 pm. It's free.</p>
+<h3>The shrine</h3>
+<p>Yushima Tenjin is Tokyo's best-known shrine to Sugawara no Michizane, the god of learning, and in exam season it's full of students and their parents. Look for the walls of wooden ema prayer plaques, covered in wishes to pass entrance exams. About 300 plum trees of some 20 kinds grow in the grounds, most of them white.</p>
+<h3>Getting there</h3>
+<p>It's 2 minutes from Yushima Station on the Chiyoda Line, and about 10 minutes' walk from Ueno. Combine it with [[ueno-park]], [[koishikawa-korakuen]] or the [[ueno-toshogu-peony-garden]], whose winter peonies are out at the same time.</p>
+`,
+
+'hanegi-park': `
+<h3>When to go</h3>
+<p>The Setagaya Plum Festival runs through February: in 2026 it was the 47th, from 7 February to 1 March. The plums usually peak in mid to late February. At weekends and holidays there are food stalls from 10 am to 4 pm, and in 2026 there was mochi pounding and an outdoor tea ceremony on one day.</p>
+<h3>The park</h3>
+<p>About 650 red and white plums of some 60 kinds cover a gentle hill in a quiet residential part of Setagaya. It's a neighbourhood park, with locals walking dogs and children playing, which makes it a relaxed place to see plums without the crowds of the big gardens. It's free.</p>
+<h3>Getting there</h3>
+<p>It's 3 minutes from Umegaoka Station on the Odakyu Line, whose name means plum hill. Shimokitazawa, with its vintage shops and cafés, is two stops away.</p>
+`,
+
+'koishikawa-korakuen': `
+<h3>When to go</h3>
+<p>The earliest plums open in December, and the grove is usually at its best in February. The garden holds a plum festival from early February to early March: in 2026 it ran from 7 February to 1 March. It's open from 9 am to 5 pm, with last entry at 4:30, and closed only from 29 December to 1 January. Entry is 300 yen, 150 yen for over-65s, and free for primary school age and under.</p>
+<h3>The garden</h3>
+<p>Koishikawa Korakuen is one of Tokyo's oldest daimyo gardens, begun in the 1620s by the Mito branch of the Tokugawa family, with scenes from China and Japan in miniature around its pond. The plum grove has about 150 trees of some 45 kinds. The garden is also known for its weeping cherry in spring and its maples in autumn.</p>
+<h3>Getting there</h3>
+<p>It's 8 minutes' walk from Iidabashi Station, right next to Tokyo Dome. In September, the garden's red spider lilies flower, see [[koishikawa-korakuen-september]].</p>
+`,
+
+'ogose-bairin': `
+<h3>When to go</h3>
+<p>The Ogose Plum Festival runs from mid February to mid March: in 2026 it was from 14 February to 15 March, from 8:30 am to 4 pm, with two evening light-ups on Saturdays. Entry was 500 yen for junior high age and up. The plums usually peak in late February and early March.</p>
+<h3>The grove</h3>
+<p>About 1,000 plum trees of some 35 kinds grow by a stream, including Kaisetsu, an old tree said to be more than 670 years old. There are about 20,000 plum trees in the surrounding area, grown for their fruit. At weekends during the festival, a mini steam train runs, burning real coal, at 400 yen a ride.</p>
+<h3>Getting there</h3>
+<p>Take a bus bound for Kuroyama from Ogose Station (JR Hachiko Line and Tobu Ogose Line) to Bairin-iriguchi. There are four paid car parks with about 760 spaces. For questions, call the Ogose tourist information centre on 049-292-6783.</p>
+`,
+
+'soga-plum-groves': `
+<h3>When to go</h3>
+<p>The Odawara Plum Festival runs through February: in 2026 it was the 56th, from 7 February to 1 March, at the Soga plum groves and Odawara Castle Park. The plums usually peak in mid to late February. At weekends there are events such as lion dances and festival music.</p>
+<h3>The groves</h3>
+<p>About 35,000 white plum trees are grown for their fruit across some 100 hectares of farmland near Odawara. Because they're working orchards, the view is of whole fields of white rather than a garden, and on a clear day snowy Mount Fuji rises behind them. Odawara's pickled plums, umeboshi, come from these trees.</p>
+<h3>Getting there</h3>
+<p>It's about 20 minutes' walk from Shimo-Soga Station on the JR Gotemba Line. There's no permanent car park, only temporary ones during the festival, so take the train. For questions during the festival, call the Soga Bessho plum festival office on 0465-42-1965. In Odawara itself, the [[odawara-castle-park]] has plums at the castle too.</p>
+`,
+
+'yugawara-plum-grove': `
+<h3>When to go</h3>
+<p>The Ume no Utage plum festival runs from early February to early March: in 2026 it was from 7 February to 8 March, from 9 am to 4 pm. The plums usually peak in late February. Entry rose to 300 yen in 2026; junior high age and under get in free, and so do guests staying in Yugawara and local residents.</p>
+<h3>The grove</h3>
+<p>About 4,000 plum trees cover the slopes of Makuyama Park, below the great rock face of Mount Maku, a popular rock-climbing spot. The red, pink and white trees climb the hillside, and from the top there's a view down to Sagami Bay.</p>
+<h3>Getting there</h3>
+<p>During the festival, a direct temporary bus runs from JR Yugawara Station to the Makuyama Koen stop, about 15 minutes; regular buses don't stop there. Yugawara is an old hot spring town, so end the day with a bath. Atami, with the [[atami-plum-garden]], is one stop away.</p>
+`,
+
+'kitano-tenmangu-shrine': `
+<h3>When to go</h3>
+<p>The plums usually peak from mid February to late March. The big day is 25 February, the Baika-sai, the anniversary of Sugawara no Michizane's death: geiko and maiko from Kamishichiken, Kyoto's oldest geisha district, serve tea at an open-air ceremony under the plums, and there's a flea market outside the shrine the same day.</p>
+<h3>The plum garden</h3>
+<p>About 1,500 plum trees of some 50 kinds grow around the shrine. The shrine grounds are free, but the plum garden, the Hana no Niwa, charges entry. In 2026 it was open from 1 February to 24 May, lit up every evening, with an art installation by the photographer Ninagawa Mika of about 1,200 crystals hanging in the trees, and the fee was high: 3,000 yen for adults in 2026. Check the price and what's on before you go.</p>
+<h3>The shrine</h3>
+<p>Kitano Tenmangu enshrines Sugawara no Michizane, the scholar-poet who loved plum blossom, and it's the head of some 12,000 Tenmangu shrines across Japan, with [[dazaifu-tenmangu-shrine]] and [[hofu-tenmangu-shrine]]. Students come to pray for exam success. Take a bus to Kitano-Tenmangu-mae. Kamishichiken's old teahouses are a 5 minute walk away.</p>
+`,
+
+'kyoto-imperial-park-plum-grove': `
+<h3>When to go</h3>
+<p>The plums usually peak from mid February to early March, and the peach trees in the same grove follow in late March. It's free and open all day.</p>
+<h3>The grove</h3>
+<p>About 200 plum trees grow in the grove in the southwest of the Kyoto Gyoen, the big park around the Imperial Palace. Look for Omoi-no-mama, a tree that carries red and white flowers on the same branches. Because the park is so open, it's a calm place to see plums in a city that gets very crowded.</p>
+<h3>Getting there</h3>
+<p>It's 5 minutes' walk from Marutamachi Station on the Karasuma Line. Later in the spring, the park's weeping cherries flower near the Konoe residence site, and in late November its [[kyoto-gyoen-ginkgo|ginkgos]] turn gold. For more plums in Kyoto, see [[kitano-tenmangu-shrine]].</p>
+`,
+
+'osaka-castle-plum-grove': `
+<h3>When to go</h3>
+<p>The early kinds open in January and the late ones last into March, but February is the best month. The grove is free and open all day.</p>
+<h3>The grove</h3>
+<p>About 1,270 plum trees of over 100 kinds fill some 1.7 hectares east of the castle's inner moat, one of the biggest plum groves in western Japan. Early kinds such as Kanko, Toji-bai and Tsuki no Katsura flower first, then mid-season kinds such as Shirokaga and Nanko. The classic photo puts the plums in front of the castle keep and its stone walls.</p>
+<h3>Getting there</h3>
+<p>It's about 10 minutes' walk from Morinomiya Station on the JR Osaka Loop Line or the subway. Weekends at peak get busy, so come early. In late November, the park's [[osaka-castle-park-ginkgo|ginkgos]] turn gold.</p>
+`,
+
+'minabe-bairin': `
+<h3>When to go</h3>
+<p>The grove opens from late January to early March, and the plums usually peak in mid February. Entry has been 500 yen for adults. Check this year's dates with the Minabe tourist association.</p>
+<h3>The grove</h3>
+<p>Minabe is the home of the Nanko plum, Japan's best-known plum for umeboshi, and the hillsides here are covered in working orchards. The local saying is "a million at a glance, their scent carried ten ri", about 40 km. Walking courses of 3 and 4 km loop through the white plums, with views over the valley.</p>
+<p>Buy umeboshi, plum wine or plum sweets at the shops; it's the best place in Japan to try them.</p>
+<h3>Getting there</h3>
+<p>During the season, temporary buses run from Minabe Station on the JR Kisei Line, about 10 minutes. Shirahama, with its white beach and onsen, is about 30 minutes south, and Kumano Kodo country is beyond it.</p>
+`,
+
+'dazaifu-tenmangu-shrine': `
+<h3>When to go</h3>
+<p>The plums usually peak from mid February to early March, and with about 6,000 trees of some 200 kinds, something is in flower from late January. The Tobiume, the sacred tree by the main hall, is usually one of the first to open. On the first Sunday of March the shrine holds the Kyokusui no En, a poetry party in Heian costume beside a winding stream; in 2026 it was on 1 March.</p>
+<h3>Things to know</h3>
+<p>The main hall is being restored, the first big renovation in 124 years, so prayers are being held at a temporary hall. The temporary hall, with a garden on its roof, is a striking piece of modern architecture in its own right.</p>
+<h3>The shrine</h3>
+<p>Dazaifu Tenmangu stands over the grave of Sugawara no Michizane, the scholar-poet exiled here from Kyoto in 901. Legend says his favourite plum tree flew overnight from his garden in Kyoto to join him: that's the Tobiume, the flying plum, thought to be over 1,000 years old. Try umegae-mochi, a grilled rice cake filled with bean paste, from the shops on the approach. It's 5 minutes from Dazaifu Station on the Nishitetsu line, about 30 minutes from Fukuoka.</p>
+`,
+
+'fujikawa-tenjin-garyubai': `
+<h3>When to go</h3>
+<p>The plums are usually in full flower from mid to late February, sometimes into early March. Entry and parking are free.</p>
+<h3>The trees</h3>
+<p>Garyubai means reclining dragon plum. As the old trees age, their branches sink to the ground, put down roots and grow up again, so the grove creeps along the ground like a dragon. The grove is said to have spread from a plum planted by Sugawara no Michizane, and it's been a national natural monument since 1941. It stands in the grounds of Fujikawa Tenjin, a country shrine in Togo, in the north of Kagoshima Prefecture.</p>
+<h3>Getting there</h3>
+<p>It's about 25 minutes by car from Sendai Station (JR, Kyushu Shinkansen) in Satsumasendai. You'll need a car or a taxi. For questions, call the shrine office on 0996-42-0753.</p>
+`,
+
+'izu-oshima-camellia-garden': `
+<h3>When to go</h3>
+<p>The camellias are usually at their best from mid January to late March. The Izu Oshima Camellia Festival runs from early February: in 2026 it was the 71st, from 1 February to 22 March. February and early March are the fullest.</p>
+<h3>The garden</h3>
+<p>The camellia garden in Oshima Park covers 7 hectares, with some 5,000 wild yabu-tsubaki and about 1,000 cultivars, one of the biggest camellia collections in Japan. It's recognised by the International Camellia Society as a garden of excellence. It's open from 8:30 am to 5 pm, and it's free. The Tsubaki Hana Garden, a separate private garden on the island, charges entry.</p>
+<h3>Getting there</h3>
+<p>Fast ferries from Takeshiba pier in Tokyo reach Izu Oshima in under two hours, and there are flights from Chofu. On the island, buses run to Oshima Park. Izu Oshima is a volcano island, and a walk on the black lava fields of Mount Mihara is the other big sight. For a wilder camellia island, see [[toshima-island-camellias]].</p>
+`,
+
+'miura-kaigan-kawazu-cherries': `
+<h3>When to go</h3>
+<p>The Kawazu cherries usually peak from mid February to early March. The Miura Kaigan Cherry Festival runs then: in 2026 it was brought forward because of the early flowers, running from 5 February to 3 March. About 300,000 people come each year, so weekdays are much quieter.</p>
+<h3>The cherries</h3>
+<p>About 1,000 Kawazu cherries line roughly 1 km of the Keikyu line, from Miurakaigan Station to Komatsugaike Park, with yellow rapeseed planted beneath. The classic photo is a red Keikyu train passing through the pink and yellow. The trees by the pond in Komatsugaike Park are lovely too. The cherries by the station have been lit up in the evening during the festival in some years.</p>
+<h3>Getting there</h3>
+<p>Miurakaigan Station on the Keikyu Line is right by the trees, about 70 minutes from Shinagawa. Keikyu sells a discount ticket for the Miura Peninsula. At the tip of the peninsula, the [[jogashima-park]] narcissus finish around the same time. For questions, call the Miura tourist association on 046-888-0588.</p>
+`,
+
+'nagoya-agricultural-center': `
+<h3>When to go</h3>
+<p>The weeping plum festival runs from mid February to mid March: in 2026 it was from 14 February to 15 March, with no closing days. The trees usually peak in early March. Entry is free; parking costs 1,000 yen per car during the festival and the roads around get very busy, so take public transport.</p>
+<h3>The trees</h3>
+<p>About 700 weeping plums of 12 kinds, the branches hanging to the ground in pink, red and white, fill the plum garden of the Nagoya Agricultural Center, also called dela farm. Weeping plums are rarer than the upright kind, and so many together is unusual. The farm also has animals and a farm shop, so it's good with children.</p>
+<h3>Getting there</h3>
+<p>Take a bus, or walk, from Hirabari Station on the Tsurumai subway line. For questions, call the centre on 052-801-5221.</p>
+`,
+
+'matsuda-nishihirabatake-park': `
+<h3>When to go</h3>
+<p>The Kawazu cherries usually peak from mid to late February. The Matsuda Cherry Blossom Festival runs then: in 2026 it was the 27th, starting on 7 February, and it was cut short by a week to end on 1 March because the flowers came early. Go on a clear morning for Mount Fuji.</p>
+<h3>The park</h3>
+<p>About 360 Kawazu cherries cover a sunny south-facing slope of Mount Matsuda, with yellow rapeseed planted beneath them. On a clear day, Mount Fuji rises behind the pink and yellow, one of the best early spring views near Tokyo. A mini steam railway runs in the park at weekends, 400 yen for junior high age and up, and in the season local people hang handmade doll decorations for the Doll Festival in the children's hall.</p>
+<h3>Getting there</h3>
+<p>It's uphill from Matsuda Station on the JR Gotemba Line and Shin-Matsuda on the Odakyu Line. In past years a shuttle bus has run during the festival; check Matsuda Town's website for this year. The [[soga-plum-groves]] near Odawara flower at the same time.</p>
+`,
+
+'sengan-en': `
+<h3>When to go</h3>
+<p>The garden's cherries flower over a long season. The deep pink kanhizakura open from February, then mountain cherries and somei-yoshino follow, into early April. So February to early April is all good, with late March for the most trees in flower.</p>
+<h3>The garden</h3>
+<p>Sengan-en was the seaside villa of the Shimazu lords of Satsuma, and it borrows the view of Sakurajima, the smoking volcano across the bay, as part of the garden. The ticket also covers the Shoko Shuseikan museum, about the Shimazu family and the industrial works they built here in the 1850s, now part of a World Heritage site. Sources give different prices, so check before you go; the inside of the villa costs extra.</p>
+<h3>Getting there</h3>
+<p>Since March 2025, JR has a new station, Senganen, right by the garden, a short ride from Kagoshima-Chuo. Buses also run from the city centre. Try the jambo mochi, little rice cakes on two sticks, sold in the garden.</p>
+`,
+
+'tsubaki-nature-park': `
+<h3>When to go</h3>
+<p>The camellias start opening in October, but the garden is at its best in early to mid March, when the Tokushima Camellia Festival is held. Check the festival dates with the garden on 0884-33-1127.</p>
+<h3>The garden</h3>
+<p>About 3,000 camellias of some 700 garden varieties grow in the hills of Anan, in southern Tokushima. It started in 1972 as a farm garden. With so many kinds in one place, you can compare single and double flowers, reds, pinks, whites and stripes. Parking is free.</p>
+<h3>Getting there</h3>
+<p>Buses run from Tokushima Station, but a car is easier. In early April, Tokushima city's [[bizan-park]] is the place for cherries.</p>
+`,
+
+'jonangu-shrine': `
+<h3>When to go</h3>
+<p>The Weeping Plum and Camellia Festival runs from mid February to late March: in 2026 it was from 18 February to 22 March, from 9 am to 4:30 pm. The weeping plums usually peak in early March. Garden entry is 1,000 yen for adults and 600 yen for primary school children. Tripods and selfie sticks are banned in the garden.</p>
+<h3>The garden</h3>
+<p>About 150 weeping plums grow on the Haru no Yama, the spring hill of the shrine garden, their branches hanging down in pink, red and white. About 400 camellias grow among them, and the fallen camellia flowers lie on the moss under the plums, the photo everyone comes for. Only the northern part of the garden is open during the festival.</p>
+<h3>Getting there</h3>
+<p>Jonan-gu is in Fushimi, in southern Kyoto, about 15 minutes' walk from Takeda Station on the Karasuma subway line and the Kintetsu line. It's known as a shrine for safe travel and moving house. The [[yodo-canal-kawazu-cherries]] in Fushimi flower at the same time.</p>
+`,
+
+'tsukigase-plum-grove': `
+<h3>When to go</h3>
+<p>The Tsukigase Plum Festival runs from mid February into late March: in 2026 it was from 14 February to 29 March. The plums usually peak in early to mid March. On Saturdays, Sundays and holidays from late February to late March, temporary buses run from JR Tsukigaseguchi Station.</p>
+<h3>The gorge</h3>
+<p>About 10,000 plum trees line both sides of the Satsuki River gorge in the hills east of Nara, a national scenic site since 1922, one of the first in Japan. The best viewpoints are the Daikanzaka slope, the Tenjin and Hora groves, the plum park and Hitome Hakkei, eight views at a glance, looking over the gorge. The plums were first grown here for their fruit, used to make a red dye.</p>
+<h3>Getting there</h3>
+<p>Take a bus from Tsukigaseguchi Station on the JR Kansai Line. By car, parking is about 700 yen. For questions, call the Tsukigase plum museum on 0743-92-0300.</p>
+`,
+
+'irago-nanohana-garden': `
+<h3>When to go</h3>
+<p>The Atsumi Peninsula Rapeseed Festival runs from mid January to the end of March: in 2026 it was from 17 January to 31 March, centred on the Irago Nanohana Garden. The rapeseed is usually at its fullest from late February to mid March.</p>
+<h3>The garden</h3>
+<p>The rapeseed fields fill the farmland at the tip of the Atsumi Peninsula, in Horikiri, between the Pacific and Ise Bay. The peninsula has a warm climate, so the rapeseed flowers early. Cape Irago, with its lighthouse and Koigaji beach, is a short drive away.</p>
+<h3>Getting there</h3>
+<p>It's easiest by car. From Mie, a ferry crosses Ise Bay from Toba to Irago in about an hour, and ferry companies sell rapeseed season packages. For questions, call the Atsumi Peninsula tourism bureau on 0531-23-3516.</p>
+`,
+
+'izu-kogen-cherry-avenue': `
+<h3>When to go</h3>
+<p>The early Okan-zakura usually flower from mid to late March, and the somei-yoshino follow in late March and early April, so the avenue has two waves. Check this year's festival dates with the Ito tourist information centre on 0557-37-6105.</p>
+<h3>The avenue</h3>
+<p>About 550 to 750 cherries line some 3 km of road from Izu-Kogen Station, with the early-flowering Okan-zakura near the station and somei-yoshino further along. The cherries form a tunnel over the road, and the trees are lit up in the evening during the festival. It's free.</p>
+<h3>Make a day of it</h3>
+<p>Izu-Kogen is a resort area of small museums, cafés and holiday homes. At the end of the avenue, [[izu-kogen-sakura-no-sato]] at the foot of Mount Omuro has about 1,000 more cherries of some 40 kinds. Izu-Kogen Station is on the Izukyu Line, about 2 hours from Tokyo by limited express.</p>
+`,
+
+'oyama-shindo-okame-cherries': `
+<h3>When to go</h3>
+<p>The Okame cherries usually flower from early to mid March, weeks before the somei-yoshino. It's free.</p>
+<h3>The cherries</h3>
+<p>About 160 Okame-zakura line about 300 m of the new road up to Mount Oyama in Isehara. Okame is a small early cherry with deep pink, slightly drooping flowers, and the local community has been planting the trees year by year.</p>
+<h3>Getting there</h3>
+<p>Buses from Isehara Station on the Odakyu Line take about 20 minutes. By car, it's about 5 minutes from the Isehara-Oyama interchange on the Shin-Tomei Expressway. Don't park at the Oyama primary school. Mount Oyama itself is a pilgrimage mountain with a cable car to Oyama Afuri Shrine and its famous tofu restaurants. For questions, call the Isehara tourist association on 0463-73-7373.</p>
+`,
+
+'akima-plum-grove': `
+<h3>When to go</h3>
+<p>The Akima Plum Festival runs from mid to late February to the end of March, and the plums usually peak from early to late March. In 2026 the grove was lit up on Friday, Saturday and Sunday evenings from 6 to 8 pm. For this year's dates, call Annaka City's tourism section on 027-382-1111.</p>
+<h3>The grove</h3>
+<p>About 35,000 plum trees cover some 50 hectares of rolling hills along the upper Akima River, one of Gunma's three great plum groves. Most are working orchards, so the view is of whole hillsides of white.</p>
+<h3>Getting there</h3>
+<p>Buses from JR Annaka Station take about 20 minutes. During the festival, the road from the grove entrance to the viewing park is one-way. The other two great plum groves of Gunma, [[haruna-plum-grove]] and [[minowa-plum-grove]], are within an hour's drive.</p>
+`,
+
+'haruna-plum-grove': `
+<h3>When to go</h3>
+<p>The Haruna Plum Festival is held on the third Sunday of March every year: in 2026 it was the 35th, on 15 March, at the Haruna Bunka Kaikan Ecole. The groves are usually in flower from early to late March.</p>
+<h3>The groves</h3>
+<p>Haruna is the heart of Gunma's biggest plum-growing area, with some 70,000 to 120,000 trees, depending on how they're counted, spread across the farmland below Mount Haruna. Most are white plums grown for their fruit. At the festival there's local food made with plums, traditional performances, monkey shows, and rides through the plums in a horse-drawn carriage.</p>
+<h3>Getting there</h3>
+<p>It's in Takasaki, and a car is easiest. Combine it with [[akima-plum-grove]] and [[minowa-plum-grove]], the other two great plum groves of Gunma, or with a drive up to Lake Haruna.</p>
+`,
+
+'minowa-plum-grove': `
+<h3>When to go</h3>
+<p>The Misato Plum Festival runs through March; in 2026 it started on 1 March. The plums usually peak from early to late March. Entry is free. During the festival, parking costs 500 yen per car.</p>
+<h3>The grove</h3>
+<p>About 100,000 plum trees cover the hills of Minowa in Takasaki, one of Gunma's three great plum groves. In full flower the whole hillside turns white. Most are working orchards growing fruit for umeboshi and plum wine, so you're walking through farmland, with paths between the trees.</p>
+<h3>Getting there</h3>
+<p>A car is easiest; there's parking for about 400 cars. For questions, call Takasaki City's Minowa branch on 027-371-9065. Combine it with [[haruna-plum-grove]] and [[akima-plum-grove]] for a full day of Gunma plums.</p>
+`,
+
+'yutagawa-onsen-plum-park': `
+<h3>When to go</h3>
+<p>The plums usually peak from mid March to early April, much later than around Tokyo because of the cold Shonai winter. The plum festival is held on a weekend in late March: in 2026 it was on 28 and 29 March, with an outdoor tea ceremony served by the hostesses of the inns and a performance of Yutagawa kagura.</p>
+<h3>The park</h3>
+<p>About 300 red and white plum trees grow on the hillside above Yutagawa, an old hot spring village on the edge of Tsuruoka. It's small and quiet, more a village festival than a sight. Stay the night in one of the inns: Yutagawa is one of the oldest onsen in the Shonai area.</p>
+<h3>Getting there</h3>
+<p>Take a Shonai Kotsu bus from JR Tsuruoka Station to Yutagawa Onsen, about 30 minutes, then walk 5 minutes. There's parking for about 50 cars. In April, [[tsuruoka-park]] in the city is a cherry spot. For questions, call the Yutagawa Onsen tourist association on 0235-35-3355.</p>
+`,
+
+'heisogen-park': `
+<h3>When to go</h3>
+<p>The cherries usually peak from late March to early April. The Heisogen Park Cherry Festival runs then: in 2026 it was from 25 March to 5 April, from 8:30 am to 5 pm, with the trees lit up in the evening for part of it. Entry and parking are free.</p>
+<h3>The park</h3>
+<p>About 2,000 cherry trees, mostly somei-yoshino, cover a plateau above Shirahama, with views over the town, the white sand beach and the Pacific. It's one of the best cherry spots in southern Wakayama, and less crowded than the famous spots of Kansai.</p>
+<h3>Getting there</h3>
+<p>It's about 10 minutes by taxi from JR Shirahama Station. Shirahama is a big onsen resort, with the Shirarahama beach, the Engetsu-to rock arch and the Adventure World animal park. For questions, call the Shirahama town tourism section on 0739-43-6588.</p>
+`,
+
+'awaji-hanasajiki': `
+<h3>When to go</h3>
+<p>The park sows two kinds of rapeseed at different times, so the slopes are yellow from January to April. Late March is usually the fullest, when about a million rapeseed flowers cover the lower slopes. In other seasons it has other flowers, such as salvia and cosmos in autumn. The park is often closed on Wednesdays for maintenance, so check the calendar.</p>
+<h3>The park</h3>
+<p>Awaji Hanasajiki is a prefectural flower park on the hills of northern Awaji Island, with some 15 hectares of flower fields looking out over Osaka Bay and, on a clear day, the Kobe and Osaka skylines. Hanasajiki means a flower viewing stand. Entry has been free.</p>
+<h3>Getting there</h3>
+<p>You'll want a car. It's about 15 minutes from the Higashiura interchange on the Kobe-Awaji-Naruto Expressway. On the same trip, see [[awaji-island-national-government-park]], and in winter, the [[nada-kuroiwa-narcissus-field]] in the south. For questions, call the park on 0799-74-6426.</p>
+`,
+
+'sakurazutsumi-park': `
+<h3>When to go</h3>
+<p>The cherries and rapeseed usually peak together in late March and early April. In 2026 they were in full flower on 3 and 4 April. Parking is free, but at full bloom the car park fills early at weekends, and parking on the road is banned.</p>
+<h3>The park</h3>
+<p>About 500 somei-yoshino line some 1.8 km of the Ichino River embankment in Yoshimi, with a carpet of yellow rapeseed beneath them. The pink and yellow together, along a quiet river in the farmland of central Saitama, is a lovely and less crowded alternative to the big cherry spots.</p>
+<h3>Getting there</h3>
+<p>It's about 15 minutes' walk from the Arako stop on the Tobu bus. By car, it's about 20 minutes from the Higashi-Matsuyama interchange on the Kan-Etsu Expressway. For questions, call Yoshimi Town on 0493-63-5018.</p>
+`,
+
+'huis-ten-bosch': `
+<h3>When to go</h3>
+<p>The tulip season runs from February to early April, and the tulips are usually at their best from mid March to early April. In 2026 and 2025 the spring flower event ran from early February to 6 April, with about a million tulips. Roses take over in May.</p>
+<h3>The park</h3>
+<p>Huis Ten Bosch is a theme park built as a Dutch town, with canals, windmills and brick buildings, on the shore of Omura Bay. The tulips are planted around the windmills and along the canals, about a million of some 700 kinds, including one named after the park. It's an expensive day out, so check the ticket options online.</p>
+<h3>Getting there</h3>
+<p>Huis Ten Bosch Station on the JR Omura Line is right by the gate, and the Huis Ten Bosch limited express runs from Hakata in about 1 hour 45 minutes. In April, [[omura-park]] across the bay is a cherry and iris spot.</p>
+`,
+
+'higashiyama-zoo-and-botanical-gardens': `
+<h3>When to go</h3>
+<p>The cherries flower from late March into mid April. The Cherry Corridor has about 1,000 trees of some 100 kinds, so early and late cherries follow each other. In 2026 the evening opening for the double cherries ran from 4 to 12 April, until 8:30 pm, with the cherries, the flower field and the old glasshouse lit up. Entry is 500 yen for adults, and junior high age and under get in free.</p>
+<h3>The garden</h3>
+<p>Higashiyama is Nagoya's big zoo and botanical garden. The Cherry Corridor brings together cherries from across Japan. The front glasshouse, built in 1937, is the oldest surviving glasshouse of its kind in Japan and an Important Cultural Property. In the evenings, enter by the botanical garden gate or the Hoshigaoka gate.</p>
+<h3>Getting there</h3>
+<p>It's 3 minutes from Higashiyama-koen Station on the Higashiyama subway line. A combined ticket with the Higashiyama Sky Tower costs 640 yen. For questions, call 052-782-2111.</p>
+`,
+
+'hamamatsu-flower-park-april': `
+<h3>When to go</h3>
+<p>The cherries and tulips usually peak together from late March to early April. In 2026 they were at their best in late March, and by 10 April the cherries had turned to leaf. The cherries are lit up in the evening from late March to early April, depending on the flowers. The entry fee changes with the flowers, around 600 to 1,000 yen for adults.</p>
+<h3>The park</h3>
+<p>About 1,700 cherries line some 1.6 km of paths, above 500,000 tulips. With pink overhead and every colour of tulip below, it's one of the best combined cherry and tulip displays in Japan. The park sits on the shore of Lake Hamana, in the Kanzanji onsen area.</p>
+<h3>Getting there</h3>
+<p>Buses run from Hamamatsu Station on the Tokaido Shinkansen. In November, the same park holds its chrysanthemum show, see [[hamamatsu-flower-park]]. For questions, call the park on 053-487-0511.</p>
+`,
+
+'kyoto-botanical-gardens': `
+<h3>When to go</h3>
+<p>With about 500 cherries of some 180 kinds, the season runs for more than a month, from kanhizakura in early March to chrysanthemum-flowered cherries in late April. The somei-yoshino and the double red weeping cherries peak in early April. Entry is 500 yen for adults, 250 yen for over-65s and high school students, and free for junior high age and under.</p>
+<h3>The garden</h3>
+<p>Kyoto Botanical Gardens opened in 1924, and it's the oldest public botanical garden in Japan. It's a calm place to see cherries in a city that gets very crowded, with lawns, a big conservatory and the Kamo River next door. The late double-flowered cherries near the Kitayama gate are worth looking for in mid April, after most of Kyoto has finished. In spring, the conservatory holds a [[kyoto-botanical-gardens-begonia-show|begonia show]] too.</p>
+<h3>Getting there</h3>
+<p>Kitayama Station on the Karasuma subway line is next to the north gate. The south gate opens onto the Kamo River, a lovely cherry walk itself.</p>
+`,
+
 };
