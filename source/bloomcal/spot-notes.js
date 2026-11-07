@@ -3547,4 +3547,355 @@ module.exports = {
 <p>The ropeway station is 8 minutes' walk from the west exit of Echigo-Yuzawa Station, on the Joetsu Shinkansen, about 75 minutes from Tokyo. Yuzawa is an onsen town, so end with a bath. The maples turn on the mountain in October.</p>
 `,
 
+'yokohama-english-garden': `
+<h3>When to go</h3>
+<p>The Rose Festival runs from late April to late May: in 2026 it was from 25 April to 24 May, with early-morning openings during the peak, from 25 April to 17 May. Early to mid May is usually the best. The roses flower again from mid October into November. Other festivals in the garden have charged 1,200 yen for adults and 600 yen for primary and junior high school children; check the rose festival price on the website.</p>
+<h3>The garden</h3>
+<p>About 2,800 roses of some 2,200 kinds grow in five garden areas, one of the biggest collections of rose varieties in Japan, with a 50 m rose tunnel. The planting mixes roses with perennials in an English style, so it feels like a garden rather than a rose collection. In June the hydrangeas take over.</p>
+<h3>Getting there</h3>
+<p>A free shuttle bus runs from Yokohama Station. For free rose gardens in Yokohama, see [[yamashita-park]] and [[minato-no-mieru-oka-park]] on the waterfront.</p>
+`,
+
+'rsk-rose-garden': `
+<h3>When to go</h3>
+<p>The spring roses are usually at their best from mid May to mid June, and the autumn roses from mid October to late November. Entry in rose season has been about 800 yen for adults; check the website for this year's festival.</p>
+<h3>The garden</h3>
+<p>About 12,000 roses of some 450 kinds, large and medium-flowered, grow in the RSK Rose Garden in the north of Okayama, one of the biggest rose gardens in western Japan.</p>
+<h3>Getting there</h3>
+<p>Buses run from Okayama Station. In the same city, [[okayama-korakuen]] is one of Japan's three great gardens.</p>
+`,
+
+'shikishima-park-rose-garden': `
+<h3>When to go</h3>
+<p>The spring roses usually peak from mid May to early June, and the autumn roses from mid October to early November. The rose garden is free.</p>
+<h3>The garden</h3>
+<p>About 7,000 rose bushes of some 600 kinds grow in the rose garden of Shikishima Park in Maebashi, including every rose in the World Rose Hall of Fame and roses bred in Maebashi itself. The park sits beside the Tone River, with old pines, a pond and lawns, so it makes a pleasant half day.</p>
+<h3>Getting there</h3>
+<p>Buses run from JR Maebashi Station. In late April, the tulips of [[gunma-flower-park]] are on the slopes of Mount Akagi above the city.</p>
+`,
+
+'minato-no-mieru-oka-park': `
+<h3>When to go</h3>
+<p>The spring roses usually peak from mid May to early June, and the autumn roses from mid October to mid November. The park is free.</p>
+<h3>The park</h3>
+<p>Minato no Mieru Oka means harbour-view hill park, and it sits on the Yamate bluff above Yokohama harbour, with a view over the bay bridge. About 330 kinds and nearly 2,000 rose plants grow in three gardens, including the English Rose Garden by the British House, an old consular residence. The Western-style houses of the Yamate area, many open free, make a good walk.</p>
+<h3>Getting there</h3>
+<p>It's 5 minutes' walk from Motomachi-Chukagai Station on the Minatomirai Line, up the hill. Walk down to [[yamashita-park]] for more roses by the water, and Chinatown for lunch.</p>
+`,
+
+'kanoya-rose-garden': `
+<h3>When to go</h3>
+<p>The spring roses come out early in the warm south, usually around Golden Week. The Kanoya Rose Festival runs from late April into late May: in 2026 it was listed from 25 April to 31 May, from 9 am to 5 pm. Entry was listed at 630 yen for adults and 110 yen for school children, though the fee changes with the flowers. The autumn roses follow in October and November.</p>
+<h3>The garden</h3>
+<p>Kanoya Rose Garden is one of the largest rose gardens in Japan, about 8 hectares with some 35,000 roses on a hill in Kirishimagaoka Park, in the Osumi Peninsula of southern Kagoshima.</p>
+<h3>Getting there</h3>
+<p>A car is easiest. Buses run from Kagoshima, with a ferry across the bay. For questions, call the festival committee on 0994-40-2170.</p>
+`,
+
+'nakanoshima-park-rose-garden': `
+<h3>When to go</h3>
+<p>The spring roses usually peak in mid to late May, and the autumn roses in October. The garden is free and open all day.</p>
+<h3>The garden</h3>
+<p>About 3,700 roses of some 310 kinds grow on Nakanoshima, a long island between two rivers in central Osaka, beside the red-brick Osaka City Central Public Hall from 1918. With the river, the old buildings and the office towers around it, it's one of the most city-centre rose gardens in Japan.</p>
+<h3>Getting there</h3>
+<p>It's a short walk from Naniwabashi Station on the Keihan Nakanoshima Line, or from Kitahama and Yodoyabashi. River cruises leave from nearby piers. For a bigger garden in Kansai, see [[aramaki-rose-park]] in Itami.</p>
+`,
+
+'aramaki-rose-park': `
+<h3>When to go</h3>
+<p>The spring roses usually peak from mid May to early June, and the autumn roses from mid October to early November. The park holds rose festivals in both seasons.</p>
+<h3>The park</h3>
+<p>About 10,000 roses of some 250 kinds from around the world grow in Aramaki Rose Park in Itami, north of Osaka. It's a city park and one of the bigger rose gardens in Kansai.</p>
+<h3>Getting there</h3>
+<p>Buses run from JR Itami and Hankyu Itami stations. In Osaka itself, [[nakanoshima-park-rose-garden]] is right in the city centre.</p>
+`,
+
+'yono-park': `
+<h3>When to go</h3>
+<p>The roses usually peak in mid May, and the park holds a rose festival then, with stalls and events. The park is free.</p>
+<h3>The park</h3>
+<p>Yono Park is a city park in the Chuo ward of Saitama, with about 3,000 roses of some 200 kinds in its rose garden. It's a local favourite and an easy trip from Tokyo.</p>
+<h3>Getting there</h3>
+<p>It's a short walk from Yonohommachi or Minami-Yono stations. In the same city, [[omiya-park]] is a cherry spot in March, and [[ina-town-memorial-park-rose-garden]] just north has another big rose garden.</p>
+`,
+
+'yamashita-park': `
+<h3>When to go</h3>
+<p>The spring roses usually peak in mid May, and they flower again in October. The park is free and open all day.</p>
+<h3>The garden</h3>
+<p>The Garden of Future rose garden runs along Yamashita Park on Yokohama's waterfront, with about 1,900 roses of some 160 kinds and the harbour behind. The old ocean liner Hikawa Maru is moored alongside, and the Hotel New Grand is across the road.</p>
+<h3>Getting there</h3>
+<p>It's a short walk from Motomachi-Chukagai Station on the Minatomirai Line. Up the hill, [[minato-no-mieru-oka-park]] has more roses, and in late November the [[yamashita-koen-dori-ginkgo-avenue]] turns gold.</p>
+`,
+
+'higashizawa-rose-park': `
+<h3>When to go</h3>
+<p>The rose festival runs from late May into early July: in 2026 it was from 29 May to 5 July, from 9 am to 5 pm. Entry was 600 yen for adults and 300 yen for primary and junior high school children, and free for preschoolers. An autumn rose festival follows in September; in 2026 it ran from 11 to 27 September.</p>
+<h3>The park</h3>
+<p>About 20,000 roses of some 750 kinds cover seven hectares in the hills of Murayama, one of the biggest rose gardens in Tohoku, including the city's own Murayama rose. Being in the north, it flowers later than Tokyo's rose gardens, so it's a good choice in June.</p>
+<h3>Getting there</h3>
+<p>It's about 20 minutes' walk from JR Murayama Station on the Yamagata Shinkansen, and on weekends in the festival a free shuttle has run from the Murayama civic hall. By car, it's 10 minutes from the Murayama interchange, with free parking for 150 cars.</p>
+`,
+
+'horikiri-iris-garden': `
+<h3>When to go</h3>
+<p>The Katsushika Iris Festival runs from late May to mid June: in 2026 it was from 25 May to 14 June. The irises usually peak in early June. During the festival there are evening light-ups, stage events and a parade near the station. Entry is free.</p>
+<h3>The garden</h3>
+<p>About 6,000 irises of some 200 kinds grow in Horikiri, mostly old Edo varieties, with their soft, flat flowers. Horikiri has been famous for irises since the Edo period, and Hiroshige painted it in his One Hundred Famous Views of Edo. It's a small, old-fashioned garden, laid out like rice paddies with paths between the beds.</p>
+<h3>Getting there</h3>
+<p>It's about 10 minutes' walk from Horikiri-Shobuen Station on the Keisei Line. The same festival also covers [[mizumoto-park]], Tokyo's biggest iris garden, a bus ride away, so you can see both in a day.</p>
+`,
+
+'mizumoto-park': `
+<h3>When to go</h3>
+<p>The irises usually peak in early June, during the Katsushika Iris Festival: in 2026 it ran from 25 May to 14 June. Hydrangeas flower at the same time. The park is free.</p>
+<h3>The park</h3>
+<p>Mizumoto Park is a big waterside park on Tokyo's eastern edge, beside the Koai reservoir, with tall poplars, metasequoias and wetlands. Its iris garden has about 14,000 plants of some 100 kinds, the biggest in Tokyo. It feels more like countryside than the city.</p>
+<h3>Getting there</h3>
+<p>Buses run from Kanamachi Station on the JR Joban Line and the Keisei Line. The other festival garden, [[horikiri-iris-garden]], is a bus ride away. In late autumn, the park's metasequoias turn orange.</p>
+`,
+
+'yokosuka-iris-garden': `
+<h3>When to go</h3>
+<p>The iris festival runs from late May to late June: in 2026 it was from 23 May to 21 June, from 9 am to 7 pm. Mid June is usually the peak. During the festival, entry has been 500 yen for adults; Yokosuka residents of primary and junior high school age get in free.</p>
+<h3>The garden</h3>
+<p>About 140,000 irises grow in Yokosuka Iris Garden, on a hillside in the city, one of the best iris gardens in the Kanto region. Hydrangeas flower around the iris beds at the same time. In late April and May, the garden's wisteria tunnel is in flower, see [[yokosuka-iris-garden-april]].</p>
+<h3>Getting there</h3>
+<p>Take a Keikyu bus from JR Kinugasa Station to Shobuen, then walk 2 minutes. For questions, call the garden on 046-853-3688.</p>
+`,
+
+'kamo-iris-garden': `
+<h3>When to go</h3>
+<p>The irises usually peak from late May to mid June. The garden holds an iris and hydrangea show from late April to late June: in 2025 it ran from 29 April to 22 June, from 8 am to 5 pm. Entry has been 1,000 to 1,500 yen for adults depending on the season, with a discount for seniors and free entry for primary school age and under; check the current fee before you go.</p>
+<h3>The garden</h3>
+<p>Kamo-so Kachoen is a private garden beside the house of an Edo-period village headman in Kakegawa, with more than 600 kinds of iris, about 500,000 plants replanted by hand each year, including many bred here. It also keeps owls and other birds, which is unusual for a flower garden.</p>
+<h3>Getting there</h3>
+<p>Buses run from Kakegawa Station on the Tokaido Shinkansen. Kakegawa Castle, rebuilt in wood, is in the town.</p>
+`,
+
+'utatsuyama-iris-garden': `
+<h3>When to go</h3>
+<p>The irises usually peak in mid to late June, and the hydrangeas around them at the same time. It's free.</p>
+<h3>The garden</h3>
+<p>About 20,000 irises of 58 kinds grow on three terraces on the slopes of Mount Utatsu, above Kanazawa, with around 2,900 hydrangeas around them. It's a quiet garden in the hills, a short distance from the Higashi Chaya geisha district.</p>
+<h3>Getting there</h3>
+<p>Buses run from Kanazawa Station in about 20 minutes. In spring, [[kenrokuen]] in the city centre is one of Japan's great cherry gardens.</p>
+`,
+
+'nagai-ayame-park': `
+<h3>When to go</h3>
+<p>The Nagai Ayame Festival runs from mid June to early July: in 2026 it was from 10 June to 5 July, from 9 am to 6 pm, open later on Saturday evenings. Entry during the festival has been 500 yen for adults and 200 yen for children; outside the festival the park is free.</p>
+<h3>The park</h3>
+<p>About a million irises of some 500 kinds grow on 3.3 hectares, including the Nagai strains, old local kinds bred here and found nowhere else. It's one of the biggest iris gardens in Japan, and because it's in the north, it flowers later than the Tokyo gardens, so it's a good choice in late June.</p>
+<h3>Getting there</h3>
+<p>It's about 15 minutes' walk from Ayamekoen Station on the Yamagata Railway Flower Nagai Line. For questions, call the Nagai tourist association on 0238-88-5279. In April, the [[kubo-zakura]] in Nagai is one of the great old cherries of Tohoku.</p>
+`,
+
+'tagajo-castle-ruins-ayame-garden': `
+<h3>When to go</h3>
+<p>The Tagajo Ayame Festival runs from late May to late June: in 2026 it was the 36th, from 23 May to 21 June, with a weekend festival with stage events in mid June. The irises peak from mid June into early July. Entry is free.</p>
+<h3>The garden</h3>
+<p>About 3 million irises, ayame, kakitsubata and hanashobu, of some 800 kinds grow on about 21,000 square metres beside the ruins of Tagajo, the ancient government post that ruled northern Japan from the 8th century. It's a special historic site, and the stone monument of Tagajo, one of Japan's three oldest, is nearby.</p>
+<h3>Getting there</h3>
+<p>Tagajo is about 20 minutes from Sendai by JR Senseki Line, then a walk from Kokufu-Tagajo Station. Matsushima, one of Japan's three great views, is a few stops further on.</p>
+`,
+
+'umami-kyuryo-park': `
+<h3>When to go</h3>
+<p>The irises usually peak in early to mid June. The park is free.</p>
+<h3>The park</h3>
+<p>Umami Kyuryo Park is a big prefectural park in Nara, built around a group of ancient burial mounds, some of them more than 1,500 years old. About 30,000 irises of some 100 kinds grow in its iris garden, with the green mounds behind. It's quiet and spacious, a good escape from the crowds of central Nara.</p>
+<h3>Getting there</h3>
+<p>It's easiest by car; buses run from nearby stations on the Kintetsu and JR lines. In June, the hydrangeas of [[yata-dera-temple]] are also in Nara.</p>
+`,
+
+'omura-park': `
+<h3>When to go</h3>
+<p>The irises usually peak from late May to early June, when the Omura Iris Festival is held and the irises are lit up in the evening. In 2026 the iris festival was on 30 May, part of the longer Omura flower festival. In late March and April, the same park is one of Kyushu's top cherry spots.</p>
+<h3>The park</h3>
+<p>About 300,000 irises grow in the park on the site of Kushima Castle, the castle of the Omura lords, one of the largest iris gardens in Kyushu. In spring the park has about 20 kinds of cherry, including the Omura-zakura, a national natural monument with many-petalled flowers.</p>
+<h3>Getting there</h3>
+<p>It's a short bus or taxi ride from JR Omura Station, and close to Nagasaki Airport. For questions, call the Omura tourist association on 0957-52-3605.</p>
+`,
+
+'kabashima-iris-garden': `
+<h3>When to go</h3>
+<p>The irises usually peak from mid May to early June, early for an iris garden because of Kyushu's warm climate. Entry is free.</p>
+<h3>The garden</h3>
+<p>Tens of thousands of irises of about 50 kinds grow beside Yanagawa's old castle moats. The punts of the Yanagawa canal cruise glide past the garden, so you can see the irises from the water. It's one of the prettiest sights of early summer in Kyushu.</p>
+<h3>Getting there</h3>
+<p>Yanagawa is about 50 minutes from Tenjin in Fukuoka on the Nishitetsu line. Take a canal cruise and have Yanagawa's famous steamed eel for lunch. In April, the [[nakayama-ofuji]] wisteria is in Yanagawa too.</p>
+`,
+
+'hasedera-temple': `
+<h3>When to go</h3>
+<p>The hydrangeas usually flower from late May to late June, with mid June the peak, the upper part of the path first. In season, the hillside hydrangea path needs a separate ticket, 500 yen, on top of the temple entry of 400 yen for adults. In 2026 the temple brought in online advance booking for the path, because waits of one to two hours had been common; the morning tickets sell out first.</p>
+<h3>The temple</h3>
+<p>Hase-dera in Kamakura is a temple on the hillside above the sea, with a great eleven-headed Kannon statue about 9 m tall. About 2,500 hydrangeas of more than 40 kinds line the hydrangea path climbing the hill, with views over Yuigahama beach and Sagami Bay. There's a small cave hall to Benzaiten carved into the rock, worth a look.</p>
+<h3>Getting there</h3>
+<p>It's a short walk from Hase Station on the Enoden line. The Great Buddha of Kamakura is 5 minutes away. For more Kamakura hydrangeas, see [[meigetsu-in-temple]] in Kita-Kamakura.</p>
+`,
+
+'meigetsu-in-temple': `
+<h3>When to go</h3>
+<p>The hydrangeas usually peak in mid June; in 2026 they were in full flower by 12 June. In June, the temple is open from 8:30 am to 5 pm, with last entry at 4:30. Entry is 500 yen for high school age and up and 300 yen for primary and junior high school children, and the inner garden costs 500 yen more. Peak weekends are very busy, with queues sometimes reaching Kita-Kamakura Station, so come at opening on a weekday.</p>
+<h3>The temple</h3>
+<p>Meigetsu-in is known as the hydrangea temple, with some 2,000 to 2,500 hime-ajisai, a small hydrangea, in a shade of blue so particular it's called Meigetsu-in blue. Look for the round window in the main hall, which frames the inner garden like a painting.</p>
+<h3>Getting there</h3>
+<p>It's about 10 minutes' walk from Kita-Kamakura Station on the JR Yokosuka Line. Combine it with [[hasedera-temple]] and [[engakuji-temple]], next to the station.</p>
+`,
+
+'hakone-tozan-railway': `
+<h3>When to go</h3>
+<p>The hydrangeas usually flower from mid June to mid July, higher up the line later. In 2026 the trackside hydrangeas were lit up from 12 to 30 June, from 6:30 to 10 pm, at six places along the line, and the Night Hydrangea Train ran from 13 to 30 June, with reserved seats for 500 yen on top of the fare. Seats go on sale online in mid May and sell out fast.</p>
+<h3>The railway</h3>
+<p>The Hakone Tozan Railway climbs steeply from Hakone-Yumoto to Gora, switching back three times on the way, and its tracks are lined with hydrangeas. Riding the little train through the flowers is the point, so sit by the window. On the regular trains you get the hydrangeas in daylight for just the normal fare.</p>
+<h3>Getting there</h3>
+<p>The line starts at Hakone-Yumoto, the end of the Odakyu Romancecar from Shinjuku. From Gora, the cable car and ropeway carry on towards Owakudani and Lake Ashi.</p>
+`,
+
+'mimuroto-ji-temple': `
+<h3>When to go</h3>
+<p>The hydrangea garden opens from late May or early June to early July: in 2026 it was open from 31 May to 5 July. In 2026 the garden was lit up on Saturdays and Sundays from 13 to 28 June, from 7 to 9 pm. Entry in hydrangea season is 1,000 yen for adults and 500 yen for children.</p>
+<h3>The temple</h3>
+<p>Mimuroto-ji is an old temple in the hills of Uji, known as the flower temple. About 20,000 hydrangeas of some 50 kinds fill a wooded valley garden. The temple also has azaleas in May and lotus in pots in July, and it's on the Saigoku pilgrimage. Look for the heart-shaped hydrangea that visitors hunt for.</p>
+<h3>Getting there</h3>
+<p>It's about 15 minutes' walk from Mimuroto Station on the Keihan Uji Line. Byodo-in and Uji's tea shops are a short ride away, see [[byodo-in-temple]].</p>
+`,
+
+'shimoda-park': `
+<h3>When to go</h3>
+<p>The Izu Shimoda Onsen Hydrangea Festival runs through June: in 2026 it was the 55th, from 1 to 30 June. The flowers are usually at their best from mid to late June. Entry is free; stalls are open from 9 am to 4 pm.</p>
+<h3>The park</h3>
+<p>About 150,000 hydrangea plants of more than 100 kinds, some 3 million flowers, cover the hill above Shimoda harbour, on the site of an old castle. Paths wind up through the hydrangeas to lookouts over the harbour where Commodore Perry's Black Ships arrived in 1854.</p>
+<h3>Getting there</h3>
+<p>It's about 20 minutes' walk from Izukyu-Shimoda Station, and buses run during the festival. A temporary car park by the Perry landing monument costs 600 yen. For questions, call the Shimoda tourist association on 0558-22-1531. In winter, Shimoda has the [[tsumekizaki-narcissus]] and the [[izu-shirahama-aloe-fields]].</p>
+`,
+
+'yata-dera-temple': `
+<h3>When to go</h3>
+<p>The hydrangeas usually peak in mid to late June. Entry in hydrangea season has been about 700 yen.</p>
+<h3>The temple</h3>
+<p>Yata-dera, also called Kongosen-ji, is Nara's best-known hydrangea temple, with about 10,000 hydrangeas of some 60 kinds on 2.5 hectares of hillside around the halls. The temple is dedicated to Jizo.</p>
+<h3>Getting there</h3>
+<p>Buses run from Kintetsu-Koriyama Station at weekends, then it's a 5 minute walk; on weekdays a taxi is easier. For irises in early June, see [[umami-kyuryo-park]], also in Nara.</p>
+`,
+
+'fujinomori-shrine': `
+<h3>When to go</h3>
+<p>The hydrangea gardens open through June, with mid June usually the peak. A hydrangea festival is held on 15 June. Entry to the gardens is 500 yen.</p>
+<h3>The shrine</h3>
+<p>About 3,500 hydrangeas grow in two gardens in the grounds of Fujinomori Shrine in Fushimi. The shrine is dedicated to victory and horses, so it's popular with horse racing fans, and its May festival features riders doing tricks on galloping horses.</p>
+<h3>Getting there</h3>
+<p>It's 5 minutes' walk from JR Fujinomori Station on the Nara Line or Keihan Sumizome Station. Fushimi Inari is one stop away. For more Kyoto hydrangeas, see [[mimuroto-ji-temple]] in Uji.</p>
+`,
+
+'takahata-fudo': `
+<h3>When to go</h3>
+<p>The hydrangeas usually peak from early to late June. The hydrangea festival runs through June. The wild mountain hydrangeas on the hill behind the temple flower first, in early June.</p>
+<h3>The temple</h3>
+<p>Takahata Fudo is an old temple in Hino, western Tokyo, with about 7,800 hydrangeas of some 250 kinds around its five-storey pagoda, including about 3,000 wild mountain hydrangeas on the hill behind. It was the family temple of Hijikata Toshizo, vice-commander of the Shinsengumi, and there's a statue of him in the grounds.</p>
+<h3>Getting there</h3>
+<p>It's 5 minutes' walk from Takahata-fudo Station on the Keio Line, about 40 minutes from Shinjuku. In November, [[mount-takao]] is a few stops further on the same line.</p>
+`,
+
+'hakusan-shrine': `
+<h3>When to go</h3>
+<p>The hydrangeas usually peak in early to mid June, during the Bunkyo Hydrangea Festival. During the festival, the little Fuji-zuka mound in the grounds, a miniature Mount Fuji, is opened to visitors, the only time of year you can climb it. The shrine is free.</p>
+<h3>The shrine</h3>
+<p>About 3,000 hydrangeas grow in the grounds of Hakusan Shrine and the small park next to it, in a quiet residential part of Bunkyo Ward. It's an easy, short visit in central Tokyo.</p>
+<h3>Getting there</h3>
+<p>It's 3 minutes from Hakusan Station on the Toei Mita Line. In April, [[nezu-shrine]] nearby is famous for its azaleas.</p>
+`,
+
+'hondo-ji-temple': `
+<h3>When to go</h3>
+<p>The hydrangeas usually peak in mid to late June, and the irises in early June. In season there's an entry fee for the gardens. The maples colour in late November, a second season to come back for.</p>
+<h3>The temple</h3>
+<p>Hondo-ji is a Nichiren temple in Matsudo, known as the hydrangea temple, with about 50,000 hydrangeas of more than ten kinds filling its grounds, mostly blue Hime-ajisai, around a five-storey pagoda. About 5,000 irises flower in its iris garden at the start of June.</p>
+<h3>Getting there</h3>
+<p>It's about 15 minutes' walk from Kita-Kogane Station on the JR Joban Line, about 30 minutes from Ueno. Weekends at peak are busy, so come early.</p>
+`,
+
+'shingu-hydrangea-village': `
+<h3>When to go</h3>
+<p>The Shingu Hydrangea Festival runs from mid to late June: in 2026 it was from 13 to 30 June. The hydrangeas are high up in the mountains, so they flower later than most, and they're usually at their best in the second half of June. Entry is free.</p>
+<h3>The village</h3>
+<p>About 20,000 hydrangeas cover four hectares of mountain slope in Shingu, a hill village in Shikokuchuo, looked after by local people. During the festival, the little Ajisai-go monorail climbs about 100 m up the slope between the flowers, from 10 am to 4:30 pm, 500 yen one way, and it doesn't run in the rain.</p>
+<h3>Getting there</h3>
+<p>Take a bus from JR Iyo-Mishima Station to Nagatebashi, then walk 3 minutes, or drive from the Shingu interchange on the Kochi Expressway. Shingu is a tea-growing area, so try the local tea. For questions, call Shikokuchuo City on 0896-28-6187.</p>
+`,
+
+'ohirasan-ajisai-zaka': `
+<h3>When to go</h3>
+<p>The Tochigi Hydrangea Festival runs in mid to late June: in 2026 it was from 12 to 28 June, with events at weekends such as bamboo-blind tricks and mechanical doll shows. The hydrangeas usually peak from late June into early July.</p>
+<h3>The slope</h3>
+<p>About 2,500 hydrangeas of several kinds, Western, lacecap and mountain hydrangeas, line the roughly 1,000 stone steps of the approach to Ohirasan Shrine, first planted in 1974. Climb slowly and enjoy the colours on both sides. From the top, the Kenshin-daira lookout has a wide view over the Kanto plain.</p>
+<h3>Getting there</h3>
+<p>Buses run from Tochigi Station, about 15 minutes, then it's a 5 minute walk. Car parks near the slope cost 500 yen during the festival, and those at Omagari and Kenshin-daira are free. Tochigi city's old storehouse district along the canal is worth adding. For questions, call the Tochigi tourist association on 0282-25-2356.</p>
+`,
+
+'michinoku-hydrangea-garden': `
+<h3>When to go</h3>
+<p>The garden opens only in hydrangea season, from late June to late July: in 2026 it was open from 27 June to 20 July, from 8 am to 5 pm, with last entry at 4. Entry was 1,000 yen for adults until 3 July and 1,500 yen at peak, and 500 yen for primary and junior high school children. It's cash only. From early July, the hydrangea pond, with flower heads floating on the water, is the highlight.</p>
+<h3>The garden</h3>
+<p>About 40,000 to 50,000 hydrangeas of some 400 kinds grow along paths through cedar woods outside Ichinoseki, one of the widest hydrangea collections in Japan. The paths are hilly, so wear good shoes; small carts can be booked for 800 yen per person.</p>
+<h3>Getting there</h3>
+<p>It's about 25 to 35 minutes by car from the Ichinoseki interchange on the Tohoku Expressway, or a bus from JR Ichinoseki Station and a 20 minute walk. For questions during the season, call 0191-28-2349. In mid June, the irises of [[motsu-ji-temple-iris-garden|Motsu-ji]] in nearby Hiraizumi are out.</p>
+`,
+
+'yohena-hydrangea-garden': `
+<h3>When to go</h3>
+<p>The garden opens from early May to late June: in 2026 it was open from 9 May, from 9 am to 6 pm. The hydrangeas are usually at their best from late May, much earlier than on the mainland. Entry has been about 500 yen for adults and 200 yen for school children.</p>
+<h3>The garden</h3>
+<p>Yohena Hydrangea Garden is a private garden on the hillsides of Izumi, in the hills inland from Motobu, where one family has planted hydrangeas over the years. Hydrangeas are unusual in Okinawa's climate, so it's a rare sight, with the subtropical forest around it.</p>
+<h3>Getting there</h3>
+<p>You'll need a car; there's free parking for 70 cars. The Churaumi Aquarium and the [[tropical-dream-center]] are about 20 minutes away. For questions, call 0980-47-2183.</p>
+`,
+
+'misato-lavender-garden': `
+<h3>When to go</h3>
+<p>The lavender festival runs through June: in 2026 it was from 6 to 28 June. The lavender is usually at its best from mid to late June. Entry is free, and there's lavender picking for a small fee, 500 yen in 2026.</p>
+<h3>The garden</h3>
+<p>About 20,000 lavender plants grow on some 2 hectares of hillside in Misato, Akita, with purple and white planted apart. The white kind, Misato Sekka, snow flower of Misato, was found here and grows nowhere else. The views over the Senboku plain are wide.</p>
+<h3>Getting there</h3>
+<p>A shared sightseeing taxi, the Mizumo Shuttle, runs from JR Omagari Station on the Akita Shinkansen; book by 5 pm the day before. In April, [[kakunodate-samurai-district]] is a short ride north.</p>
+`,
+
+'oishi-park': `
+<h3>When to go</h3>
+<p>The lavender is usually at its best in early to mid July. The Kawaguchiko Herb Festival runs from late June to mid or late July at Oishi Park and [[yagisaki-park]]; in 2025 it ran from 21 June to 21 July. Entry is free, and the park is open all day.</p>
+<h3>The park</h3>
+<p>About 3,000 lavender plants grow along the north shore of Lake Kawaguchi, with Mount Fuji across the water: purple lavender, blue lake and, if you're lucky, a clear Fuji. Go early in the morning, when the mountain is most likely to be out and the tour buses haven't arrived. The Natural Living Center has a café and sells blueberry jam and lavender goods.</p>
+<h3>Getting there</h3>
+<p>Take the Kawaguchiko sightseeing bus from Kawaguchiko Station to the Kawaguchiko Natural Living Center. The same park has [[oishi-park-april|nemophila]] in spring and [[oishi-park-october|red kochia]] in autumn.</p>
+`,
+
+'yagisaki-park': `
+<h3>When to go</h3>
+<p>The lavender is usually at its best from late June to mid July, during the Kawaguchiko Herb Festival, which is held here and at [[oishi-park]]. The park is free.</p>
+<h3>The park</h3>
+<p>About 80,000 lavender plants grow at Yagisaki Park, on a small headland on the south shore of Lake Kawaguchi, most of the lavender around the lake, with the lake and the mountains around it as a backdrop.</p>
+<h3>Getting there</h3>
+<p>It's about 15 minutes' walk from Kawaguchiko Station, or a short ride on the sightseeing bus. Combine it with Oishi Park on the north shore for the classic lavender and Fuji views.</p>
+`,
+
+'kobe-nunobiki-herb-gardens': `
+<h3>When to go</h3>
+<p>The lavender usually flowers from late May to early July, with June the best month, alongside hydrangeas and lilies. The gardens are open all year, with evening openings on summer weekends.</p>
+<h3>The gardens</h3>
+<p>Kobe Nunobiki Herb Gardens are on a hillside above Kobe, reached by ropeway, with about 200 kinds of herbs and 75,000 plants. The lavender garden has about 1,200 plants. From the top there's a view over the city and the port, and at night the Kobe city lights below are one of Japan's best night views.</p>
+<h3>Getting there</h3>
+<p>The Shin-Kobe ropeway starts near Shin-Kobe Station, on the Sanyo Shinkansen. A return ticket including garden entry costs 2,500 yen for adults and 1,250 yen for children since April 2026. Walk down instead and you pass the Nunobiki waterfalls, among the most famous in Japan.</p>
+`,
+
+'lavender-park-taka': `
+<h3>When to go</h3>
+<p>The early French lavender flowers in May, and the later kinds from late June to mid July, which is also the lavender-picking season. Until mid July there's an entry fee, 500 yen for adults and 200 yen for primary and junior high school children; picking costs extra. The park is open all year.</p>
+<h3>The park</h3>
+<p>Lavender Park Taka is in Kami, in the hills of Taka, in central Hyogo, with lavender fields on the slopes, a shop selling lavender goods, and workshops making lavender crafts. It's one of the largest lavender parks in western Japan. For questions, call 0795-36-1616.</p>
+<h3>Getting there</h3>
+<p>You'll want a car. Taka is known as the birthplace of Japan's Respect for the Aged Day and for its traditional washi paper, Sugihara-gami.</p>
+`,
+
 };
