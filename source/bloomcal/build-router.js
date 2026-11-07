@@ -225,7 +225,7 @@ var INFO = {
   privacy: { title: 'Privacy', jp: '個人情報', h1: 'Privacy policy', body:
     '<p>This site is run as a personal project and collects as little as it can. There is no account to ' +
     'create and nothing is sold or handed to a data broker. It does use <strong>Google Analytics</strong> ' +
-    'to count visits, and that is described in full below.</p>' +
+    'to count visits and <strong>Google AdSense</strong> to show ads, and both are described in full below.</p>' +
     '<h3>Google Analytics</h3>' +
     '<p><strong>Only if you agree.</strong> The first time you arrive the site asks whether it may use ' +
     'cookies for visit statistics and personalised ads. Analytics is not loaded and no Analytics request ' +
@@ -245,11 +245,12 @@ var INFO = {
     'add-on</a>, and any tracker blocker or your browser&rsquo;s &ldquo;do not track&rdquo; list will stop ' +
     'it too. Nothing on the site stops working if you block it.</p>' +
     '<h3>Third parties that can see your visit</h3>' +
-    '<p>Two services necessarily receive a request from your browser, which means each can see your IP ' +
+    '<p>These services receive a request from your browser, which means each can see your IP ' +
     'address, roughly where you are and which page you asked for:</p>' +
     '<ul>' +
     '<li><strong>Vercel</strong> hosts the site and keeps standard server logs.</li>' +
     '<li><strong>Google Analytics</strong>, on every page, but only once you have agreed to it.</li>' +
+    '<li><strong>Google AdSense</strong>, on every page, to choose and show ads, as described under Advertising.</li>' +
     '<li><strong>Open-Meteo</strong> supplies the live forecast shown on a spot page. Your browser asks it ' +
     'directly for the weather at that spot. It is only contacted when you open a spot page, and it is sent ' +
     "the spot's coordinates, never yours.</li>" +
@@ -268,12 +269,20 @@ var INFO = {
     'site\\'s privacy policy, not this one. Nothing about you is sent to them by us, and no partner box ' +
     'appears on a spot unless the place it points to is genuinely relevant.</p>' +
     '<h3>Advertising</h3>' +
-    '<p>The site currently carries no advertising beyond the affiliate links described above. If display ' +
-    'advertising is introduced, Google and its partners may ' +
-    'set cookies or read device identifiers to serve and measure ads, and this page will be updated to say ' +
-    'so before any ad is shown. You can review and change your choices at ' +
-    '<a href="https://myadcenter.google.com/" target="_blank" rel="noopener">Google My Ad Center</a> and read ' +
-    'how Google uses data at ' +
+    '<p>The site uses <strong>Google AdSense</strong> to show ads. Third-party vendors, including Google, ' +
+    'use cookies to serve ads based on your earlier visits to this site and to other websites. Google&rsquo;s ' +
+    'use of advertising cookies lets it and its partners serve ads to you based on your visits to this ' +
+    'site and other sites on the internet.</p>' +
+    '<p>Until you choose &ldquo;Allow&rdquo; in the cookie message, the site asks Google for ' +
+    'non-personalised ads only. Those are chosen from the page you are reading rather than from your ' +
+    'history, though Google may still use cookies or device identifiers to limit how often an ad is shown, ' +
+    'to measure ads and to stop fraud. Visitors in the European Economic Area, the UK and Switzerland are ' +
+    'asked through Google&rsquo;s own consent message, which decides what Google may do.</p>' +
+    '<p>You can turn off personalised ads from Google at any time in ' +
+    '<a href="https://myadcenter.google.com/" target="_blank" rel="noopener">Google My Ad Center</a>, and ' +
+    'opt out of personalised ads from other vendors at ' +
+    '<a href="https://www.aboutads.info/choices/" target="_blank" rel="noopener">www.aboutads.info</a>. ' +
+    'Read how Google uses data from sites that use its services at ' +
     '<a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener">' +
     'policies.google.com/technologies/partner-sites</a>.</p>' +
     '<h3>Your rights and how to ask</h3>' +

@@ -108,6 +108,8 @@ for (const f of ICONS) {
   fs.copyFileSync(f, path.join(OUT, f));
 }
 fs.writeFileSync(path.join(OUT, 'robots.txt'), `User-agent: *\nAllow: /\n\nSitemap: ${SITE}/sitemap.xml\n`);
+// authorises Google as the only seller of this site's ad space; the pub id must match the AdSense tag in tools/prerender.js
+fs.writeFileSync(path.join(OUT, 'ads.txt'), 'google.com, pub-6449041648416680, DIRECT, f08c47fec0942fa0\n');
 // proves IndexNow pings (tools/indexnow.js) come from the site's owner
 fs.writeFileSync(path.join(OUT, INDEXNOW_KEY + '.txt'), INDEXNOW_KEY);
 
