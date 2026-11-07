@@ -3898,4 +3898,554 @@ module.exports = {
 <p>You'll want a car. Taka is known as the birthplace of Japan's Respect for the Aged Day and for its traditional washi paper, Sugihara-gami.</p>
 `,
 
+'farm-tomita': `
+<h3>When to go</h3>
+<p>The early lavender opens in late June, and the main fields peak from mid to late July. Some late kinds last into August. Entry to the farm is free. On summer weekends and at peak it's very busy, so come early in the morning.</p>
+<h3>The farm</h3>
+<p>Farm Tomita is the farm that made Furano's lavender famous. In the 1970s, when demand for lavender oil collapsed, the farmer kept his fields, and a railway calendar photo of them in 1976 brought the first tourists. Today several fields flower in turn: the Irodori field stripes lavender with poppies, baby's breath and other flowers down the slope, the classic view. Try the lavender soft-serve ice cream and the melons in the shop.</p>
+<h3>Getting there</h3>
+<p>In summer, trains stop at the temporary Lavender Farm Station, about 7 minutes' walk away; on other days, Nakafurano Station is about 25 minutes on foot. The JR Furano Biei Norokko sightseeing train made its last runs in 2026. The farm's second site, [[farm-tomita-lavender-east]], has one huge lavender field. In the same area, see [[hinode-park-lavender-garden]] and [[hokuseiyama-lavender-park]].</p>
+`,
+
+'farm-tomita-lavender-east': `
+<h3>When to go</h3>
+<p>The lavender is usually at its best in mid to late July. The farm opens only in the lavender season, from early July to early August.</p>
+<h3>The farm</h3>
+<p>Lavender East is Farm Tomita's second farm, a few kilometres from the main [[farm-tomita|Farm Tomita]], where a single huge field of lavender, about 14 hectares, rolls across the open Hokkaido hills. It's grown mainly for lavender oil, so it's one colour from edge to edge, a different feel from the striped fields of the main farm. A tractor bus has run around the field in some years.</p>
+<h3>Getting there</h3>
+<p>You'll want a car. It's in Kami-Furano, a few minutes' drive east of the main farm. The Tokachi mountains rise behind the field on a clear day.</p>
+`,
+
+'hill-of-the-buddha': `
+<h3>When to go</h3>
+<p>The lavender usually peaks from mid to late July, the busiest time of year here. The Buddha can be visited all year, but the hill is green in summer and covered in snow in winter. Entry is 1,000 yen, and you can now pay online in advance. From April to October it's open from 9 am to 4 pm, and from November to March from 10 am to 3 pm.</p>
+<h3>Things to know</h3>
+<p>In 2026 the statue was cleaned from 25 September to 20 October, when it was hard to see and parts were closed. Check the cemetery's website for any work before you go.</p>
+<h3>The hill</h3>
+<p>The architect Tadao Ando built this hall for a 13.5 m stone Buddha at Makomanai Takino cemetery. The statue sits inside a hill planted with about 150,000 lavender plants, so from outside only its head shows above the lavender, and you reach it through a long concrete tunnel. It's a cemetery, so keep your voice down.</p>
+<p>From Sapporo Station, take the Namboku subway line to Makomanai, about 18 minutes, then a Chuo bus, about 23 minutes.</p>
+`,
+
+'zerubu-hill': `
+<h3>When to go</h3>
+<p>The hill is planted with about 30 kinds of flowers in stripes, so something is out from late June to early October. July is the fullest, with lavender and sunflowers, and summer annuals carry on into early autumn. It's free.</p>
+<h3>The hill</h3>
+<p>Zerubu Hill is a flower hill on the road between Biei and Asahikawa, with stripes of colour down the slope and the Tokachi mountains behind. Biei is famous for its patchwork of rolling farm fields and lone trees made famous by photographers and TV adverts. Please stay off the farm fields themselves; they're private land.</p>
+<h3>Getting there</h3>
+<p>It's about 20 minutes' walk from Biei Station, or hire a bike in Biei. The bigger flower hill, [[shikisai-no-oka]], is south of Biei towards Furano.</p>
+`,
+
+'hinode-park-lavender-garden': `
+<h3>When to go</h3>
+<p>The lavender usually peaks from early to late July. In 2026 the Lavender Festa Kamifurano ran from 4 to 12 July, with the hill lit up from 7:30 to 9:30 pm, and mini fireworks on the first night. Entry is free.</p>
+<h3>The park</h3>
+<p>Hinode Park is a hillside lavender park of about 4.2 hectares in Kami-Furano. Much of it is the late-flowering Okamurasaki variety, and from the observation deck at the top there's a view across the Furano valley to the Tokachi mountains. There's a white wedding bell on the hill, a popular photo spot.</p>
+<h3>Getting there</h3>
+<p>It's about 15 minutes' walk from Kamifurano Station on the JR Furano Line, with parking for about 300 cars during the festival. [[farm-tomita]] is about 15 minutes away by car.</p>
+`,
+
+'hokuseiyama-lavender-park': `
+<h3>When to go</h3>
+<p>The lavender usually peaks from mid July to early August. The Nakafurano Lavender Festival is held then, with fireworks; in 2026 it was on 1 August. Entry is free.</p>
+<h3>The park</h3>
+<p>Hokuseiyama Lavender Park is a town-run lavender hillside in Nakafurano, with a sightseeing lift to the top of the hill, from where you look across the Furano valley with the Tokachi mountains on one side and the town below. It's quieter than the big farms.</p>
+<h3>Getting there</h3>
+<p>It's about 15 minutes' walk from Nakafurano Station on the JR Furano Line. [[farm-tomita]] is a short drive away.</p>
+`,
+
+'shikisai-no-oka-june': `
+<h3>When to go</h3>
+<p>The nemophila flower in mid June, about two months after the famous fields of Honshu, because of Hokkaido's late spring. The full summer stripes of flowers follow from July. From July to September, entry is 800 yen for adults; in June it's free.</p>
+<h3>The hill</h3>
+<p>Shikisai-no-Oka plants about 1,000 nemophila on its near slope, a small patch next to the big blue hills of Honshu, but with the Tokachi mountains behind and early-summer green all around. It's a good time to see Biei before the summer crowds arrive.</p>
+<h3>Getting there</h3>
+<p>It's about 12 minutes' walk, uphill, from Bibaushi Station on the JR Furano Line. For the summer flower stripes, see [[shikisai-no-oka]].</p>
+`,
+
+'yurigahara-park': `
+<h3>When to go</h3>
+<p>The lilies flower from mid June to August, with different kinds in turn. July is usually the fullest. The park is free.</p>
+<h3>The park</h3>
+<p>Yurigahara means lily field, and this big park in the north of Sapporo is named for its lilies, with about 100 kinds from around the world in the World Lily Garden. It also has a large greenhouse, gardens from Sapporo's sister cities and a little sightseeing train around the park in summer.</p>
+<h3>Getting there</h3>
+<p>It's 7 minutes' walk from Yurigahara Station on the JR Sassho Line, about 15 minutes from Sapporo. In late June, the roses of [[iwamizawa-park-rose-garden]] are about 40 minutes away.</p>
+`,
+
+'iwamizawa-park-rose-garden': `
+<h3>When to go</h3>
+<p>The roses usually peak from late June to mid July, and flower again from mid September to mid October. The Iwamizawa Rose Festa runs in the summer peak: in 2026 it was from 20 June to 12 July, with guided tours on some weekends. The rose garden is free; the greenhouse, Shikisaikan, costs 250 yen for adults.</p>
+<h3>The garden</h3>
+<p>About 8,800 plants of some 630 kinds grow on about 4 hectares, one of the largest rose gardens in Hokkaido, plus a hill of wild hamanasu, the rugosa rose that's Hokkaido's prefectural flower. Hokkaido's roses flower a month after Tokyo's, so this is a good choice in early summer.</p>
+<h3>Getting there</h3>
+<p>It's easiest by car from Iwamizawa, about 40 minutes from Sapporo. For questions, call the park on 0126-25-6111.</p>
+`,
+
+'hokuryu-sunflower-village': `
+<h3>When to go</h3>
+<p>The Hokuryu Sunflower Festival runs from late July to mid August: in 2026 it was the 40th, from 20 July to 18 August, with a pre-opening on 18 and 19 July. The sunflowers usually peak in early August. You can walk the fields at any time during the festival. Entry is free; parking is 500 yen.</p>
+<h3>The fields</h3>
+<p>About 2 million sunflowers grow on a 23-hectare hillside in Hokuryu, one of the biggest sunflower fields in Japan, all facing the same way, towards the morning sun. There's a sunflower maze for 300 yen and a little sightseeing train through the field, 500 yen for adults. On the last day of the festival there are fireworks.</p>
+<h3>Getting there</h3>
+<p>Buses run from Takikawa Station, but a car is easier. Hokuryu is about two hours' drive from Sapporo. For questions, call the Hokuryu tourism association on 0164-34-6790.</p>
+`,
+
+'kodaihasu-no-sato': `
+<h3>When to go</h3>
+<p>The lotus usually flowers from late June to early August, with early to mid July the peak. Go early: the flowers open in the morning, and 7 to 9 am is the best time. In the lotus season, the car park charges 500 yen per car from 5 am to 3 pm. The park itself is free.</p>
+<h3>The park</h3>
+<p>About 120,000 plants of 42 kinds of lotus grow in the park, including the Gyoda lotus, an ancient lotus that sprouted in 1971 from seeds that had lain in the ground for some 1,400 to 3,000 years, found when the land was dug for a public building. The observation tower at the Kodaihasu Kaikan, 400 yen for adults, looks down on the lotus ponds and on the rice-paddy art, giant pictures made with different coloured rice, which is at its best from mid July to October.</p>
+<h3>Getting there</h3>
+<p>Buses run from Gyoda Station on the JR Takasaki Line. Gyoda also has the Sakitama burial mounds and the old castle town of Oshi. For questions, call the Kodaihasu Kaikan on 048-559-0770.</p>
+`,
+
+'hokongo-in-temple': `
+<h3>When to go</h3>
+<p>The lotus flowers in July, and the temple holds a lotus viewing then, opening early at 7:30 am so you can see the flowers at their best in the morning. The temple is usually open only on the 15th of each month and in its flower seasons, so check its website for the lotus dates. Entry has been 500 yen.</p>
+<h3>The temple</h3>
+<p>Hokongo-in is a Heian-era temple in western Kyoto with one of the oldest gardens in Japan, built around a pond for the empress Taikenmon-in in the 12th century. It's known as the lotus temple, with about 90 kinds of lotus in the pond and in pots. It's also known for its weeping cherry in spring.</p>
+<h3>Getting there</h3>
+<p>It's 5 minutes' walk from Hanazono Station on the JR Sagano Line. Myoshin-ji, a huge Zen temple complex, is next door. For questions, call the temple on 075-461-9428.</p>
+`,
+
+'chiba-park': `
+<h3>When to go</h3>
+<p>The Oga lotus flowers in the park pond from mid June to early July, earlier than most lotus, and a lotus festival is held in late June. Mornings are best, when the flowers open. The park is free.</p>
+<h3>The lotus</h3>
+<p>The Oga lotus was grown from seeds about 2,000 years old found near Chiba in 1951 by the botanist Oga Ichiro, and it's often called the oldest flower in the world. Seeds and roots from it have been shared all over Japan and abroad, but this pond in Chiba Park is where it's best known. It's Chiba City's flower.</p>
+<h3>Getting there</h3>
+<p>Chiba-koen Station on the Chiba Urban Monorail is right next to the park, a short ride from Chiba Station. For more ancient lotus, see [[kodaihasu-no-sato]] in Gyoda.</p>
+`,
+
+'mizunomori-water-botanical-garden': `
+<h3>When to go</h3>
+<p>The lotus usually flowers from mid June to mid July, and the water lilies flower through the summer. Entry is 300 yen for adults, 250 yen for high school and university students, 150 yen for over-65s, and free for junior high age and under. The garden is open from 9 am to 5 pm, closed on Mondays and over New Year.</p>
+<h3>The garden</h3>
+<p>Mizunomori is a water-plant garden on the shore of Lake Biwa in Kusatsu, opened in 1996, with more than 100 kinds of lotus, including the ancient Oga lotus, and a water lily pond. Next to it, the Karasuma peninsula once had one of Japan's biggest wild lotus colonies, though it has mostly disappeared since 2016.</p>
+<h3>Getting there</h3>
+<p>Buses run from JR Kusatsu Station. For questions, call 077-568-2332.</p>
+`,
+
+'akeno-sunflower-field': `
+<h3>When to go</h3>
+<p>The Hokuto Akeno Sunflower Fes runs from mid July to mid August: in 2026 it was from 18 July to 16 August. The main field is usually at its best from late July to late August, and the other fields flower at different times. In 2026 the field was lit up on the evening of 14 August. The festival is free; parking at the main site costs 1,000 yen.</p>
+<h3>The fields</h3>
+<p>About 400,000 to 600,000 sunflowers grow on farmland in Akeno, Hokuto, with the Southern Alps, Yatsugatake and, on clear days, Mount Fuji behind. Akeno is one of the sunniest places in Japan, which suits the sunflowers. The Yamanashi Flower Center, Heidi's Village, is a 2 minute walk from the main field.</p>
+<h3>Getting there</h3>
+<p>It's about 15 minutes by car from the Sudama or Nirasaki interchanges on the Chuo Expressway. For questions, call the festival committee on 0551-42-1351.</p>
+`,
+
+'expo-70-commemorative-park': `
+<h3>When to go</h3>
+<p>The park holds a sunflower festa each summer, from late July into early August. In 2026 it moved to the natural culture garden. Park entry is 450 yen for high school age and up, and free for junior high age and under.</p>
+<h3>The park</h3>
+<p>Expo '70 Commemorative Park is on the site of the 1970 World Expo in Osaka, and the giant Tower of the Sun by Okamoto Taro still stands at its heart. Its flower fields change with the seasons, with sunflowers in summer and cosmos and kochia in autumn.</p>
+<h3>Getting there</h3>
+<p>Take the Osaka Monorail to Banpaku-Kinen-Koen Station. For the autumn flowers, see [[expo-70-commemorative-park-october]].</p>
+`,
+
+'zama-sunflower-fields': `
+<h3>When to go</h3>
+<p>The Zama Sunflower Festival is held for a few days in mid August: in 2026 it was from 14 to 16 August, from 9:30 am to 5 pm. The fields are open all day. Entry is free.</p>
+<h3>The fields</h3>
+<p>About 550,000 sunflowers grow on farmland by the Sagami River, one of the biggest displays in the Kanagawa area, in two areas on either side of the Zakae bridge. The Zama area is all yellow, and the Yotsuya area has two kinds of sunflower.</p>
+<h3>Getting there</h3>
+<p>During the festival, temporary buses run from Sobudaimae Station on the Odakyu Line. Otherwise, take a bus from Zama Station towards Zama-Yotsuya to Himawari-batake-iriguchi, then walk about 10 minutes.</p>
+`,
+
+'himawari-no-oka-park': `
+<h3>When to go</h3>
+<p>About 400,000 sunflowers flower in mid to late July, and about 4 million cosmos follow in October. The park is free, with free parking.</p>
+<h3>The park</h3>
+<p>Himawari no Oka Park is a hillside park in Ono, in central Hyogo, named for its sunflower fields. The sunflowers are sown in sections so they flower in turn through July. In autumn the same fields turn pink with cosmos.</p>
+<h3>Getting there</h3>
+<p>You'll want a car. For more summer flowers in Hyogo, see [[nanko-sunflower-fields]] in Sayo.</p>
+`,
+
+'makino-botanical-garden': `
+<h3>When to go</h3>
+<p>Something is in flower all year, with more than 3,000 kinds of plants. Spring is the best season, with cherries and azaleas, and the glasshouse has tropical plants in winter.</p>
+<h3>The garden</h3>
+<p>The Kochi Prefectural Makino Botanical Garden on Mount Godai honours Makino Tomitaro, the father of Japanese botany, who was born in Kochi Prefecture and named more than 1,500 plants. His life was the subject of the 2023 NHK morning drama <em>Ranman</em>. The buildings, by the architect Naito Hiroshi, have wooden roofs that follow the shape of the hill.</p>
+<h3>Getting there</h3>
+<p>The MY-Yu tourist bus runs from Kochi Station in about 30 minutes. Chikurin-ji temple, on the Shikoku pilgrimage, is next to the garden, and the view from Mount Godai over Kochi city is good.</p>
+`,
+
+'matsue-vogel-park': `
+<h3>When to go</h3>
+<p>The begonias flower all year in the huge glasshouse, so any season works, and it's a good rainy-day plan in Matsue.</p>
+<h3>The park</h3>
+<p>Matsue Vogel Park is a flower-and-bird park on the shore of Lake Shinji. Its central glasshouse is hung with begonias and fuchsias, some 1,000 kinds of begonia in all, one of the biggest begonia collections in Japan. Vogel is German for bird, and the park has owls, parrots and other birds, with bird shows during the day.</p>
+<h3>Getting there</h3>
+<p>Matsue Vogel Park Station on the Ichibata Railway is right next to the park, about 20 minutes from Matsue. Lake Shinji is famous for its sunsets. In late April, the peonies of [[yuushien-garden]] on Daikonshima are nearby.</p>
+`,
+
+'kinchakuda-manjushage-park': `
+<h3>When to go</h3>
+<p>The Kinchakuda Manjushage Festival runs from late September to early October: in 2026 it was from 21 September to 6 October, from 9 am to 4:30 pm. The flowers usually peak around the autumn equinox. Entry is 500 yen, and free for junior high age and under; you can pay with Suica or PayPay. In 2026 there were evening light-ups on five evenings, from 6 to 8 pm.</p>
+<h3>The park</h3>
+<p>About 5 million red spider lilies grow in the woods along a bend of the Koma River, the largest stand in Japan. Kinchakuda means purse field, because the river loops around it like the drawstring of a purse. The red flowers carpet the ground under the trees, so the light through the leaves makes the whole wood glow.</p>
+<h3>Getting there</h3>
+<p>It's about 15 minutes' walk from Koma Station on the Seibu Ikebukuro Line, about an hour from Ikebukuro. Parking costs 500 yen, with temporary car parks during the festival, but the train is much easier.</p>
+`,
+
+'yakachi-river': `
+<h3>When to go</h3>
+<p>The Gon's Autumn Festival is held while the spider lilies flower: in 2026 it was from 26 September to 4 October. The flowers usually peak in late September to early October.</p>
+<h3>The river</h3>
+<p>About 3 million red spider lilies cover the banks of the Yakachi River for about 1.5 km, one of the largest stands in Japan. This is the countryside of Niimi Nankichi, the children's author whose story <em>Gon the Little Fox</em> is in every Japanese school textbook, and the spider lilies appear in it. Local people planted them in his memory, and the Niimi Nankichi Memorial Museum is by the river.</p>
+<h3>Getting there</h3>
+<p>It's about 15 minutes' walk from Handaguchi Station on the Meitetsu Kowa Line. Handa is also known for its old vinegar and sake storehouses. For questions, call the Handa tourist association on 0569-32-3264.</p>
+`,
+
+'gongendo-park': `
+<h3>When to go</h3>
+<p>The Satte Manjushage Festival is usually held from mid September to early October; in 2025 it ran from 20 September to 5 October. The 2026 dates are announced in late August or early September. The flowers peak around the autumn equinox.</p>
+<h3>The park</h3>
+<p>About 3 million red spider lilies grow under the cherry trees of the Gongendo embankment in Satte, Saitama. In spring, the same embankment is one of the most famous cherry and rapeseed views near Tokyo, with about 1,000 cherries above yellow rapeseed, and it also has hydrangeas in June and narcissus in winter.</p>
+<h3>Getting there</h3>
+<p>Buses run from Satte Station on the Tobu Nikko Line. In the same weeks, [[kinchakuda-manjushage-park]] in Hidaka is the largest stand in Japan.</p>
+`,
+
+'tsuya-river': `
+<h3>When to go</h3>
+<p>The spider lilies usually peak from mid to late September, around the autumn equinox, and in hot years later, into early October. Check the Kaizu tourist association's website for how far they've come.</p>
+<h3>The river</h3>
+<p>About 100,000 red spider lilies line about 3 km of the Tsuya River embankment below the Yoro mountains, in the flat delta country of southern Gifu. The river is spring-fed and very clear, and the red flowers reflect in it on a still day.</p>
+<h3>Getting there</h3>
+<p>It's about 10 minutes' walk from Mino-Tsuya Station on the Yoro Railway, or about 20 minutes by car from the Ogaki interchange, with parking for about 70 cars. In April, the [[kiso-sansen-park]] in the same town has tulips. For questions, call Kaizu City on 0584-53-1115.</p>
+`,
+
+'inabuchi-terraced-rice-fields': `
+<h3>When to go</h3>
+<p>The spider lilies usually flower in mid to late September, just as the rice ripens. The village holds a scarecrow contest in September, with the entries lining the scarecrow road through the terraces from early September to early November; in 2025 the scarecrow festival was on 27 and 28 September.</p>
+<h3>The terraces</h3>
+<p>The Inabuchi terraces are in Asuka, Japan's ancient capital, one of Japan's 100 best terraced rice fields and part of a protected cultural landscape. Red spider lilies line the ridges between the golden fields, and the scarecrows add a touch of fun. It's one of the most loved autumn views in Nara Prefecture, especially with photographers.</p>
+<h3>Getting there</h3>
+<p>Buses run from Asuka Station on the Kintetsu line. There's no parking in the village, so if you drive, park at the Ishibutai car park and walk. Asuka's ancient sites, such as the Ishibutai stone tomb, are on the way.</p>
+`,
+
+'tsuzura-terraced-rice-fields': `
+<h3>When to go</h3>
+<p>The spider lilies usually peak in mid to late September. Ukiha holds a terraced fields and spider lily event in season.</p>
+<h3>The terraces</h3>
+<p>About 300 terraced rice fields climb 7 hectares of hillside in Ukiha, in southern Fukuoka, one of Japan's 100 best terraced fields, with stone walls built by hand over generations. About 500,000 red spider lilies line the ridges between the golden rice. Please stay on the paths; these are working fields.</p>
+<h3>Getting there</h3>
+<p>You'll need a car. Ukiha is also famous for its fruit, and the old merchant town of Chikugo-Yoshii is nearby.</p>
+`,
+
+'eriyama-rice-terraces': `
+<h3>When to go</h3>
+<p>The spider lilies usually peak around the autumn equinox, in late September, just as the rice turns gold.</p>
+<h3>The terraces</h3>
+<p>The Eriyama terraces are in the hills of Ogi, in Saga, one of Japan's 100 best terraced rice fields. Red spider lilies line the ridges between the fields, and the local community holds a small festival in the season. It's a quiet, rural place, so please stay on the paths and be considerate of the farmers.</p>
+<h3>Getting there</h3>
+<p>You'll want a car. Ogi is known for its yokan, sweet bean jelly, and its cherries at Ogi Park in spring.</p>
+`,
+
+'nanatsumori-kofun': `
+<h3>When to go</h3>
+<p>The spider lilies usually peak in mid to late September.</p>
+<h3>The mounds</h3>
+<p>About 200,000 red spider lilies cover a group of ancient burial mounds in the hills of Taketa, in Oita, so the round mounds turn red. It's a quiet countryside spot.</p>
+<h3>Getting there</h3>
+<p>You'll want a car. Taketa is the old castle town below the Oka Castle ruins, whose stone walls inspired the song <em>Kojo no Tsuki</em>. In May and June, the [[kuju-mountains]] azaleas are nearby.</p>
+`,
+
+'hinata': `
+<h3>When to go</h3>
+<p>The spider lilies usually flower in late September.</p>
+<h3>The valley</h3>
+<p>Red spider lilies grow along the rice fields and paths of the Hinata valley in Isehara, one of Kanagawa's top 100 flower spots, looked after by local volunteers. It's a walk through the countryside rather than a garden, with the old Hinata Yakushi temple at the head of the valley.</p>
+<h3>Getting there</h3>
+<p>Buses run from Isehara Station on the Odakyu Line to Hinata Yakushi, about 25 minutes. In March, see [[oyama-shindo-okame-cherries]] in the same city.</p>
+`,
+
+'josen-ji-temple': `
+<h3>When to go</h3>
+<p>The spider lilies usually flower in mid to late September. Entry has been about 300 yen in the season.</p>
+<h3>The temple</h3>
+<p>Josen-ji is a small temple known for its white spider lilies, which are rare to see growing in numbers, flowering with the red ones. The white kind is a hybrid, and seeing red and white side by side is the reason to come.</p>
+<h3>Getting there</h3>
+<p>It's about 7 minutes' walk from Koza-Shibuya Station on the Odakyu Enoshima Line. In August, the [[zama-sunflower-fields]] are nearby.</p>
+`,
+
+'hagurosan-park': `
+<h3>When to go</h3>
+<p>The spider lilies usually peak in mid to late September, and a spider lily festival is held at the park then.</p>
+<h3>The park</h3>
+<p>About 150,000 red spider lilies cover the 5,000 square metre south slope of this small hill park in Furukawa, Osaki, so the whole hillside turns red. Spider lilies are less common in Tohoku than further south, which makes this hill a rare sight.</p>
+<h3>Getting there</h3>
+<p>It's about 15 minutes by car from Furukawa Station on the Tohoku Shinkansen. In early September, the cosmos of [[matsuyama-gohonmaru-park-cosmos]] are in the same city.</p>
+`,
+
+'iejima-lily-field-park': `
+<h3>When to go</h3>
+<p>The Iejima Lily Festival is held from late April into Golden Week: in 2026 it was listed from 25 April to 5 May, though sources gave slightly different start dates. The lilies are usually at their best from late April to early May. Entry is free. For questions, call Ie Village's tourism section on 0980-49-2906.</p>
+<h3>The park</h3>
+<p>White trumpet lilies, Okinawa's native Easter lily, cover a field above the sea on the north coast of Ie Island. The scent on a warm day is strong, and the blue sea behind the white flowers makes it one of the loveliest spring views in Okinawa.</p>
+<h3>Getting there</h3>
+<p>Ferries run from Motobu port to Ie Island in about 30 minutes. During the festival, a free shuttle bus runs from Ie port to the park, about 15 minutes; otherwise hire a bike or a car on the island. Gusuku-yama, the island's little peak, has a view over the whole island. On the Motobu side, the [[tropical-dream-center]] and Churaumi Aquarium are near the port.</p>
+`,
+
+'yuushien-garden': `
+<h3>When to go</h3>
+<p>The Pond of Peonies is held around Golden Week: in 2026 it was planned from 29 April to 6 May, when about 30,000 peony blooms float on the garden's pond. The garden's own peonies flower in the same weeks. In autumn, a similar display uses about 100,000 dahlias; in 2026 it ran from 17 October to 3 November. The garden is open from 10 am to 5 pm, longer during events.</p>
+<h3>The garden</h3>
+<p>Yuushien is a Japanese stroll garden on Daikonshima, an island in Lake Nakaumi that's Japan's biggest producer of peony seedlings. The pond covered in peony heads is the famous image.</p>
+<h3>Getting there</h3>
+<p>It's easiest by car; Daikonshima is linked to the mainland by road. Matsue and the [[matsue-vogel-park]] are about 30 minutes away. For questions, call the garden on 0852-76-2255.</p>
+`,
+
+'kuju-flower-park': `
+<h3>When to go</h3>
+<p>The park opens in spring and autumn. The spring flower festa, from mid April to early June, starts with tulips and moves on to nemophila and other flowers; in autumn, from mid September to early November, it's kochia and cosmos. Entry is 1,300 yen for high school age and up and 500 yen for children aged 5 and up, and it's open from 8:30 am to 5:30 pm.</p>
+<h3>The park</h3>
+<p>Kuju Flower Park sits on the Kuju plateau, with flowers planted in bands of colour across the slopes and the Kuju mountains behind. It's cooler than the lowlands, so the flowers are a little later.</p>
+<h3>Getting there</h3>
+<p>You'll want a car; it's in Taketa, in Oita, about an hour from Oita or Kumamoto airports. In late May and June, the [[kuju-mountains]] above the park are covered in wild azaleas. For questions, call 0974-76-1422.</p>
+`,
+
+'hananomiyako-park': `
+<h3>When to go</h3>
+<p>The tulips usually flower from late April to mid May, later than in Tokyo because the park is on a plateau at about 1,000 m. In summer the same fields have sunflowers and other flowers, and in autumn cosmos.</p>
+<h3>The park</h3>
+<p>Hana no Miyako Park is on the plateau above Lake Yamanaka, with flower fields and Mount Fuji rising right behind them, one of the closest flower-and-Fuji views there is. The main fields are free; the Seiryu no Sato area, with waterfalls and greenhouses, charges entry.</p>
+<h3>Getting there</h3>
+<p>Buses run from Fujisan Station and Kawaguchiko Station. Lake Yamanaka is the highest of the Fuji Five Lakes. On the north shore of Lake Kawaguchi, [[oishi-park-april]] has nemophila at the same time.</p>
+`,
+
+'koppata-wisteria': `
+<h3>When to go</h3>
+<p>The wisteria usually flowers from late April to mid May, with a peak of about a week. During the flowering, entry is 500 yen for junior high age and up, and free for primary school age and under, from 8 am to 6 pm.</p>
+<h3>The wisteria</h3>
+<p>The Koppata wisteria grows in the grounds of Chosen-ji, a temple in Kodama, in Honjo, Saitama. The oldest vine is about 650 years old and a prefectural natural monument, and the trellises hold wisteria of several colours, from white and pink to deep purple.</p>
+<h3>Getting there</h3>
+<p>You'll want a car; it's in the hills on the Saitama side of the Gunma border. In mid April, the moss phlox of [[hitsujiyama-park]] in Chichibu are about 40 minutes away.</p>
+`,
+
+'tainai-tulip-festival': `
+<h3>When to go</h3>
+<p>The Tainai Tulip Festival runs from mid April to early May: in 2026 it was from 18 April to 4 May, the longest ever, from 8:30 am to 5 pm, with a pre-opening from 15 April. Peak is usually late April.</p>
+<h3>The festival</h3>
+<p>About 800,000 tulips of some 900 kinds are planted on the farmland of Nagaike Ikoi no Mori Park in Tainai, in northern Niigata, one of Japan's main tulip-growing areas. Check the entry fee before you go.</p>
+<h3>Getting there</h3>
+<p>You'll want a car. For more Niigata tulips the same weeks, see [[echigo-hillside-park]] in Nagaoka.</p>
+`,
+
+'ebino-kogen-tsutsuji-ga-oka': `
+<h3>When to go</h3>
+<p>The miyama-kirishima azaleas usually flower from late May to early June. On the higher peaks, such as Mount Karakuni, they can still be in flower in mid June.</p>
+<h3>The plateau</h3>
+<p>Wild miyama-kirishima, a small azalea of the volcanic mountains of Kyushu, cover the slopes of the Ebino plateau, in the Kirishima mountains. The Ikemeguri nature trail, a walk past three crater lakes, has azaleas along it too. Ebino is an active volcanic area, so check for any restrictions on the trails before you go.</p>
+<h3>Getting there</h3>
+<p>You'll want a car. Ebino Kogen is about an hour from Kirishima, and the Kirishima onsen towns make a good base. In autumn, the [[ikoma-kogen]] cosmos are below the mountains.</p>
+`,
+
+'sasayama-tamamizu-yuri-en': `
+<h3>When to go</h3>
+<p>The lily garden opens from early June to early July, with an entry fee of several hundred yen; check this year's dates and fee before you go (079-552-6316).</p>
+<h3>The garden</h3>
+<p>Tamamizu Yuri-en is a lily garden in Tamba-Sasayama, in the hills of eastern Hyogo, with lilies of many kinds flowering in the early summer.</p>
+<h3>Getting there</h3>
+<p>You'll want a car. Tamba-Sasayama is an old castle town famous for its black soybeans and wild boar stew. In autumn, the [[kiyozumi-cosmos-garden]] in nearby Tamba has millions of cosmos.</p>
+`,
+
+'tsubakiyama-forest-park': `
+<h3>When to go</h3>
+<p>The camellias flower from January to April, with February to early March the peak. The Tsubaki Fureai Festival is usually held from early February to early March.</p>
+<h3>The park</h3>
+<p>Tsubakiyama Forest Park is in the hills of Kitago, south of Miyazaki city, with about 48,000 camellias of some 1,000 kinds, starting with the wild yabu-tsubaki. The forest walks are cool and quiet.</p>
+<h3>Getting there</h3>
+<p>You'll want a car. Udo Shrine, set in a sea cave on the Nichinan coast, is good to add. In March, the tulips of [[florante-miyazaki]] open in the city.</p>
+`,
+
+'kurohime-kogen-cosmos-garden': `
+<h3>When to go</h3>
+<p>The garden, now run as Kurohime GREEN GARDEN, opens from mid July to mid October: in 2026 it was from 18 July to 12 October, from 10 am to 4 pm. The cosmos usually peak in mid September. Entry changes with the month, from 500 to 900 yen, and includes the lift.</p>
+<h3>The garden</h3>
+<p>The cosmos are planted on the ski slopes of Kurohime Kogen, below Mount Kurohime, so the flowers run uphill with the mountains of northern Nagano around them. It's high and cool, and the cosmos flower earlier than in the lowlands.</p>
+<h3>Getting there</h3>
+<p>Buses run from Kurohime Station on the Shinano Railway. Lake Nojiri is close, so it's easy to make a day of it.</p>
+`,
+
+'higashimokoto-shibazakura-park': `
+<h3>When to go</h3>
+<p>The moss phlox usually flower from mid May to early June. The Shibazakura Festival runs through May: in 2026 it was from 3 May to 31 May, from 9 am to 5 pm, with no days closed. Entry is charged once the flowers are about 30% open: 700 yen for junior high age and up and 300 yen for primary school age.</p>
+<h3>The park</h3>
+<p>About 10 hectares of moss phlox cover the hillside below Mount Mokoto, in the town of Ozora in eastern Hokkaido, among the largest in Japan.</p>
+<h3>Getting there</h3>
+<p>Buses run from Abashiri Station, but a car is easier. For a second moss phlox hill the same weeks, see [[takinoue-park]]. For questions, call 0152-66-3111.</p>
+`,
+
+'takinoue-park': `
+<h3>When to go</h3>
+<p>The moss phlox usually peak in mid May. The Takinoue Shibazakura Festival runs through May: in 2026 it was from 1 May to 31 May, from 8 am to 6 pm. Entry is charged from the day after the flowers are declared 30% open, 500 yen for high school age and up and 250 yen for primary and junior high age.</p>
+<h3>The park</h3>
+<p>About 10 hectares of moss phlox cover a hillside in Takinoue, a small town that calls itself a "fairy tale village". The hill turns pink from top to bottom, and there's a path up through the flowers.</p>
+<h3>Getting there</h3>
+<p>You'll want a car. For questions, call the Takinoue tourism association on 0158-29-2730. The [[higashimokoto-shibazakura-park]] moss phlox are out at the same time in eastern Hokkaido, and the [[kamiyubetsu-tulip-park]] tulips are in the same part of Hokkaido.</p>
+`,
+
+'kamiyubetsu-tulip-park': `
+<h3>When to go</h3>
+<p>The tulips usually flower from mid to late May, a month later than in Tokyo, and the tulip fair is held while they're out. Check the dates and entry fee before you go.</p>
+<h3>The park</h3>
+<p>About 7 hectares of tulips, some 200 varieties, are planted in bands around a Dutch-style windmill in Kamiyubetsu, part of Yubetsu town near the Sea of Okhotsk.</p>
+<h3>Getting there</h3>
+<p>Buses run from Engaru Station, but it's easier by car. The [[takinoue-park]] moss phlox are out at the same time.</p>
+`,
+
+'manyo-botanical-garden': `
+<h3>When to go</h3>
+<p>The wisteria usually flower from late April to early May. Since April 2025, entry is 700 yen for adults, 400 yen for high school and university students and 300 yen for junior high age and under. Check the opening hours before you go.</p>
+<h3>The garden</h3>
+<p>The Manyo Botanical Garden belongs to Kasuga Taisha, and grows the plants named in the Man'yoshu, Japan's oldest poetry collection. Its wisteria garden has about 200 vines of some 20 kinds, and the wisteria is the shrine's own flower: the crest of the Fujiwara clan, who founded it.</p>
+<h3>Getting there</h3>
+<p>It's about a 25-minute walk from Kintetsu Nara Station through Nara Park, deer and all, or a short bus ride. Go on to [[kasuga-taisha-shrine]] itself, where the Sunazuri wisteria hangs by the main hall.</p>
+`,
+
+'flower-park-konan': `
+<h3>When to go</h3>
+<p>The wisteria trellis usually flowers from late April to early May. During the Konan Wisteria Festival, a free shuttle bus links Flower Park Konan with Suitopia Konan, Ongaku-ji temple and Mandara-ji park, the town's other wisteria spots.</p>
+<h3>The park</h3>
+<p>Flower Park Konan is a riverside park on the Kiso River, part of the Kiso Sansen national government park. Its 100 m wisteria trellis is one of several in Konan, and flower beds through the rest of the park change with the seasons.</p>
+<h3>Getting there</h3>
+<p>Buses run from Konan Station on the Meitetsu Inuyama Line. For the main Kiso Sansen park, with its tulips and cosmos, see [[kiso-sansen-park]].</p>
+`,
+
+'hokuso-hananooka-park': `
+<h3>When to go</h3>
+<p>The roses usually flower from mid May to early June, with hydrangeas and lavender following from mid June. Admission is free.</p>
+<h3>The park</h3>
+<p>Hokuso Hana no Oka is a large prefectural park in Inzai, in northern Chiba, laid out on the hills of Chiba New Town. The rose garden is in its B zone, and there are playgrounds and wide lawns, so it's a good park for children.</p>
+<h3>Getting there</h3>
+<p>It's about a 10-minute walk from Chiba New Town Chuo Station on the Hokuso Line. For one of the biggest rose gardens in the Kanto area, see [[keisei-rose-garden]] in Yachiyo.</p>
+`,
+
+'sukagawa-peony-garden': `
+<h3>When to go</h3>
+<p>The peonies usually flower in early and mid May. Entry is charged only during the peony season, from late April to late May: in 2026 it was from 17 April to 31 May. Outside it, the garden is free. Check this year's fee with the garden (0248-73-2422).</p>
+<h3>The garden</h3>
+<p>Sukagawa Peony Garden is the only peony garden in Japan to be named a national Place of Scenic Beauty, with about 7,000 tree peonies of 290 kinds, some more than 200 years old. In November it holds the Botan Takibi, a night where old, dead peony wood is burned in a quiet ceremony to honour the plants.</p>
+<h3>Getting there</h3>
+<p>Buses run from Sukagawa Station on the Tohoku Line to Botanen-mae. Sukagawa is the hometown of Eiji Tsuburaya, who created Ultraman, and the statues around the town make a fun walk. For another peony garden, see [[higashimatsuyama-peony-garden]].</p>
+`,
+
+'grinpa': `
+<h3>When to go</h3>
+<p>The nemophila of the Sky Blue Garden usually flower from late April to late May, later than at lower spots because the park is at about 1,200 m. In 2025 the display ran from 18 April to 31 May. Entry in spring 2026 was 1,100 yen on weekdays and 1,300 yen at weekends for junior high age and up; check before you go.</p>
+<h3>The park</h3>
+<p>Grinpa is an amusement park at the second station of Mount Fuji, on the Gotemba side. Its Sky Blue Garden plants about 32,000 nemophila, so on a clear day the blue flowers, the blue sky and Fuji right above line up.</p>
+<h3>Getting there</h3>
+<p>Buses run from Gotemba Station. Fuji's other big spring display is the moss phlox of [[fuji-motosuko-resort]] on the north side.</p>
+`,
+
+'hiraoka-park-plum-grove': `
+<h3>When to go</h3>
+<p>The plums flower from late April to mid May, at the same time as Sapporo's cherries. The Hiraoka Plum Festival is held while they're out: in 2026 it was from 25 April to 10 May. Entry is free, and parking for about 600 cars is free too.</p>
+<h3>The grove</h3>
+<p>About 1,200 plum trees grow on 6.5 hectares of Hiraoka Park, in the south-east of Sapporo, roughly 60% white and 40% red. During the festival a temporary shop sells plum products.</p>
+<h3>Getting there</h3>
+<p>Buses run from Shin-Sapporo or Oyachi Station on the Tozai Line, about 15 minutes. For questions, call the park office on 011-881-7924. In the city centre, the [[hokkaido-university-botanic-garden]] is good in spring too.</p>
+`,
+
+'mount-katsuragi': `
+<h3>When to go</h3>
+<p>The wild azaleas usually peak in early to mid May, but the timing can shift by a week either way; check the live camera or the bloom reports before you go.</p>
+<h3>The mountain</h3>
+<p>The south slope below the summit of Mount Katsuragi, on the Nara and Osaka border, is covered in wild mountain azaleas, said to be "a million at a glance", so the whole slope turns red. On clear days you can see across the Nara basin.</p>
+<h3>Getting there</h3>
+<p>Buses run from Gose Station to the Katsuragi ropeway, then you walk up from the top station. At peak times, the ropeway and the car park have long queues, so go early. In April, the cherries of [[mount-yoshino]] are in the same part of Nara.</p>
+`,
+
+'takikawa-rapeseed-fields': `
+<h3>When to go</h3>
+<p>The rapeseed usually flowers from mid May to early June, and each field is at its best for about two weeks once it starts. The Takikawa Nanohana Festival is held in mid to late May: in 2026 it was from 16 May to 24 May.</p>
+<h3>The fields</h3>
+<p>Takikawa has long been Japan's largest rapeseed-growing area, and in spring the Eberuotsu district turns yellow from field to field. The fields are private farmland, so stay out of them and view from the roads. The main festival site is at Michi-no-eki Takikawa; the field sites have no parking, so take the festival bus or taxi from there.</p>
+<h3>Getting there</h3>
+<p>Eberuotsu Station on the JR Hakodate Line is near the fields, but a car is easier. For questions, call the Takikawa tourism association on 0125-23-0030. In summer, [[hokuryu-sunflower-village]] is north of Takikawa.</p>
+`,
+
+'yokohama-town-rapeseed-fields': `
+<h3>When to go</h3>
+<p>The rapeseed usually flowers from mid to late May. The Nanohana Festival is held in mid May when the fields are at their best; in 2025 it was on 10 and 11 May. For dates, call the town office on 0175-78-2111.</p>
+<h3>The fields</h3>
+<p>Yokohama is a small town on the Shimokita Peninsula in Aomori, not the city near Tokyo, and has some of Japan's largest rapeseed fields, around 90 hectares. They run down to Mutsu Bay with the hills behind.</p>
+<h3>Getting there</h3>
+<p>The fields are near Mutsu-Yokohama Station on the JR Ominato Line, but a car is easier. Mount Osore, one of Japan's three sacred mountains, is further north on the peninsula.</p>
+`,
+
+'shirai-omachi-wisteria-park': `
+<h3>When to go</h3>
+<p>The wisteria usually flowers from late April to mid May, and the park is open only during the flowering. Check this year's dates and entry fee with Asago city before you go.</p>
+<h3>The park</h3>
+<p>Shirai Omachi Wisteria Park is in the hills of Asago, in northern Hyogo. Its trellis of nine kinds of wisteria runs for about 500 m, 4 m wide, the longest in the San'in region, so you walk a long tunnel of flowers.</p>
+<h3>Getting there</h3>
+<p>It's about a 22-minute walk from Kami-Yakuno Station on the JR San'in Line. The Takeda Castle ruins, the "castle in the sky", are in the same city. In Tamba, [[byakugo-ji-temple]] has its long-tressed wisteria at the same time.</p>
+`,
+
+'byakugo-ji-temple': `
+<h3>When to go</h3>
+<p>The wisteria usually flowers from late April to mid May, and the trellis is lit up at night in the season. In other years the lighting has started in late April. Entry has been about 300 yen; check this year's fee before you go (0795-85-0259).</p>
+<h3>The temple</h3>
+<p>Byakugo-ji is an old temple in the hills of Tamba, in Hyogo, known for its "kyushaku" wisteria. Kyushaku, "nine feet", is the name of the variety, not the length, though the clusters often hang a metre or more. The trellis, laid out about 30 years ago, runs in two tiers, about 120 m on the lower level and 70 m on the upper.</p>
+<h3>Getting there</h3>
+<p>It's about 8 minutes by taxi from Ichijima Station on the JR Fukuchiyama Line. In autumn, the [[kiyozumi-cosmos-garden]] is in the same city.</p>
+`,
+
+'jupia-land-hirata-may': `
+<h3>When to go</h3>
+<p>The moss phlox usually flower from late April to mid May, when the Shibazakura Festival is held. Entry outside events is free; during the festival there's a fee. Check the dates and fee before you go.</p>
+<h3>The park</h3>
+<p>About 260,000 moss phlox are planted on 23,000 square metres of hillside in Hirata, a village in Fukushima. During the festival there's music and food stalls at weekends.</p>
+<h3>Getting there</h3>
+<p>You'll want a car. In April, [[hanamiyama-park]] in Fukushima city is good for cherries and other blossom.</p>
+`,
+
+'ichibongi-park': `
+<h3>When to go</h3>
+<p>The roses usually flower from late May to mid June. The Shinshu Nakano Rose Festival is held then: in 2026 it was from 23 May to 14 June, from 9 am to 4 pm. Most sources say entry is 500 yen during the festival and free for junior high age and under; check with the park's rose society on 0269-23-4780.</p>
+<h3>The park</h3>
+<p>Ichibongi Park in Nakano, in northern Nagano, grows about 3,000 roses of some 850 kinds. Outside the festival it's free to walk in.</p>
+<h3>Getting there</h3>
+<p>It's about a 5-minute walk from Nakano-Matsukawa Station on the Nagano Electric Railway. During the festival, parking is 1,000 yen. Obuse, with its chestnut sweets and Hokusai museum, is on the same line.</p>
+`,
+
+'flower-park-kagoshima': `
+<h3>When to go</h3>
+<p>The park has something in flower all year. The spring festival, from mid April to early May, is the busiest time, and in late November the cyclamen show starts with lights in the evenings. Entry is 630 yen for high school age and up and 310 yen for primary and junior high age.</p>
+<h3>The park</h3>
+<p>Flower Park Kagoshima is a 36-hectare prefectural botanical park near the southern tip of the Satsuma Peninsula, in Ibusuki. Flower fields are set against the cone of Mount Kaimon, with subtropical plants, greenhouses and a walk above the sea.</p>
+<h3>Getting there</h3>
+<p>You'll want a car. In January, the rapeseed of [[lake-ikeda-rapeseed]] flower below Mount Kaimon too.</p>
+`,
+
+'matsuyama-gohonmaru-park-cosmos': `
+<h3>When to go</h3>
+<p>The cosmos usually flower from early September to early October, one of the earliest cosmos fields of the year. The Matsuyama Cosmos Festival is held while they're out: in 2025 it ran from 13 September to 5 October, and in 2024 from 2 to 29 September. On weekends and holidays a man-pulled cart, the jinsha, runs during the festival.</p>
+<h3>The park</h3>
+<p>About 200,000 cosmos of several kinds are planted on the site of Matsuyama's old castle, in Osaki in northern Miyagi.</p>
+<h3>Getting there</h3>
+<p>It's about 30 minutes on foot or 5 minutes by car from Matsuyama-machi Station on the JR Tohoku Line. For questions, call the Matsuyama tourism association on 0229-55-2111. In mid September, the red spider lilies of [[hagurosan-park]] are in the same city.</p>
+`,
+
+'tsuyama-castle-september': `
+<h3>When to go</h3>
+<p>The red spider lilies usually come up in late September. The exact week shifts with the summer heat, so check the bloom reports first.</p>
+<h3>The castle</h3>
+<p>Tsuyama Castle, in Kakuzan Park, has some of the tallest and most complete stone walls in Japan, and red spider lilies come up all over its terraces each autumn. The ones below the walls and around the rebuilt Bitchu turret are the best photographed.</p>
+<h3>Getting there</h3>
+<p>It's about a 10-minute walk from Tsuyama Station. In April, the same castle is one of the top cherry spots in western Japan; see [[tsuyama-castle]].</p>
+`,
+
+'koishikawa-korakuen-september': `
+<h3>When to go</h3>
+<p>The red spider lilies usually come up in mid to late September. Entry is 300 yen, and the garden opens from 9 am to 5 pm.</p>
+<h3>The garden</h3>
+<p>Koishikawa Korakuen was laid out in the 17th century for the Mito branch of the Tokugawa family, and is one of the few gardens in Japan named both a Special Historic Site and a Special Place of Scenic Beauty. In September, red spider lilies come up among the paths, around the ponds and under the trees.</p>
+<h3>Getting there</h3>
+<p>It's about an 8-minute walk from Iidabashi Station, next to Tokyo Dome. For the garden in other seasons, see [[koishikawa-korakuen]].</p>
+`,
+
 };
