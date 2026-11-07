@@ -4448,4 +4448,40 @@ module.exports = {
 <p>It's about an 8-minute walk from Iidabashi Station, next to Tokyo Dome. For the garden in other seasons, see [[koishikawa-korakuen]].</p>
 `,
 
+'hotel-chinzanso-tokyo-garden': `
+<h3>When to go</h3>
+<p>The camellias flower in turn through the winter, with January to March the best time. From mid May to late June, the hotel also holds firefly evenings in the garden.</p>
+<h3>The garden</h3>
+<p>Hotel Chinzanso Tokyo's hillside garden in Mejiro takes its name from the camellia: chinzan means "camellia mountain". The hotel says it has about 2,300 camellias of some 100 kinds, though other sources give lower numbers. Paths wind past a three-storey pagoda, a registered Tangible Cultural Property, and a teahouse, and a walk round takes about 30 minutes. Hotel guests can join a free garden tour on weekday mornings, booked in advance.</p>
+<h3>Getting there</h3>
+<p>It's about a 10-minute walk from Edogawabashi Station on the Yurakucho Line. Garden access can be limited to guests and diners at the hotel's restaurants, so check before you go. In spring, the cherries along the Kanda River are just below the hotel.</p>
+`,
+
+'kinryu-park-cosmos-garden': `
+<h3>When to go</h3>
+<p>The cosmos usually flower in October. The garden posts bloom updates on its official Facebook page, so check there before you go. Entry is free.</p>
+<h3>The garden</h3>
+<p>Kinryu Park is a large park on the slopes of Mount Kinryu, north of Saga city, and in autumn about 300,000 cosmos flower in its cosmos garden.</p>
+<h3>Getting there</h3>
+<p>The park is right next to the Kinryu service area on the Nagasaki Expressway, a 3-minute walk from the SA, so you can stop on a drive through Kyushu. In autumn, the [[saga-airport-cosmos-garden]] is also in Saga.</p>
+`,
+
+'kodaira-ajisai-park': `
+<h3>When to go</h3>
+<p>The hydrangeas flower in June. The Kodaira Ajisai Festival is usually held in mid June, with the flowers lit up in the evenings. Entry is free.</p>
+<h3>The park</h3>
+<p>About 1,500 hydrangeas fill a small park in Kodaira, in western Tokyo, beside the Sayama-Sakai Greenway, a long walking path laid over the water main that runs from Lake Tama to the Sakai water works.</p>
+<h3>Getting there</h3>
+<p>It's about a 5-minute walk from Kodaira Station on the Seibu Shinjuku Line. For questions, call the city's parks section on 042-346-9556. For one of Tokyo's big hydrangea shows, see [[takahata-fudo]] in Hino.</p>
+`,
+
+'sendai-agricultural-center-plum-garden': `
+<h3>When to go</h3>
+<p>The plums usually flower in mid to late March, later than in Tokyo. Check the bloom updates before you go (022-288-0811).</p>
+<h3>The garden</h3>
+<p>The Sendai Agricultural and Horticultural Center, also called Midori no Mori, is an 11-hectare city park with gardens, lawns and allotments on the plain east of Sendai. Its plum garden has about 125 trees of some 60 kinds, including the Garyu-bai, a "reclining dragon" plum whose branches run along the ground.</p>
+<h3>Getting there</h3>
+<p>Buses run from Arai Station on the Tozai subway line to Nogyo Engei Center-mae. In April, the cherries of [[nishi-park-april|Nishi Park]] are in the city centre.</p>
+`,
+
 };
