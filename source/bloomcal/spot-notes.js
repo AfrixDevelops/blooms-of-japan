@@ -4484,4 +4484,76 @@ module.exports = {
 <p>Buses run from Arai Station on the Tozai subway line to Nogyo Engei Center-mae. In April, the cherries of [[nishi-park-april|Nishi Park]] are in the city centre.</p>
 `,
 
+'hagi-castle-ruins': `
+<h3>When to go</h3>
+<p>The wisteria flowers from late April into May. The park is better known for its cherries: about 600 trees, usually at their best from late March to early April, lit up in the evenings in the season. Entry is 220 yen for adults and 100 yen for junior high age and under, and the ticket also covers the nearby longhouse of the former Asa Mori residence.</p>
+<h3>The park</h3>
+<p>Shizuki Park is the site of Hagi Castle, the seat of the Mori lords of Choshu, at the foot of Mount Shizuki where it meets the sea. The castle is gone, but its stone walls and moat are still there. The park also has the Midori-yoshino, a green-tinged cherry found only in Hagi and a prefectural natural monument.</p>
+<h3>Getting there</h3>
+<p>Take the Maaru loop bus (west route) to Hagijo-ato Shizuki-koen Iriguchi, then walk about 5 minutes. There's a free car park for about 50 cars. Hagi's old samurai and merchant streets are a short walk away. For questions, call Hagi city's tourism section on 0838-25-3139 (weekdays).</p>
+`,
+
+'johoku-park-kinmokusei': `
+<h3>When to go</h3>
+<p>The kinmokusei usually flower from late September to early October, for about a week, and the scent is strongest in the first days. Entry is free. In other seasons the park has plums in late February, weeping cherries in late March and hitotsubatago, a white-flowered tree, in April and May.</p>
+<h3>The park</h3>
+<p>Johoku Park opened in 1985 on the old site of Shizuoka University, at the eastern foot of Mount Shizuhata. It has a Japanese garden that borrows the mountain as its backdrop, a flower clock 19 m across, a water plaza and the city's central library.</p>
+<h3>Getting there</h3>
+<p>It's about 12 minutes by bus from Shizuoka Station to Rinzaiji. There's no parking, so come by bus. Rinzai-ji temple, where the young Tokugawa Ieyasu studied, is just up the road.</p>
+`,
+
+'mizunuma-station': `
+<h3>When to go</h3>
+<p>The red spider lilies beside the tracks usually come up in late September. Check the bloom reports before you go, as the timing shifts with the summer heat. The station is also good in spring for weeping cherries and in autumn for the leaves of the Watarase valley.</p>
+<h3>The station</h3>
+<p>Mizunuma is a small station on the Watarase Keikoku Railway, a country line that follows the Watarase River up into the mountains of Gunma, and one of the Kanto region's top 100 stations. It's best known for its hot-spring bath: the old one closed in 2023, and it reopened as "Eki no Tennen Onsen Mizunuma no Yu" on 17 April 2025, reached straight from the platform and open from 10 am to 9 pm.</p>
+<h3>Getting there</h3>
+<p>Trains on the Watarase Keikoku Railway run from Kiryu or Aioi stations. Trains are not frequent, so check the timetable before you set out. In late April and May, the wisteria of [[ashikaga-flower-park]] are in neighbouring Ashikaga.</p>
+`,
+
+'oppe-river': `
+<h3>When to go</h3>
+<p>The red spider lilies usually flower from mid to late September, around the autumn equinox.</p>
+<h3>The river</h3>
+<p>The lilies grow wild on the embankments of the Oppe River near the Tenjin bridge, in the farm country of Kawajima, a flat town of rice fields between rivers in central Saitama. It's a quiet spot, a contrast with the crowds at [[kinchakuda-manjushage-park]] the same weeks.</p>
+<h3>Getting there</h3>
+<p>You'll want a car or a bike. Kawajima's town tourist map shows the spot near the Tenjin bridge.</p>
+`,
+
+'ryokusuien': `
+<h3>When to go</h3>
+<p>The red spider lilies flower by the pond in late September. In spring, about 2,500 cherry trees usually flower from mid to late April, and moss phlox follow from May. The garden closes on Wednesdays and from late December to the end of March. Entry is about 500 yen for adults; check the dates and fee before you go (024-959-6764).</p>
+<h3>The garden</h3>
+<p>Shiki no Sato Ryokusuien is a private flower garden on a hillside around a pond in Koriyama, in central Fukushima. It's best known for its spring cherries of many kinds.</p>
+<h3>Getting there</h3>
+<p>It's about 10 minutes by taxi from Kikuta Station on the JR Ban'etsu West Line, or about 15 minutes by car from the Koriyama or Motomiya exits of the Tohoku Expressway. Parking is free. In April, the [[miharu-takizakura]] is also within reach of Koriyama.</p>
+`,
+
+'sesson-an': `
+<h3>When to go</h3>
+<p>The red spider lilies along the approach usually come up in late September. In April, the old weeping cherry by the hermitage, the Sesson-zakura, is the bigger draw.</p>
+<h3>The hermitage</h3>
+<p>Sesson-an is where the painter-monk Sesson Shukei, one of the great ink painters of the 16th century, is said to have lived in his later years. It's in the countryside of Nishita, on the Koriyama side of the border with Miharu.</p>
+<h3>Getting there</h3>
+<p>You'll want a car. In April, the [[miharu-takizakura]] is nearby, and Nishita has several other old cherry trees on the same country roads.</p>
+`,
+
+'sumiyama-terraced-fields': `
+<h3>When to go</h3>
+<p>The red spider lilies line the ridges of the terraced fields in late September, as the rice is harvested.</p>
+<h3>The village</h3>
+<p>Sumiyama is a hill village above Uji where Kyoto potters moved their kilns. About 10 pottery studios work here, making Kyo-yaki and Kiyomizu-yaki, and some offer studio visits and clay or painting workshops. The village's climbing kiln is still used to fire Kyoto pottery. The terraced fields are around the village.</p>
+<h3>Getting there</h3>
+<p>You'll want a car; it's in the hills east of Uji. In town, [[byodo-in-temple]] is good in spring for its wisteria, and [[mimuroto-ji-temple]] in June for its hydrangeas.</p>
+`,
+
+'taketomi-island-deigo-and-bougainvillea': `
+<h3>When to go</h3>
+<p>The deigo, Okinawa's prefectural flower, usually flowers from March to May. The timing changes a lot from year to year, and some years the trees flower only lightly. Bougainvillea flowers on the village walls almost all year.</p>
+<h3>The island</h3>
+<p>Taketomi is a small, flat island a short ferry ride from Ishigaki. Its village of red-tiled houses, coral-stone walls and white sand lanes is one of the best preserved in Okinawa, and the deigo trees line the road from the port. You can walk or cycle round the village, or ride a water-buffalo cart.</p>
+<h3>Getting there</h3>
+<p>Ferries run often from Ishigaki's port terminal, taking about 10 to 15 minutes. Bikes can be rented near the port. Stay for the sunset at Nishi Sanbashi, the old pier on the west coast.</p>
+`,
+
 };

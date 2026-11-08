@@ -146,7 +146,7 @@ function spotView(slug){
       \${credits.length ? \`<p class="dcred">\${(f.gal && f.gal.length) ? 'Photos' : 'Photo'} \${credits.map(esc).join(' · ')}\${credits.some(c => c[0] === '©') ? '' : ' — via Wikimedia Commons'}</p>\` : ''}
       <div class="dblock"><h3>About this spot</h3><p>\${esc(f.desc)}</p></div>
       \${NOTES[f.slug] ? \`<div class="dblock dnotes">\${NOTES[f.slug]}</div>\` : ''}
-      <div class="dblock"><h3>Getting there</h3><div class="dfacts">
+      <div class="dblock">\${NOTES[f.slug] ? '' : '<h3>Getting there</h3>'}<div class="dfacts">
         \${f.station ? \`<div class="dfact"><div class="k">Nearest station</div><div class="v">\${esc(f.station)}</div></div>\` : ''}
         <div class="dfact"><div class="k">Address</div><div class="v">\${esc(f.address)}</div></div>
         <div class="dfact"><div class="k">Show this at the station</div><div class="v">\${esc(f.jp || f.name)}</div></div>
