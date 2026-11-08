@@ -1153,7 +1153,7 @@ module.exports = [
 
 <h2>When do kochia turn red?</h2>
 <p>The plants are a soft lime green through the summer and turn red as the nights cool. [[biwako-hakodateyama|Biwako Hakodateyama]] reckons on about 90 days for the whole change from green to red and gold. A field stays properly red for about two weeks, then goes red-brown and finally a pale gold.</p>
-<p>Cooler places go first. The highland fields, all about 1,000 m up or more, turn first, in late September: [[hirugano-picnic-garden]] in Gifu, [[yuzawa-kogen-panorama-park]] in Niigata and [[tambara-lavender-park|Tambara]] in Gunma. So does [[takino-suzuran-hillside-park-october|Takino]] in Sapporo. Lowland fields near Tokyo follow in October.</p>
+<p>Cooler places go first. The highland fields, all about 1,000 m up or more, turn first, in late September: [[yuzawa-kogen-panorama-park]] in Niigata and [[tambara-lavender-park|Tambara]] in Gunma. So does [[takino-suzuran-hillside-park-october|Takino]] in Sapporo. Lowland fields near Tokyo follow in October.</p>
 
 <h2>Hitachi Seaside Park</h2>
 <p>[[hitachi-seaside-park-october|Hitachi Seaside Park]] in Ibaraki is the one in all the photos: about 40,000 kochia covering Miharashi Hill, with around 2.7 million yellow cosmos flowering below them at the same time. In a normal year they're reddest around mid October. Take the JR Joban Line from Ueno or Tokyo to Katsuta, then the bus to the park.</p>
