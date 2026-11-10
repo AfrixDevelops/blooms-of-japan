@@ -49,7 +49,7 @@ function visit(h) {
 
 console.log('route       home spot seasons   rendered');
 let fail = 0;
-[['/', 'home'], ['/?season=spring', 'home'], ['/seasons', 'seas'], ['/spots/kenrokuen', 'spot'], ['/spots/oishi-park', 'spot'], ['/when/april', 'home'], ['/calendar', 'home'], ['/spots', 'home'], ['/flowers', 'home'], ['/flowers/wisteria', 'home'], ['/spots/meguro-river', 'spot'], ['/spots?q=kochia', 'home'], ['/spots?q=zzzz', 'home'], ['/#/spots/kenrokuen', 'spot'], ['/#/search/kochia', 'home'], ['/#/winter', 'home']]
+[['/', 'home'], ['/?season=spring', 'home'], ['/seasons', 'seas'], ['/spots/kenrokuen', 'spot'], ['/spots/oishi-park', 'spot'], ['/when/april', 'seas'], ['/calendar', 'home'], ['/spots', 'home'], ['/flowers', 'home'], ['/flowers/wisteria', 'seas'], ['/spots/meguro-river', 'spot'], ['/spots?q=kochia', 'home'], ['/spots?q=zzzz', 'home'], ['/#/spots/kenrokuen', 'spot'], ['/#/search/kochia', 'home'], ['/#/winter', 'home']]
   .forEach(([h, expect]) => {
     const v = visit(h);
     const visible = !v.home ? 'home' : !v.spot ? 'spot' : !v.seas ? 'seas' : 'none';

@@ -292,6 +292,16 @@
   .prose a:hover{ color:var(--gold); }
   @media (max-width:880px){ .prose{ padding:4px 16px 70px; } .prose h3{ font-size:22px; } }
 
+  /* ---------- flower and month pages: intro, then the spots at full width ---------- */
+  .prose.hub > .grid, .prose.hub > .flchips{ max-width:none; }
+  .prose.hub .card{ color:inherit; text-decoration:none; }
+  .prose.hub .hubcount{ font-family:var(--serif); font-size:25px; font-weight:600; color:var(--navy);
+    margin:38px 0 18px; padding-top:18px; border-top:1px solid var(--gold-line); }
+  .prose.hub .hubcount:first-child{ margin-top:14px; }
+  .prose.hub .flchips{ margin:0; }
+  .prose.hub .fchip{ color:var(--navy); }
+  .prose.hub .fchip.on{ color:var(--washi); }
+
   /* ---------- guides: /guides and /guides/<slug> ---------- */
   .pagehead p.gmeta{ margin-top:14px; font-family:inherit; font-size:14px; color:var(--navy-2); letter-spacing:.02em; }
   .prose.guide h2{ font-family:var(--serif); font-size:27px; font-weight:600; line-height:1.2; color:var(--navy);

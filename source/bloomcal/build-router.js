@@ -28,6 +28,21 @@ const NOTES = Object.fromEntries(Object.entries(require('./spot-notes.js')).map(
 }));
 const NOTES_JSON = JSON.stringify(NOTES).replace(/</g, '\\u003c');
 
+/* intros for the flower and month pages (hub-notes.js), linked the same way */
+const HUB_SRC = require('./hub-notes.js'), MONTH_KEYS = ['january','february','march','april','may','june','july','august','september','october','november','december'];
+const hubLinks = (where, html) => html.trim().replace(/\[\[([a-z0-9-]+)(?:\|([^\]]+))?\]\]/g, (_, s, text) => {
+  const f = SPOTS.feat.find(x => x.slug === s); if (!f) throw new Error(`hub-notes ${where}: no spot "${s}"`);
+  return `<a href="/spots/${s}">${text || f.name}</a>`; });
+const HUBS = {
+  flowers: Object.fromEntries(Object.entries(HUB_SRC.flowers || {}).map(([k, html]) => {
+    if (!SPOTS.flowerGroups.some(g => g.k === k)) throw new Error(`hub-notes: no flower "${k}"`);
+    return [k, hubLinks(k, html)]; })),
+  months: Object.fromEntries(Object.entries(HUB_SRC.months || {}).map(([k, html]) => {
+    if (!MONTH_KEYS.includes(k)) throw new Error(`hub-notes: no month "${k}"`);
+    return [k, hubLinks(k, html)]; })),
+};
+const HUBS_JSON = JSON.stringify(HUBS).replace(/</g, '\\u003c');
+
 /* 1. wrap the hero down to the <!-- /home --> marker as the home view. The footer sits after the
       marker, outside all three views, so it stays on screen on every page. */
 const start = t.indexOf('<section class="hero">');
@@ -365,6 +380,34 @@ function infoView(key){
    The text comes from guides.js, with spot links and counts already filled in by the build. */
 const GUIDES = ${GUIDES_JSON};
 const NOTES = ${NOTES_JSON};
+
+/* ---------- flower and month pages ----------
+   /flowers/<key> and /when/<month> are pages of their own: the heading, the intro from hub-notes.js,
+   then that flower's or month's spots, with links across to the others. They used to be the homepage
+   scrolled to a filtered list, which left every one of them looking like a copy of the homepage.
+   The flower picker itself (/flowers) stays on the homepage. */
+const HUBS = ${HUBS_JSON};
+function hubView(kind, key){
+  const g = kind === 'flower' ? D.flowerGroups.find(x => x.k === key) : null;
+  const m = kind === 'month' ? MON.findIndex(x => x.toLowerCase() === key) : -1;
+  if (!g && m < 1) return '<div style="max-width:640px;margin:80px auto;text-align:center"><h2>Page not found</h2><p><a href="/flowers">All flowers</a></p></div>';
+  const list = g ? bySoonest(D.feat.filter(x => x.fl.includes(g.k))) : D.feat.filter(x => inMonth(x, m));
+  const intro = g ? HUBS.flowers[g.k] : HUBS.months[key];
+  const nav = g
+    ? D.flowerGroups.map(x => '<a class="fchip' + (x.k === g.k ? ' on" aria-current="page' : '') + '" href="/flowers/' + x.k + '">' +
+        '<svg width="24" height="24" viewBox="0 0 40 40" aria-hidden="true">' + (D.icons[x.icon] || '') + '</svg>' + x.label + '<i>' + x.n + '</i></a>').join('')
+    : MON.slice(1).map((x, i) => '<a class="fchip' + (i + 1 === m ? ' on" aria-current="page' : '') + '" href="/when/' + x.toLowerCase() + '">' + x + '</a>').join('');
+  return '<div class="pagehead">' +
+    '<nav class="crumbs" style="padding-left:0"><a href="/">Home</a> &rsaquo; ' + (g ? '<a href="/flowers">Flowers</a> &rsaquo; ' + g.label : MON[m]) + '</nav>' +
+    '<div class="eyebrow">' + (g ? 'Flower <span class="jpk">花</span>' : 'Month <span class="jpk">月</span>') + '</div>' +
+    '<h1>' + (g ? g.label + ' in Japan' : "What's blooming in Japan in " + MON[m]) + '</h1></div>' +
+    '<div class="prose hub">' + (intro || '') +
+    '<h2 class="hubcount">' + list.length + ' spot' + (list.length === 1 ? '' : 's') + (g ? ', soonest first' : '') + '</h2>' +
+    '<div class="grid">' + list.map(cardHTML).join('') + '</div>' +
+    '<h2 class="hubcount">' + (g ? 'Other flowers' : 'Other months') + '</h2>' +
+    '<nav class="flchips" aria-label="' + (g ? 'Other flowers' : 'Other months') + '">' + nav + '</nav></div>';
+}
+
 const longDate = s => { const [y, m, d] = s.split('-').map(Number); return d + ' ' + MON[m] + ' ' + y; };
 
 function guidesIndex(){
@@ -434,18 +477,16 @@ function spotTitle(f){
   return T(f.name.toLowerCase().includes(first) ? \`\${f.name} — Best Time & How to Get There\` : \`\${f.name} \${fl} — Best Time & How to Get There\`);
 }
 
-/* Routes. Every view has a real address; spot and seasons pages are their own views, everything
-   else is the homepage scrolled to a section with the grid set up to match:
+/* Routes. Every view has a real address; spot, seasons, flower and month pages are their own views,
+   everything else is the homepage scrolled to a section with the grid set up to match:
      /calendar          the year, opened at this month
      /spots             search section, in season now     (/spots?q=… a search)
-     /flowers[/key]     search section, flower picker (and one flower's spots)
-     /when/<month>      search section, every spot for that month
-     /?season=spring    homepage with another season's hero                      */
+     /flowers           search section, flower picker
+     /?season=spring    homepage with another season's hero
+   (/flowers/<key> and /when/<month> are hubView pages, handled in route()) */
 function homeRoute(h){
   const tool = () => document.getElementById('tool').offsetTop - 40;
   const params = new URLSearchParams(location.search);
-  const wm = h.match(/^\\/when\\/([a-z]+)$/), mi = wm ? MON.findIndex(x => x.toLowerCase() === wm[1]) : -1;
-  const fm = h.match(/^\\/flowers(?:\\/([a-z-]+))?$/);
   const season = /^(spring|summer|autumn|winter)$/.test(params.get('season') || '') ? params.get('season') : null;
   const q = h === '/spots' ? (params.get('q') || '').trim() : '';
   if (q) {                                    // a shared or bookmarked search
@@ -460,14 +501,9 @@ function homeRoute(h){
     return { title: T('Japan Flower Calendar — What Blooms Each Month'), y: () => t.getBoundingClientRect().top + (window.scrollY || 0) - 54 };
   }
   if (h === '/spots') { renderGrid(0); return { title: T(\`Where to See Flowers in Japan — All \${D.feat.length} Spots\`), y: tool }; }
-  if (fm) {
-    const g = D.flowerGroups.find(x => x.k === fm[1]);
-    renderGrid(0, g ? g.k : '');
-    return { title: T(g ? g.label + ' in Japan — Where & When to See Them' : 'Flowers of Japan — Browse by Flower'), y: tool, notFound: fm[1] && !g };
-  }
-  if (mi > 0) { renderGrid(mi); return { title: T(\`What's Blooming in Japan in \${MON[mi]}\`), y: tool }; }
+  if (h === '/flowers') { renderGrid(0, ''); return { title: T('Flowers of Japan — Browse by Flower'), y: tool }; }
   renderGrid(0);
-  return { title: null, y: () => 0, season, notFound: h !== '/' && !wm };
+  return { title: null, y: () => 0, season, notFound: h !== '/' };
 }
 
 /* in-page navigation: internal links push a new address instead of reloading */
@@ -487,6 +523,7 @@ function route(){
     history.replaceState(null, '', to);
   }
   const h = location.pathname.replace(/\\/+$/, '') || '/';
+  const hp = h.split('/');
   const home = document.getElementById('view-home');
   const spot = document.getElementById('view-spot');
   const seas = document.getElementById('view-seasons');
@@ -511,6 +548,11 @@ function route(){
   } else if(INFO[h.slice(1)]){
     seas.innerHTML = infoView(h.slice(1)); show(seas);
     document.title = T(INFO[h.slice(1)].h1);
+  } else if((hp[1] === 'flowers' || hp[1] === 'when') && hp.length === 3){
+    seas.innerHTML = hubView(hp[1] === 'flowers' ? 'flower' : 'month', hp[2]); show(seas);
+    const g = hp[1] === 'flowers' && D.flowerGroups.find(x => x.k === hp[2]);
+    const mi = hp[1] === 'when' ? MON.findIndex(x => x.toLowerCase() === hp[2]) : -1;
+    document.title = g ? T(g.label + ' in Japan — Where & When to See Them') : mi > 0 ? T("What's Blooming in Japan in " + MON[mi]) : T('Page not found');
   } else {
     const r = homeRoute(h);
     const key = r.season || HeroArt.auto;
